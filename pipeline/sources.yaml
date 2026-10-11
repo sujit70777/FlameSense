@@ -1,0 +1,3 @@
+# Source registry: maps source_id to adapter and raw files.
+# Filled in Phase 2 after data inspection.
+sources: []

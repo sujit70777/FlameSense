@@ -1,0 +1,8 @@
+{
+  "@@locale": "bn",
+  "appTitle": "FlameSense",
+  "@appTitle": {
+    "description": "App title",
+    "x-review": "bn-pending"
+  }
+}

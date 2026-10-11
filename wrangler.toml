@@ -1,0 +1,10 @@
+name = "flamesense"
+pages_build_output_dir = "app/build/web"
+compatibility_date = "2026-10-01"
+
+[vars]
+ASK_MODEL = "claude-sonnet-5-5"
+ASK_MAX_TOKENS = "800"
+ALLOWED_ORIGINS = "https://flamesense.ehsanur.com,https://flamesense.pages.dev,http://localhost:8788"
+
+# [[kv_namespaces]] added in Phase 16

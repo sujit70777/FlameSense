@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "appTitle": "FlameSense",
+  "@appTitle": {
+    "description": "App title"
+  }
+}
