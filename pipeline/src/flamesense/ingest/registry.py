@@ -1,12 +1,13 @@
 """Registry for dataset adapters and source ingestion."""
 
-from pathlib import Path
 import importlib
+from pathlib import Path
 from typing import Any
+
 import pandas as pd
 import yaml
 
-from flamesense.config import ROOT, DATA_RAW, DATA_INTERIM
+from flamesense.config import DATA_INTERIM, DATA_RAW, ROOT
 from flamesense.schema import CANONICAL_COLUMNS
 
 

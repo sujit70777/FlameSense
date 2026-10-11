@@ -1,7 +1,5 @@
 """Canonical schema definition and validation for experiment runs."""
 
-from typing import Any
-import numpy as np
 import pandas as pd
 
 CANONICAL_COLUMNS: list[str] = [

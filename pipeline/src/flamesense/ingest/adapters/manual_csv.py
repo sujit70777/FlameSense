@@ -1,7 +1,8 @@
 """Adapter for manually digitized experiment CSVs in data/manual/*.csv."""
 
-from pathlib import Path
 import glob
+from pathlib import Path
+
 import pandas as pd
 
 from flamesense.schema import CANONICAL_COLUMNS
@@ -29,7 +30,7 @@ def load(raw_dir: Path, files: list[str]) -> pd.DataFrame:
         else:
             resolved_files.extend([Path(f) for f in glob.glob(str(p))])
 
-    resolved_files = sorted(list(set(resolved_files)))
+    resolved_files = sorted(set(resolved_files))
 
     for file_path in resolved_files:
         if not file_path.exists() or file_path.suffix.lower() != ".csv":
@@ -72,7 +73,7 @@ def load(raw_dir: Path, files: list[str]) -> pd.DataFrame:
         for bool_col in ["ignited", "sustained"]:
             if bool_col in df.columns:
                 df[bool_col] = df[bool_col].map(
-                    {True: True, False: False, "True": True, "False": False, "1": True, "0": False, 1: True, 0: False}
+                    {True: True, False: False, "True": True, "False": False, "1": True, "0": False}
                 )
 
         frames.append(df)

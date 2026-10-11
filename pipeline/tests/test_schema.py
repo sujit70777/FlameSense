@@ -1,10 +1,10 @@
 """Tests for canonical schema validation rules."""
 
 from pathlib import Path
-import pandas as pd
-import pytest
 
-from flamesense.schema import CANONICAL_COLUMNS, validate
+import pandas as pd
+
+from flamesense.schema import validate
 
 FIXTURE_PATH = Path(__file__).parent / "fixtures" / "fixture_runs.csv"
 

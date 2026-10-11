@@ -1,11 +1,11 @@
 """Data inspection utility for raw and manual datasets."""
 
-from pathlib import Path
 import json
-from typing import Any
+from pathlib import Path
+
 import pandas as pd
 
-from flamesense.config import DATA_RAW, DATA_MANUAL, DOCS
+from flamesense.config import DATA_MANUAL, DATA_RAW, DOCS
 
 
 def inspect_file(path: Path) -> str:
@@ -14,9 +14,9 @@ def inspect_file(path: Path) -> str:
     stat = path.stat()
     size_kb = stat.st_size / 1024.0
     lines.append(f"- **Size:** {size_kb:.2f} KB ({stat.st_size} bytes)")
-    
+
     suffix = path.suffix.lower()
-    
+
     if suffix in [".csv", ".tsv"]:
         sep = "\t" if suffix == ".tsv" else ","
         try:
@@ -25,7 +25,7 @@ def inspect_file(path: Path) -> str:
             lines.append(f"- **Columns ({len(df.columns)}):** `{', '.join(df.columns.astype(str))}`")
             lines.append("\n**First 5 rows:**\n")
             lines.append(df.to_markdown(index=False) or str(df))
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             lines.append(f"- **Error reading delimited file:** {e}")
 
     elif suffix in [".xlsx", ".xls"]:
@@ -37,7 +37,7 @@ def inspect_file(path: Path) -> str:
                 df = pd.read_excel(path, sheet_name=sheet, nrows=5)
                 lines.append(f"\n**Sheet `{sheet}` first 5 rows:**\n")
                 lines.append(df.to_markdown(index=False) or str(df))
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             lines.append(f"- **Error reading Excel file:** {e}")
 
     elif suffix == ".json":
@@ -52,7 +52,7 @@ def inspect_file(path: Path) -> str:
             elif isinstance(data, dict):
                 lines.append(f"- **JSON Object Keys ({len(data)}):** `{', '.join(list(data.keys())[:20])}`")
                 lines.append(f"```json\n{json.dumps({k: data[k] for k in list(data.keys())[:5]}, indent=2)[:1000]}\n```")
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             lines.append(f"- **Error reading JSON file:** {e}")
 
     elif suffix in [".txt", ".md", ".log"]:
@@ -61,7 +61,7 @@ def inspect_file(path: Path) -> str:
             with open(path, "r", encoding="utf-8", errors="replace") as f:
                 head = [f.readline() for _ in range(10)]
             lines.append("```text\n" + "".join(head)[:1000] + "\n```")
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             lines.append(f"- **Error reading text file:** {e}")
 
     elif suffix == ".pdf":
@@ -74,7 +74,7 @@ def inspect_file(path: Path) -> str:
                 first_page_text = reader.pages[0].extract_text() or ""
                 lines.append("**First page extract (up to 500 chars):**")
                 lines.append(f"> {first_page_text[:500].strip()}")
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             lines.append(f"- **Error reading PDF:** {e}")
 
     elif suffix in [".mp4", ".avi", ".mov", ".mkv", ".png", ".jpg", ".jpeg"]:
@@ -101,7 +101,7 @@ def inspect_file(path: Path) -> str:
                 cap.release()
         except ImportError:
             lines.append("- OpenCV not installed; recorded file path and size only.")
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             lines.append(f"- **Error reading media:** {e}")
     else:
         lines.append(f"- **Format:** Binary/Other ({suffix})")
@@ -140,10 +140,10 @@ def run_inspect() -> str:
             report_lines.append(inspect_file(f))
 
     report_content = "\n".join(report_lines)
-    
+
     DOCS.mkdir(parents=True, exist_ok=True)
     out_file = DOCS / "DATA_INSPECTION.md"
     out_file.write_text(report_content, encoding="utf-8")
-    
+
     print(f"Inspection complete. Inspected {total_files} file(s). Written to {out_file.relative_to(DOCS.parent)}")
     return report_content
