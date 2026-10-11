@@ -1,3 +1,4 @@
-# Source registry: maps source_id to adapter and raw files.
-# Filled in Phase 2 after data inspection.
-sources: []
+sources:
+  - id: manual
+    adapter: manual_csv
+    files: ["data/manual/*.csv"]

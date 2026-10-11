@@ -5,18 +5,44 @@ import sys
 
 
 def cmd_inspect(args: argparse.Namespace) -> None:
-    """Print info about every raw/manual data file."""
-    print("Not implemented yet (Phase 2)")
+    """Print info about every raw/manual data file and write docs/DATA_INSPECTION.md."""
+    from flamesense.inspect_data import run_inspect
+    run_inspect()
 
 
 def cmd_ingest(args: argparse.Namespace) -> None:
     """Run adapters from sources.yaml to produce runs_raw.parquet."""
-    print("Not implemented yet (Phase 2)")
+    from flamesense.ingest.registry import run_ingest
+    run_ingest()
 
 
 def cmd_validate(args: argparse.Namespace) -> None:
     """Check canonical schema on ingested data."""
-    print("Not implemented yet (Phase 2)")
+    import pandas as pd
+    from flamesense.config import DATA_INTERIM
+    from flamesense.schema import validate
+
+    parquet_path = DATA_INTERIM / "runs_raw.parquet"
+    if not parquet_path.exists():
+        print(f"Error: Ingested file not found at {parquet_path}. Run 'python -m flamesense.cli ingest' first.")
+        sys.exit(1)
+
+    df = pd.read_parquet(parquet_path)
+    print(f"Validating dataset from {parquet_path} ({len(df)} rows)...")
+
+    errors = validate(df)
+    if not errors:
+        print("\n==========================================")
+        print("Schema Validation Passed: 0 errors found.")
+        print(f"Total valid runs: {len(df)}")
+        print("==========================================")
+    else:
+        print("\n==========================================")
+        print(f"Schema Validation FAILED with {len(errors)} error(s):")
+        print("==========================================")
+        for i, err in enumerate(errors, 1):
+            print(f"  {i}. {err}")
+        sys.exit(1)
 
 
 def cmd_clean(args: argparse.Namespace) -> None:
