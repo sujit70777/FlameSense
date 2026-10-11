@@ -122,7 +122,119 @@ def cmd_track_video(args: argparse.Namespace) -> None:
 
 def cmd_physics_check(args: argparse.Namespace) -> None:
     """Validate physics params and compare predictions to observed data."""
-    print("Not implemented yet (Phase 4)")
+    import sys
+
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    import pandas as pd
+
+    from flamesense import config
+    from flamesense.physics import (
+        applicability,
+        load_params,
+        spread_rate_mm_s,
+        validate_params,
+    )
+
+    params_path = config.DATA_MANUAL / "physics_params.json"
+    params = load_params(params_path)
+    if params is None:
+        print(f"Error: {params_path.relative_to(config.ROOT)} is missing. "
+              f"[SCI] must create it (PLAN.md §3.7).")
+        sys.exit(1)
+
+    print("=== Physics parameters ===")
+    print(f"File: {params_path.relative_to(config.ROOT)} (version {params.get('version', '?')})")
+    print(f"Signed off by [SCI]: {params.get('signed_off_by_sci', False)}")
+
+    problems = validate_params(params)
+    if problems:
+        print(f"\nParameters NOT valid — {len(problems)} problem(s), predictions unavailable:")
+        for i, p in enumerate(problems, 1):
+            print(f"  {i}. {p}")
+    else:
+        print("\nParameters valid: all required values present and sources filled.")
+
+    src = config.DATA_PROCESSED / "runs_features.parquet"
+    if not src.exists():
+        src = config.DATA_PROCESSED / "runs.parquet"
+    if not src.exists():
+        if problems:
+            print("\nNo processed data and invalid params — nothing to compare.")
+        else:
+            print("\nNo processed data (0 rows) — nothing to compare. "
+                  "Run 'python -m flamesense.cli all' after ingesting data.")
+        sys.exit(1 if problems else 0)
+
+    df = pd.read_parquet(src)
+    print(f"\n=== Physics vs observed ({len(df)} rows) ===")
+
+    apps = df.apply(applicability, axis=1)
+    app_counts = apps.value_counts()
+    for cls in ["ok", "near_extinction_warning", "not_applicable"]:
+        print(f"  {cls}: {int(app_counts.get(cls, 0))}")
+    if "near_extinction_warning" in app_counts:
+        print("  Note: near-extinction rows flagged (TODO(Q-1), QUESTIONS.md); "
+              "formula over-predicts there.")
+
+    if problems:
+        print("\nSkipping comparison: params invalid (see problems above).")
+        sys.exit(1)
+
+    applicable = df[apps.isin(["ok", "near_extinction_warning"])].copy()
+    if not applicable.empty:
+        applicable["physics_mm_s"] = applicable.apply(
+            lambda r: spread_rate_mm_s(r, params), axis=1
+        )
+        valid = applicable.dropna(subset=["physics_mm_s", "flame_spread_rate_mm_s"])
+        valid = valid[valid["flame_spread_rate_mm_s"].notna()].copy()
+        if valid.empty:
+            print("No rows with both physics prediction and observed spread rate.")
+        else:
+            mae = float((valid["physics_mm_s"] - valid["flame_spread_rate_mm_s"]).abs().mean())
+            n_valid = len(valid)
+            print(f"Physics MAE vs observed: {mae:.4g} mm/s over {n_valid} applicable row(s)")
+
+            both_pos = valid[(valid["physics_mm_s"] > 0) & (valid["flame_spread_rate_mm_s"] > 0)]
+            if not both_pos.empty:
+                fig, ax = plt.subplots(figsize=(8, 5))
+                ax.scatter(
+                    both_pos["flame_spread_rate_mm_s"],
+                    both_pos["physics_mm_s"],
+                    s=28,
+                    c="#1F66D6",
+                    alpha=0.8,
+                    label="runs",
+                )
+                lo = min(
+                    both_pos["flame_spread_rate_mm_s"].min(),
+                    both_pos["physics_mm_s"].min(),
+                )
+                hi = max(
+                    both_pos["flame_spread_rate_mm_s"].max(),
+                    both_pos["physics_mm_s"].max(),
+                )
+                ax.plot([lo, hi], [lo, hi], color="#D9560B", linestyle="--", label="1:1")
+                ax.set_xscale("log")
+                ax.set_yscale("log")
+                ax.set_title("Physics vs observed spread rate", loc="left")
+                ax.set_xlabel("Observed spread rate (mm/s, log scale)")
+                ax.set_ylabel("Physics spread rate (mm/s, log scale)")
+                ax.legend()
+                fig.tight_layout()
+                chart_path = config.DOCS_IMG / "physics_vs_observed.png"
+                chart_path.parent.mkdir(parents=True, exist_ok=True)
+                fig.savefig(chart_path, dpi=150, bbox_inches="tight", facecolor="white")
+                plt.close(fig)
+                print(f"Wrote {chart_path.relative_to(config.ROOT)}")
+
+    # Copy validated params to app assets (only when validation passed).
+    out = config.APP_ASSETS_OUT / "physics_params.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(params_path.read_text(encoding="utf-8"), encoding="utf-8")
+    print(f"Copied validated params to {out.relative_to(config.ROOT)}")
 
 
 def cmd_train(args: argparse.Namespace) -> None:

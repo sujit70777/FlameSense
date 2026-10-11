@@ -67,3 +67,26 @@ Updated at the end of every phase.
   - AUDIT.md §2 "Suspect rows flagged, not deleted" implemented; "excluded from training" completes in Phase 5.
 - **Open questions:**
   - None for Phase 3.
+
+---
+
+## Phase 4 — Physics reference model
+- **Date:** 2026-10-11
+- **What was built:**
+  - `data/manual/physics_params.json`: §3.7 template with all science values null and sources empty — nothing invented; `[SCI]` fills the numbers.
+  - `physics.py`: `load_params()`, `validate_params()`, `spread_rate_mm_s(row)` (de Ris 1969 thin-fuel, returns `None` for any missing param/invalid domain — never a guess), `buoyant_velocity_m_s(g, params)` and `effective_flow_mm_s()` (U_eff = √(U_forced² + U_b²), explanation only), `applicability(row) → ok | not_applicable | near_extinction_warning`, and flame-temperature linear interpolation in O₂.
+  - `physics-check` CLI: prints param validation, signed-off status, per-row applicability counts, physics MAE vs observed, writes `docs/img/physics_vs_observed.png` (log-log, 1:1 line), and copies validated params to `pipeline/out/app_assets/physics_params.json` (only when validation passes).
+  - `docs/PHYSICS_SPEC.md`: equations in LaTeX, parameter table (values + sources, pending SCI), applicability rules, limitation text, unchecked sign-off line.
+- **Files changed:**
+  - `pipeline/src/flamesense/physics.py`, `cli.py`, `pipeline/tests/test_physics.py` (17 tests)
+  - `data/manual/physics_params.json`, `docs/PHYSICS_SPEC.md`, `docs/QUESTIONS.md` (Q-1)
+- **Checks run & results:**
+  - `pytest pipeline/tests -q`: PASSED (38 passed, incl. 17 physics tests with hand-computed de Ris + buoyant-velocity values).
+  - `python -m flamesense.cli physics-check`: runs; reports 12 missing parameters and not-signed-off status; exits 1 (feature unavailable until SCI fills params) — as designed.
+  - Comparison + chart path verified with filled fixture params + fixture data (MAE 0.755 mm/s over 3 applicable rows; log-log chart renders).
+  - `ruff`: clean on all Phase 4 files.
+- **Pending [SCI]/[LEAD] (human):**
+  - Fill all 12 parameter values + sources in `data/manual/physics_params.json`, then sign off in `docs/PHYSICS_SPEC.md` (`signed_off_by_sci: true`).
+  - Confirm `NEAR_EXTINCTION_*` thresholds (QUESTIONS.md Q-1).
+- **Open questions:**
+  - Q-1 (near-extinction thresholds) — agent-chosen, pending SCI.

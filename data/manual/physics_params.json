@@ -1,0 +1,29 @@
+{
+  "version": "1",
+  "signed_off_by_sci": false,
+  "gas": {
+    "lambda_w_mk": null,
+    "alpha_m2_s": null,
+    "t_inf_k": null,
+    "source": ""
+  },
+  "fuels": {
+    "cotton-fiberglass": {
+      "fuel_class": "thin_solid",
+      "rho_kg_m3": null,
+      "c_j_kgk": null,
+      "t_v_k": null,
+      "half_thickness_m": null,
+      "source": ""
+    }
+  },
+  "flame_temp_vs_o2": {
+    "o2": [0.21, 0.30],
+    "t_f_k": [null, null],
+    "source": ""
+  },
+  "buoyant_velocity": {
+    "enabled": true,
+    "source": ""
+  }
+}
