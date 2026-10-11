@@ -19,6 +19,7 @@ def cmd_ingest(args: argparse.Namespace) -> None:
 def cmd_validate(args: argparse.Namespace) -> None:
     """Check canonical schema on ingested data."""
     import pandas as pd
+
     from flamesense.config import DATA_INTERIM
     from flamesense.schema import validate
 
@@ -46,18 +47,72 @@ def cmd_validate(args: argparse.Namespace) -> None:
 
 
 def cmd_clean(args: argparse.Namespace) -> None:
-    """Clean and deduplicate runs."""
-    print("Not implemented yet (Phase 3)")
+    """Clean and deduplicate runs → data/processed/runs.parquet."""
+    import pandas as pd
+
+    from flamesense import config
+    from flamesense.clean import clean
+
+    src = config.DATA_INTERIM / "runs_raw.parquet"
+    if not src.exists():
+        print(f"Error: Ingested file not found at {src}. Run 'python -m flamesense.cli ingest' first.")
+        sys.exit(1)
+
+    df = pd.read_parquet(src)
+    cleaned, stats = clean(df)
+    config.DATA_PROCESSED.mkdir(parents=True, exist_ok=True)
+    out = config.DATA_PROCESSED / "runs.parquet"
+    cleaned.to_parquet(out, index=False)
+
+    print(f"Cleaned {stats['rows_in']} → {stats['rows_out']} rows")
+    print(f"  dropped {stats['dropped']} exact duplicate(s)")
+    print(f"  flagged {stats['suspect']} suspect row(s) (kept, quality_flag='suspect')")
+    print(f"Wrote {out.relative_to(config.ROOT)}")
 
 
 def cmd_features(args: argparse.Namespace) -> None:
-    """Add derived feature columns."""
-    print("Not implemented yet (Phase 3)")
+    """Add derived columns → data/processed/runs_features.parquet."""
+    import pandas as pd
+
+    from flamesense import config
+    from flamesense.features import add_features
+
+    src = config.DATA_PROCESSED / "runs.parquet"
+    if not src.exists():
+        print(f"Error: Cleaned file not found at {src}. Run 'python -m flamesense.cli clean' first.")
+        sys.exit(1)
+
+    df = pd.read_parquet(src)
+    feats = add_features(df)
+    config.DATA_PROCESSED.mkdir(parents=True, exist_ok=True)
+    out = config.DATA_PROCESSED / "runs_features.parquet"
+    feats.to_parquet(out, index=False)
+
+    derived_formulas = ["log10_gravity", "o2_partial_kpa", "log10_flow", "areal_density_kg_m2"]
+    derived = [c for c in feats.columns if c in derived_formulas or "__" in c]
+    print(f"Features: {len(feats)} rows × {len(feats.columns)} columns")
+    print(f"  derived/one-hot columns added: {len(derived)}")
+    print(f"Wrote {out.relative_to(config.ROOT)}")
 
 
 def cmd_report(args: argparse.Namespace) -> None:
-    """Generate data report and charts."""
-    print("Not implemented yet (Phase 3)")
+    """Generate data report and charts → docs/DATA_REPORT.md + docs/img/*.png."""
+    import pandas as pd
+
+    from flamesense import config
+    from flamesense.report import generate_report
+
+    src = config.DATA_PROCESSED / "runs_features.parquet"
+    if not src.exists():
+        src = config.DATA_PROCESSED / "runs.parquet"
+    if not src.exists():
+        print(f"Error: No processed data found in {config.DATA_PROCESSED}. Run 'python -m flamesense.cli clean' first.")
+        sys.exit(1)
+
+    df = pd.read_parquet(src)
+    md = generate_report(df, config.DOCS / "DATA_REPORT.md", config.DOCS_IMG)
+    print(f"Wrote {md.relative_to(config.ROOT)}")
+    print(f"Charts written to {config.DOCS_IMG.relative_to(config.ROOT)}/chart_*.png")
 
 
 def cmd_track_video(args: argparse.Namespace) -> None:
