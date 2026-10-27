@@ -76,7 +76,7 @@ Per page — every listed state reachable and correct:
 | Home | [x] | [ ] splash→app seamless | – | [x] asset error | [x] reduced motion static flame, [x] ignition only once per session, [x] snaps work |
 | Explore | [x] | [x] skeleton | [ ] no-match filters | – | [ ] one-experiment notice, [ ] run detail dialog + page, [x] CSV download, [x] Load in Lab |
 | Fire Lab | [x] | – | – | [x] numeric field errors | [x] outside-range, [ ] low support, [x] partial-g notice, [x] task unavailable, [ ] physics ok/n-a/near-ext/unavailable, [x] compare mode, [x] copy link reproduces state |
-| Map | [ ] | [ ] first-draw skeleton | [ ] sustain unavailable | – | [ ] hatching, [ ] contour, [ ] Moon/Mars gap notice, [ ] pinned cell, [ ] Open in Lab |
+| Map | [x] | [x] first-draw skeleton | [x] sustain unavailable | – | [ ] hatching, [x] contour, [x] Moon/Mars gap notice, [ ] pinned cell, [ ] Open in Lab |
 | Ask | [ ] | [ ] searching skeleton | – | [ ] rate-limit, [ ] upstream, [ ] offline, [ ] invalid | [ ] cached answers, [ ] not-grounded, [ ] citation chip → source highlight, [ ] copy |
 | Earth | [ ] | – | [ ] no approved lessons | – | [ ] drafts hidden |
 | Methods | [ ] | – | – | – | [ ] equations render, [ ] ToC anchors, [ ] physics sign-off line |
@@ -112,7 +112,7 @@ Per page — every listed state reachable and correct:
 - [ ] [M] First load transfer ≤ 4.5 MB compressed (DevTools Network, cache disabled). Record the number.
 - [ ] [M] Splash visible < 1 s; app interactive < 5 s on "Fast 4G" throttling. Record numbers.
 - [ ] [M] Hero drag at 60 fps (no frames > 16 ms in the performance overlay during a 5-second drag).
-- [ ] [M] Map recompute < 250 ms; Explore filter < 100 ms. Record numbers.
+- [ ] [M] Map recompute < 250 ms; Explore filter < 100 ms. Record numbers. (VM tests: grid < 250 ms, 5,000-run filter < 100 ms; browser numbers pending)
 - [ ] [m] `runs.json` ≤ 1.5 MB; `corpus_chunks.json` not downloaded by the app.
 - [ ] [m] CanvasKit self-hosted (`--no-web-resources-cdn`); no requests to gstatic.com in Network tab.
 

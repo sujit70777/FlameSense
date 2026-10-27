@@ -269,3 +269,22 @@ Updated at the end of every phase.
 - **Checks:** `flutter test` 60 passed / 1 skipped (Lab at 360/768/1280/1920 × light/dark
   without overflow; O₂ change; outside-range; query + partial-g; compare; copy link URL;
   numeric field error; empty-data unavailable state). Browser preview verified.
+
+---
+
+## Phase 11 — Flammability map
+- **Date:** 2026-10-27
+- **What was built:** pure `map_grid.dart` (64 × 48 cells, x = airflow log1p over the slider
+  range, y = O₂ linear, memoized by (fuel class, thickness, density, pressure, gravity,
+  direction); marching-squares 50% contour), `heatmap_painter.dart` (ramp §10.4, 45° hatch
+  on low-support cells §10.5, contour with halo and "50%" label §10.6, run overlay 7 px
+  filled = kept burning / hollow = went out with surface outline, pinned cell focus-ring
+  outline, mission pins/markers for Phase 11B), map view with axes, hover, click/tap to pin,
+  arrow-key cell navigation and a screen-reader summary, inspector (O₂, airflow, %, support,
+  Open in Fire Lab), legend, controls (material type, pressure, gravity incl. Custom, airflow
+  direction, overlay chips), compact settings sheet, Moon/Mars gap notice (only when the
+  gravity-class run count is 0, so the "no tests" wording is never false), unavailable
+  EmptyState over the runs scatter, first-draw skeleton, `/map?fuel=&p=&g=&dir=`.
+- **Checks:** `flutter test` (phase 11: 6 passed; grid computed in < 250 ms on the VM,
+  deterministic; contour on a synthetic grid; empty state; Moon notice; 360 px). Visual QA in
+  Chrome on a scratch build with fixture data swapped into the served assets (repo untouched).
