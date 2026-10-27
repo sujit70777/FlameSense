@@ -10,17 +10,17 @@ Questions the agent could not answer from the docs. Each has phase number, conte
 near extinction (very low flow in microgravity, or low oxygen)" but defines no
 thresholds for the `near_extinction_warning` state.
 
-**Chosen (safest, pending SCI confirmation).** Warning when the row is
+**Chosen (safest, pending LEAD confirmation).** Warning when the row is
 applicable AND:
 - O₂ mole fraction < 0.15, **or**
 - microgravity (`gravity_g < 0.01`) with forced flow < 5 mm/s.
 
-Marked `TODO(Q-1)` in `physics.py`. If `[SCI]` wants different thresholds,
+Marked `TODO(Q-1)` in `physics.py`. If `[LEAD]` wants different thresholds,
 update `NEAR_EXTINCTION_*` constants and this note.
 
 ---
 
-## Also worth confirming by [SCI]
+## Also worth confirming by [LEAD]
 - The O₂ grid `flame_temp_vs_o2.o2 = [0.21, 0.30]` in the §3.7 template is
   only the interpolation grid; the `t_f_k` values and grid itself may be
   adjusted to the cited source.

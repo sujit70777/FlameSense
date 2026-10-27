@@ -12,6 +12,7 @@ Your job is to write code. The thinking is already done in these files:
 | `docs/AUDIT.md` | Checklists that must pass before release | End of every phase + Phase 15 |
 | `docs/PROGRESS.md` | Log you maintain | Update at end of every phase |
 | `docs/QUESTIONS.md` | Questions you could not answer from the docs | Write here instead of guessing |
+| `docs/PLAYBOOK_LEAD.md`, `docs/PLAYBOOK_TEAM.md` | Human plans (deadlines, handoffs, videos, submission) | Phase 17 only; never change them |
 
 ## Hard rules (never break these)
 
@@ -29,7 +30,7 @@ Your job is to write code. The thinking is already done in these files:
    the current phase's steps say so.
 6. **When something is ambiguous**, write the question in `docs/QUESTIONS.md` with the phase number,
    pick the safest option that does not invent data, mark it `// TODO(Q-<n>)` in code, and continue.
-7. **Steps marked `[SCI]` or `[LEAD]` are for humans.** If your phase depends on one that is not done
+7. **Steps marked `[LEAD]` or `[TEAM]` are for humans.** If your phase depends on one that is not done
    (its output file is missing), stop and report which file is missing.
 8. **Scientific honesty in UI copy.** Never claim the tool is certified, validated for operational
    use, or a replacement for fire safety engineering. Use the disclaimers in DESIGN.md §12.

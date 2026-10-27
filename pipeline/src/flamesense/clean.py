@@ -21,7 +21,7 @@ DUP_KEY_COLUMNS: list[str] = [
 ]
 
 # Physically impossible combinations (PLAN.md Phase 3 step 1c), filled from
-# QUESTIONS.md answers as the science lead agrees them. Each entry takes the
+# QUESTIONS.md answers as the lead agrees them. Each entry takes the
 # DataFrame and returns a boolean Series marking impossible rows.
 IMPOSSIBLE_PREDICATES: list[Callable[[pd.DataFrame], pd.Series]] = []
 

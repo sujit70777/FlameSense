@@ -299,7 +299,7 @@ Rules:
 | large | 1280–1599 | 12 | 40 | 24 |
 | xl | ≥ 1600 | 12 | auto (content max 1440) | 24 |
 
-Content max width 1440 for tool pages (Lab, Map, Explore); 1200 for Home; 720 reading column for Methods/Earth/About text.
+Content max width 1440 for tool pages (Lab, Map, Explore, Missions); 1200 for Home; 720 reading column for Methods/Earth/About text.
 
 ### 8.2 App shell (≥ 1024)
 
@@ -309,6 +309,7 @@ Content max width 1440 for tool pages (Lab, Map, Explore); 1200 for Home; 720 re
 │ FlameSense├───────────────────────────────────────────────────────────────┤
 │          │                                                               │
 │ ⌂ Home   │                                                               │
+│ ⇡ Missions│                                                              │
 │ ▤ Explore│                   page content (on grid bg)                   │
 │ ⚗ Lab    │                                                               │
 │ ▦ Map    │                                                               │
@@ -321,11 +322,11 @@ Content max width 1440 for tool pages (Lab, Map, Explore); 1200 for Home; 720 re
   248 (80 compact: icons only + tooltips)
 ```
 
-Rail: `surface1`, right border 1 px `outline`. Items: 44 px tall, radius `rSm`, padding 12 h; icon 22 + label `label`. Active: `microgTint` fill, icon + label `microg`, a 3 px × 20 px `microg` bar on the left edge, radius 2. Hover: `surface3`. Divider between primary (Home…Ask) and secondary (Earth, Methods, About). Brand block at top: 72 px tall, mark 28 px + wordmark (wordmark hidden in compact rail).
+Rail: `surface1`, right border 1 px `outline`. Items: 44 px tall, radius `rSm`, padding 12 h; icon 22 + label `label`. Active: `microgTint` fill, icon + label `microg`, a 3 px × 20 px `microg` bar on the left edge, radius 2. Hover: `surface3`. Divider between primary (Home, Missions, Explore, Lab, Map, Ask) and secondary (Earth, Methods, About). Brand block at top: 72 px tall, mark 28 px + wordmark (wordmark hidden in compact rail).
 
 Top bar: `surface1` @ 92% with 12 px background blur, bottom border 1 px `outline`, sticky.
 
-Icons (Material, rounded variants): Home `home_rounded`, Explore `table_chart_rounded`, Lab `science_rounded`, Map `layers_rounded`, Ask `forum_rounded`, Earth `public_rounded`, Methods `fact_check_rounded`, About `info_rounded`, Tour `play_circle_rounded`, theme `dark_mode_rounded` / `light_mode_rounded`, language `translate_rounded`.
+Icons (Material, rounded variants): Home `home_rounded`, Missions `rocket_launch_rounded`, Explore `table_chart_rounded`, Lab `science_rounded`, Map `layers_rounded`, Ask `forum_rounded`, Earth `public_rounded`, Methods `fact_check_rounded`, About `info_rounded`, Tour `play_circle_rounded`, theme `dark_mode_rounded` / `light_mode_rounded`, language `translate_rounded`.
 
 ### 8.3 App shell (< 1024)
 
@@ -337,14 +338,14 @@ Icons (Material, rounded variants): Home `home_rounded`, Explore `table_chart_ro
 │            page content              │
 │                                      │
 ├──────────────────────────────────────┤
-│  ⌂     ▤      ⚗      ▦      ≡       │ 72  Home, Explore, Lab, Map, More
-│ Home Explore  Lab    Map   More      │
+│  ⌂     ⇡      ⚗      ▦      ≡       │ 72  Home, Missions, Lab, Map, More
+│ Home Missions Lab    Map   More      │
 └──────────────────────────────────────┘
 ```
 
-"More" opens `FsSheet` with Ask, Earth, Methods, About, Tour, theme, language. Active bottom item: pill indicator 56 × 32 `microgTint` behind the icon, icon + label `microg`.
+"More" opens `FsSheet` with Explore, Ask, Earth, Methods, About, Tour, theme, language. Active bottom item: pill indicator 56 × 32 `microgTint` behind the icon, icon + label `microg`.
 
-> Note: Ask moves into "More" on mobile only because five slots are full; on Home, the "Where to go next" list includes Ask so it stays one tap away.
+> Note: Explore and Ask move into "More" on mobile only because five slots are full; on Home, the "Where to go next" list includes both so they stay one tap away.
 
 ### 8.4 Page header (all pages except Home)
 
@@ -613,6 +614,7 @@ Desktop:
 │ Built on 412 test runs from 5 NASA experiments across 9 materials.            │
 │ ───────────────────────────────────────────────────────────────────────────── │
 │ Where to go next                                                    (h2)      │
+│ ⇡  Plan for a mission        Which materials could burn in a Moon habitat  ›  │
 │ ▤  Explore the experiments   Every run, filterable, with its NASA source   ›  │
 │ ▦  See the flammability map  Where flames survive, by oxygen and airflow   ›  │
 │ ✉  Ask the NASA papers       Answers with citations                        ›  │
@@ -675,7 +677,7 @@ Desktop ≥ 1280 (three columns: 360 | flexible | 400, gap 24):
 └────────────────────────┘                                 │ notices…                  │
                                                            └───────────────────────────┘
 ```
-- Conditions panel: material dropdown (options = fuels present in data; selecting fills fuel class, thickness, density; a "Custom" option unlocks thickness and density sliders), sliders per `feature_spec` (O₂ shown in %, pressure kPa with markers "Sea level 101.3 kPa" and any ISS-relevant value present in data, airflow log 0–max with marker "Typical ISS ventilation" only if `[SCI]` provides a sourced value, gravity log with snaps), airflow direction `FsSegmented` (Opposed / Concurrent / None), then a row: secondary "Reset to defaults", ghost "Copy link to this setup" (toast "Link copied").
+- Conditions panel: material dropdown (options = fuels present in data; selecting fills fuel class, thickness, density; a "Custom" option unlocks thickness and density sliders), sliders per `feature_spec` (O₂ shown in %, pressure kPa with markers "Sea level 101.3 kPa" and any ISS-relevant value present in data, airflow log 0–max with marker "Typical ISS ventilation" only if `[LEAD]` provides a sourced value, gravity log with snaps), airflow direction `FsSegmented` (Opposed / Concurrent / None), then a row: secondary "Reset to defaults", ghost "Copy link to this setup" (toast "Link copied").
 - Chamber window: single flame 320 × 360 area; under it `title` gravity label and `MetricReadout` "Effective airflow" with caption "(forced {x} + buoyant {y})". Below the window: checkbox-style `FsChip` "Compare with Earth".
 - Prediction panel order: DataSupportBadge (top-right of panel header), SustainGauge, divider, SpreadBand, divider, PhysicsCard, divider, SensitivityList, then all InlineNotices stacked.
 - Compare mode: the Prediction panel becomes two columns: "At your gravity" (microg accents) and "On Earth (1 g)" (`emberTint` background, ember accents); a delta line above both: "{x} points more likely to keep burning on Earth" or "less likely", and spread "×{ratio} faster on Earth". On < 1280 the two columns stack.
@@ -737,7 +739,7 @@ Suggested questions (2-column list of buttons, 1 column on compact; each 56 h, s
   4. How does airflow affect flame spread in microgravity?
   5. Why are flames in space blue?
   6. How is spacecraft material flammability tested?
-  (Agent: replace any question whose cached answer the science lead rejects.)
+  (Agent: replace any question whose cached answer the lead rejects.)
 Input: multiline (min 3 lines, max 8), placeholder "Ask about fire in microgravity", counter "0 / 500" caption bottom-right, primary button "Ask" (icon send_rounded) bottom-right; Enter sends, Shift+Enter adds a line.
 Answer card (FsPanel):
   Status line: success icon + "Answered from NASA sources" | info icon + "Not found in FlameSense's NASA sources"
@@ -776,14 +778,15 @@ Sections (anchors):
 1. `#data` "Where the data comes from" — table: source, experiment, runs, link; quality-flag explanation table; total counts.
 2. `#predictions` "How predictions work" — plain-language paragraph; feature list with units; "Two models: one estimates the chance a flame keeps burning; three estimate the slow, typical and fast spread rate (10th, 50th and 90th percentiles)."; "Oxygen is constrained so that more oxygen can never lower the risk, matching combustion science."
 3. `#validation` "How well it works" — metrics tables from `metrics.json` with a sentence explaining each metric in plain words; calibration chart (fl_chart line: predicted vs observed with the diagonal); baseline comparison; cross-validation note ("Tested on whole test series the model never saw, so results aren't inflated by near-duplicate runs.").
-4. `#physics` "Physics check" — equations rendered with `flutter_math_fork` (display mode), each followed by a symbol table; applicability; sign-off status line "Verified by the team's science lead on {date}" or "Pending verification".
+4. `#physics` "Physics check" — equations rendered with `flutter_math_fork` (display mode), each followed by a symbol table; applicability; sign-off status line "Checked against the cited sources on {date}" or "Pending verification".
 5. `#support` "Data support and extrapolation" — explains the badge levels and hatching.
 6. `#limitations` "Limitations" — list from MODEL_CARD.
-7. `#honesty` "What FlameSense will never do" — no synthetic data, no hidden extrapolation, no safety certification claims.
+7. `#usability` "Tested with people" — a small table: task, people who completed it (e.g., "5 of 5"), median time; one sentence on what was changed after testing.
+8. `#honesty` "What FlameSense will never do" — no synthetic data, no hidden extrapolation, no safety certification claims.
 
 ### 11.8 About (`/about`)
 
-Reading column. Sections: "What FlameSense is" (2 sentences), "Team" (two rows: "Lead developer, AI and app" and "Science and math lead (M.Sc. Applied Mathematics, University of Dhaka)"; names only if the team chooses to show them), "Challenge" ("NASA Space Apps Challenge 2026: Flame in Freefall"), "Open source" (GitHub link button), "AI use" (disclosure text from SUBMISSION.md), "Licenses and credits" (code Apache-2.0; fonts SIL OFL: Archivo, Noto Sans Bengali; data credits per source; "Not affiliated with or endorsed by NASA."), "Contact" (email link).
+Reading column. Sections: "What FlameSense is" (2 sentences), "Team" (member names as the team decides; no member under 18 is named; follow the Local Lead's instruction), "Challenge" ("NASA Space Apps Challenge 2026: Flame in Freefall"), "Open source" (GitHub link button), "AI use" (disclosure text from SUBMISSION.md), "Licenses and credits" (code Apache-2.0; fonts SIL OFL: Archivo, Noto Sans Bengali; data credits per source; "Not affiliated with or endorsed by NASA."), "Contact" (email link).
 
 ### 11.9 Not found (any unknown route)
 
@@ -792,18 +795,68 @@ Centered: Chamber window 280 × 240 with a small space flame (gravity 1e-6, R sm
 ### 11.10 Judge Tour (overlay, `?tour=1` or "Take the tour")
 
 - Scrim `scrim`, spotlight cutout around the target with radius `rLg` and 8 px padding; cutout border 2 px `microg`.
-- Caption card (max 360 w, `surface3`/`surface1`, radius `rLg`, padding 20): step counter `caption` "Step 2 of 7", title `title`, body `bodySmall`, buttons ghost "Back", primary "Next" (last step: "Finish"), icon button close (tooltip "Exit tour"). Placed beside the target (right, else below, else above).
+- Caption card (max 360 w, `surface3`/`surface1`, radius `rLg`, padding 20): step counter `caption` "Step 2 of 8", title `title`, body `bodySmall`, buttons ghost "Back", primary "Next" (last step: "Finish"), icon button close (tooltip "Exit tour"). Placed beside the target (right, else below, else above).
 - Steps (route → target → title → body):
   1. `/` → gravity slider + Chamber window → "Fire changes shape without gravity" → "Drag gravity from Earth to orbit. The flame turns from an orange teardrop into a slow blue sphere."
   2. `/lab` → Conditions panel → "Set up a fire test" → "Pick a material and set oxygen, pressure, airflow and gravity, like NASA's space-station experiments."
   3. `/lab` → Prediction panel → "An honest prediction" → "The model is trained only on NASA test runs. The badge shows how much real data supports this answer."
   4. `/map` → heatmap → "Where flames survive" → "Hot colors keep burning. Hatched areas have little NASA data, including Moon and Mars gravity."
-  5. `/explore` → first table row → "Every number has a source" → "Open any run to see the NASA dataset or report it came from."
-  6. `/ask` → first suggested question → "Ask the NASA papers" → "Answers cite the exact document and page."
-  7. `/earth` → first lesson → "Lessons for Earth" → "What space fire research means for fire safety in rooms, vehicles and workplaces."
+  5. `/missions/artemis_lunar` → material table + wishlist panel → "Fire safety for a Moon habitat" → "NASA plans habitats with 34% oxygen. See which materials are likely to burn there, and the five experiments that would teach NASA the most."
+  6. `/explore` → first table row → "Every number has a source" → "Open any run to see the NASA dataset or report it came from."
+  7. `/ask` → first suggested question → "Ask the NASA papers" → "Answers cite the exact document and page."
+  8. `/earth` → first lesson → "Lessons for Earth" → "What space fire research means for fire safety in rooms, vehicles and workplaces."
 - Keyboard: → Next, ← Back, Esc exit. Focus moves to the caption card each step.
 
 ---
+
+### 11.11 Missions (`/missions`)
+
+**Purpose:** Connect the science to NASA's next missions in one look. This is the Impact page.
+
+- Header: title "Plan for a mission", description "NASA's next habitats may use less pressure and more oxygen than the ISS. Pick a mission to see which materials are likely to burn there, and where NASA has no data yet."
+- Mission list (not cards): one row per sourced mission, 88 h, divider between rows. Each row:
+  - left: a 56 × 56 Chamber-window thumbnail with a static FlameTwin at the mission's gravity;
+  - middle: mission name (`title`), atmosphere line (`bodySmall`): "56.5 kPa, 34% oxygen, Moon gravity (0.17 g)"; source link (ghost, sm) "Source";
+  - right: three small counts in `numSm` with captions: "likely to burn", "likely to go out", "unknown"; the "unknown" count uses `warn` text when > 0;
+  - whole row opens `/missions/:id`.
+- Above the list, one `InlineNotice` info: "Mission atmospheres come from NASA documents. FlameSense checks each material at the worst airflow it tested, because cabin airflow varies."
+- Compact: thumbnail 44 px, counts wrap below the name.
+- Empty (no sourced missions): `EmptyState` icon `rocket_launch_rounded`, title "Mission presets are being verified", body "Each mission's atmosphere is checked against its NASA source before it appears here."
+
+### 11.12 Mission detail (`/missions/:missionId`)
+
+Desktop ≥ 1280: two columns, 7/12 and 5/12.
+```
+Header: "Artemis lunar habitat" (h1) + GravityChip "Moon (0.17 g)" + atmosphere line + [Download Mission Fire Brief (PDF)]
+┌─ Materials (7/12) ───────────────────────────────┐┌─ Where NASA should test next (5/12) ─────┐
+│ Material      Verdict              Worst case  ⓘ ││ mini map (O₂ × airflow, Moon gravity)    │
+│ Nomex         ● Likely to go out   18%   [med]   ││  with 5 numbered pins + planned NASA     │
+│ Cotton blend  ● Likely to keep...  81%   [high]  ││  test markers (hollow squares)            │
+│ Fabric X      ● Unknown            —     [low]   ││──────────────────────────────────────────│
+│ ...                                              ││ 1  29% O₂, 56 kPa, 40 mm/s, thin solid   │
+│ Data gap: 0 NASA runs at Moon gravity in this    ││    The model is unsure here (p ≈ 0.52).  │
+│ dataset. Every verdict here is an extrapolation. ││    No NASA run is close.                 │
+└──────────────────────────────────────────────────┘│ ... (5 rows; these ARE a ranked list,    │
+                                                    │      so numbers are correct here)        │
+                                                    │ Planned NASA tests: FM2 points rank in   │
+                                                    │ the top {x}% of FlameSense's list.       │
+                                                    │ [Download test matrix (CSV)]             │
+                                                    └──────────────────────────────────────────┘
+```
+- Material table: columns Material, Verdict (dot + text: `ember` "Likely to keep burning", `microg` "Likely to go out", `warn` "Unknown, not enough data", `textSecondary` "Uncertain"), Worst case (`numSm` %, "—" when unknown), Airflow at worst case (mm/s), Data support (badge, compact form: dot + "high/med/low"). Row click → `/lab?...` with that material and the mission's conditions at the worst-case airflow. Sorted by verdict (burns, uncertain, unknown, out), then probability.
+- Data-gap line under the table (`InlineNotice` warn when the gravity-class run count is 0 or < 10): "{n} NASA runs at {gravity} gravity in this dataset. Verdicts here are extrapolations from orbit and Earth data."
+- Wishlist panel: mini heatmap (reuse Map painter at 360 × 240) with pins: 22 px circles `textPrimary` fill, `numSm` number in `surface1`; planned-experiment markers: 12 px hollow squares 2 px `partial` with legend "Planned NASA test ({label})". Rows: rank number (`numMd`, `textTertiary`), conditions (`label`), reasons (`bodySmall`, each on its own line). The planned-test percentile sentence uses the computed value exactly; if no sourced planned tests exist, omit the sentence.
+- Caption under the panel: "A ranking aid: conditions where the model is least sure and no NASA run is nearby. Scientists still design the experiments."
+- Buttons: secondary "Download test matrix (CSV)", primary (in header) "Download Mission Fire Brief (PDF)". Toasts: "Test matrix downloaded", "Brief downloaded".
+- Compact: header, then wishlist panel, then materials table (horizontal scroll, Material pinned).
+- Loading: skeleton table (8 rows) + skeleton map; computing the wishlist happens after first paint.
+- Unavailable sustain task: material table shows "Unknown" for all with the `noticeUnavailable` notice; wishlist shows EmptyState "The wishlist needs the burning model, which doesn't have enough data yet."
+
+### 11.13 Mission Fire Brief (PDF, A4 portrait, English)
+
+- Margins 18 mm. Archivo only. Colors: text `#0D1526`, accents `#1F66D6` (space) and `#B4480C` (Earth); white background (prints well).
+- Page 1: brand mark + "FlameSense" (top-left), date (top-right); title "Mission Fire Brief: {mission}" 22 pt; atmosphere and gravity with source; a 2-sentence summary ("{a} materials likely to keep burning, {b} likely to go out, {c} unknown"); material table (10 pt).
+- Page 2: data gap paragraph; wishlist table with reasons; planned NASA tests with source; disclaimer; full citations (8 pt); footer on every page: "Generated by FlameSense ({url}) on {date}. Not a certified safety assessment."
 
 ## 12. Microcopy (English source of truth)
 
@@ -839,7 +892,7 @@ Centered: Chamber window 280 × 240 with a small space flame (gravity 1e-6, R sm
 
 ### 12.3 Page copy
 
-All headings and descriptions given in §11 are the exact English strings. Keys follow the pattern `<page><Element>`, e.g., `homeHeadline` = 'Fire has no "up" in space.', `homeSubhead`, `homeCtaLab` = "Open the Fire Lab", `homeDataSentence` = "Built on {runs} test runs from {experiments} NASA experiments across {fuels} materials.", `homeNextTitle` = "Where to go next", `homeNextExplore` …, `exploreTitle`, `exploreDesc`, `exploreShowing` = "Showing {shown} of {total} runs", `exploreClear` = "Clear filters", `exploreDownload` = "Download CSV", `exploreEmptyTitle`, `exploreEmptyBody`, `runTitle` = "Run {id}", `runKeptBurning` = "Kept burning", `runWentOut` = "Went out", `runNoIgnition` = "Did not ignite", `runOpenSource` = "Open source", `runLoadLab` = "Load these conditions in the Fire Lab", `labTitle` = "Fire Lab", `labDesc` = "Set the conditions of a fire test and see what NASA's data predicts.", `labReset` = "Reset to defaults", `labCopyLink` = "Copy link to this setup", `labCompare` = "Compare with Earth", `labGaugeCaption` = "chance the flame keeps burning", `labGoesOut` = "Goes out", `labKeepsBurning` = "Keeps burning", `labSpreadTitle` = "Flame spread rate", `labRange80` = "80% range: {low} to {high} mm/s", `labEffectiveFlow` = "Effective airflow", `labEffectiveFlowCaption` = "(forced {forced} + buoyant {buoyant})", `labSensTitle` = "What moves the risk", `labSensCaption`, `labPhysicsTitle` = "Physics check", `mapTitle` = "Flammability map", `mapDesc`, `mapLegendLow` = "Likely to go out", `mapLegendHigh` = "Likely to keep burning", `mapHatch` = "Little or no NASA data here", `mapOpenLab` = "Open in Fire Lab", `askTitle` = "Ask the NASA papers", `askDesc`, `askPlaceholder` = "Ask about fire in microgravity", `askButton` = "Ask", `askGrounded` = "Answered from NASA sources", `askNotGrounded` = "Not found in FlameSense's NASA sources", `askSaved` = "Saved answer", `askSearching` = "Searching NASA documents", `askCopy` = "Copy answer", `askOpenDoc` = "Open document", `askFootnote`, `earthTitle` = "Lessons for Earth", `earthDesc`, `earthInOrbit` = "In orbit", `earthOnEarth` = "On Earth", `earthPractice` = "What this means in practice", `earthFooter`, `methodsTitle` = "Methods", `aboutTitle` = "About", `notFoundTitle` = "This page drifted off", `notFoundBody`, `notFoundCta` = "Go to Home", tour keys `tour1Title` … `tour7Body`.
+All headings and descriptions given in §11 are the exact English strings. Keys follow the pattern `<page><Element>`, e.g., `homeHeadline` = 'Fire has no "up" in space.', `homeSubhead`, `homeCtaLab` = "Open the Fire Lab", `homeDataSentence` = "Built on {runs} test runs from {experiments} NASA experiments across {fuels} materials.", `homeNextTitle` = "Where to go next", `homeNextExplore` …, `exploreTitle`, `exploreDesc`, `exploreShowing` = "Showing {shown} of {total} runs", `exploreClear` = "Clear filters", `exploreDownload` = "Download CSV", `exploreEmptyTitle`, `exploreEmptyBody`, `runTitle` = "Run {id}", `runKeptBurning` = "Kept burning", `runWentOut` = "Went out", `runNoIgnition` = "Did not ignite", `runOpenSource` = "Open source", `runLoadLab` = "Load these conditions in the Fire Lab", `labTitle` = "Fire Lab", `labDesc` = "Set the conditions of a fire test and see what NASA's data predicts.", `labReset` = "Reset to defaults", `labCopyLink` = "Copy link to this setup", `labCompare` = "Compare with Earth", `labGaugeCaption` = "chance the flame keeps burning", `labGoesOut` = "Goes out", `labKeepsBurning` = "Keeps burning", `labSpreadTitle` = "Flame spread rate", `labRange80` = "80% range: {low} to {high} mm/s", `labEffectiveFlow` = "Effective airflow", `labEffectiveFlowCaption` = "(forced {forced} + buoyant {buoyant})", `labSensTitle` = "What moves the risk", `labSensCaption`, `labPhysicsTitle` = "Physics check", `mapTitle` = "Flammability map", `mapDesc`, `mapLegendLow` = "Likely to go out", `mapLegendHigh` = "Likely to keep burning", `mapHatch` = "Little or no NASA data here", `mapOpenLab` = "Open in Fire Lab", `askTitle` = "Ask the NASA papers", `askDesc`, `askPlaceholder` = "Ask about fire in microgravity", `askButton` = "Ask", `askGrounded` = "Answered from NASA sources", `askNotGrounded` = "Not found in FlameSense's NASA sources", `askSaved` = "Saved answer", `askSearching` = "Searching NASA documents", `askCopy` = "Copy answer", `askOpenDoc` = "Open document", `askFootnote`, `earthTitle` = "Lessons for Earth", `earthDesc`, `earthInOrbit` = "In orbit", `earthOnEarth` = "On Earth", `earthPractice` = "What this means in practice", `earthFooter`, `methodsTitle` = "Methods", `aboutTitle` = "About", `notFoundTitle` = "This page drifted off", `notFoundBody`, `notFoundCta` = "Go to Home", tour keys `tour1Title` … `tour8Body` (step 5 is Missions, §12.5).
 
 ### 12.4 Errors and notices
 
@@ -860,9 +913,37 @@ All headings and descriptions given in §11 are the exact English strings. Keys 
 | `physicsNotApplicable` / `physicsNearExt` / `physicsUnavailable` | (texts in §9.16) |
 | `supportHigh` / `supportMedium` / `supportLow` + `…Tip` | (texts in §9.9) |
 
+### 12.5 Missions copy
+
+| Key | English |
+|---|---|
+| `navMissions` | Missions |
+| `missionsTitle` | Plan for a mission |
+| `missionsDesc` | NASA's next habitats may use less pressure and more oxygen than the ISS. Pick a mission to see which materials are likely to burn there, and where NASA has no data yet. |
+| `missionIss` / `missionLunar` / `missionMarsTransit` / `missionMars` / `missionEarth` | International Space Station / Artemis lunar habitat / Mars transit / Mars surface habitat / Earth (reference) |
+| `missionAtmosphere` | {pressure} kPa, {o2}% oxygen, {gravity} |
+| `missionCountBurn` / `missionCountOut` / `missionCountUnknown` | likely to burn / likely to go out / unknown |
+| `verdictBurns` / `verdictOut` / `verdictUnknown` / `verdictUncertain` | Likely to keep burning / Likely to go out / Unknown, not enough data / Uncertain |
+| `missionWorstCase` | Worst case |
+| `missionWorstFlow` | Airflow at worst case |
+| `missionGap` | {n} NASA runs at {gravity} gravity in this dataset. Verdicts here are extrapolations from orbit and Earth data. |
+| `wishlistTitle` | Where NASA should test next |
+| `wishlistCaption` | A ranking aid: conditions where the model is least sure and no NASA run is nearby. Scientists still design the experiments. |
+| `wishlistReasonUnsure` | The model is unsure here (p ≈ {p}). |
+| `wishlistReasonFar` | No NASA run is close to these conditions. |
+| `wishlistReasonWide` | The spread-rate range is wide. |
+| `wishlistPlanned` | Planned NASA tests ({label}) rank in the top {pct}% of FlameSense's list. |
+| `wishlistCsv` / `wishlistCsvDone` | Download test matrix (CSV) / Test matrix downloaded |
+| `briefButton` / `briefDone` | Download Mission Fire Brief (PDF) / Brief downloaded |
+| `missionsNotice` | Mission atmospheres come from NASA documents. FlameSense checks each material at the worst airflow it tested, because cabin airflow varies. |
+| `missionsEmptyTitle` / `missionsEmptyBody` | Mission presets are being verified / Each mission's atmosphere is checked against its NASA source before it appears here. |
+| `homeNextMissions` | Plan for a mission |
+| `homeNextMissionsDesc` | Which materials could burn in a Moon habitat |
+| `tour5Title` / `tour5Body` | Fire safety for a Moon habitat / NASA plans habitats with 34% oxygen. See which materials are likely to burn there, and the five experiments that would teach NASA the most. |
+
 ## 13. Bangla
 
-- Every key above exists in `app_bn.arb`. The agent writes a first draft; native speakers (`[LEAD]`, `[SCI]`) approve in Phase 14.
+- Every key above exists in `app_bn.arb`. The agent writes a first draft; native speakers (the team) approve in Phase 14.
 - Keep scientific terms recognizable: e.g., "মাইক্রোগ্র্যাভিটি (microgravity)" on first use per page.
 - Gravity labels: পৃথিবী / মঙ্গল / চাঁদ / আইএসএস কক্ষপথ.
 - Tagline: see §2.1.

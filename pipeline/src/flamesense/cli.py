@@ -142,12 +142,12 @@ def cmd_physics_check(args: argparse.Namespace) -> None:
     params = load_params(params_path)
     if params is None:
         print(f"Error: {params_path.relative_to(config.ROOT)} is missing. "
-              f"[SCI] must create it (PLAN.md §3.7).")
+              f"[LEAD] must create it (PLAN.md §3.7).")
         sys.exit(1)
 
     print("=== Physics parameters ===")
     print(f"File: {params_path.relative_to(config.ROOT)} (version {params.get('version', '?')})")
-    print(f"Signed off by [SCI]: {params.get('signed_off_by_sci', False)}")
+    print(f"Signed off by [LEAD]: {params.get('signed_off_by_lead', False)}")
 
     problems = validate_params(params)
     if problems:

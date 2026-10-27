@@ -1,6 +1,6 @@
 # FlameSense — Physics Reference Model Specification
 
-**Status:** Draft — awaiting [SCI] sign-off at the bottom of this page.
+**Status:** Draft — awaiting [LEAD] sign-off at the bottom of this page.
 
 The physics model is a **reference check** for the ML predictions, not the
 product. It must stay simple, sourced, and honest about where it does not
@@ -67,7 +67,7 @@ This is **explanation only** and does not change the de Ris spread rate.
 
 ## 2. Parameter values (source of truth: `data/manual/physics_params.json`)
 
-Values marked ⏳ are **pending [SCI]** — the model returns "unavailable" until
+Values marked ⏳ are **pending [LEAD]** — the model returns "unavailable" until
 they are filled. Sources must be non-empty for every value.
 
 ### 2.1 Gas
@@ -117,4 +117,4 @@ Source: ⏳
 
 ## 4. Sign-off
 
-- [ ] Verified by science lead — name/date
+- [ ] Checked against sources by the lead (date)

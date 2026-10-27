@@ -5,7 +5,7 @@ values come exclusively from ``data/manual/physics_params.json``; any value
 that is null makes the corresponding prediction return ``None`` (never a
 guessed number).
 
-Equations (PLAN.md Phase 4, pending [SCI] sign-off in docs/PHYSICS_SPEC.md):
+Equations (PLAN.md Phase 4, pending [LEAD] sign-off in docs/PHYSICS_SPEC.md):
 
 1. de Ris (1969) thermally thin opposed-flow spread:
    V_f = (π/4) · λ_g · (T_f − T_v) / (ρ_s · c_s · τ · (T_v − T_∞))   [m/s]
@@ -139,7 +139,7 @@ def validate_params(params: dict | None) -> list[str]:
     """Return a list of parameter problems; empty list means valid.
 
     Checks that every required value is not null and every ``source`` is
-    non-empty (PLAN.md Phase 4 step 1). `signed_off_by_sci` is deliberately
+    non-empty (PLAN.md Phase 4 step 1). `signed_off_by_lead` is deliberately
     not part of validity here — it is a release gate reported separately.
     """
     if params is None:

@@ -3,7 +3,8 @@
 **Project:** FlameSense
 **Hackathon:** NASA Space Apps Challenge 2026, Rajshahi Local Event
 **Challenge:** Flame in Freefall: AI-Powered Fire Safety Insights from Microgravity Combustion Data
-**Hackathon window:** Sat 14 Nov 2026 09:00 → Sun 15 Nov 2026 23:59 (local time, UTC+6)
+**Hackathon window (Bangladesh):** Fri 13 Nov 2026 07:00 → Sat 14 Nov 2026 (UTC+6). Video 2 (240 s, with working demo) due **Fri 18:30**; video 3 (30 s) + NASA project page due **Sat 09:00**; local judging Sat 11:00.
+**Human plans:** `docs/PLAYBOOK_LEAD.md` (Ehsanur: code, data, science, deploy, Plan A/B) and `docs/PLAYBOOK_TEAM.md` (the other two members: registrations, videos, slides, page text, usability tests)
 **Live URL target:** `https://flamesense.ehsanur.com` (fallback: `https://flamesense.pages.dev`)
 
 ---
@@ -15,8 +16,8 @@
 | Tag | Who | Does what |
 |---|---|---|
 | `[AGENT]` | Coding agent (Claude Code) | Writes all code, tests, configs, docs marked for the agent |
-| `[LEAD]` | Lead developer (Ehsanur) | Runs the agent phase by phase, reviews output, deploys, records video, presents |
-| `[SCI]` | Science & math lead | Verifies physics equations and parameters, digitizes literature data, reviews every science sentence in the app, presents the science |
+| `[LEAD]` | Ehsanur | Runs the agent phase by phase, reviews output, owns data and all science checks (physics parameters, mission presets, data mapping, lessons, every science sentence), deploys, records the demo, submits |
+| `[TEAM]` | The other two members | Registrations, videos, slides, NASA page text, usability tests, copy review, device testing (see PLAYBOOK_TEAM.md) |
 
 ### 0.2 Rules for running phases
 
@@ -27,17 +28,21 @@
 
 ### 0.3 Hackathon rules gate (do this first, before any code)
 
-`[LEAD]` must confirm in the official 2026 rules / participant guidelines on spaceappschallenge.org:
+Known from the 2026 Bangladesh Participants Guide (see PLAYBOOK_LEAD.md):
+- Bangladesh hackathon: Fri 13 – Sat 14 Nov. Video 2 (240 s, working demo, NASA datasets named on camera) due Fri 18:30. Video 3 (30 s) and the submitted NASA project page due Sat 09:00.
+- Eligibility: answer one 2026 challenge, link a public repository, use NASA open data, keep event code open source, register every member with a role.
+- Score sheet: Impact, Creativity, Validity, Relevance, Presentation (20 each), Teamwork, User experience, NASA data usage (5 each), challenge named, repository access, page complete (1 each), +5% for teams with a woman member.
+- NASA page fields: High-Level Summary (with links to the 240-s video and GitHub), Project Demo (30-s video), Final Project, Project Details (3 blocks), Use of AI (tools, prompts, reasoning, data), NASA data sources, References.
+- English subtitles required on video demos. No names, faces or voices of anyone under 18 in videos or submissions. AI-generated content allowed only if named and explained.
 
-- [ ] Whether project code must be created during the hackathon window. **Default assumption: yes.** Under this assumption, Phases 0 (setup, accounts, reading data, writing docs) happen before 14 Nov, and **Phases 1–17 (all code) happen inside the window**. This plan is sized to fit that (see §4).
-- [ ] The 2026 submission form fields (title, summary, demo link, project link, NASA data used, references, AI usage disclosure). Copy them into `docs/SUBMISSION.md` (Phase 17 fills them).
-- [ ] The judging criteria. Recent years used: **Impact, Creativity, Validity, Relevance, Presentation**. If 2026 differs, update §1.4.
-- [ ] The rule on AI tool usage and disclosure. Follow it exactly; Phase 17 writes the disclosure.
-- [ ] NASA brand rule: do **not** use the NASA insignia ("meatball"), worm logo, or Space Apps logo inside the app, and do not imply NASA endorsement.
+Still to confirm with the Rajshahi Local Lead `[LEAD]`:
+- [ ] Whether project code may be prepared before 13 Nov. **This decides Plan A or Plan B** (PLAYBOOK_LEAD §5). If unknown by 10 Nov, follow Plan B.
+- [ ] Seat confirmation (the prescreening video was due 1 Oct).
+- [ ] Do not use the NASA insignia, worm logo or Space Apps logo inside the app, and never imply NASA endorsement.
 
 ### 0.4 Challenge alignment gate (after full statement release, ~28 Oct 2026)
 
-`[LEAD]` + `[SCI]` read the full challenge statement and fill `docs/CHALLENGE_REQUIREMENTS.md`:
+`[LEAD]` read the full challenge statement and fill `docs/CHALLENGE_REQUIREMENTS.md`:
 
 ```markdown
 | ID | Requirement from statement (quote ≤ 1 sentence) | Our feature ID | Status |
@@ -75,23 +80,30 @@ On Earth, hot gas rises and pulls fresh air into a flame. In microgravity there 
 | F3 | **Fire Lab** — set material, oxygen, pressure, airflow, gravity → ML prediction (sustain probability, spread rate with interval) + physics reference + data-support badge + "what moves the risk" | Lab | 10 |
 | F4 | **Flammability Map** — oxygen × airflow heatmap of sustain probability with real experiment points and physics boundary | Map | 11 |
 | F5 | **Ask FlameSense** — question answering over NASA documents with numbered citations; cached instant answers for suggested questions | Ask | 12 |
-| F6 | **Earth Lessons** — science-lead-reviewed lessons from space fire research for Earth, with sources | Earth | 13 |
+| F6 | **Earth Lessons** — source-checked lessons from space fire research for Earth, with sources | Earth | 13 |
 | F7 | **Methods & Honesty** — data provenance, model card, validation metrics, equations, limitations | Methods | 13 |
 | F8 | **Judge Tour** — guided 60-second walkthrough of F1→F7 | Tour overlay | 13 |
 | F9 | **Bilingual** — English + বাংলা, light + dark themes | Global | 6, 14 |
 | F10 | **Video flame tracking** (only if official data includes flame video + scale) — extracts spread rates from ISS footage | Pipeline | 3B |
+| F11 | **Mission Mode** — mission presets (ISS, Artemis lunar habitat 8.2 psia / 34% O₂ at Moon gravity, Mars transit, Mars surface, Earth); every material's worst-case sustain probability, data support and verdict | Missions | 11B |
+| F12 | **Experiment Wishlist** — ranks the 5 most informative untested conditions for a mission (model uncertainty × distance from NASA data), overlays NASA's planned tests when sourced, CSV test matrix | Missions | 11B |
+| F13 | **Mission Fire Brief** — one-click PDF of a mission's material table, data gaps, wishlist and citations | Missions | 11B |
 
 **Non-goals (do not build):** user accounts, login, database, mobile app store builds, payments, comments, analytics trackers, any feature that stores personal data.
 
-### 1.4 How each judging criterion is won
+### 1.4 How each criterion on the 2026 score sheet is won
 
-| Criterion | What earns it | Where |
+| Criterion (points) | What earns it | Where |
 |---|---|---|
-| Impact | Spacecraft fire safety + Earth lessons + open-source tool others can reuse | F3, F4, F6, README |
-| Creativity | Gravity slider that morphs the flame; Moon/Mars gravity as "data gaps" | F1, F4 |
-| Validity | Real NASA data only, citations per row, physics cross-check, honest metrics, extrapolation warnings, monotonic constraints | F2, F3, F7 |
-| Relevance | Uses the challenge's datasets directly; Moon → Mars theme ("The Next Frontier") | F1, F4, F2 |
-| Presentation | 60-second tour, polished UI, tight video, live demo that cannot break (static + cached) | F8, Phase 17 |
+| Impact (20) | Fire safety for NASA's planned 34% O₂ Moon/Mars habitats; experiment wishlist for NASA; oxygen-rich rooms on Earth | F11, F12, F13, F6 |
+| Creativity (20) | Gravity Twin; an app that recommends the next experiments, not just predictions | F1, F12 |
+| Validity (20) | Real NASA data only, citations per row, physics check, grouped validation, monotonic constraints, extrapolation warnings, usability test results | F2, F3, F7 |
+| Relevance (20) | Statement datasets at the core of every screen; every requirement mapped in CHALLENGE_REQUIREMENTS.md; Moon → Mars theme | all |
+| Presentation (20) | Videos per PLAYBOOK_TEAM §6, 60-second tour, polished UI | F8, Phase 17 |
+| Teamwork (5) | All members named (under-18 rule permitting); commits and mentor notes from the team | Repo, videos |
+| User experience (5) | Plain language, tour, Bangla, tested with non-experts | F8, F9 |
+| NASA data usage (5) | NASA data plus partner-agency or third-party (literature) data, each shown with its source | F2, F7 |
+| Challenge, repo, page (1 each) | Named challenge, public repo, submitted page | Phase 17 |
 
 ---
 
@@ -142,17 +154,18 @@ flamesense/
 ├─ .dev.vars.example               # ANTHROPIC_API_KEY=sk-ant-... (real file .dev.vars is gitignored)
 ├─ wrangler.toml
 ├─ docs/
-│  ├─ PLAN.md  DESIGN.md  AUDIT.md
+│  ├─ PLAN.md  DESIGN.md  AUDIT.md  PLAYBOOK_LEAD.md  PLAYBOOK_TEAM.md
+│  ├─ AI_USAGE.md  MENTOR_NOTES.md   # Phase 17 / during the event
 │  ├─ PROGRESS.md  QUESTIONS.md
 │  ├─ CHALLENGE_REQUIREMENTS.md  DATA_SOURCES.md
 │  ├─ DATA_REPORT.md               # generated (Phase 3)
 │  ├─ MODEL_CARD.md                # generated (Phase 5)
-│  ├─ PHYSICS_SPEC.md              # [SCI] signs off (Phase 4)
+│  ├─ PHYSICS_SPEC.md              # [LEAD] signs off (Phase 4)
 │  ├─ SUBMISSION.md  VIDEO_SCRIPT.md  SLIDES.md   # Phase 17
 │  └─ img/                         # generated charts for docs/slides
 ├─ data/
 │  ├─ raw/                         # official downloads, never edited (gitignored if > 50 MB total)
-│  ├─ manual/                      # [SCI] hand-digitized CSVs from papers, with citations
+│  ├─ manual/                      # [LEAD] hand-digitized CSVs from papers, with citations
 │  ├─ corpus_raw/                  # PDFs/HTML for Ask + corpus_meta.csv
 │  ├─ interim/                     # parquet after ingest
 │  └─ processed/                   # parquet after clean/features
@@ -186,8 +199,8 @@ flamesense/
    │  ├─ core/theme/{tokens.dart, colors.dart, typography.dart, theme.dart, fs_theme_ext.dart}
    │  ├─ core/router.dart  core/providers.dart  core/format.dart  core/breakpoints.dart
    │  ├─ data/models/*.dart  data/asset_repository.dart
-   │  ├─ domain/{tree_model.dart, predictor.dart, physics_model.dart, support_index.dart, sensitivity.dart, gravity.dart}
-   │  ├─ features/{home, explore, lab, map, ask, earth, methods, about, tour, settings, not_found}/...
+   │  ├─ domain/{tree_model.dart, predictor.dart, physics_model.dart, support_index.dart, sensitivity.dart, gravity.dart, missions.dart, wishlist.dart}
+   │  ├─ features/{home, missions, explore, lab, map, ask, earth, methods, about, tour, settings, not_found}/...
    │  └─ widgets/  (shared components from DESIGN.md §9)
    └─ test/  (unit + widget tests, fixtures/fixture_*)
 ```
@@ -196,7 +209,7 @@ flamesense/
 
 ## 3. Data contracts (the agent must match these exactly)
 
-### 3.0 `docs/DATA_SOURCES.md` format (`[LEAD]`/`[SCI]` fill before hackathon)
+### 3.0 `docs/DATA_SOURCES.md` format (`[LEAD]` fill before hackathon)
 
 ```markdown
 | source_id | name | url | files | format | license/usage note | adapter |
@@ -254,9 +267,10 @@ one-hot columns `fuel_class__<value>`, `flow_direction__<value>`, `diluent__<val
 | `model_spread_q10.json`, `model_spread_q50.json`, `model_spread_q90.json` | `export.py` | Tree models, §3.4 |
 | `support_index.json` | `support.py` | §3.5 |
 | `metrics.json` | `evaluate.py` | §3.6 |
-| `physics_params.json` | `[SCI]` + `physics.py` validation | §3.7 |
+| `physics_params.json` | `[LEAD]` + `physics.py` validation | §3.7 |
 | `parity_fixtures.json` | `export.py` | `{"<model file>": [{"x": [float], "raw": float, "out": float}]}` 50 rows per model |
-| `lessons.json` | `[SCI]` writes / agent formats | §3.8 |
+| `lessons.json` | `[LEAD]` writes / agent formats | §3.8 |
+| `missions.json` | `[LEAD]` writes values with sources / agent formats | §3.10 |
 | `ask_cache.json` | `ask_cache.py` | `{"<question id>": {"q_en": str, "q_bn": str, "answer": AskResponse}}` |
 
 `app/web/data/corpus_chunks.json` (served publicly at `/data/corpus_chunks.json`, read by the function): §3.9.
@@ -331,12 +345,12 @@ Evaluation (Python and Dart must be identical): for each tree start at node 0; w
 }
 ```
 
-### 3.7 `physics_params.json` (`[SCI]` owns the numbers; agent never invents them)
+### 3.7 `physics_params.json` (`[LEAD]` owns the numbers; agent never invents them)
 
 ```json
 {
   "version": "1",
-  "signed_off_by_sci": false,
+  "signed_off_by_lead": false,
   "gas": {"lambda_w_mk": null, "alpha_m2_s": null, "t_inf_k": 298.0, "source": ""},
   "fuels": {
     "cotton-fiberglass": {"fuel_class": "thin_solid", "rho_kg_m3": null, "c_j_kgk": null,
@@ -347,7 +361,7 @@ Evaluation (Python and Dart must be identical): for each tree start at node 0; w
 }
 ```
 
-`physics.py` and `physics_model.dart` refuse to run (return "unavailable") while any required value is `null` or `signed_off_by_sci` is `false` in a release build.
+`physics.py` and `physics_model.dart` refuse to run (return "unavailable") while any required value is `null` or `signed_off_by_lead` is `false` in a release build.
 
 ### 3.8 `lessons.json`
 
@@ -359,7 +373,7 @@ Evaluation (Python and Dart must be identical): for each tree start at node 0; w
    "earth_meaning_en": "", "earth_meaning_bn": "",
    "what_to_do_en": "", "what_to_do_bn": "",
    "sources": [{"label": "", "url": ""}],
-   "reviewed_by": "SCI", "reviewed_on": "2026-11-15"}
+   "reviewed_by": "LEAD", "reviewed_on": "2026-11-12"}
 ]}
 ```
 
@@ -381,47 +395,40 @@ Response 200 (`AskResponse`):
 ```
 Errors: `400 {"error":"invalid_question"}`, `429 {"error":"rate_limited","retry_after_s":int}`, `502 {"error":"upstream"}`, `500 {"error":"server"}`. The app maps each to the copy in DESIGN.md §12.
 
+### 3.10 `missions.json` (`[LEAD]` fills every value from a cited NASA source; the agent never invents one)
+
+```json
+{
+  "version": "1",
+  "signed_off_by_lead": false,
+  "missions": [
+    {"id": "iss", "name_key": "missionIss", "gravity_g": 1e-6, "pressure_kpa": 101.3, "o2": 0.21,
+     "source": "", "note_key": "missionIssNote"},
+    {"id": "artemis_lunar", "name_key": "missionLunar", "gravity_g": 0.1654, "pressure_kpa": 56.5, "o2": 0.34,
+     "source": "", "note_key": "missionLunarNote"},
+    {"id": "mars_transit", "name_key": "missionMarsTransit", "gravity_g": 1e-6, "pressure_kpa": 56.5, "o2": 0.34,
+     "source": "", "note_key": "missionMarsTransitNote"},
+    {"id": "mars_surface", "name_key": "missionMars", "gravity_g": 0.3794, "pressure_kpa": 56.5, "o2": 0.34,
+     "source": "", "note_key": "missionMarsNote"},
+    {"id": "earth", "name_key": "missionEarth", "gravity_g": 1.0, "pressure_kpa": 101.3, "o2": 0.21,
+     "source": "", "note_key": "missionEarthNote"}
+  ],
+  "planned_experiments": [
+    {"id": "fm2", "label_key": "plannedFm2", "mission_id": "artemis_lunar", "gravity_g": 0.1654,
+     "points": [{"o2": 0.25, "pressure_kpa": 56.5}],
+     "flow_note": "upward burning (buoyant flow only)", "source": ""}
+  ],
+  "airflow_sweep_mm_s": {"min": 0, "max": null, "n": 24}
+}
+```
+
+Rules: missions or planned experiments with an empty `source` are hidden in release builds. `airflow_sweep_mm_s.max` defaults to the airflow slider max from `feature_spec.json` when null. Planned-experiment points are entered only from the NASA document (`[LEAD]` copies them exactly).
+
 ---
 
 ## 4. Timeline
 
-### 4.1 Before the hackathon (allowed preparation, no project code)
-
-| When | Who | Task |
-|---|---|---|
-| Now → 27 Oct | LEAD | Install Flutter stable, Python 3.11, Node 20+, Git, Wrangler (`npm i -g wrangler`), Claude Code. Create Cloudflare account, Anthropic API key with a monthly spend limit, GitHub account ready |
-| Now → 27 Oct | SCI | Read on microgravity flame spread (de Ris thin-fuel theory, opposed vs concurrent flow, flammability maps). Start a list of candidate parameter values with sources |
-| Now → 27 Oct | LEAD | Put these 4 docs into an empty folder; read DESIGN.md fully once |
-| ~28 Oct | LEAD+SCI | Do §0.3 and §0.4 gates; fill `CHALLENGE_REQUIREMENTS.md` and `DATA_SOURCES.md`; download raw data into `data/raw/` (data download is not code) |
-| 28 Oct → 13 Nov | SCI | Fill `physics_params.json` values with sources; digitize any literature tables into `data/manual/*.csv` (schema §3.1, `quality_flag=digitized`); collect corpus PDFs into `data/corpus_raw/` + `corpus_meta.csv`; draft 6 Earth Lessons text |
-| 13 Nov | Both | Rest. Charge laptops. Confirm venue, internet backup (phone hotspot) |
-
-### 4.2 Hackathon schedule (sleep included — tired teams ship bugs)
-
-| Time | Phases | Owner |
-|---|---|---|
-| Sat 09:00–09:45 | 1 Scaffold | AGENT / LEAD |
-| 09:45–11:45 | 2 Ingest, 3 Clean+features (+3B if video) | AGENT / LEAD; SCI answers mapping questions |
-| 11:45–13:00 | 4 Physics, 5 Train+export | AGENT; SCI signs off physics |
-| 13:00–13:45 | Break | – |
-| 13:45–15:00 | 6 Flutter foundation | AGENT |
-| 15:00–16:00 | 7 Predictor engine + parity | AGENT |
-| 16:00–18:00 | 8 Home, 9 Explore | AGENT; LEAD reviews UI |
-| 18:00–19:00 | Break | – |
-| 19:00–21:00 | 10 Fire Lab | AGENT |
-| 21:00–22:30 | 11 Map; **first deploy** (Phase 16 steps 1–6) | AGENT / LEAD |
-| 22:30–06:00 | Sleep (SCI may review lessons text before sleeping) | – |
-| Sun 06:00–08:30 | 12 Corpus + Ask | AGENT / LEAD |
-| 08:30–10:30 | 13 Earth, Methods, About, 404, Tour | AGENT; SCI reviews copy |
-| 10:30–12:30 | 14 Responsive, a11y, Bangla, polish | AGENT |
-| 12:30–13:30 | Break | – |
-| 13:30–15:30 | 15 Testing + full AUDIT pass, fix all blockers | AGENT / LEAD |
-| 15:30–16:30 | 16 Final deploy + production smoke test | LEAD |
-| 16:30–19:30 | 17 Video, slides, README, submission text | LEAD + SCI |
-| 19:30–20:30 | Submit on spaceappschallenge.org + local event form | LEAD |
-| 20:30–23:59 | Buffer only. No new features after submission | – |
-
-If behind schedule, cut in this order (never cut validity): F10 → F8 Tour → Bangla for Methods page → Ask live API (keep cached answers) → Explore charts beyond the first two.
+The full schedule (Plan A and Plan B, handoffs) is in `docs/PLAYBOOK_LEAD.md` §5–§6; the team's schedule is in `docs/PLAYBOOK_TEAM.md` §14. The agent only needs the phase order in §6. If the team runs Plan B, the cut order is: F10 → F13 Brief → F8 Tour → Bangla → Ask live API (keep cached answers) → F12 Wishlist → extra Explore charts. Never cut validity features (citations, data support, warnings).
 
 ---
 
@@ -456,16 +463,18 @@ Each phase: **Owner · Depends on · Time · Human inputs · Steps · Files · D
 
 ### Phase 0 — Preparation and docs (before hackathon)
 
-**Owner:** LEAD, SCI · **Depends on:** nothing · **Time:** spread over 2–4 weeks
+**Owner:** LEAD (data, science, setup); TEAM (registrations, usability recruits) · **Depends on:** nothing · **Time:** spread over 2–4 weeks
 
 Steps:
 1. `[LEAD]` Complete §0.3 and §0.4.
 2. `[LEAD]` Create an empty folder `flamesense/`, place `CLAUDE.md` at root and `PLAN.md`, `DESIGN.md`, `AUDIT.md` in `docs/`.
 3. `[LEAD]` Download every official dataset into `data/raw/<source_id>/` without renaming files. Record each in `docs/DATA_SOURCES.md`.
-4. `[SCI]` Create `data/manual/*.csv` with the exact §3.1 columns for any data digitized from papers (one CSV per paper, `quality_flag=digitized`, `source_citation` filled for every row).
-5. `[SCI]` Fill `data/manual/physics_params.json` (§3.7) with sourced values. Leave `null` where unknown.
-6. `[SCI]` Collect 10–40 NASA-authored documents (NTRS reports, NASA pages) into `data/corpus_raw/` and write `data/corpus_raw/corpus_meta.csv` with columns `file,title,url,year,license_note`. Prefer NASA-authored works (generally US public domain). For journal papers, include only if the license allows redistribution; otherwise leave them out.
-7. `[SCI]` Draft 6 lessons in `data/manual/lessons_draft.md` (topics in Phase 13).
+4. `[LEAD]` Create `data/manual/*.csv` with the exact §3.1 columns for any data digitized from papers (one CSV per paper, `quality_flag=digitized`, `source_citation` filled for every row).
+5. `[LEAD]` Fill `data/manual/physics_params.json` (§3.7) with sourced values. Leave `null` where unknown.
+6. `[LEAD]` Collect 10–40 NASA-authored documents (NTRS reports, NASA pages) into `data/corpus_raw/` and write `data/corpus_raw/corpus_meta.csv` with columns `file,title,url,year,license_note`. Prefer NASA-authored works (generally US public domain). For journal papers, include only if the license allows redistribution; otherwise leave them out.
+7. `[LEAD]` Draft the lessons in `data/manual/lessons_draft.md` (topics in Phase 13).
+7b. `[LEAD]` Fill `data/manual/missions.json` (§3.10) from NASA sources (exploration atmosphere 8.2 psia / 34% O₂; ISS cabin; FM2 planned test points only if copied exactly from the NASA document).
+7c. `[TEAM]` Recruit 5 non-developers (18+) for a 20-minute online usability test (PLAYBOOK_TEAM §7).
 8. `[LEAD]` Buy nothing. Everything is free tier except the Anthropic API (set a spend limit).
 
 Done when: `docs/DATA_SOURCES.md`, `docs/CHALLENGE_REQUIREMENTS.md`, `data/raw/` populated, `data/manual/physics_params.json` exists (values may be partly null).
@@ -533,7 +542,7 @@ failures, follow the end-of-phase routine in CLAUDE.md, and commit "phase 1: sca
 
 ### Phase 2 — Ingest and validate data
 
-**Owner:** AGENT (+ SCI for mapping questions) · **Depends on:** 1 · **Time:** 60 min
+**Owner:** AGENT (+ LEAD for mapping questions) · **Depends on:** 1 · **Time:** 60 min
 **Human inputs:** `data/raw/*`, `docs/DATA_SOURCES.md`, optional `data/manual/*.csv`
 
 Steps:
@@ -559,7 +568,7 @@ Steps:
 6. `ingest` concatenates all adapters, adds `source_id`, writes `data/interim/runs_raw.parquet`, prints counts per source. `validate` prints a table and exits 1 on errors.
 7. Tests in `pipeline/tests/test_schema.py` using `fixtures/fixture_runs.csv` (5 hand-made rows clearly marked fixture): valid passes; each rule fails with the right message.
 
-Done when: `python -m flamesense.cli ingest && python -m flamesense.cli validate` exits 0 on real data; `pytest` passes; every dropped row is counted in `PROGRESS.md` with the reason; open mapping questions are in `QUESTIONS.md` and `[SCI]` has answered them (re-run after answers).
+Done when: `python -m flamesense.cli ingest && python -m flamesense.cli validate` exits 0 on real data; `pytest` passes; every dropped row is counted in `PROGRESS.md` with the reason; open mapping questions are in `QUESTIONS.md` and `[LEAD]` has answered them (re-run after answers).
 
 **Prompt:**
 ```
@@ -599,7 +608,7 @@ flag them. Run the Done-when checks, end-of-phase routine, commit "phase 3: clea
 
 ### Phase 3B — Video flame tracking (CONDITIONAL)
 
-**Run only if** the official data includes flame video or image sequences **and** `[SCI]` provides, per video, a calibration row in `data/manual/video_calibration.csv`: `video_file, mm_per_px, fps, spread_axis (x|y), spread_sign (+1|-1), run_id_link, roi_x, roi_y, roi_w, roi_h, steady_start_s, steady_end_s, source_citation`. Otherwise mark the phase "Skipped (no video)" in PROGRESS.md.
+**Run only if** the official data includes flame video or image sequences **and** `[LEAD]` provides, per video, a calibration row in `data/manual/video_calibration.csv`: `video_file, mm_per_px, fps, spread_axis (x|y), spread_sign (+1|-1), run_id_link, roi_x, roi_y, roi_w, roi_h, steady_start_s, steady_end_s, source_citation`. Otherwise mark the phase "Skipped (no video)" in PROGRESS.md.
 
 **Owner:** AGENT · **Depends on:** 3 · **Time:** 60 min
 
@@ -609,7 +618,7 @@ Steps:
 3. Write rows to `data/manual/video_derived.csv` with `quality_flag=video_derived` and the calibration's `source_citation` + " (spread rate extracted by FlameSense video tracking)". Drop fits with R² < 0.95 (log them).
 4. Test with a synthetic moving-rectangle video generated in the test (fixture), asserting recovered speed within 2%.
 
-Done when: QA plots look linear in the steady region; `[SCI]` spot-checks 2 videos by hand and agrees within 10%.
+Done when: QA plots look linear in the steady region; `[LEAD]` spot-checks 2 videos by hand and agrees within 10%.
 
 **Prompt:**
 ```
@@ -625,12 +634,12 @@ commit "phase 3B: video flame tracking".
 
 ### Phase 4 — Physics reference model
 
-**Owner:** AGENT writes code; `[SCI]` verifies equations, parameters, and signs off · **Depends on:** 3 · **Time:** 45 min
+**Owner:** AGENT writes code; `[LEAD]` verifies equations, parameters, and signs off · **Depends on:** 3 · **Time:** 45 min
 **Human inputs:** `data/manual/physics_params.json` with values filled
 
 The physics model is a **reference check**, not the product. It must be simple, sourced, and honest about where it does not apply.
 
-Equations (`[SCI]` must verify each against the cited sources and correct this section if needed before the agent runs):
+Equations (`[LEAD]` must verify each against the cited sources and correct this section if needed before the agent runs):
 
 1. **Thermally thin opposed-flow flame spread (de Ris, 1969):**
    `V_f = (π/4) · λ_g · (T_f − T_v) / (ρ_s · c_s · τ · (T_v − T_∞))`
@@ -643,11 +652,11 @@ Equations (`[SCI]` must verify each against the cited sources and correct this s
 Steps:
 1. `physics.py`: `load_params()`, `validate_params()` (all required not null, `source` non-empty), `spread_rate_mm_s(row) -> float | None`, `buoyant_velocity_m_s(g, params)`, `applicability(row) -> "ok" | "not_applicable" | "near_extinction_warning"`.
 2. `physics-check` command: prints params validation; computes physics spread for every applicable row; prints MAE vs observed and writes `docs/img/physics_vs_observed.png` (log-log scatter, 1:1 line).
-3. Write `docs/PHYSICS_SPEC.md`: the equations above (LaTeX in `$$`), every parameter with value, unit, and source, the applicability rules, and a "Sign-off" line `[ ] Verified by science lead — name/date`.
+3. Write `docs/PHYSICS_SPEC.md`: the equations above (LaTeX in `$$`), every parameter with value, unit, and source, the applicability rules, and a "Sign-off" line `[ ] Checked against sources by the lead (date)`.
 4. Copy validated params to `pipeline/out/app_assets/physics_params.json`.
 5. Tests: one hand-computed example per equation (fixture values clearly marked, not real params).
 
-Done when: `physics-check` runs; `[SCI]` ticks the sign-off in `PHYSICS_SPEC.md` and sets `"signed_off_by_sci": true`. If `[SCI]` cannot sign off by 13:00 Saturday, set the physics feature to "unavailable" and the app hides physics cards (DESIGN.md has that state).
+Done when: `physics-check` runs; `[LEAD]` ticks the sign-off in `PHYSICS_SPEC.md` and sets `"signed_off_by_lead": true`. Optional: ask a Space Apps mentor with a physics or mechanical background to read PHYSICS_SPEC.md first. If `[LEAD]` cannot sign off in time, set the physics feature to "unavailable" and the app hides physics cards (DESIGN.md has that state).
 
 **Prompt:**
 ```
@@ -657,7 +666,7 @@ invent or "fill in typical values" for any parameter; if one is null, report it 
 return None for the affected predictions. Write docs/PHYSICS_SPEC.md with equations, parameter
 table with sources, applicability rules and an unchecked sign-off line. Add hand-computed tests.
 End-of-phase routine, commit "phase 4: physics reference model". Then tell me which parameters
-are missing, if any, so the science lead can supply them.
+are missing, if any, so I can supply them.
 ```
 
 ---
@@ -676,7 +685,7 @@ Steps:
 1. `train.py`:
    - Groups = `group_id`. CV = `GroupKFold(n_splits=min(5, n_groups))`. If `n_groups < 3`, use `StratifiedKFold(5)` (classifier) / `KFold(5)` (regressor) and add warning `"Few independent test series; metrics may be optimistic."`
    - LightGBM params (both tasks): `n_estimators=300, learning_rate=0.03, num_leaves=15, max_depth=5, min_child_samples=5, subsample=0.9, subsample_freq=1, colsample_bytree=0.9, reg_lambda=1.0, random_state=42, verbose=-1`.
-   - Monotone constraints from `feature_spec` (`+1` for `o2_mole_fraction` and `o2_partial_kpa` in both tasks; `−1` for `fuel_thickness_mm` and `areal_density_kg_m2` in spread). `[SCI]` confirms these signs in `QUESTIONS.md` before training; if `[SCI]` disagrees, use `0`.
+   - Monotone constraints from `feature_spec` (`+1` for `o2_mole_fraction` and `o2_partial_kpa` in both tasks; `−1` for `fuel_thickness_mm` and `areal_density_kg_m2` in spread). `[LEAD]` confirms these signs in `QUESTIONS.md` before training; if `[LEAD]` disagrees, use `0`.
    - Classifier objective `binary`; regression objectives `quantile` with `alpha` 0.1, 0.5, 0.9.
    - Out-of-fold predictions → metrics. Then fit final models on all rows.
    - Calibration for sustain: fit logistic regression on OOF raw scores → `a`, `b`.
@@ -691,7 +700,7 @@ Done when: `python -m flamesense.cli all` runs end to end; parity test passes; `
 ```
 Read CLAUDE.md and docs/PLAN.md §3.2–§3.6 and Phase 5. Implement train.py, evaluate.py,
 export.py and support.py exactly as specified: grouped CV, the given LightGBM params,
-monotone constraints from feature_spec (only signs confirmed by the science lead in
+monotone constraints from feature_spec (only signs confirmed by the lead in
 QUESTIONS.md), quantile models for spread, logistic calibration for sustain, no imputation,
 availability thresholds, export to the flamesense-trees-v1 JSON format, parity fixtures from
 LightGBM's own predictions, a pure-Python evaluator with a 1e-9 parity test, metrics.json,
@@ -709,9 +718,9 @@ Steps:
 1. **Fonts:** download `Archivo[wdth,wght].ttf` and `NotoSansBengali[wdth,wght].ttf` (Google Fonts GitHub repo, OFL) into `app/assets/fonts/`; add OFL license texts to `app/assets/fonts/LICENSES/`; register in `pubspec.yaml` as families `Archivo` and `NotoSansBengali`; register the license texts with `LicenseRegistry` in `main.dart`.
 2. **Theme:** implement DESIGN.md §3–§7 and §14 exactly: `tokens.dart` (spacing, radii, durations, breakpoints), `colors.dart` (both palettes, hex as given), `typography.dart` (text styles with `fontVariations` for `wght`/`wdth`, `fontFamilyFallback: ['NotoSansBengali']`, tabular figures), `fs_theme_ext.dart` (`ThemeExtension<FsColors>` with `copyWith` and `lerp`), `theme.dart` (`buildLightTheme()`, `buildDarkTheme()`).
 3. **Settings:** `ThemeMode` (system/light/dark) and locale (`en`/`bn`) in a Riverpod `NotifierProvider`, persisted with `shared_preferences` keys `fs.theme`, `fs.locale`. Default: system theme, English.
-4. **i18n:** `app_en.arb` with every string from DESIGN.md §12–§13 (keys as listed there); `app_bn.arb` with the same keys. For Bangla, the agent writes a first translation and marks every Bangla value's `@key` description with `"x-review": "bn-pending"`; `[SCI]`/`[LEAD]` (native speakers) review in Phase 14.
-5. **Router (`go_router`):** routes `/` (Home), `/explore`, `/explore/run/:runId` (dialog on desktop, page on mobile), `/lab`, `/map`, `/ask`, `/earth`, `/methods`, `/about`, error → NotFound page. Use `StatefulShellRoute.indexedStack` for the main sections so each keeps its state. Path URL strategy (`usePathUrlStrategy()` from `flutter_web_plugins`). Query params: `/lab?fuel=thin_solid&o2=0.21&p=101.3&flow=100&g=1e-6` (shareable lab state), `/map?fuel=...&p=...&g=...`, `/?tour=1`.
-6. **App shell (DESIGN.md §8):** desktop ≥ 1024 px: left navigation rail (expanded 248 px ≥ 1280, compact 80 px 1024–1279) + top bar; < 1024: top bar + bottom navigation (5 items: Home, Explore, Lab, Map, Ask; Earth/Methods/About inside a "More" sheet). Top bar has theme toggle, language toggle, "Take the tour" button.
+4. **i18n:** `app_en.arb` with every string from DESIGN.md §12–§13 (keys as listed there); `app_bn.arb` with the same keys. For Bangla, the agent writes a first translation and marks every Bangla value's `@key` description with `"x-review": "bn-pending"`; `[LEAD]` (native speakers) review in Phase 14.
+5. **Router (`go_router`):** routes `/` (Home), `/missions`, `/missions/:missionId`, `/explore`, `/explore/run/:runId` (dialog on desktop, page on mobile), `/lab`, `/map`, `/ask`, `/earth`, `/methods`, `/about`, error → NotFound page. Use `StatefulShellRoute.indexedStack` for the main sections so each keeps its state. Path URL strategy (`usePathUrlStrategy()` from `flutter_web_plugins`). Query params: `/lab?fuel=thin_solid&o2=0.21&p=101.3&flow=100&g=1e-6` (shareable lab state), `/map?fuel=...&p=...&g=...`, `/?tour=1`.
+6. **App shell (DESIGN.md §8):** desktop ≥ 1024 px: left navigation rail (expanded 248 px ≥ 1280, compact 80 px 1024–1279) + top bar; < 1024: top bar + bottom navigation (5 items: Home, Missions, Lab, Map, More; Explore/Ask/Earth/Methods/About inside the "More" sheet). Top bar has theme toggle, language toggle, "Take the tour" button.
 7. **Asset loading:** `AssetRepository` loads every JSON in §3.2 with `rootBundle.loadString` and parses into typed models (`data/models/`) in a single `FutureProvider<AppData>`. Show the global loading screen (DESIGN.md §11.0) until ready; show the global error screen with a "Reload" button on failure. Parse errors include the file name.
 8. **Shared widgets (DESIGN.md §9):** implement every component listed there with all states: `FsButton`, `FsIconButton`, `FsChip`, `GravityChip`, `FsPanel`, `MetricReadout`, `FsSlider` (with log scale option and value field), `FsSegmented`, `DataSupportBadge`, `CitationChip`, `FsTooltip`, `SectionHeader`, `EmptyState`, `ErrorState`, `SkeletonBlock`, `InlineNotice` (info/warn/danger), `FsDialog`, `FsSheet`, `FsTabs`, `Toast` helper.
 9. **Web shell:** `web/index.html` — title, meta description, Open Graph + Twitter tags (DESIGN.md §15), theme-color meta for both schemes, `<noscript>` message, inline CSS splash (`#fs-splash`, background `#0A1020`, centered 56-px brand mark SVG from DESIGN.md §2.3, text "Loading FlameSense"). `web/flutter_bootstrap.js`:
@@ -753,7 +762,7 @@ routine, commit "phase 6: flutter foundation".
 
 Steps:
 1. `domain/tree_model.dart`: parse §3.4; `double raw(List<double> x)`; `double predict(List<double> x)` applying link + calibration. Assert `x.length == featureNames.length` and no NaN/inf (throw `ArgumentError` with feature name).
-2. `domain/gravity.dart`: constants `kEarthG = 1.0`, `kMarsG = 0.3794`, `kMoonG = 0.1654`, `kIssG = 1e-6`; `double gravityToSlider(double g)` and `double sliderToGravity(double s)` mapping `s ∈ [0,1]` linearly to `log10(g) ∈ [-6, 0]`; `String gravityLabel(double g, AppLocalizations l)` returning "Earth", "Mars", "Moon", "ISS orbit" when within 2% (log scale) of those, else formatted `1.2 × 10⁻³ g`.
+2. `domain/gravity.dart`: constants `kEarthG = 1.0`, `kMarsG = 0.3783`, `kMoonG = 0.1652` (NASA Planetary Fact Sheet surface gravity 3.71 and 1.62 m/s² ÷ 9.80665), `kIssG = 1e-6`; `double gravityToSlider(double g)` and `double sliderToGravity(double s)` mapping `s ∈ [0,1]` linearly to `log10(g) ∈ [-6, 0]`; `String gravityLabel(double g, AppLocalizations l)` returning "Earth", "Mars", "Moon", "ISS orbit" when within 2% (log scale) of those, else formatted `1.2 × 10⁻³ g`.
 3. `domain/predictor.dart`: `class LabInput {fuelClass, thicknessMm, densityKgM3, o2, pressureKpa, flowMmS, flowDirection, gravityG}`; `PredictionResult {sustainProb?, spreadQ10?, spreadQ50?, spreadQ90?, support: SupportResult, physics: PhysicsResult, effectiveFlowMmS, warnings: List<PredictionWarning>}`. Build the feature vector from `feature_spec` order using the §3.1 formulas (derived features computed here). Tasks with `available=false` return null outputs + warning `taskUnavailable`. Enforce `spreadQ10 ≤ spreadQ50 ≤ spreadQ90` by sorting the three (quantile crossing fix) and add warning `quantilesReordered` if it happened.
 4. `domain/support_index.dart`: §3.5 exactly (k-NN on standardized slider features, levels, `outside_range` per feature with names).
 5. `domain/physics_model.dart`: port of Phase 4 equations; returns `PhysicsResult {status: ok|notApplicable|unavailable|nearExtinction, spreadMmS?, buoyantVelocityMmS?}`.
@@ -876,6 +885,38 @@ End-of-phase routine, commit "phase 11: flammability map".
 
 ---
 
+### Phase 11B — Mission Mode, Experiment Wishlist, Mission Fire Brief (F11, F12, F13)
+
+**Owner:** AGENT; `[LEAD]` fills and signs off `missions.json` · **Depends on:** 7, 10, 11 · **Time:** 2 h 30 min
+**Human inputs:** `data/manual/missions.json` (§3.10) with sources
+
+Steps:
+1. Pipeline: `export.py` validates `data/manual/missions.json` (required numbers present, sources non-empty for release) and copies it to `pipeline/out/app_assets/missions.json`.
+2. `domain/missions.dart`: for a mission and each material present in `runs.json` (unique `fuel_name` with its fuel class, median thickness and density from its runs): evaluate sustain probability over the airflow sweep (`n` log-spaced values from min to max, both flow directions present in the data) at the mission's gravity, pressure and O₂. Report `worstProb` (max), the airflow where it occurs, `support` at that point, and `verdict`:
+   - `unknown` if support is `low` or the sustain task is unavailable;
+   - else `likelyBurns` if `worstProb ≥ 0.6`; `likelyOut` if `worstProb ≤ 0.4`; `uncertain` otherwise.
+   Also count NASA runs in the dataset within the mission's gravity class (`microgravity`, `partial`, `earth`).
+3. `domain/wishlist.dart`: candidate grid for the mission: O₂ = 13 values from `o2 − 0.06` to `o2 + 0.06` (clamped to slider range); pressure = 5 values from 0.85× to 1.15× mission pressure; airflow = 12 log-spaced values over the slider range; each fuel class present; gravity fixed. For each candidate: `p` = sustain probability; `u = 1 − |2p − 1|`; `n = min(d / p95, 2) / 2` where `d` is the support kNN distance; `w` = normalized spread 80% interval width if spread is available, else 0. `score = 0.45·u + 0.45·n + 0.10·w`. Greedy selection of 5: take the highest score, then skip candidates whose standardized distance to any picked one is < 0.75. Each pick gets a `reason` built from its terms: "The model is unsure here (p ≈ 0.52)", "No NASA run is close to these conditions", "Spread-rate range is wide". For each planned experiment point (§3.10, sourced only): compute its score and its percentile among all candidates and report it exactly as computed (no rounding up, no selective reporting).
+4. `domain/brief.dart` + `pdf` package (`flutter pub add pdf`): build an A4 PDF (English only; Bangla shaping is not supported by the package): title "Mission Fire Brief: <mission>", date, atmosphere and gravity with sources, material table (material, verdict, worst-case probability, airflow at worst case, data support), data-gap paragraph (runs in this gravity class), wishlist table with reasons, planned NASA experiments with source, full citation list, disclaimer from DESIGN.md §12. Embed Archivo regular/bold from assets. Download via `package:web` Blob as `flamesense_brief_<mission>_<yyyyMMdd>.pdf`.
+5. Missions page per DESIGN.md §11.11; mission detail per §11.12 (material table, wishlist panel with "Download test matrix (CSV)" and "Download Mission Fire Brief (PDF)", planned-experiment overlay on a mini map reused from Phase 11's painter).
+6. Home: add "Plan for a mission" as the first row in "Where to go next"; Tour gets step for Missions (DESIGN.md §11.10).
+7. Tests: verdict thresholds; worst-case airflow picks the max; wishlist picks 5 diverse points on a synthetic model fixture; planned-point percentile computed correctly; missions with empty sources hidden in release mode; PDF builds without throwing and contains the mission name.
+
+Done when: all five missions render (or are hidden if unsourced); wishlist is deterministic; the brief PDF opens in Chrome and Acrobat; numbers in the PDF equal those on screen.
+
+**Prompt:**
+```
+Read CLAUDE.md, docs/PLAN.md §3.10 and Phase 11B, and docs/DESIGN.md §11.11–§11.13 and §12
+completely. Implement missions.json validation/export, domain/missions.dart (worst-case over the
+airflow sweep, verdicts, gravity-class run counts), domain/wishlist.dart (exact scoring formula,
+greedy diverse selection, reasons, planned-point percentiles reported exactly as computed),
+domain/brief.dart with the pdf package, the Missions and Mission detail pages, the Home row and
+the extra tour step. Never invent mission values: hide anything without a source in release.
+Add the listed tests. End-of-phase routine, commit "phase 11B: missions + wishlist + brief".
+```
+
+---
+
 ### Phase 12 — Corpus, Ask API, Ask page (F5)
 
 **Owner:** AGENT; LEAD sets the API key · **Depends on:** 6 (+ corpus files from Phase 0) · **Time:** 2 h 30 min
@@ -911,7 +952,7 @@ Steps — function (`functions/`):
 Steps — app:
 8. `features/ask/`: DESIGN.md §11.5: suggested questions (6, from `ask_cache.json`), input with character counter (max 500), send on Enter (Shift+Enter newline), answer card with inline citation chips `[1]` that scroll/highlight the matching source card, source cards (title, page, snippet, "Open document"), "Grounded in NASA sources" vs "Not found in sources" status line, copy-answer button, conversation is single-turn with history list of the last 5 Q&As kept in memory only (not persisted). Cached suggested answers render instantly with a small "Saved answer" tag.
 9. Error states mapped from API errors (DESIGN.md §12 copy), offline detection (`http` exception) with retry.
-10. `ask-cache` pipeline command: for the 6 suggested questions (DESIGN.md §11.5 lists them, en + bn), call `http://localhost:8788/api/ask` (wrangler dev) and save responses to `ask_cache.json`. `[SCI]` reviews all 12 answers for accuracy before Phase 16; wrong ones get rewritten questions or removed.
+10. `ask-cache` pipeline command: for the 6 suggested questions (DESIGN.md §11.5 lists them, en + bn), call `http://localhost:8788/api/ask` (wrangler dev) and save responses to `ask_cache.json`. `[LEAD]` reviews all 12 answers for accuracy before Phase 16; wrong ones get rewritten questions or removed.
 
 Human: `[LEAD]` creates `.dev.vars` with `ANTHROPIC_API_KEY=...` locally (never committed).
 
@@ -933,27 +974,28 @@ scripts/check_secrets.sh. End-of-phase routine, commit "phase 12: ask".
 
 ### Phase 13 — Earth Lessons, Methods, About, 404, Judge Tour (F6, F7, F8)
 
-**Owner:** AGENT; `[SCI]` writes and approves lessons · **Depends on:** 5, 8–12 · **Time:** 2 h
-**Human inputs:** `data/manual/lessons_draft.md` (SCI)
+**Owner:** AGENT; `[LEAD]` writes and approves lessons · **Depends on:** 5, 8–12 · **Time:** 2 h
+**Human inputs:** `data/manual/lessons_draft.md` (LEAD)
 
-Lesson topics for `[SCI]` (each must cite NASA or peer-reviewed sources; drop any topic without a source):
+Lesson topics for `[LEAD]` (each must cite NASA or peer-reviewed sources; drop any topic without a source):
 1. Why flames are round and blue in space (no buoyancy → diffusion-controlled, less soot).
 2. Airflow decides everything (weak airflow can keep a flame alive; ventilation shapes fire on Earth too).
 3. Are Earth-gravity flammability tests conservative for spacecraft? (what NASA experiments found).
 4. Smoke and detection behave differently (particle size, detector design).
 5. Putting fires out where nothing falls (suppression in enclosed, low-flow spaces).
-6. Lessons for enclosed spaces on Earth (low-airflow rooms, vehicles, workplaces), stated as general findings, with a link to Bangladesh Fire Service and Civil Defence safety guidance if `[SCI]` finds an official source.
+6. Lessons for enclosed spaces on Earth (low-airflow rooms, vehicles, workplaces), stated as general findings, with a link to Bangladesh Fire Service and Civil Defence safety guidance if `[LEAD]` finds an official source.
+7. **Lead lesson:** oxygen-enriched rooms on Earth (hospital oxygen therapy areas, home oxygen cylinders): the same physics as a 34% O₂ habitat. General guidance only, from official fire-safety or medical sources.
 
 Steps:
 1. Convert approved lessons to `lessons.json` (§3.8) with `status: approved` and `reviewed_by/on`. Draft ones stay `draft` (hidden in release).
 2. Earth page: DESIGN.md §11.6.
-3. Methods page: DESIGN.md §11.7 — sections: Data (sources table from `app_meta` + DATA_SOURCES, counts, quality flags), How predictions work (plain-language + feature list), Validation (metrics tables + calibration chart + coverage), Physics reference (equations rendered with `flutter_math_fork`, parameter table, sign-off status), Limitations (bulleted, from MODEL_CARD), Honesty notes (no synthetic data, extrapolation warnings).
+3. Methods page: DESIGN.md §11.7 — sections: Data (sources table from `app_meta` + DATA_SOURCES, counts, quality flags), How predictions work (plain-language + feature list), Validation (metrics tables + calibration chart + coverage), Physics reference (equations rendered with `flutter_math_fork`, parameter table, sign-off status), Usability test (`#usability`: number of testers, tasks, completion rate and median time per task, from `data/manual/usability.csv` filled by `[LEAD]`), Limitations (bulleted, from MODEL_CARD), Honesty notes (no synthetic data, extrapolation warnings).
 4. About page: DESIGN.md §11.8 — team roles, challenge name, open-source link, AI usage disclosure text (from Phase 17 draft; placeholder until then), licenses (fonts OFL, code Apache-2.0, data credits), "Not affiliated with or endorsed by NASA" line.
 5. NotFound page: DESIGN.md §11.9.
-6. Judge Tour: overlay with 7 steps (DESIGN.md §11.10): each step navigates to a route, highlights a target widget (use `GlobalKey`s registered in a `TourTargets` registry) with a spotlight cutout, shows a caption card with step n/7, Back/Next/Exit; auto-start when URL has `?tour=1`; keyboard: →/← and Esc. Respects reduced motion (no animated spotlight transition).
+6. Judge Tour: overlay with 8 steps (DESIGN.md §11.10): each step navigates to a route, highlights a target widget (use `GlobalKey`s registered in a `TourTargets` registry) with a spotlight cutout, shows a caption card with step n/8, Back/Next/Exit; auto-start when URL has `?tour=1`; keyboard: →/← and Esc. Respects reduced motion (no animated spotlight transition).
 7. Tests: lessons filter hides drafts; tour step navigation; 404 for `/nope`.
 
-Done when: all pages complete in both languages (Bangla may still be bn-pending), tour runs end to end in < 70 seconds at normal reading speed.
+Done when: all pages complete in both languages (Bangla may still be bn-pending), tour runs end to end in < 80 seconds at normal reading speed.
 
 **Prompt:**
 ```
@@ -961,7 +1003,7 @@ Read CLAUDE.md, docs/PLAN.md §3.8 and Phase 13, and docs/DESIGN.md §11.6–§1
 Convert approved lessons from data/manual/lessons_draft.md into lessons.json (keep unapproved
 ones as draft; never write lesson science yourself). Implement Earth, Methods (with
 flutter_math_fork equations, metrics tables and calibration chart), About (with not-affiliated
-line and licenses), NotFound, and the 7-step Judge Tour overlay with spotlight, keyboard
+line and licenses), NotFound, and the 8-step Judge Tour overlay with spotlight, keyboard
 controls and ?tour=1 auto-start. Add the listed tests. End-of-phase routine, commit
 "phase 13: earth, methods, about, tour".
 ```
@@ -970,12 +1012,12 @@ controls and ?tour=1 auto-start. Add the listed tests. End-of-phase routine, com
 
 ### Phase 14 — Responsive, accessibility, Bangla, performance, polish
 
-**Owner:** AGENT; `[LEAD]` + `[SCI]` review Bangla · **Depends on:** 8–13 · **Time:** 2 h
+**Owner:** AGENT; `[TEAM]` reviews Bangla and English copy, `[LEAD]` applies · **Depends on:** 8–13 · **Time:** 2 h
 
 Steps:
 1. Responsive pass at 360, 390, 768, 1024, 1280, 1440, 1920 px on every page; fix overflow, truncation, and touch targets (≥ 44 × 44 px).
 2. Accessibility pass (AUDIT.md §6): semantic labels on every icon button, chart summaries for screen readers (each chart has a `Semantics(label: ...)` sentence with the key numbers), focus order, visible focus ring (DESIGN.md §9.0), contrast check of every text/background token pair, reduced motion everywhere, `Tooltip` on icon-only buttons.
-3. Bangla: replace bn-pending strings with reviewed text from `[LEAD]`/`[SCI]`; check Bangla line height and that no text clips (Bangla glyphs are taller — DESIGN.md §4.4).
+3. Bangla: replace bn-pending strings with reviewed text from `[TEAM]`'s copy-review sheet; check Bangla line height and that no text clips (Bangla glyphs are taller — DESIGN.md §4.4).
 4. Performance: `flutter build web --release --no-web-resources-cdn`; measure transfer size (DevTools Network, disable cache): target total first load ≤ 4.5 MB compressed; `runs.json` ≤ 1.5 MB (if larger, round floats harder or drop unused columns from the app copy); first meaningful paint (splash) < 1 s; app interactive < 5 s on "Fast 4G" throttling. Defer `corpus_chunks.json` (only the function reads it). Use `const` constructors; avoid rebuilding the heatmap on unrelated state.
 5. Polish: page titles (`Title` widget / `SystemChrome.setApplicationSwitcherDescription`) per route, e.g., "Fire Lab · FlameSense"; consistent number formatting (`core/format.dart`: 3 significant figures, units always, Bangla digits when locale is `bn` via `intl` NumberFormat with `bn` locale); empty and error states everywhere; no debug banners.
 6. Visual QA against DESIGN.md: screenshot every page in both themes at 1440 and 390 into `docs/img/screens/` (use `flutter test` golden-style screenshots or manual) and fix every deviation.
@@ -1074,34 +1116,32 @@ change any app code in this phase except to fix a deploy blocker. Commit "phase 
 
 ### Phase 17 — Submission package and presentation
 
-**Owner:** LEAD + SCI; AGENT drafts text · **Depends on:** 16 · **Time:** 3 h
+**Owner:** AGENT drafts text; TEAM makes videos, slides and page text; LEAD records the demo and submits · **Depends on:** 16 · **Time:** 3 h (Plan A: done on 11 Nov; Plan B: Fri 16:00–18:30 for video 2, Fri night + Sat 07:00–09:00 for the rest)
 
 Steps:
-1. `[AGENT]` `README.md` final: one-line pitch, live link, 4 screenshots (Home dark, Lab light, Map dark, Ask light), features list, "How it works" diagram (§2.1), NASA data used (table from DATA_SOURCES), validation summary (from metrics.json), limitations, run locally (exact commands), team roles, license, AI disclosure.
-2. `[AGENT]` `docs/SUBMISSION.md`: draft text for each 2026 form field copied in §0.3 — title, ≤ 1-paragraph high-level summary, project details (what it does, how it works, benefits, tools/languages), use of NASA data (each dataset with link and what we did with it), space agency partner data (if any), references (every source and tool), AI usage disclosure (which AI tools were used for what: coding agent wrote code under human review; LLM powers the Ask feature with retrieval over NASA documents; no AI-generated images are presented as NASA imagery).
-3. `[AGENT]` `docs/VIDEO_SCRIPT.md` for a 30-second video (confirm 2026 length limit) — shot list:
-   - 0–5 s: Home hero, drag gravity Earth → ISS; caption "Fire has no 'up' in space."
-   - 5–12 s: Fire Lab, raise O₂, toggle Compare with Earth; caption "Predictions from NASA ISS fire experiments."
-   - 12–19 s: Map, switch to Moon; caption "See where it burns — and where NASA has no data yet."
-   - 19–25 s: Ask, citation chip highlights source; caption "Every answer cites NASA."
-   - 25–30 s: Earth Lessons + URL; caption "Open source. For spacecraft and for us."
-   Record at 1920×1080, dark theme, cursor highlight on, no music with lyrics, captions burned in (EN; BN version optional).
-4. `[AGENT]` `docs/SLIDES.md` (max 7 slides): Problem · Insight (two flames) · Solution (screens) · Data & validation (metrics + honesty) · Physics + ML (why both) · Impact (space + Earth + Moon/Mars data gap) · Team & next steps.
-5. `[LEAD]` record the video, export ≤ 50 MB MP4, upload unlisted to YouTube; `[SCI]` checks every caption claim.
-6. `[LEAD]` + `[SCI]` rehearse the live pitch 3 times with a timer (local judges): use the Judge Tour as the backbone.
-7. `[LEAD]` submit on spaceappschallenge.org (team page → Project tab) and the Rajshahi local event form, before 20:30 Sunday.
-8. `[AGENT]` Update About page AI disclosure text with the final version and redeploy (blocker-fix rule allows copy changes).
+1. `[AGENT]` `README.md` final: one-line pitch (PLAYBOOK_LEAD §3.1), live link, links to video 2 and video 3, 4 screenshots (Home dark, Missions light, Lab dark, Map light), features list, "How it works" diagram (§2.1), NASA data used (table from DATA_SOURCES), validation summary (from metrics.json), usability test results, limitations, run locally (exact commands), team and roles, license, link to AI_USAGE.md.
+2. `[AGENT]` `docs/SUBMISSION.md` with one section per NASA page field (PLAYBOOK_TEAM §9): High-Level Summary (include placeholders `[VIDEO2_URL]`, `[GITHUB_URL]`), Project Demo, Final Project, Project Details block 1 (why/what/how, requirement-by-requirement from CHALLENGE_REQUIREMENTS.md, every dataset in detail), block 2 (community and benefits, highlighted features, usability results), block 3 (tools and technologies with credits), Use of AI (point to AI_USAGE.md and summarize), NASA data sources (each with link, use, method; partner/third-party sources separately), References (every paper, dataset, library, font, asset).
+3. `[AGENT]` `docs/AI_USAGE.md`: every AI tool with what it did, the reasoning, and the data it worked on (PLAYBOOK_TEAM §9.2); copy every phase prompt from §6 with the date it was run (from PROGRESS.md); copy the Ask system prompt from `functions/lib/prompt.ts`; state what humans did.
+4. `[AGENT]` `docs/VIDEO_SCRIPT.md`: the video 2 (240 s) and video 3 (30 s) scripts from PLAYBOOK_TEAM §6.3–§6.4 with every `[ ]` filled from the app's real numbers; plus an English `.srt` subtitle file for each in `docs/video/`.
+5. `[AGENT]` `docs/SLIDES.md` (7 slides, English, backup to video 3): Problem (34% O₂ habitats) · Insight (two flames) · Solution (Missions, Lab, Map) · Data & validation · Physics + ML · Impact (mission design, experiment wishlist, Earth) · Team & next steps.
+6. `[LEAD]` records the demo screen clips (PLAYBOOK_LEAD §6); `[TEAM]` produces video 2 per PLAYBOOK_TEAM §6.1/§6.3, burns in English subtitles, uploads to YouTube, pastes the link in the Google Form and uploads the file to the Local Lead's Drive folder — **by Fri 13 Nov 18:30**.
+7. `[TEAM]` produces video 3 per PLAYBOOK_TEAM §6.4 — on the NASA project page **by Sat 14 Nov 09:00**.
+8. `[TEAM]` fills every NASA page field from SUBMISSION.md (members with photos, team photo); `[LEAD]` checks the technical fields, clicks **Submit**, then opens the page in a private window.
+9. Everyone rehearses the live 240-second pitch 3 times; answers in PLAYBOOK_TEAM §13 and PLAYBOOK_LEAD §8.
+10. `[AGENT]` Update the About page AI-use text to match AI_USAGE.md and redeploy.
 
-Done when: submission confirmation received on both platforms; links in the submission open in a private browser window.
+Done when: both videos uploaded and opening in a private window; NASA page submitted; every box in PLAYBOOK_TEAM §15 and PLAYBOOK_LEAD §9 ticked.
 
 **Prompt:**
 ```
-Read CLAUDE.md, docs/PLAN.md Phase 17, docs/DATA_SOURCES.md, docs/MODEL_CARD.md,
-app/assets/data/metrics.json and docs/CHALLENGE_REQUIREMENTS.md. Write the final README.md,
-docs/SUBMISSION.md (one section per form field listed in PLAN.md §0.3), docs/VIDEO_SCRIPT.md
-and docs/SLIDES.md exactly as specified. Use only facts present in these files and the app;
-mark anything you cannot verify with [VERIFY]. Update the About page AI-disclosure string to
-match SUBMISSION.md. Commit "phase 17: submission package".
+Read CLAUDE.md, docs/PLAN.md Phase 17, docs/PLAYBOOK_LEAD.md §3, docs/PLAYBOOK_TEAM.md §6 and §9, docs/DATA_SOURCES.md,
+docs/MODEL_CARD.md, docs/PROGRESS.md, app/assets/data/metrics.json and
+docs/CHALLENGE_REQUIREMENTS.md. Write the final README.md, docs/SUBMISSION.md (one section per
+NASA page field), docs/AI_USAGE.md (every AI tool, every phase prompt with its date, the Ask system
+prompt, human contributions), docs/VIDEO_SCRIPT.md with all placeholders filled from real app
+numbers, English .srt subtitle files for both videos, and docs/SLIDES.md. Use only facts present
+in these files and the app; mark anything you cannot verify with [VERIFY]. Update the About page
+AI-use string to match AI_USAGE.md. Commit "phase 17: submission package".
 ```
 
 ---
@@ -1124,13 +1164,15 @@ match SUBMISSION.md. Commit "phase 17: submission package".
 | Risk | Likelihood | Fallback |
 |---|---|---|
 | Official data has < 40 usable rows for a task | Medium | Task shows "not enough data" state; app still delivers Explorer, Map scatter, physics, Ask, Lessons. Say this proudly in the pitch: honesty is a validity point |
-| Data is mostly video, not tables | Medium | Phase 3B; `[SCI]` digitizes tables from reports into `data/manual` |
+| Data is mostly video, not tables | Medium | Phase 3B; `[LEAD]` digitizes tables from reports into `data/manual` |
 | Physics parameters can't be sourced in time | Medium | Physics card shows "unavailable"; Methods explains |
 | Anthropic API down / rate-limited during judging | Low | Cached answers for 6 suggested questions; clear error copy |
 | Venue Wi-Fi fails | Medium | Phone hotspot; run `wrangler pages dev` locally for the live demo; video as backup |
 | Agent output drifts from design | Medium | `/dev/gallery` and screenshot review each phase; CLAUDE.md rule 3 |
-| Running out of time | Medium | Cut order in §4.2 |
-| Rules forbid pre-written code | Default assumption | This plan already puts all code inside the window |
+| Running out of time | Medium | Cut order in §4 |
+| Rules forbid pre-written code | Unknown until the Local Lead answers | Plan B in PLAYBOOK_LEAD §5 (26-hour cut scope) |
+| Working demo not ready for video 2 (Fri 18:30) | High under Plan B | First deploy by 16:00 Friday with Home + Lab + Map; record video 2 from the live site; keep improving after |
+| Mission presets can't be sourced | Low | Missions without a source are hidden; Lab still works |
 
 ## 8. Definition of done (whole project)
 
@@ -1139,5 +1181,7 @@ match SUBMISSION.md. Commit "phase 17: submission package".
 - [ ] Models pass parity; metrics and limitations shown in the app
 - [ ] Ask answers cite sources; injection tests refused
 - [ ] Zero open Blockers/Majors in AUDIT.md
-- [ ] README, video, slides, submission text done; submitted on both platforms
+- [ ] Missions, Wishlist and Brief work for every sourced mission
+- [ ] Usability test with ≥ 5 people done; results on the Methods page
+- [ ] Video 2 uploaded by Fri 18:30; video 3 + NASA page submitted by Sat 09:00; AI_USAGE.md complete
 - [ ] Repo public, Apache-2.0, no secrets (check_secrets passes)

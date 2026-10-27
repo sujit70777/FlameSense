@@ -20,7 +20,7 @@ Tick a box only after **testing it**, not after reading the code. Each item has 
 - [ ] [B] Every dataset used is listed with its link in DATA_SOURCES.md, the Methods page, README, and submission.
 - [ ] [M] Every corpus document's license allows public serving (`license_note` filled for each row of `corpus_meta.csv`; journal papers without redistribution rights removed).
 - [ ] [M] Font licenses (SIL OFL) included in `app/assets/fonts/LICENSES/` and shown via `showLicensePage` / About.
-- [x] [M] `LICENSE` (Apache-2.0) present; README states license.
+- [ ] [M] `LICENSE` (Apache-2.0) present; README states license.
 - [ ] [m] Third-party package licenses reviewed (`flutter pub deps`, `npm ls`) — all permissive.
 
 ## 2. Data integrity
@@ -28,7 +28,7 @@ Tick a box only after **testing it**, not after reading the code. Each item has 
 - [ ] [B] `python -m flamesense.cli validate` exits 0 on the final data.
 - [ ] [B] No synthetic or fixture rows in `app/assets/data/`. How to test: `grep -ri "fixture" app/assets/data` returns nothing; row count in `runs.json` equals `n_runs` in `app_meta.json` equals the processed parquet count.
 - [ ] [B] Every row has a non-empty `source_citation` and `source_file`.
-- [ ] [B] Unit conversions verified by `[SCI]` on 5 random rows per source against the raw file (write the 5 run_ids checked in PROGRESS.md).
+- [ ] [B] Unit conversions verified by `[LEAD]` on 5 random rows per source against the raw file (write the 5 run_ids checked in PROGRESS.md).
 - [ ] [M] Dropped-row counts and reasons logged for every source.
 - [ ] [M] Suspect rows are flagged, not deleted, and excluded from training.
 - [ ] [M] `docs/DATA_REPORT.md` numbers match the app (Home sentence, Explore count, Methods table).
@@ -38,15 +38,15 @@ Tick a box only after **testing it**, not after reading the code. Each item has 
 
 ## 3. Science validity
 
-- [ ] [B] `docs/PHYSICS_SPEC.md` sign-off ticked by `[SCI]`, or the physics feature shows "unavailable" everywhere.
+- [ ] [B] `docs/PHYSICS_SPEC.md` sign-off ticked by `[LEAD]`, or the physics feature shows "unavailable" everywhere.
 - [ ] [B] Every equation in the app matches PHYSICS_SPEC.md symbol for symbol.
-- [ ] [B] Every science sentence in the app (Home, Lab notices, Map notice, Earth, Methods) reviewed by `[SCI]`. How to test: export `app_en.arb`, `[SCI]` initials each science string in PROGRESS.md.
+- [ ] [B] Every science sentence in the app (Home, Lab notices, Map notice, Earth, Methods) reviewed by `[LEAD]`. How to test: export `app_en.arb`, `[LEAD]` initials each science string in PROGRESS.md.
 - [ ] [B] All Earth lessons shown have `status: approved`, a reviewer, and at least one working source link.
-- [ ] [M] Monotone constraint signs confirmed by `[SCI]` in QUESTIONS.md.
+- [ ] [M] Monotone constraint signs confirmed by `[LEAD]` in QUESTIONS.md.
 - [ ] [M] Physics applicability rules enforced (not-applicable state appears for thick solids, concurrent flow, droplets).
 - [ ] [M] Claims about Moon/Mars are framed as extrapolation / data gap, never as predictions with confidence.
 - [ ] [M] Methods "Limitations" section lists: small dataset, test-series dependence, extrapolation outside tested ranges, physics model simplifications, no operational use.
-- [ ] [m] Gravity constants (Moon 0.1654 g, Mars 0.3794 g) and unit conversion factors double-checked.
+- [ ] [m] Gravity constants (Moon 0.1652 g, Mars 0.3783 g, from NASA Planetary Fact Sheet) and unit conversion factors double-checked.
 
 ## 4. Models and predictor
 
@@ -82,7 +82,9 @@ Per page — every listed state reachable and correct:
 | Methods | [ ] | – | – | – | [ ] equations render, [ ] ToC anchors, [ ] physics sign-off line |
 | About | [ ] | – | – | – | [ ] licenses page opens |
 | 404 | [ ] | – | – | – | [ ] `/nope` and `/explore/run/does-not-exist` |
-| Tour | [ ] all 7 steps | – | – | – | [ ] `?tour=1`, [ ] keyboard, [ ] Esc, [ ] reduced motion |
+| Missions | [ ] | [ ] skeleton | [ ] no sourced missions | – | [ ] unsourced missions hidden in release, [ ] counts match detail page |
+| Mission detail | [ ] | [ ] skeleton table + map | [ ] sustain unavailable | – | [ ] verdict colors + text, [ ] data-gap notice, [ ] wishlist 5 diverse picks, [ ] planned-test percentile equals computed value, [ ] CSV, [ ] PDF numbers equal screen, [ ] row → Lab |
+| Tour | [ ] all 8 steps | – | – | – | [ ] `?tour=1`, [ ] keyboard, [ ] Esc, [ ] reduced motion |
 
 ## 6. Accessibility (WCAG 2.2 AA)
 
@@ -125,7 +127,7 @@ Per page — every listed state reachable and correct:
 ## 10. Ask (LLM) quality and safety
 
 - [ ] [B] `ask-eval`: ≥ 80% answerable questions cite a correct document; ≥ 80% unanswerable marked not grounded; 100% injection attempts refused. Record scores.
-- [ ] [B] All 12 cached answers (6 EN, 6 BN) reviewed by `[SCI]` for accuracy; wrong ones replaced.
+- [ ] [B] All 12 cached answers (6 EN, 6 BN) reviewed by `[LEAD]` for accuracy; wrong ones replaced.
 - [ ] [M] Every citation number in an answer maps to a shown source; no orphan `[Sn]` markers.
 - [ ] [M] The model never gives building-specific or spacecraft-specific operational instructions (test 3 such questions).
 - [ ] [M] Footnote about AI mistakes visible under every answer.
@@ -167,7 +169,7 @@ Per page — every listed state reachable and correct:
 - [ ] [B] Every link in the submission opens in a private window (app, repo, video, slides).
 - [ ] [M] Video within the 2026 length limit, captions readable on a phone, no copyrighted music, no NASA logos.
 - [ ] [M] Slides ≤ the 2026 limit, each slide one message, numbers match the app.
-- [ ] [M] Pitch rehearsed 3 times with a timer; both team members can demo the Tour without notes.
+- [ ] [M] Pitch rehearsed 3 times with a timer; every presenter can run the Tour without notes.
 - [ ] [M] Answers prepared for likely judge questions: "How much data?", "How accurate?", "What happens outside the data?", "Why physics and ML?", "Who would use this?", "What's next?"
 - [ ] [m] Bangla one-line pitch ready for local judges.
 
@@ -182,23 +184,56 @@ Per page — every listed state reachable and correct:
 
 ---
 
-## 16. Sign-off
+## 16. Bangladesh 2026 guide compliance (from the Participants Guide)
+
+Registration and team
+- [ ] [B] Bangladesh pre-registration complete and seat confirmed by the Rajshahi Local Lead (in writing).
+- [ ] [B] NASA team page: every member listed with photo and role; team photo added (no one under 18 recognisable).
+- [ ] [M] Women members listed on the NASA team page (women participation bonus +5%).
+- [ ] [B] Every member's age confirmed for 13–14 Nov. Any member under 18: registered by a parent/guardian, guardian present throughout, and no name, face or voice in any video or submission (credited as the Local Lead instructs).
+- [ ] [M] All three members registered on both the Bangladesh form and the NASA team page, each with a role.
+- [ ] [M] Plan A or Plan B chosen based on the Local Lead's written answer about preparing code early.
+
+Videos
+- [ ] [B] Video 2 (240 s) uploaded by **Fri 13 Nov 18:30**: YouTube link in the Google Form **and** file in the Local Lead's Drive folder.
+- [ ] [B] Video 2 contains: team name, every member's name, problem and challenge statement, solution, **working demo**, NASA datasets **named out loud**.
+- [ ] [B] Video 3 under 30 s, on the NASA project page by **Sat 14 Nov 09:00**; contains team name, all names, challenge, demo, NASA data usage.
+- [ ] [B] English subtitles burned into every demo video.
+- [ ] [B] No names, faces or voices of anyone under 18 in any video or submission.
+- [ ] [M] Every third-party or AI-generated asset in the videos credited, with the reason, in the description and on the NASA page.
+- [ ] [M] Each video length checked in the file properties (< 240 s, < 30 s). Over-length is cut off.
+
+NASA project page
+- [ ] [B] High-Level Summary includes the 240-s video link and the GitHub link.
+- [ ] [B] Use of AI names every tool, with prompts, reasoning and data (AI_USAGE.md linked).
+- [ ] [B] NASA data sources: each dataset with what it was used for and how.
+- [ ] [B] All three Project Details blocks filled; References complete.
+- [ ] [B] All links open in a private window; page **Submitted**.
+- [ ] [M] Partner-agency or third-party data shown clearly (NASA data usage 5/5).
+
+Score-sheet evidence
+- [ ] [M] Usability test with ≥ 5 non-developers done; results on Methods page and in video 2.
+- [ ] [M] Teamwork evidence: members named and visible in video 2 (under-18 rule permitting), commits from the team, MENTOR_NOTES.md kept.
+- [ ] [M] Every claim about NASA atmospheres, FM2, or flammability in the app/videos checked by `[LEAD]` against the NASA source.
+
+## 17. Sign-off
 
 | Area | Checked by | Date/time | Open Blockers | Open Majors |
 |---|---|---|---|---|
 | 1 Compliance | LEAD | | | |
-| 2 Data | SCI | | | |
-| 3 Science | SCI | | | |
+| 2 Data | LEAD | | | |
+| 3 Science | LEAD | | | |
 | 4 Models | LEAD | | | |
 | 5 UI | LEAD | | | |
 | 6 Accessibility | LEAD | | | |
 | 7 Responsive | LEAD | | | |
 | 8 Performance | LEAD | | | |
-| 9 Bangla | SCI + LEAD | | | |
-| 10 Ask | SCI | | | |
+| 9 Bangla | TEAM + LEAD | | | |
+| 10 Ask | LEAD | | | |
 | 11 Security | LEAD | | | |
 | 12 Reliability | LEAD | | | |
 | 13 Deploy | LEAD | | | |
-| 14 Submission | LEAD + SCI | | | |
+| 14 Submission | LEAD + TEAM | | | |
+| 16 Bangladesh guide | LEAD + TEAM | | | |
 
 Release rule: deploy the submission build only when the "Open Blockers" column is 0 everywhere and "Open Majors" is 0 or has a written exception.

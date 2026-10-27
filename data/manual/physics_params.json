@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "signed_off_by_sci": false,
+  "signed_off_by_lead": false,
   "gas": {
     "lambda_w_mk": null,
     "alpha_m2_s": null,

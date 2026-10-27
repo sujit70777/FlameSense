@@ -24,7 +24,7 @@ def fixture_params() -> dict:
     """A complete params dict with clean hand-computed fixture values."""
     return {
         "version": "1",
-        "signed_off_by_sci": False,
+        "signed_off_by_lead": False,
         "gas": {
             "lambda_w_mk": 0.04,
             "alpha_m2_s": 2.2e-5,
@@ -220,8 +220,8 @@ def test_load_params_template_file_and_missing_path() -> None:
     params = load_params(DATA_MANUAL / "physics_params.json")
     assert params is not None
     assert params["version"] == "1"
-    assert params["signed_off_by_sci"] is False
-    # Template has no invented values yet — everything SCI must fill is null.
+    assert params["signed_off_by_lead"] is False
+    # Template has no invented values yet — everything LEAD must fill is null.
     assert params["gas"]["lambda_w_mk"] is None
 
     assert load_params(Path("/nonexistent/physics_params.json")) is None
