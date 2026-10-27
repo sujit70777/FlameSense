@@ -30,7 +30,7 @@ Tick a box only after **testing it**, not after reading the code. Each item has 
 - [ ] [B] Every row has a non-empty `source_citation` and `source_file`.
 - [ ] [B] Unit conversions verified by `[LEAD]` on 5 random rows per source against the raw file (write the 5 run_ids checked in PROGRESS.md).
 - [ ] [M] Dropped-row counts and reasons logged for every source.
-- [ ] [M] Suspect rows are flagged, not deleted, and excluded from training.
+- [x] [M] Suspect rows are flagged, not deleted, and excluded from training.
 - [ ] [M] `docs/DATA_REPORT.md` numbers match the app (Home sentence, Explore count, Methods table).
 - [ ] [M] Digitized rows (`quality_flag=digitized`) double-checked by a second person for 10% of rows.
 - [ ] [m] Video-derived rows (if any) have QA plots with R² ≥ 0.95.

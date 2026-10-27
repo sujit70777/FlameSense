@@ -237,19 +237,65 @@ def cmd_physics_check(args: argparse.Namespace) -> None:
     print(f"Copied validated params to {out.relative_to(config.ROOT)}")
 
 
+def _load_features_frame():
+    """Read data/processed/runs_features.parquet or exit with a hint."""
+    import pandas as pd
+
+    from flamesense import config
+
+    src = config.DATA_PROCESSED / "runs_features.parquet"
+    if not src.exists():
+        print(f"Error: {src} not found. Run 'python -m flamesense.cli features' first.")
+        sys.exit(1)
+    return pd.read_parquet(src)
+
+
 def cmd_train(args: argparse.Namespace) -> None:
-    """Train LightGBM models with grouped CV."""
-    print("Not implemented yet (Phase 5)")
+    """Train LightGBM models with grouped CV → artifacts/."""
+    from flamesense import config
+    from flamesense.train import train_all
+
+    summaries = train_all(_load_features_frame(), config.ARTIFACTS)
+    for task, s in summaries.items():
+        if s["available"]:
+            print(f"{task}: trained on {s['n_rows']} rows, {s['n_groups']} group(s), "
+                  f"{len(s['features'])} features, CV {s['cv']}")
+        else:
+            print(f"{task}: unavailable — {s['reason']}")
+        print(f"  candidate rows {s['n_candidate_rows']}, "
+              f"dropped for missing features {s['n_dropped_missing']}")
+        for w in s["warnings"]:
+            print(f"  warning: {w}")
+    print(f"Wrote {(config.ARTIFACTS / 'train_summary.json').relative_to(config.ROOT)}")
 
 
 def cmd_export(args: argparse.Namespace) -> None:
     """Export models and data to app asset JSON files."""
-    print("Not implemented yet (Phase 5)")
+    from flamesense import config
+    from flamesense.export import export_all
+
+    written = export_all(_load_features_frame(), config.ARTIFACTS, config.APP_ASSETS_OUT)
+    for name, path in written.items():
+        print(f"  {name}: {path.stat().st_size / 1024:.1f} KB")
+    print(f"Exported {len(written)} file(s) to {config.APP_ASSETS_OUT.relative_to(config.ROOT)}")
 
 
 def cmd_evaluate(args: argparse.Namespace) -> None:
-    """Compute and export evaluation metrics."""
-    print("Not implemented yet (Phase 5)")
+    """Compute metrics.json, docs/MODEL_CARD.md and evaluation charts."""
+    from flamesense import config
+    from flamesense.evaluate import evaluate_all
+    from flamesense.export import write_json
+    from flamesense.model_card import load_json, write_charts, write_model_card
+
+    metrics = evaluate_all(_load_features_frame(), config.ARTIFACTS)
+    write_json(config.APP_ASSETS_OUT / "metrics.json", metrics, indent=1)
+    summaries = load_json(config.ARTIFACTS / "train_summary.json")
+    card = write_model_card(metrics, summaries, config.DOCS / "MODEL_CARD.md")
+    charts = write_charts(metrics, summaries, config.DOCS_IMG)
+    for task, m in metrics.items():
+        state = "available" if m["available"] else f"unavailable ({m['reason']})"
+        print(f"{task}: {state}")
+    print(f"Wrote metrics.json, {card.relative_to(config.ROOT)} and {len(charts)} chart(s)")
 
 
 def cmd_corpus(args: argparse.Namespace) -> None:

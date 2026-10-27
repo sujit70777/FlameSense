@@ -90,3 +90,50 @@ Updated at the end of every phase.
   - Confirm `NEAR_EXTINCTION_*` thresholds (QUESTIONS.md Q-1).
 - **Open questions:**
   - Q-1 (near-extinction thresholds) — agent-chosen, pending SCI.
+
+---
+
+## Plan update (2026-10-27)
+- Applied the revised PLAN/CLAUDE.md to finished phases: `[SCI]` → `[LEAD]`,
+  `signed_off_by_sci` → `signed_off_by_lead` in `physics.py`, `cli.py`, tests,
+  `physics_params.json`, `PHYSICS_SPEC.md` (sign-off line now
+  "Checked against sources by the lead (date)").
+- **Data status:** `data/raw/` and `data/manual/` contain no run data, and there is no
+  corpus, `missions.json`, `lessons_draft.md`, `DATA_SOURCES.md`, `CHALLENGE_REQUIREMENTS.md`
+  or `usability.csv` yet ([LEAD] Phase 0 inputs). Every later phase is built to run honestly
+  on 0 rows (unavailable/empty states) and picks up real data on the next `cli all`.
+
+---
+
+## Phase 5 — Train, evaluate, export models
+- **Date:** 2026-10-27
+- **What was built:**
+  - `train.py`: task row selection (sustain = rows with `ignited`; spread = rate > 0, solid
+    fuels), feature selection (< 40% missing, one-hots present), no imputation (dropped-row
+    count logged), availability thresholds (≥ 40 rows, ≥ 8 per class), GroupKFold(min(5, groups))
+    with (Stratified)KFold(5) fallback + warning when groups < 3, the exact PLAN LightGBM params,
+    OOF predictions, final models on all rows, logistic calibration of OOF raw scores.
+  - `evaluate.py` → `metrics.json` (§3.6, nulls instead of NaN, `available`/`reason` added);
+    `model_card.py` → `docs/MODEL_CARD.md` (honest "weak metrics" wording when weak) and
+    `docs/img/calibration.png`, `docs/img/spread_pred_vs_obs.png` (only for trained tasks).
+  - `export.py`: LightGBM `dump_model()` → `flamesense-trees-v1` (asserts numeric `<=` splits
+    only), pure-Python `eval_tree_model`, `feature_spec.json` (+ top-level `inputs`, Q-3),
+    `runs.json` (6 significant digits), `app_meta.json`, `support_index.json`,
+    `parity_fixtures.json` (50 random + 10 edge rows per model, expected values from
+    LightGBM's own predict), placeholder model files for unavailable tasks, copies
+    `physics_params.json`.
+  - `support.py`: standardized kNN support index with leave-one-out p50/p95.
+  - CLI `train`, `export`, `evaluate`; `config.ARTIFACTS`.
+- **Files changed:** `pipeline/src/flamesense/{train,export,evaluate,support,model_card,cli,config}.py`,
+  `pipeline/tests/test_phase5.py`, `pipeline/tests/fixtures/{__init__,fixture_synthetic}.py`,
+  `docs/MODEL_CARD.md`, `docs/QUESTIONS.md`, `app/assets/data/*.json`, `pipeline/out/app_assets/*.json`.
+- **Checks run & results:**
+  - `python -m flamesense.cli all`: PASSED end to end on the real (empty) data; both tasks
+    report "Only 0 usable row(s); at least 40 are required."; `metrics.json` has no NaN.
+  - `pytest pipeline/tests -q`: PASSED (50 passed). Parity |python − LightGBM| < 1e-9 on all
+    4 models × 60 rows, using synthetic fixture rows (tests only).
+  - `ruff check pipeline/src pipeline/tests/test_phase5.py pipeline/tests/fixtures`: clean.
+  - `scripts/sync_assets.sh`: copied 11 files to `app/assets/data/`.
+- **Environment note:** LightGBM needed `brew install libomp` on this Mac.
+- **Open questions:** Q-2 (monotone signs, pending LEAD), Q-3 (slider limits/defaults),
+  Q-4 (no monotone constraints for quantile objective).
