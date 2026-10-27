@@ -1,1 +1,2 @@
-// TODO: Phase 7 — Gravity constants and mapping.
+/// Gravity classes used for colors, chips and filters (DESIGN.md §10.2).
+enum GravityClass { micro, partial, earth }

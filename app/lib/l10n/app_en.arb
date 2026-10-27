@@ -1,7 +1,2552 @@
 {
   "@@locale": "en",
-  "appTitle": "FlameSense",
-  "@appTitle": {
-    "description": "App title"
+  "appName": "FlameSense",
+  "@appName": {
+    "description": "Product name"
+  },
+  "tagline": "See how fire behaves where \"up\" doesn't exist.",
+  "@tagline": {
+    "description": "Tagline §2.1"
+  },
+  "navHome": "Home",
+  "@navHome": {
+    "description": "Nav"
+  },
+  "navMissions": "Missions",
+  "@navMissions": {
+    "description": "Nav"
+  },
+  "navExplore": "Explore",
+  "@navExplore": {
+    "description": "Nav"
+  },
+  "navLab": "Fire Lab",
+  "@navLab": {
+    "description": "Nav"
+  },
+  "navMap": "Map",
+  "@navMap": {
+    "description": "Nav"
+  },
+  "navAsk": "Ask",
+  "@navAsk": {
+    "description": "Nav"
+  },
+  "navEarth": "Earth lessons",
+  "@navEarth": {
+    "description": "Nav"
+  },
+  "navMethods": "Methods",
+  "@navMethods": {
+    "description": "Nav"
+  },
+  "navAbout": "About",
+  "@navAbout": {
+    "description": "Nav"
+  },
+  "navMore": "More",
+  "@navMore": {
+    "description": "Nav"
+  },
+  "takeTour": "Take the tour",
+  "@takeTour": {
+    "description": "Top bar button"
+  },
+  "themeSystem": "Use system theme",
+  "@themeSystem": {
+    "description": "Theme"
+  },
+  "themeLight": "Light theme",
+  "@themeLight": {
+    "description": "Theme"
+  },
+  "themeDark": "Dark theme",
+  "@themeDark": {
+    "description": "Theme"
+  },
+  "themeSwitchTo": "Switch to {mode}",
+  "@themeSwitchTo": {
+    "description": "Theme toggle tooltip",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "langEnglish": "EN",
+  "@langEnglish": {
+    "description": "Language toggle"
+  },
+  "langBangla": "বাং",
+  "@langBangla": {
+    "description": "Language toggle"
+  },
+  "langLabel": "Language",
+  "@langLabel": {
+    "description": "Language menu label"
+  },
+  "menuOptions": "More options",
+  "@menuOptions": {
+    "description": "Compact top bar menu tooltip"
+  },
+  "disclaimer": "FlameSense is a research and education tool. It is not a certified fire-safety system and must not be used for operational safety decisions.",
+  "@disclaimer": {
+    "description": "Disclaimer §12"
+  },
+  "notAffiliated": "Not affiliated with or endorsed by NASA. Uses NASA open data.",
+  "@notAffiliated": {
+    "description": "Footer"
+  },
+  "credits": "Data: NASA open data. Code: Apache-2.0. Built for NASA Space Apps Challenge 2026, Rajshahi.",
+  "@credits": {
+    "description": "Footer"
+  },
+  "loadingData": "Loading NASA experiment data",
+  "@loadingData": {
+    "description": "Loading"
+  },
+  "loadErrorTitle": "FlameSense couldn't load its data",
+  "@loadErrorTitle": {
+    "description": "Global error"
+  },
+  "loadErrorBody": "The file {file} is missing or damaged. Reload the page. If this keeps happening, the deployment is incomplete.",
+  "@loadErrorBody": {
+    "description": "Global error",
+    "placeholders": {
+      "file": {
+        "type": "String"
+      }
+    }
+  },
+  "reload": "Reload",
+  "@reload": {
+    "description": "Button"
+  },
+  "tryAgain": "Try again",
+  "@tryAgain": {
+    "description": "Button"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Button"
+  },
+  "back": "Back",
+  "@back": {
+    "description": "Button"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Button"
+  },
+  "finish": "Finish",
+  "@finish": {
+    "description": "Button"
+  },
+  "exitTour": "Exit tour",
+  "@exitTour": {
+    "description": "Tooltip"
+  },
+  "linkCopied": "Link copied",
+  "@linkCopied": {
+    "description": "Toast"
+  },
+  "csvDownloaded": "CSV downloaded",
+  "@csvDownloaded": {
+    "description": "Toast"
+  },
+  "answerCopied": "Answer copied",
+  "@answerCopied": {
+    "description": "Toast"
+  },
+  "pageTitle": "{page} | FlameSense",
+  "@pageTitle": {
+    "description": "Browser tab title",
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "homePageTitle": "FlameSense: fire safety insights from NASA's space-station fire experiments",
+  "@homePageTitle": {
+    "description": "Home document title §15"
+  },
+  "valueYes": "Yes",
+  "@valueYes": {
+    "description": "Boolean"
+  },
+  "valueNo": "No",
+  "@valueNo": {
+    "description": "Boolean"
+  },
+  "notAvailable": "—",
+  "@notAvailable": {
+    "description": "Missing value"
+  },
+  "openInNewTab": "Opens in a new tab",
+  "@openInNewTab": {
+    "description": "Link semantics"
+  },
+  "dismiss": "Dismiss",
+  "@dismiss": {
+    "description": "Toast action"
+  },
+  "info": "More information",
+  "@info": {
+    "description": "Info button tooltip"
+  },
+  "gEarth": "Earth",
+  "@gEarth": {
+    "description": "Gravity label"
+  },
+  "gMars": "Mars",
+  "@gMars": {
+    "description": "Gravity label"
+  },
+  "gMoon": "Moon",
+  "@gMoon": {
+    "description": "Gravity label"
+  },
+  "gIss": "ISS orbit",
+  "@gIss": {
+    "description": "Gravity label"
+  },
+  "gCustom": "Custom",
+  "@gCustom": {
+    "description": "Gravity label"
+  },
+  "gravityValue": "{label} ({value} g)",
+  "@gravityValue": {
+    "description": "Gravity chip",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "gravityClassMicro": "Microgravity",
+  "@gravityClassMicro": {
+    "description": "Gravity class"
+  },
+  "gravityClassPartial": "Moon or Mars",
+  "@gravityClassPartial": {
+    "description": "Gravity class"
+  },
+  "gravityClassEarth": "Earth",
+  "@gravityClassEarth": {
+    "description": "Gravity class"
+  },
+  "unitMmS": "mm/s",
+  "@unitMmS": {
+    "description": "Unit"
+  },
+  "unitKpa": "kPa",
+  "@unitKpa": {
+    "description": "Unit"
+  },
+  "unitPercent": "%",
+  "@unitPercent": {
+    "description": "Unit"
+  },
+  "unitMm": "mm",
+  "@unitMm": {
+    "description": "Unit"
+  },
+  "unitKgM3": "kg/m³",
+  "@unitKgM3": {
+    "description": "Unit"
+  },
+  "unitKgM2": "kg/m²",
+  "@unitKgM2": {
+    "description": "Unit"
+  },
+  "unitMm2S": "mm²/s",
+  "@unitMm2S": {
+    "description": "Unit"
+  },
+  "unitG": "g",
+  "@unitG": {
+    "description": "Unit"
+  },
+  "unitSeconds": "s",
+  "@unitSeconds": {
+    "description": "Unit"
+  },
+  "featO2": "Oxygen",
+  "@featO2": {
+    "description": "Feature"
+  },
+  "featPressure": "Pressure",
+  "@featPressure": {
+    "description": "Feature"
+  },
+  "featFlow": "Airflow",
+  "@featFlow": {
+    "description": "Feature"
+  },
+  "featGravity": "Gravity",
+  "@featGravity": {
+    "description": "Feature"
+  },
+  "featThickness": "Thickness",
+  "@featThickness": {
+    "description": "Feature"
+  },
+  "featDensity": "Density",
+  "@featDensity": {
+    "description": "Feature"
+  },
+  "featFuelClass": "Material type",
+  "@featFuelClass": {
+    "description": "Feature"
+  },
+  "featFlowDir": "Airflow direction",
+  "@featFlowDir": {
+    "description": "Feature"
+  },
+  "featDiluent": "Diluent gas",
+  "@featDiluent": {
+    "description": "Feature"
+  },
+  "featO2Partial": "Oxygen partial pressure",
+  "@featO2Partial": {
+    "description": "Derived feature"
+  },
+  "featLogFlow": "Airflow (log scale)",
+  "@featLogFlow": {
+    "description": "Derived feature"
+  },
+  "featLogGravity": "Gravity (log scale)",
+  "@featLogGravity": {
+    "description": "Derived feature"
+  },
+  "featArealDensity": "Areal density",
+  "@featArealDensity": {
+    "description": "Derived feature"
+  },
+  "fuelThinSolid": "Thin solid",
+  "@fuelThinSolid": {
+    "description": "Fuel class"
+  },
+  "fuelThickSolid": "Thick solid",
+  "@fuelThickSolid": {
+    "description": "Fuel class"
+  },
+  "fuelDroplet": "Fuel droplet",
+  "@fuelDroplet": {
+    "description": "Fuel class"
+  },
+  "fuelGasJet": "Gas jet",
+  "@fuelGasJet": {
+    "description": "Fuel class"
+  },
+  "fuelOther": "Other",
+  "@fuelOther": {
+    "description": "Fuel class"
+  },
+  "dirOpposed": "Opposed",
+  "@dirOpposed": {
+    "description": "Flow direction"
+  },
+  "dirConcurrent": "Concurrent",
+  "@dirConcurrent": {
+    "description": "Flow direction"
+  },
+  "dirQuiescent": "None",
+  "@dirQuiescent": {
+    "description": "Flow direction"
+  },
+  "dirOther": "Other",
+  "@dirOther": {
+    "description": "Flow direction"
+  },
+  "diluentN2": "Nitrogen",
+  "@diluentN2": {
+    "description": "Diluent"
+  },
+  "diluentHe": "Helium",
+  "@diluentHe": {
+    "description": "Diluent"
+  },
+  "diluentCo2": "Carbon dioxide",
+  "@diluentCo2": {
+    "description": "Diluent"
+  },
+  "diluentOther": "Other",
+  "@diluentOther": {
+    "description": "Diluent"
+  },
+  "platformIss": "ISS",
+  "@platformIss": {
+    "description": "Platform"
+  },
+  "platformFreeFlyer": "Free flyer",
+  "@platformFreeFlyer": {
+    "description": "Platform"
+  },
+  "platformDropTower": "Drop tower",
+  "@platformDropTower": {
+    "description": "Platform"
+  },
+  "platformParabolic": "Parabolic flight",
+  "@platformParabolic": {
+    "description": "Platform"
+  },
+  "platformGround": "Ground",
+  "@platformGround": {
+    "description": "Platform"
+  },
+  "qualityOk": "Measured",
+  "@qualityOk": {
+    "description": "Quality flag"
+  },
+  "qualityEstimated": "Estimated",
+  "@qualityEstimated": {
+    "description": "Quality flag"
+  },
+  "qualityDigitized": "Digitized",
+  "@qualityDigitized": {
+    "description": "Quality flag"
+  },
+  "qualityVideoDerived": "Video-derived",
+  "@qualityVideoDerived": {
+    "description": "Quality flag"
+  },
+  "qualitySuspect": "Flagged",
+  "@qualitySuspect": {
+    "description": "Quality flag"
+  },
+  "supportHigh": "Data support: high",
+  "@supportHigh": {
+    "description": "Badge"
+  },
+  "supportMedium": "Data support: medium",
+  "@supportMedium": {
+    "description": "Badge"
+  },
+  "supportLow": "Data support: low",
+  "@supportLow": {
+    "description": "Badge"
+  },
+  "supportHighTip": "Many NASA test runs were done near these conditions.",
+  "@supportHighTip": {
+    "description": "Badge tooltip"
+  },
+  "supportMediumTip": "Some NASA test runs are near these conditions. Treat the prediction as approximate.",
+  "@supportMediumTip": {
+    "description": "Badge tooltip"
+  },
+  "supportLowTip": "Few or no NASA test runs are near these conditions. This is an extrapolation.",
+  "@supportLowTip": {
+    "description": "Badge tooltip"
+  },
+  "supportShortHigh": "high",
+  "@supportShortHigh": {
+    "description": "Compact badge"
+  },
+  "supportShortMedium": "med",
+  "@supportShortMedium": {
+    "description": "Compact badge"
+  },
+  "supportShortLow": "low",
+  "@supportShortLow": {
+    "description": "Compact badge"
+  },
+  "askErrRate": "Too many questions in a short time. Try again in {minutes} min.",
+  "@askErrRate": {
+    "description": "Ask error",
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "askErrUpstream": "The answer service didn't respond. Try again, or pick a suggested question; those answers are saved.",
+  "@askErrUpstream": {
+    "description": "Ask error"
+  },
+  "askErrOffline": "You're offline. Suggested questions still work.",
+  "@askErrOffline": {
+    "description": "Ask error"
+  },
+  "askErrInvalid": "Write a question between 3 and 500 characters.",
+  "@askErrInvalid": {
+    "description": "Ask error"
+  },
+  "askErrServer": "Something went wrong on the server. Try again in a minute.",
+  "@askErrServer": {
+    "description": "Ask error"
+  },
+  "numErrRange": "Enter a number between {min} and {max}.",
+  "@numErrRange": {
+    "description": "Numeric field error",
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "noticeOutside": "{feature} is outside the range NASA tested ({min}–{max} {unit}). The prediction is an extrapolation.",
+  "@noticeOutside": {
+    "description": "Lab notice",
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      },
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "noticeLowSupport": "Few NASA test runs are near these conditions. Use this as a rough estimate.",
+  "@noticeLowSupport": {
+    "description": "Lab notice"
+  },
+  "noticePartialG": "NASA has little or no fire data at Moon or Mars gravity. Predictions here are extrapolations between Earth and orbit. This is a real research gap.",
+  "@noticePartialG": {
+    "description": "Lab notice"
+  },
+  "noticeUnavailable": "There isn't enough NASA data to predict {output} reliably, so FlameSense doesn't show one.",
+  "@noticeUnavailable": {
+    "description": "Lab notice",
+    "placeholders": {
+      "output": {
+        "type": "String"
+      }
+    }
+  },
+  "noticeOneExperiment": "All runs come from one experiment, so comparisons across experiments aren't possible yet.",
+  "@noticeOneExperiment": {
+    "description": "Explore notice"
+  },
+  "noticeQuantiles": "The three spread-rate models crossed, so their values were put back in order.",
+  "@noticeQuantiles": {
+    "description": "Debug-only notice"
+  },
+  "outputSustain": "the chance a flame keeps burning",
+  "@outputSustain": {
+    "description": "Output name for noticeUnavailable"
+  },
+  "outputSpread": "the flame spread rate",
+  "@outputSpread": {
+    "description": "Output name"
+  },
+  "mapGapNotice": "No NASA fire tests at {body} gravity are in this dataset ({n} runs). The colors here are extrapolated, which is why most of the map is hatched. Filling this gap matters for Artemis and future Mars missions.",
+  "@mapGapNotice": {
+    "description": "Map notice",
+    "placeholders": {
+      "body": {
+        "type": "String"
+      },
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "physicsNotApplicable": "The physics check covers thin materials in opposing airflow. These conditions are outside it.",
+  "@physicsNotApplicable": {
+    "description": "Physics card"
+  },
+  "physicsNearExt": "Near extinction the simple theory over-predicts spread. Trust the data-driven prediction more here.",
+  "@physicsNearExt": {
+    "description": "Physics card"
+  },
+  "physicsUnavailable": "The physics check is switched off until its parameters are verified.",
+  "@physicsUnavailable": {
+    "description": "Physics card"
+  },
+  "homeHeadline": "Fire has no \"up\" in space.",
+  "@homeHeadline": {
+    "description": "Home"
+  },
+  "homeSubhead": "On Earth, rising hot air stretches a flame into a teardrop. On the space station nothing rises, so flames turn round, blue and slow. FlameSense turns NASA's space-station fire experiments into predictions you can explore.",
+  "@homeSubhead": {
+    "description": "Home"
+  },
+  "homeCtaLab": "Open the Fire Lab",
+  "@homeCtaLab": {
+    "description": "Home CTA"
+  },
+  "homeDataSentence": "Built on {runs} test runs from {experiments} NASA experiments across {fuels} materials.",
+  "@homeDataSentence": {
+    "description": "Home",
+    "placeholders": {
+      "runs": {
+        "type": "String"
+      },
+      "experiments": {
+        "type": "String"
+      },
+      "fuels": {
+        "type": "String"
+      }
+    }
+  },
+  "homeDataPending": "NASA test runs are being added to the dataset. Predictions appear once enough runs are in.",
+  "@homeDataPending": {
+    "description": "Home, when the dataset is empty (TODO(Q-5))"
+  },
+  "homeEarthFlame": "Earth",
+  "@homeEarthFlame": {
+    "description": "Chamber label"
+  },
+  "homeYourGravity": "Your gravity",
+  "@homeYourGravity": {
+    "description": "Chamber label"
+  },
+  "homeBuoyantFlow": "Buoyant airflow",
+  "@homeBuoyantFlow": {
+    "description": "Readout"
+  },
+  "homePredictedSpread": "Predicted spread",
+  "@homePredictedSpread": {
+    "description": "Readout"
+  },
+  "homeNextTitle": "Where to go next",
+  "@homeNextTitle": {
+    "description": "Home"
+  },
+  "homeNextMissions": "Plan for a mission",
+  "@homeNextMissions": {
+    "description": "Home row"
+  },
+  "homeNextMissionsDesc": "Which materials could burn in a Moon habitat",
+  "@homeNextMissionsDesc": {
+    "description": "Home row"
+  },
+  "homeNextExplore": "Explore the experiments",
+  "@homeNextExplore": {
+    "description": "Home row"
+  },
+  "homeNextExploreDesc": "Every run, filterable, with its NASA source",
+  "@homeNextExploreDesc": {
+    "description": "Home row"
+  },
+  "homeNextMap": "See the flammability map",
+  "@homeNextMap": {
+    "description": "Home row"
+  },
+  "homeNextMapDesc": "Where flames survive, by oxygen and airflow",
+  "@homeNextMapDesc": {
+    "description": "Home row"
+  },
+  "homeNextAsk": "Ask the NASA papers",
+  "@homeNextAsk": {
+    "description": "Home row"
+  },
+  "homeNextAskDesc": "Answers with citations",
+  "@homeNextAskDesc": {
+    "description": "Home row"
+  },
+  "homeNextEarth": "Lessons for Earth",
+  "@homeNextEarth": {
+    "description": "Home row"
+  },
+  "homeNextEarthDesc": "What space fires teach us about safety here",
+  "@homeNextEarthDesc": {
+    "description": "Home row"
+  },
+  "flameSemantics": "Flame at {label}. {shape}",
+  "@flameSemantics": {
+    "description": "Flame a11y",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "flameShapeEarth": "An orange teardrop stretched upward by rising hot air.",
+  "@flameShapeEarth": {
+    "description": "Flame a11y"
+  },
+  "flameShapeSpace": "A dim blue sphere: nothing rises without gravity.",
+  "@flameShapeSpace": {
+    "description": "Flame a11y"
+  },
+  "flameShapeMid": "Rounder and bluer than on Earth, with weaker buoyancy.",
+  "@flameShapeMid": {
+    "description": "Flame a11y"
+  },
+  "exploreTitle": "Explore the experiments",
+  "@exploreTitle": {
+    "description": "Explore"
+  },
+  "exploreDesc": "Every NASA test run FlameSense uses, in one table. Each row links to its source.",
+  "@exploreDesc": {
+    "description": "Explore"
+  },
+  "filterExperiment": "Experiment",
+  "@filterExperiment": {
+    "description": "Filter"
+  },
+  "filterPlatform": "Platform",
+  "@filterPlatform": {
+    "description": "Filter"
+  },
+  "filterFuelClass": "Material type",
+  "@filterFuelClass": {
+    "description": "Filter"
+  },
+  "filterGravity": "Gravity",
+  "@filterGravity": {
+    "description": "Filter"
+  },
+  "filterO2": "Oxygen range",
+  "@filterO2": {
+    "description": "Filter"
+  },
+  "filterPressure": "Pressure range",
+  "@filterPressure": {
+    "description": "Filter"
+  },
+  "filterQuality": "Quality",
+  "@filterQuality": {
+    "description": "Filter"
+  },
+  "qualityIncEstimated": "Include estimated",
+  "@qualityIncEstimated": {
+    "description": "Filter"
+  },
+  "qualityIncDigitized": "Include digitized",
+  "@qualityIncDigitized": {
+    "description": "Filter"
+  },
+  "qualityIncVideo": "Include video-derived",
+  "@qualityIncVideo": {
+    "description": "Filter"
+  },
+  "qualityIncFlagged": "Include flagged",
+  "@qualityIncFlagged": {
+    "description": "Filter"
+  },
+  "filterAll": "All",
+  "@filterAll": {
+    "description": "Filter"
+  },
+  "filtersButton": "Filters",
+  "@filtersButton": {
+    "description": "Compact filter button"
+  },
+  "filterApply": "Apply",
+  "@filterApply": {
+    "description": "Range dialog"
+  },
+  "filterRangeValue": "{min}–{max} {unit}",
+  "@filterRangeValue": {
+    "description": "Range chip",
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "exploreShowing": "Showing {shown} of {total} runs",
+  "@exploreShowing": {
+    "description": "Explore count",
+    "placeholders": {
+      "shown": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "exploreClear": "Clear filters",
+  "@exploreClear": {
+    "description": "Explore"
+  },
+  "exploreDownload": "Download CSV",
+  "@exploreDownload": {
+    "description": "Explore"
+  },
+  "exploreTabSpread": "Spread vs oxygen",
+  "@exploreTabSpread": {
+    "description": "Chart tab"
+  },
+  "exploreTabBurning": "Burning vs airflow",
+  "@exploreTabBurning": {
+    "description": "Chart tab"
+  },
+  "exploreTabRuns": "Runs per experiment",
+  "@exploreTabRuns": {
+    "description": "Chart tab"
+  },
+  "exploreEmptyTitle": "No runs match these filters",
+  "@exploreEmptyTitle": {
+    "description": "Empty"
+  },
+  "exploreEmptyBody": "Widen the oxygen or pressure range, or include more experiments.",
+  "@exploreEmptyBody": {
+    "description": "Empty"
+  },
+  "exploreNoDataTitle": "No NASA runs loaded yet",
+  "@exploreNoDataTitle": {
+    "description": "Empty dataset (TODO(Q-5))"
+  },
+  "exploreNoDataBody": "Runs appear here once their NASA source files are added to the dataset.",
+  "@exploreNoDataBody": {
+    "description": "Empty dataset"
+  },
+  "chartNoPoints": "No runs with these values to plot.",
+  "@chartNoPoints": {
+    "description": "Empty chart"
+  },
+  "colRun": "Run",
+  "@colRun": {
+    "description": "Table"
+  },
+  "colExperiment": "Experiment",
+  "@colExperiment": {
+    "description": "Table"
+  },
+  "colFuel": "Fuel",
+  "@colFuel": {
+    "description": "Table"
+  },
+  "colO2": "O₂ (%)",
+  "@colO2": {
+    "description": "Table"
+  },
+  "colPressure": "Pressure (kPa)",
+  "@colPressure": {
+    "description": "Table"
+  },
+  "colFlow": "Airflow (mm/s)",
+  "@colFlow": {
+    "description": "Table"
+  },
+  "colGravity": "Gravity (g)",
+  "@colGravity": {
+    "description": "Table"
+  },
+  "colOutcome": "Outcome",
+  "@colOutcome": {
+    "description": "Table"
+  },
+  "colSpread": "Spread (mm/s)",
+  "@colSpread": {
+    "description": "Table"
+  },
+  "colQuality": "Quality",
+  "@colQuality": {
+    "description": "Table"
+  },
+  "sortBy": "Sort by {column}",
+  "@sortBy": {
+    "description": "Table header semantics",
+    "placeholders": {
+      "column": {
+        "type": "String"
+      }
+    }
+  },
+  "axisO2": "Oxygen (%)",
+  "@axisO2": {
+    "description": "Chart axis"
+  },
+  "axisSpread": "Spread rate (mm/s, log scale)",
+  "@axisSpread": {
+    "description": "Chart axis"
+  },
+  "axisFlow": "Airflow (mm/s, log scale)",
+  "@axisFlow": {
+    "description": "Chart axis"
+  },
+  "axisRuns": "Runs",
+  "@axisRuns": {
+    "description": "Chart axis"
+  },
+  "chartSpreadSummary": "Scatter of {n} runs: flame spread rate against oxygen, colored by gravity class.",
+  "@chartSpreadSummary": {
+    "description": "Chart semantics",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "chartBurningSummary": "Strip chart of {n} runs against airflow: {kept} kept burning, {out} went out.",
+  "@chartBurningSummary": {
+    "description": "Chart semantics",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "kept": {
+        "type": "String"
+      },
+      "out": {
+        "type": "String"
+      }
+    }
+  },
+  "chartRunsSummary": "Bar chart of {n} runs across {experiments} experiments.",
+  "@chartRunsSummary": {
+    "description": "Chart semantics",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "experiments": {
+        "type": "String"
+      }
+    }
+  },
+  "runTitle": "Run {id}",
+  "@runTitle": {
+    "description": "Run detail",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "runKeptBurning": "Kept burning",
+  "@runKeptBurning": {
+    "description": "Outcome"
+  },
+  "runWentOut": "Went out",
+  "@runWentOut": {
+    "description": "Outcome"
+  },
+  "runNoIgnition": "Did not ignite",
+  "@runNoIgnition": {
+    "description": "Outcome"
+  },
+  "runUnknownOutcome": "Outcome not recorded",
+  "@runUnknownOutcome": {
+    "description": "Outcome"
+  },
+  "runOpenSource": "Open source",
+  "@runOpenSource": {
+    "description": "Run detail"
+  },
+  "runLoadLab": "Load these conditions in the Fire Lab",
+  "@runLoadLab": {
+    "description": "Run detail"
+  },
+  "runSource": "Source",
+  "@runSource": {
+    "description": "Run detail"
+  },
+  "fieldGroup": "Test series",
+  "@fieldGroup": {
+    "description": "Field"
+  },
+  "fieldExperiment": "Experiment",
+  "@fieldExperiment": {
+    "description": "Field"
+  },
+  "fieldPlatform": "Platform",
+  "@fieldPlatform": {
+    "description": "Field"
+  },
+  "fieldGravity": "Gravity",
+  "@fieldGravity": {
+    "description": "Field"
+  },
+  "fieldFuelName": "Material",
+  "@fieldFuelName": {
+    "description": "Field"
+  },
+  "fieldFuelClass": "Material type",
+  "@fieldFuelClass": {
+    "description": "Field"
+  },
+  "fieldThickness": "Thickness",
+  "@fieldThickness": {
+    "description": "Field"
+  },
+  "fieldDensity": "Density",
+  "@fieldDensity": {
+    "description": "Field"
+  },
+  "fieldO2": "Oxygen",
+  "@fieldO2": {
+    "description": "Field"
+  },
+  "fieldPressure": "Pressure",
+  "@fieldPressure": {
+    "description": "Field"
+  },
+  "fieldDiluent": "Diluent gas",
+  "@fieldDiluent": {
+    "description": "Field"
+  },
+  "fieldFlow": "Airflow",
+  "@fieldFlow": {
+    "description": "Field"
+  },
+  "fieldFlowDir": "Airflow direction",
+  "@fieldFlowDir": {
+    "description": "Field"
+  },
+  "fieldIgnited": "Ignited",
+  "@fieldIgnited": {
+    "description": "Field"
+  },
+  "fieldSustained": "Kept burning",
+  "@fieldSustained": {
+    "description": "Field"
+  },
+  "fieldSpread": "Flame spread rate",
+  "@fieldSpread": {
+    "description": "Field"
+  },
+  "fieldBurningRate": "Burning-rate constant",
+  "@fieldBurningRate": {
+    "description": "Field"
+  },
+  "fieldExtinction": "Extinction reason",
+  "@fieldExtinction": {
+    "description": "Field"
+  },
+  "fieldSourceFile": "Source file",
+  "@fieldSourceFile": {
+    "description": "Field"
+  },
+  "fieldQuality": "Quality",
+  "@fieldQuality": {
+    "description": "Field"
+  },
+  "fieldNotes": "Notes",
+  "@fieldNotes": {
+    "description": "Field"
+  },
+  "labTitle": "Fire Lab",
+  "@labTitle": {
+    "description": "Lab"
+  },
+  "labDesc": "Set the conditions of a fire test and see what NASA's data predicts.",
+  "@labDesc": {
+    "description": "Lab"
+  },
+  "labConditions": "Conditions",
+  "@labConditions": {
+    "description": "Panel"
+  },
+  "labPrediction": "Prediction",
+  "@labPrediction": {
+    "description": "Panel"
+  },
+  "labMaterial": "Material",
+  "@labMaterial": {
+    "description": "Dropdown"
+  },
+  "labMaterialCustom": "Custom",
+  "@labMaterialCustom": {
+    "description": "Dropdown"
+  },
+  "labMaterialSummary": "{fuelClass}, {thickness} mm",
+  "@labMaterialSummary": {
+    "description": "Dropdown",
+    "placeholders": {
+      "fuelClass": {
+        "type": "String"
+      },
+      "thickness": {
+        "type": "String"
+      }
+    }
+  },
+  "labMarkerSeaLevel": "Sea level 101.3 kPa",
+  "@labMarkerSeaLevel": {
+    "description": "Slider marker"
+  },
+  "labMarkerEarthAir": "Earth air 21%",
+  "@labMarkerEarthAir": {
+    "description": "Slider marker"
+  },
+  "labReset": "Reset to defaults",
+  "@labReset": {
+    "description": "Button"
+  },
+  "labCopyLink": "Copy link to this setup",
+  "@labCopyLink": {
+    "description": "Button"
+  },
+  "labCompare": "Compare with Earth",
+  "@labCompare": {
+    "description": "Toggle"
+  },
+  "labGaugeCaption": "chance the flame keeps burning",
+  "@labGaugeCaption": {
+    "description": "Gauge"
+  },
+  "labGoesOut": "Goes out",
+  "@labGoesOut": {
+    "description": "Gauge end"
+  },
+  "labKeepsBurning": "Keeps burning",
+  "@labKeepsBurning": {
+    "description": "Gauge end"
+  },
+  "labGaugeUnavailable": "Not enough data to predict this",
+  "@labGaugeUnavailable": {
+    "description": "Gauge"
+  },
+  "labGaugeSemantics": "Chance the flame keeps burning: {pct} percent.",
+  "@labGaugeSemantics": {
+    "description": "Gauge a11y",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "labChanceLabel": "Chance it keeps burning",
+  "@labChanceLabel": {
+    "description": "Readout label"
+  },
+  "labSpreadTitle": "Flame spread rate",
+  "@labSpreadTitle": {
+    "description": "Spread band"
+  },
+  "labRange80": "80% range: {low} to {high} mm/s",
+  "@labRange80": {
+    "description": "Spread",
+    "placeholders": {
+      "low": {
+        "type": "String"
+      },
+      "high": {
+        "type": "String"
+      }
+    }
+  },
+  "labSpreadSemantics": "Flame spread rate {mid} millimetres per second, 80% range {low} to {high}.",
+  "@labSpreadSemantics": {
+    "description": "Spread a11y",
+    "placeholders": {
+      "mid": {
+        "type": "String"
+      },
+      "low": {
+        "type": "String"
+      },
+      "high": {
+        "type": "String"
+      }
+    }
+  },
+  "labEffectiveFlow": "Effective airflow",
+  "@labEffectiveFlow": {
+    "description": "Readout"
+  },
+  "labEffectiveFlowCaption": "(forced {forced} + buoyant {buoyant})",
+  "@labEffectiveFlowCaption": {
+    "description": "Readout",
+    "placeholders": {
+      "forced": {
+        "type": "String"
+      },
+      "buoyant": {
+        "type": "String"
+      }
+    }
+  },
+  "labEffectiveFlowForcedOnly": "(forced airflow only; the buoyant part needs the physics check)",
+  "@labEffectiveFlowForcedOnly": {
+    "description": "Readout"
+  },
+  "labSensTitle": "What moves the risk",
+  "@labSensTitle": {
+    "description": "Sensitivity"
+  },
+  "labSensCaption": "Each row nudges one setting by 10% of its range and keeps the rest fixed.",
+  "@labSensCaption": {
+    "description": "Sensitivity"
+  },
+  "labSensRow": "Raising {feature} by {delta}: {change}",
+  "@labSensRow": {
+    "description": "Sensitivity row",
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      },
+      "delta": {
+        "type": "String"
+      },
+      "change": {
+        "type": "String"
+      }
+    }
+  },
+  "labSensPoints": "{value} points",
+  "@labSensPoints": {
+    "description": "Sensitivity change",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "labSensMmS": "{value} mm/s",
+  "@labSensMmS": {
+    "description": "Sensitivity change",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "labSensEmpty": "Sensitivity appears once a prediction is available.",
+  "@labSensEmpty": {
+    "description": "Sensitivity"
+  },
+  "labPhysicsTitle": "Physics check",
+  "@labPhysicsTitle": {
+    "description": "Physics card"
+  },
+  "labPhysicsPredicts": "Thin-fuel theory predicts",
+  "@labPhysicsPredicts": {
+    "description": "Physics"
+  },
+  "labPhysicsLower": "ML prediction is {pct}% lower, as expected near extinction, where the simple theory over-predicts.",
+  "@labPhysicsLower": {
+    "description": "Physics",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "labPhysicsHigher": "ML prediction is {pct}% higher than the simple theory.",
+  "@labPhysicsHigher": {
+    "description": "Physics",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "labPhysicsSeeEquation": "See the equation",
+  "@labPhysicsSeeEquation": {
+    "description": "Physics"
+  },
+  "labCompareYourG": "At your gravity",
+  "@labCompareYourG": {
+    "description": "Compare"
+  },
+  "labCompareEarth": "On Earth (1 g)",
+  "@labCompareEarth": {
+    "description": "Compare"
+  },
+  "labDeltaMore": "{n} points more likely to keep burning on Earth",
+  "@labDeltaMore": {
+    "description": "Compare",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "labDeltaLess": "{n} points less likely to keep burning on Earth",
+  "@labDeltaLess": {
+    "description": "Compare",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "labDeltaSame": "Equally likely to keep burning on Earth",
+  "@labDeltaSame": {
+    "description": "Compare"
+  },
+  "labDeltaFaster": "×{ratio} faster on Earth",
+  "@labDeltaFaster": {
+    "description": "Compare",
+    "placeholders": {
+      "ratio": {
+        "type": "String"
+      }
+    }
+  },
+  "labDeltaSlower": "×{ratio} slower on Earth",
+  "@labDeltaSlower": {
+    "description": "Compare (TODO(Q-5))",
+    "placeholders": {
+      "ratio": {
+        "type": "String"
+      }
+    }
+  },
+  "labSticky": "{pct}% keeps burning, {spread} mm/s",
+  "@labSticky": {
+    "description": "Compact sticky bar",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      },
+      "spread": {
+        "type": "String"
+      }
+    }
+  },
+  "labStickyNoSpread": "{pct}% keeps burning",
+  "@labStickyNoSpread": {
+    "description": "Compact sticky bar",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "sliderSemantics": "{value} {unit}",
+  "@sliderSemantics": {
+    "description": "Slider a11y value",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "sliderPercentSemantics": "{value} percent",
+  "@sliderPercentSemantics": {
+    "description": "Slider a11y value",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "numberFieldLabel": "{feature} value",
+  "@numberFieldLabel": {
+    "description": "Number field a11y",
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    }
+  },
+  "mapTitle": "Flammability map",
+  "@mapTitle": {
+    "description": "Map"
+  },
+  "mapDesc": "How likely a flame is to keep burning across oxygen levels and airflow speeds.",
+  "@mapDesc": {
+    "description": "Map"
+  },
+  "mapLegendLow": "Likely to go out",
+  "@mapLegendLow": {
+    "description": "Legend"
+  },
+  "mapLegendHigh": "Likely to keep burning",
+  "@mapLegendHigh": {
+    "description": "Legend"
+  },
+  "mapHatch": "Little or no NASA data here",
+  "@mapHatch": {
+    "description": "Legend"
+  },
+  "mapOpenLab": "Open in Fire Lab",
+  "@mapOpenLab": {
+    "description": "Inspector"
+  },
+  "mapOverlays": "Overlays",
+  "@mapOverlays": {
+    "description": "Controls"
+  },
+  "mapOverlayRuns": "NASA runs",
+  "@mapOverlayRuns": {
+    "description": "Overlay chip"
+  },
+  "mapOverlayContour": "50% line",
+  "@mapOverlayContour": {
+    "description": "Overlay chip"
+  },
+  "mapContourLabel": "50%",
+  "@mapContourLabel": {
+    "description": "Contour label"
+  },
+  "mapInspectorHint": "Hover a cell",
+  "@mapInspectorHint": {
+    "description": "Inspector"
+  },
+  "mapInspectorTapHint": "Tap a cell",
+  "@mapInspectorTapHint": {
+    "description": "Inspector"
+  },
+  "mapCellProb": "{pct}% keeps burning",
+  "@mapCellProb": {
+    "description": "Inspector",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "mapPinned": "Pinned",
+  "@mapPinned": {
+    "description": "Inspector"
+  },
+  "mapKeptBurning": "kept burning",
+  "@mapKeptBurning": {
+    "description": "Legend"
+  },
+  "mapWentOut": "went out",
+  "@mapWentOut": {
+    "description": "Legend"
+  },
+  "mapSettings": "Map settings",
+  "@mapSettings": {
+    "description": "Compact sheet"
+  },
+  "mapPressureValue": "Pressure {value} kPa",
+  "@mapPressureValue": {
+    "description": "Control",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "mapGravityValue": "Gravity: {label}",
+  "@mapGravityValue": {
+    "description": "Control",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "mapEmptyTitle": "Not enough data to draw the map",
+  "@mapEmptyTitle": {
+    "description": "Empty"
+  },
+  "mapEmptyBody": "FlameSense needs at least 40 NASA runs with a known outcome. You can still see every run that exists.",
+  "@mapEmptyBody": {
+    "description": "Empty"
+  },
+  "mapEmptyCta": "Show the runs in Explore",
+  "@mapEmptyCta": {
+    "description": "Empty"
+  },
+  "mapSemantics": "Heatmap of the chance a flame keeps burning, oxygen {o2min} to {o2max} percent against airflow {fmin} to {fmax} mm/s. {low} of {total} cells have little NASA data.",
+  "@mapSemantics": {
+    "description": "Map a11y",
+    "placeholders": {
+      "o2min": {
+        "type": "String"
+      },
+      "o2max": {
+        "type": "String"
+      },
+      "fmin": {
+        "type": "String"
+      },
+      "fmax": {
+        "type": "String"
+      },
+      "low": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "askTitle": "Ask the NASA papers",
+  "@askTitle": {
+    "description": "Ask"
+  },
+  "askDesc": "Answers come only from the NASA documents FlameSense has read. Every sentence cites its source.",
+  "@askDesc": {
+    "description": "Ask"
+  },
+  "askSuggested": "Suggested questions",
+  "@askSuggested": {
+    "description": "Ask"
+  },
+  "askQ1": "Why are flames round in microgravity?",
+  "@askQ1": {
+    "description": "Q"
+  },
+  "askQ2": "Can a material burn in space but not on Earth?",
+  "@askQ2": {
+    "description": "Q"
+  },
+  "askQ3": "What did NASA's Saffire experiments test?",
+  "@askQ3": {
+    "description": "Q"
+  },
+  "askQ4": "How does airflow affect flame spread in microgravity?",
+  "@askQ4": {
+    "description": "Q"
+  },
+  "askQ5": "Why are flames in space blue?",
+  "@askQ5": {
+    "description": "Q"
+  },
+  "askQ6": "How is spacecraft material flammability tested?",
+  "@askQ6": {
+    "description": "Q"
+  },
+  "askPlaceholder": "Ask about fire in microgravity",
+  "@askPlaceholder": {
+    "description": "Ask"
+  },
+  "askInputLabel": "Your question",
+  "@askInputLabel": {
+    "description": "Ask a11y"
+  },
+  "askButton": "Ask",
+  "@askButton": {
+    "description": "Ask"
+  },
+  "askCounter": "{n} / 500",
+  "@askCounter": {
+    "description": "Ask",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "askGrounded": "Answered from NASA sources",
+  "@askGrounded": {
+    "description": "Ask status"
+  },
+  "askNotGrounded": "Not found in FlameSense's NASA sources",
+  "@askNotGrounded": {
+    "description": "Ask status"
+  },
+  "askSaved": "Saved answer",
+  "@askSaved": {
+    "description": "Ask tag"
+  },
+  "askSearching": "Searching NASA documents",
+  "@askSearching": {
+    "description": "Ask"
+  },
+  "askCopy": "Copy answer",
+  "@askCopy": {
+    "description": "Ask"
+  },
+  "askOpenDoc": "Open document",
+  "@askOpenDoc": {
+    "description": "Ask"
+  },
+  "askSources": "Sources",
+  "@askSources": {
+    "description": "Ask"
+  },
+  "askPage": "Page {n}",
+  "@askPage": {
+    "description": "Ask",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "askEarlier": "Earlier questions",
+  "@askEarlier": {
+    "description": "Ask"
+  },
+  "askRelated": "Try a related question",
+  "@askRelated": {
+    "description": "Ask"
+  },
+  "askCitationTip": "{title}, page {page}",
+  "@askCitationTip": {
+    "description": "Citation tooltip",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "askCitationSemantics": "Source {n}",
+  "@askCitationSemantics": {
+    "description": "Citation a11y",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "askFootnote": "Answers are generated by an AI model from the cited documents and can contain mistakes. Check the source before relying on it.",
+  "@askFootnote": {
+    "description": "Ask"
+  },
+  "earthTitle": "Lessons for Earth",
+  "@earthTitle": {
+    "description": "Earth"
+  },
+  "earthDesc": "What fire experiments in orbit teach us about fire safety in rooms, vehicles and workplaces here.",
+  "@earthDesc": {
+    "description": "Earth"
+  },
+  "earthInOrbit": "In orbit",
+  "@earthInOrbit": {
+    "description": "Earth"
+  },
+  "earthOnEarth": "On Earth",
+  "@earthOnEarth": {
+    "description": "Earth"
+  },
+  "earthPractice": "What this means in practice",
+  "@earthPractice": {
+    "description": "Earth"
+  },
+  "earthFooter": "These are general findings from research, not safety rules for a specific building. Follow your local fire service's guidance.",
+  "@earthFooter": {
+    "description": "Earth"
+  },
+  "earthEmptyTitle": "Lessons are being reviewed",
+  "@earthEmptyTitle": {
+    "description": "Earth"
+  },
+  "earthEmptyBody": "Each lesson is checked against its sources before it appears here.",
+  "@earthEmptyBody": {
+    "description": "Earth"
+  },
+  "methodsTitle": "Methods",
+  "@methodsTitle": {
+    "description": "Methods"
+  },
+  "methodsDesc": "Where the data comes from, how predictions are made, how well they work, and where they stop.",
+  "@methodsDesc": {
+    "description": "Methods (TODO(Q-5): no description in DESIGN.md)"
+  },
+  "methodsToc": "On this page",
+  "@methodsToc": {
+    "description": "ToC"
+  },
+  "methodsDataTitle": "Where the data comes from",
+  "@methodsDataTitle": {
+    "description": "Section"
+  },
+  "methodsPredTitle": "How predictions work",
+  "@methodsPredTitle": {
+    "description": "Section"
+  },
+  "methodsValTitle": "How well it works",
+  "@methodsValTitle": {
+    "description": "Section"
+  },
+  "methodsPhysTitle": "Physics check",
+  "@methodsPhysTitle": {
+    "description": "Section"
+  },
+  "methodsSupportTitle": "Data support and extrapolation",
+  "@methodsSupportTitle": {
+    "description": "Section"
+  },
+  "methodsLimitsTitle": "Limitations",
+  "@methodsLimitsTitle": {
+    "description": "Section"
+  },
+  "methodsUsabilityTitle": "Tested with people",
+  "@methodsUsabilityTitle": {
+    "description": "Section"
+  },
+  "methodsHonestyTitle": "What FlameSense will never do",
+  "@methodsHonestyTitle": {
+    "description": "Section"
+  },
+  "methodsDataBody": "FlameSense uses {runs} test runs from {experiments} experiments. Every run keeps its source file and citation.",
+  "@methodsDataBody": {
+    "description": "Methods data",
+    "placeholders": {
+      "runs": {
+        "type": "String"
+      },
+      "experiments": {
+        "type": "String"
+      }
+    }
+  },
+  "methodsBuild": "Data version {version}, built {date}.",
+  "@methodsBuild": {
+    "description": "Methods data",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "colSource": "Source",
+  "@colSource": {
+    "description": "Table"
+  },
+  "colRuns": "Runs",
+  "@colRuns": {
+    "description": "Table"
+  },
+  "colLink": "Link",
+  "@colLink": {
+    "description": "Table"
+  },
+  "colFlag": "Quality flag",
+  "@colFlag": {
+    "description": "Table"
+  },
+  "colMeaning": "Meaning",
+  "@colMeaning": {
+    "description": "Table"
+  },
+  "methodsNoSources": "No sources are loaded yet.",
+  "@methodsNoSources": {
+    "description": "Methods data"
+  },
+  "qualityOkDesc": "Taken directly from a NASA data file.",
+  "@qualityOkDesc": {
+    "description": "Quality"
+  },
+  "qualityEstimatedDesc": "Read or converted from a source that gives an approximate value.",
+  "@qualityEstimatedDesc": {
+    "description": "Quality"
+  },
+  "qualityDigitizedDesc": "Copied by hand from a table or chart in a published report.",
+  "@qualityDigitizedDesc": {
+    "description": "Quality"
+  },
+  "qualityVideoDesc": "Spread rate measured from experiment video by FlameSense's tracker.",
+  "@qualityVideoDesc": {
+    "description": "Quality"
+  },
+  "qualitySuspectDesc": "An outlier. Shown in Explore but not used to train the models.",
+  "@qualitySuspectDesc": {
+    "description": "Quality"
+  },
+  "methodsPredBody": "FlameSense learns from NASA test runs which conditions let a flame keep burning and how fast it spreads. It uses gradient-boosted decision trees, which run entirely in your browser. Every prediction comes with a data-support level and warnings when it leaves the tested range.",
+  "@methodsPredBody": {
+    "description": "Methods"
+  },
+  "methodsTwoModels": "Two models: one estimates the chance a flame keeps burning; three estimate the slow, typical and fast spread rate (10th, 50th and 90th percentiles).",
+  "@methodsTwoModels": {
+    "description": "Methods"
+  },
+  "methodsOxygenConstraint": "Oxygen is constrained so that more oxygen can never lower the risk, matching combustion science.",
+  "@methodsOxygenConstraint": {
+    "description": "Methods (only when the constraint is on)"
+  },
+  "methodsOxygenPending": "The oxygen constraint is switched off until the lead confirms its sign.",
+  "@methodsOxygenPending": {
+    "description": "Methods (constraint off, Q-2)"
+  },
+  "methodsFeatures": "Inputs the models use",
+  "@methodsFeatures": {
+    "description": "Methods"
+  },
+  "methodsTaskUnavailable": "Not trained: {reason}",
+  "@methodsTaskUnavailable": {
+    "description": "Methods",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "methodsSustainModel": "Chance a flame keeps burning",
+  "@methodsSustainModel": {
+    "description": "Methods"
+  },
+  "methodsSpreadModel": "Flame spread rate",
+  "@methodsSpreadModel": {
+    "description": "Methods"
+  },
+  "colMetric": "Metric",
+  "@colMetric": {
+    "description": "Table"
+  },
+  "colValue": "Value",
+  "@colValue": {
+    "description": "Table"
+  },
+  "colPlain": "In plain words",
+  "@colPlain": {
+    "description": "Table"
+  },
+  "metricRows": "Runs used",
+  "@metricRows": {
+    "description": "Metric"
+  },
+  "metricGroups": "Independent test series",
+  "@metricGroups": {
+    "description": "Metric"
+  },
+  "metricCv": "Cross-validation",
+  "@metricCv": {
+    "description": "Metric"
+  },
+  "metricRocAuc": "ROC-AUC",
+  "@metricRocAuc": {
+    "description": "Metric"
+  },
+  "metricRocAucPlain": "How well it ranks burning above going out. 0.5 is a coin flip, 1 is perfect.",
+  "@metricRocAucPlain": {
+    "description": "Metric"
+  },
+  "metricBrier": "Brier score",
+  "@metricBrier": {
+    "description": "Metric"
+  },
+  "metricBrierPlain": "Average squared error of the probability. Lower is better.",
+  "@metricBrierPlain": {
+    "description": "Metric"
+  },
+  "metricBaselineBrier": "Baseline Brier score",
+  "@metricBaselineBrier": {
+    "description": "Metric"
+  },
+  "metricBaselineBrierPlain": "The score from always guessing the average outcome.",
+  "@metricBaselineBrierPlain": {
+    "description": "Metric"
+  },
+  "metricAccuracy": "Accuracy at 50%",
+  "@metricAccuracy": {
+    "description": "Metric"
+  },
+  "metricAccuracyPlain": "Share of runs classified correctly when the cut-off is 50%.",
+  "@metricAccuracyPlain": {
+    "description": "Metric"
+  },
+  "metricMae": "Mean absolute error",
+  "@metricMae": {
+    "description": "Metric"
+  },
+  "metricMaePlain": "Typical difference between predicted and measured spread rate.",
+  "@metricMaePlain": {
+    "description": "Metric"
+  },
+  "metricBaselineMae": "Baseline error",
+  "@metricBaselineMae": {
+    "description": "Metric"
+  },
+  "metricBaselineMaePlain": "The error from always predicting the typical training value.",
+  "@metricBaselineMaePlain": {
+    "description": "Metric"
+  },
+  "metricMedianApe": "Median percentage error",
+  "@metricMedianApe": {
+    "description": "Metric"
+  },
+  "metricMedianApePlain": "Half of the predictions are closer than this.",
+  "@metricMedianApePlain": {
+    "description": "Metric"
+  },
+  "metricR2": "R² (log scale)",
+  "@metricR2": {
+    "description": "Metric"
+  },
+  "metricR2Plain": "Share of the variation explained. 1 is perfect, 0 is no better than the average.",
+  "@metricR2Plain": {
+    "description": "Metric"
+  },
+  "metricCoverage": "80% range coverage",
+  "@metricCoverage": {
+    "description": "Metric"
+  },
+  "metricCoveragePlain": "Share of measured rates inside the predicted 80% range. Near 80% is honest.",
+  "@metricCoveragePlain": {
+    "description": "Metric"
+  },
+  "metricPhysicsMae": "Physics check error",
+  "@metricPhysicsMae": {
+    "description": "Metric"
+  },
+  "metricPhysicsMaePlain": "Error of the thin-fuel theory on the runs it covers.",
+  "@metricPhysicsMaePlain": {
+    "description": "Metric"
+  },
+  "methodsCalibration": "Predicted chance against the observed share that kept burning",
+  "@methodsCalibration": {
+    "description": "Chart title"
+  },
+  "methodsCalibrationSemantics": "Calibration chart with {n} bins. Points near the diagonal mean the probabilities are honest.",
+  "@methodsCalibrationSemantics": {
+    "description": "Chart a11y",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "axisPredicted": "Predicted probability",
+  "@axisPredicted": {
+    "description": "Chart axis"
+  },
+  "axisObserved": "Observed share",
+  "@axisObserved": {
+    "description": "Chart axis"
+  },
+  "methodsCvNote": "Tested on whole test series the model never saw, so results aren't inflated by near-duplicate runs.",
+  "@methodsCvNote": {
+    "description": "Methods"
+  },
+  "methodsBaselineNote": "Each metric is shown next to a no-model baseline so you can see the gain.",
+  "@methodsBaselineNote": {
+    "description": "Methods"
+  },
+  "methodsEq1": "Thin-fuel opposed-flow spread (de Ris, 1969)",
+  "@methodsEq1": {
+    "description": "Equation title"
+  },
+  "methodsEq2": "Characteristic buoyant velocity",
+  "@methodsEq2": {
+    "description": "Equation title"
+  },
+  "methodsEq3": "Effective airflow shown in the Lab",
+  "@methodsEq3": {
+    "description": "Equation"
+  },
+  "colSymbol": "Symbol",
+  "@colSymbol": {
+    "description": "Table"
+  },
+  "colParameter": "Parameter",
+  "@colParameter": {
+    "description": "Table"
+  },
+  "symVf": "Flame spread rate",
+  "@symVf": {
+    "description": "Symbol"
+  },
+  "symLambda": "Gas thermal conductivity",
+  "@symLambda": {
+    "description": "Symbol"
+  },
+  "symTf": "Flame temperature (from oxygen)",
+  "@symTf": {
+    "description": "Symbol"
+  },
+  "symTv": "Pyrolysis temperature of the fuel",
+  "@symTv": {
+    "description": "Symbol"
+  },
+  "symTinf": "Ambient temperature",
+  "@symTinf": {
+    "description": "Symbol"
+  },
+  "symRho": "Fuel density",
+  "@symRho": {
+    "description": "Symbol"
+  },
+  "symCs": "Fuel specific heat",
+  "@symCs": {
+    "description": "Symbol"
+  },
+  "symTau": "Fuel half-thickness",
+  "@symTau": {
+    "description": "Symbol"
+  },
+  "symUb": "Buoyant velocity",
+  "@symUb": {
+    "description": "Symbol"
+  },
+  "symG": "Gravitational acceleration",
+  "@symG": {
+    "description": "Symbol"
+  },
+  "symAlpha": "Gas thermal diffusivity",
+  "@symAlpha": {
+    "description": "Symbol"
+  },
+  "symUeff": "Effective airflow",
+  "@symUeff": {
+    "description": "Symbol"
+  },
+  "methodsApplicability": "The check applies only to thin materials in opposing airflow (or still air in orbit). It does not cover thick materials, airflow in the same direction as the spread, or droplets.",
+  "@methodsApplicability": {
+    "description": "Methods"
+  },
+  "methodsPhysLimit": "The thin-fuel formula ignores finite-rate chemistry and radiation, so it over-predicts spread near extinction (very low airflow in microgravity, or low oxygen). The data-driven model learns that region from data.",
+  "@methodsPhysLimit": {
+    "description": "Methods"
+  },
+  "methodsSignedOff": "Checked against the cited sources on {date}",
+  "@methodsSignedOff": {
+    "description": "Sign-off",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "methodsPending": "Pending verification",
+  "@methodsPending": {
+    "description": "Sign-off"
+  },
+  "methodsParamsPending": "Parameter values are added once they are sourced and verified.",
+  "@methodsParamsPending": {
+    "description": "Methods"
+  },
+  "methodsSupportBody": "The data-support badge measures how close your settings are to real NASA runs. High means many runs nearby; medium means some; low means few or none, so the prediction is an extrapolation. On the map, hatched cells have low support. Settings outside the tested range always show a warning.",
+  "@methodsSupportBody": {
+    "description": "Methods"
+  },
+  "limit1": "Small dataset: {runs} runs. Results can change as data is added.",
+  "@limit1": {
+    "description": "Limitation",
+    "placeholders": {
+      "runs": {
+        "type": "String"
+      }
+    }
+  },
+  "limit2": "Runs from one test series share hardware and procedures, so they are not fully independent.",
+  "@limit2": {
+    "description": "Limitation"
+  },
+  "limit3": "Outside the tested ranges, and at Moon or Mars gravity, predictions are extrapolations.",
+  "@limit3": {
+    "description": "Limitation"
+  },
+  "limit4": "The physics check is a simplified theory and does not hold near extinction.",
+  "@limit4": {
+    "description": "Limitation"
+  },
+  "limit5": "Not for operational use: FlameSense does not replace fire safety engineering.",
+  "@limit5": {
+    "description": "Limitation"
+  },
+  "methodsUsabilityPending": "Results appear here after the usability test sessions with non-developers.",
+  "@methodsUsabilityPending": {
+    "description": "Methods"
+  },
+  "methodsUsabilityIntro": "{n} people who don't build software tried these tasks.",
+  "@methodsUsabilityIntro": {
+    "description": "Methods",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "colTask": "Task",
+  "@colTask": {
+    "description": "Table"
+  },
+  "colCompleted": "Completed",
+  "@colCompleted": {
+    "description": "Table"
+  },
+  "colMedianTime": "Median time",
+  "@colMedianTime": {
+    "description": "Table"
+  },
+  "usabilityCompleted": "{n} of {total}",
+  "@usabilityCompleted": {
+    "description": "Table",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "usabilityTime": "{s} s",
+  "@usabilityTime": {
+    "description": "Table",
+    "placeholders": {
+      "s": {
+        "type": "String"
+      }
+    }
+  },
+  "honesty1": "No synthetic data: every run comes from a cited NASA or published source.",
+  "@honesty1": {
+    "description": "Honesty"
+  },
+  "honesty2": "No hidden extrapolation: predictions outside NASA's tested range are flagged.",
+  "@honesty2": {
+    "description": "Honesty"
+  },
+  "honesty3": "No safety certification claims: FlameSense is a research and education tool.",
+  "@honesty3": {
+    "description": "Honesty"
+  },
+  "aboutTitle": "About",
+  "@aboutTitle": {
+    "description": "About"
+  },
+  "aboutDesc": "What FlameSense is, who built it, and how.",
+  "@aboutDesc": {
+    "description": "About (TODO(Q-5))"
+  },
+  "aboutWhatTitle": "What FlameSense is",
+  "@aboutWhatTitle": {
+    "description": "About"
+  },
+  "aboutWhatBody": "FlameSense turns NASA's microgravity combustion experiments into an explorer, honest predictions and lessons for safety on Earth. It shows how fire behaves in orbit, on the Moon and on Mars, and where NASA has no data yet.",
+  "@aboutWhatBody": {
+    "description": "About"
+  },
+  "aboutTeamTitle": "Team",
+  "@aboutTeamTitle": {
+    "description": "About"
+  },
+  "aboutTeamBody": "Team FlameSense from Rajshahi. Ehsanur leads code, data and science checks; two team members lead registrations, videos and usability testing.",
+  "@aboutTeamBody": {
+    "description": "About (TODO(Q-6): names)"
+  },
+  "aboutChallengeTitle": "Challenge",
+  "@aboutChallengeTitle": {
+    "description": "About"
+  },
+  "aboutChallengeBody": "NASA Space Apps Challenge 2026: Flame in Freefall",
+  "@aboutChallengeBody": {
+    "description": "About"
+  },
+  "aboutOpenSourceTitle": "Open source",
+  "@aboutOpenSourceTitle": {
+    "description": "About"
+  },
+  "aboutOpenSourceBody": "All code is public under the Apache-2.0 license.",
+  "@aboutOpenSourceBody": {
+    "description": "About"
+  },
+  "aboutGithub": "View the code on GitHub",
+  "@aboutGithub": {
+    "description": "About"
+  },
+  "aboutAiTitle": "AI use",
+  "@aboutAiTitle": {
+    "description": "About"
+  },
+  "aboutAiBody": "A coding agent (Claude Code) wrote the code under the lead's review; every prompt is listed in AI_USAGE.md. The Ask page uses the Claude API only over retrieved NASA documents. Predictions come from LightGBM models trained on NASA data.",
+  "@aboutAiBody": {
+    "description": "About (updated in Phase 17)"
+  },
+  "aboutLicensesTitle": "Licenses and credits",
+  "@aboutLicensesTitle": {
+    "description": "About"
+  },
+  "aboutLicenseCode": "Code: Apache-2.0.",
+  "@aboutLicenseCode": {
+    "description": "About"
+  },
+  "aboutLicenseFonts": "Fonts: Archivo and Noto Sans Bengali, SIL Open Font License 1.1.",
+  "@aboutLicenseFonts": {
+    "description": "About"
+  },
+  "aboutDataCredits": "Data credits: {sources}",
+  "@aboutDataCredits": {
+    "description": "About",
+    "placeholders": {
+      "sources": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutDataCreditsPending": "Data credits are listed per source once data is added.",
+  "@aboutDataCreditsPending": {
+    "description": "About"
+  },
+  "aboutViewLicenses": "View all licenses",
+  "@aboutViewLicenses": {
+    "description": "About"
+  },
+  "aboutContactTitle": "Contact",
+  "@aboutContactTitle": {
+    "description": "About"
+  },
+  "aboutContactBody": "Report a data error or ask a question on GitHub.",
+  "@aboutContactBody": {
+    "description": "About (TODO(Q-6): email)"
+  },
+  "aboutContactButton": "Open an issue on GitHub",
+  "@aboutContactButton": {
+    "description": "About"
+  },
+  "aboutVersion": "Version {version}, data {data}, built {date}.",
+  "@aboutVersion": {
+    "description": "About",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "data": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutPrivacyTitle": "Privacy",
+  "@aboutPrivacyTitle": {
+    "description": "About"
+  },
+  "aboutPrivacy": "FlameSense collects no personal data and sets no cookies. Questions you type in Ask are sent to the AI provider only to generate the answer.",
+  "@aboutPrivacy": {
+    "description": "About"
+  },
+  "notFoundTitle": "This page drifted off",
+  "@notFoundTitle": {
+    "description": "404"
+  },
+  "notFoundBody": "The address may be mistyped, or the page has moved.",
+  "@notFoundBody": {
+    "description": "404"
+  },
+  "notFoundCta": "Go to Home",
+  "@notFoundCta": {
+    "description": "404"
+  },
+  "tourStep": "Step {n} of {total}",
+  "@tourStep": {
+    "description": "Tour",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tour1Title": "Fire changes shape without gravity",
+  "@tour1Title": {
+    "description": "Tour"
+  },
+  "tour1Body": "Drag gravity from Earth to orbit. The flame turns from an orange teardrop into a slow blue sphere.",
+  "@tour1Body": {
+    "description": "Tour"
+  },
+  "tour2Title": "Set up a fire test",
+  "@tour2Title": {
+    "description": "Tour"
+  },
+  "tour2Body": "Pick a material and set oxygen, pressure, airflow and gravity, like NASA's space-station experiments.",
+  "@tour2Body": {
+    "description": "Tour"
+  },
+  "tour3Title": "An honest prediction",
+  "@tour3Title": {
+    "description": "Tour"
+  },
+  "tour3Body": "The model is trained only on NASA test runs. The badge shows how much real data supports this answer.",
+  "@tour3Body": {
+    "description": "Tour"
+  },
+  "tour4Title": "Where flames survive",
+  "@tour4Title": {
+    "description": "Tour"
+  },
+  "tour4Body": "Hot colors keep burning. Hatched areas have little NASA data, including Moon and Mars gravity.",
+  "@tour4Body": {
+    "description": "Tour"
+  },
+  "tour5Title": "Fire safety for a Moon habitat",
+  "@tour5Title": {
+    "description": "Tour"
+  },
+  "tour5Body": "NASA plans habitats with 34% oxygen. See which materials are likely to burn there, and the five experiments that would teach NASA the most.",
+  "@tour5Body": {
+    "description": "Tour"
+  },
+  "tour6Title": "Every number has a source",
+  "@tour6Title": {
+    "description": "Tour"
+  },
+  "tour6Body": "Open any run to see the NASA dataset or report it came from.",
+  "@tour6Body": {
+    "description": "Tour"
+  },
+  "tour7Title": "Ask the NASA papers",
+  "@tour7Title": {
+    "description": "Tour"
+  },
+  "tour7Body": "Answers cite the exact document and page.",
+  "@tour7Body": {
+    "description": "Tour"
+  },
+  "tour8Title": "Lessons for Earth",
+  "@tour8Title": {
+    "description": "Tour"
+  },
+  "tour8Body": "What space fire research means for fire safety in rooms, vehicles and workplaces.",
+  "@tour8Body": {
+    "description": "Tour"
+  },
+  "missionsTitle": "Plan for a mission",
+  "@missionsTitle": {
+    "description": "Missions"
+  },
+  "missionsDesc": "NASA's next habitats may use less pressure and more oxygen than the ISS. Pick a mission to see which materials are likely to burn there, and where NASA has no data yet.",
+  "@missionsDesc": {
+    "description": "Missions"
+  },
+  "missionIss": "International Space Station",
+  "@missionIss": {
+    "description": "Mission"
+  },
+  "missionLunar": "Artemis lunar habitat",
+  "@missionLunar": {
+    "description": "Mission"
+  },
+  "missionMarsTransit": "Mars transit",
+  "@missionMarsTransit": {
+    "description": "Mission"
+  },
+  "missionMars": "Mars surface habitat",
+  "@missionMars": {
+    "description": "Mission"
+  },
+  "missionEarth": "Earth (reference)",
+  "@missionEarth": {
+    "description": "Mission"
+  },
+  "missionIssNote": "Cabin atmosphere of the space station today.",
+  "@missionIssNote": {
+    "description": "Mission note"
+  },
+  "missionLunarNote": "Exploration atmosphere at Moon gravity.",
+  "@missionLunarNote": {
+    "description": "Mission note"
+  },
+  "missionMarsTransitNote": "Exploration atmosphere in weightless cruise.",
+  "@missionMarsTransitNote": {
+    "description": "Mission note"
+  },
+  "missionMarsNote": "Exploration atmosphere at Mars gravity.",
+  "@missionMarsNote": {
+    "description": "Mission note"
+  },
+  "missionEarthNote": "Sea-level air, for comparison.",
+  "@missionEarthNote": {
+    "description": "Mission note"
+  },
+  "missionAtmosphere": "{pressure} kPa, {o2}% oxygen, {gravity}",
+  "@missionAtmosphere": {
+    "description": "Mission row",
+    "placeholders": {
+      "pressure": {
+        "type": "String"
+      },
+      "o2": {
+        "type": "String"
+      },
+      "gravity": {
+        "type": "String"
+      }
+    }
+  },
+  "missionSource": "Source",
+  "@missionSource": {
+    "description": "Mission row"
+  },
+  "missionCountBurn": "likely to burn",
+  "@missionCountBurn": {
+    "description": "Mission count"
+  },
+  "missionCountOut": "likely to go out",
+  "@missionCountOut": {
+    "description": "Mission count"
+  },
+  "missionCountUnknown": "unknown",
+  "@missionCountUnknown": {
+    "description": "Mission count"
+  },
+  "verdictBurns": "Likely to keep burning",
+  "@verdictBurns": {
+    "description": "Verdict"
+  },
+  "verdictOut": "Likely to go out",
+  "@verdictOut": {
+    "description": "Verdict"
+  },
+  "verdictUnknown": "Unknown, not enough data",
+  "@verdictUnknown": {
+    "description": "Verdict"
+  },
+  "verdictUncertain": "Uncertain",
+  "@verdictUncertain": {
+    "description": "Verdict"
+  },
+  "missionMaterial": "Material",
+  "@missionMaterial": {
+    "description": "Table"
+  },
+  "missionVerdict": "Verdict",
+  "@missionVerdict": {
+    "description": "Table"
+  },
+  "missionWorstCase": "Worst case",
+  "@missionWorstCase": {
+    "description": "Table"
+  },
+  "missionWorstFlow": "Airflow at worst case",
+  "@missionWorstFlow": {
+    "description": "Table"
+  },
+  "missionSupport": "Data support",
+  "@missionSupport": {
+    "description": "Table"
+  },
+  "missionMaterials": "Materials",
+  "@missionMaterials": {
+    "description": "Panel"
+  },
+  "missionWorstCaseTip": "The highest chance of burning across every airflow speed in the data, at this mission's gravity, pressure and oxygen.",
+  "@missionWorstCaseTip": {
+    "description": "Tooltip"
+  },
+  "missionNoMaterials": "No materials are in the dataset yet.",
+  "@missionNoMaterials": {
+    "description": "Empty table"
+  },
+  "missionGap": "{n} NASA runs at {gravity} gravity in this dataset. Verdicts here are extrapolations from orbit and Earth data.",
+  "@missionGap": {
+    "description": "Mission gap",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "gravity": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistTitle": "Where NASA should test next",
+  "@wishlistTitle": {
+    "description": "Wishlist"
+  },
+  "wishlistCaption": "A ranking aid: conditions where the model is least sure and no NASA run is nearby. Scientists still design the experiments.",
+  "@wishlistCaption": {
+    "description": "Wishlist"
+  },
+  "wishlistReasonUnsure": "The model is unsure here (p ≈ {p}).",
+  "@wishlistReasonUnsure": {
+    "description": "Reason",
+    "placeholders": {
+      "p": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistReasonFar": "No NASA run is close to these conditions.",
+  "@wishlistReasonFar": {
+    "description": "Reason"
+  },
+  "wishlistReasonWide": "The spread-rate range is wide.",
+  "@wishlistReasonWide": {
+    "description": "Reason"
+  },
+  "wishlistConditions": "{o2}% O₂, {pressure} kPa, {flow} mm/s, {fuel}",
+  "@wishlistConditions": {
+    "description": "Wishlist row",
+    "placeholders": {
+      "o2": {
+        "type": "String"
+      },
+      "pressure": {
+        "type": "String"
+      },
+      "flow": {
+        "type": "String"
+      },
+      "fuel": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistPlanned": "Planned NASA tests ({label}) rank in the top {pct}% of FlameSense's list.",
+  "@wishlistPlanned": {
+    "description": "Wishlist",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistPlannedLegend": "Planned NASA test ({label})",
+  "@wishlistPlannedLegend": {
+    "description": "Legend",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistPin": "Suggested test {n}",
+  "@wishlistPin": {
+    "description": "Pin a11y",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "wishlistCsv": "Download test matrix (CSV)",
+  "@wishlistCsv": {
+    "description": "Button"
+  },
+  "wishlistCsvDone": "Test matrix downloaded",
+  "@wishlistCsvDone": {
+    "description": "Toast"
+  },
+  "wishlistEmpty": "The wishlist needs the burning model, which doesn't have enough data yet.",
+  "@wishlistEmpty": {
+    "description": "Wishlist"
+  },
+  "briefButton": "Download Mission Fire Brief (PDF)",
+  "@briefButton": {
+    "description": "Button"
+  },
+  "briefDone": "Brief downloaded",
+  "@briefDone": {
+    "description": "Toast"
+  },
+  "missionsNotice": "Mission atmospheres come from NASA documents. FlameSense checks each material at the worst airflow it tested, because cabin airflow varies.",
+  "@missionsNotice": {
+    "description": "Missions"
+  },
+  "missionsEmptyTitle": "Mission presets are being verified",
+  "@missionsEmptyTitle": {
+    "description": "Empty"
+  },
+  "missionsEmptyBody": "Each mission's atmosphere is checked against its NASA source before it appears here.",
+  "@missionsEmptyBody": {
+    "description": "Empty"
+  },
+  "missionUnsourcedDebug": "Debug build: this mission has no source and is hidden in release.",
+  "@missionUnsourcedDebug": {
+    "description": "Debug-only notice"
+  },
+  "plannedFm2": "FM2",
+  "@plannedFm2": {
+    "description": "Planned experiment label"
   }
 }

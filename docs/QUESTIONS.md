@@ -69,3 +69,25 @@ The plan asks for constraints on the spread quantile models.
 **Chosen:** constraints (once Q-2 is confirmed) are applied to the sustain classifier only.
 Spread models are trained unconstrained, and a warning is written to `metrics.json` /
 MODEL_CARD.md when the signs are confirmed. Marked `TODO(Q-4)` in `train.py`.
+
+---
+
+## Q-5 — Phase 6: copy strings not given in DESIGN.md
+
+**Context:** A few states need copy that DESIGN.md §12 does not define.
+**Chosen (agent wording, in `app/tool/l10n_source.py`, marked `TODO(Q-5)` in descriptions):**
+`homeDataPending` (Home when the dataset is empty), `exploreNoDataTitle/Body` (Explore when
+there are 0 runs, instead of the misleading "No runs match these filters"), `labDeltaSlower`
+(compare mode when spread is slower on Earth), `methodsDesc` and `aboutDesc` (§8.4 requires a
+description on every page). The HTML splash text is "Loading FlameSense" (PLAN Phase 6 step 9)
+while the in-app loading screen says "Loading NASA experiment data" (DESIGN §11.0).
+Please review the wording.
+
+---
+
+## Q-6 — Phase 6: team names and contact email on About
+
+**Context:** DESIGN §11.8 asks for team member names (as the team decides; no one under 18)
+and a contact email. Only Ehsanur is named in the docs.
+**Chosen:** `aboutTeamBody` names only Ehsanur and describes the two other roles; Contact links
+to GitHub issues instead of an email. Replace in `app/tool/l10n_source.py` when decided.

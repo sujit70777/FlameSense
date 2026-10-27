@@ -1,8 +1,3077 @@
 {
   "@@locale": "bn",
-  "appTitle": "FlameSense",
-  "@appTitle": {
-    "description": "App title",
+  "appName": "FlameSense",
+  "@appName": {
+    "description": "Product name",
+    "x-review": "bn-pending"
+  },
+  "tagline": "যেখানে \"উপর\" বলে কিছু নেই, সেখানে আগুন কেমন আচরণ করে, দেখুন।",
+  "@tagline": {
+    "description": "Tagline §2.1",
+    "x-review": "bn-pending"
+  },
+  "navHome": "হোম",
+  "@navHome": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "navMissions": "মিশন",
+  "@navMissions": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "navExplore": "এক্সপ্লোর",
+  "@navExplore": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "navLab": "ফায়ার ল্যাব",
+  "@navLab": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "navMap": "মানচিত্র",
+  "@navMap": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "navAsk": "প্রশ্ন",
+  "@navAsk": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "navEarth": "পৃথিবীর শিক্ষা",
+  "@navEarth": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "navMethods": "পদ্ধতি",
+  "@navMethods": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "navAbout": "পরিচিতি",
+  "@navAbout": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "navMore": "আরও",
+  "@navMore": {
+    "description": "Nav",
+    "x-review": "bn-pending"
+  },
+  "takeTour": "ট্যুর দেখুন",
+  "@takeTour": {
+    "description": "Top bar button",
+    "x-review": "bn-pending"
+  },
+  "themeSystem": "সিস্টেম থিম ব্যবহার করুন",
+  "@themeSystem": {
+    "description": "Theme",
+    "x-review": "bn-pending"
+  },
+  "themeLight": "লাইট থিম",
+  "@themeLight": {
+    "description": "Theme",
+    "x-review": "bn-pending"
+  },
+  "themeDark": "ডার্ক থিম",
+  "@themeDark": {
+    "description": "Theme",
+    "x-review": "bn-pending"
+  },
+  "themeSwitchTo": "{mode} এ বদলান",
+  "@themeSwitchTo": {
+    "description": "Theme toggle tooltip",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "langEnglish": "EN",
+  "@langEnglish": {
+    "description": "Language toggle",
+    "x-review": "bn-pending"
+  },
+  "langBangla": "বাং",
+  "@langBangla": {
+    "description": "Language toggle",
+    "x-review": "bn-pending"
+  },
+  "langLabel": "ভাষা",
+  "@langLabel": {
+    "description": "Language menu label",
+    "x-review": "bn-pending"
+  },
+  "menuOptions": "আরও বিকল্প",
+  "@menuOptions": {
+    "description": "Compact top bar menu tooltip",
+    "x-review": "bn-pending"
+  },
+  "disclaimer": "FlameSense একটি গবেষণা ও শিক্ষামূলক টুল। এটি কোনো সনদপ্রাপ্ত অগ্নি-নিরাপত্তা ব্যবস্থা নয় এবং বাস্তব নিরাপত্তা সিদ্ধান্তের জন্য ব্যবহার করা যাবে না।",
+  "@disclaimer": {
+    "description": "Disclaimer §12",
+    "x-review": "bn-pending"
+  },
+  "notAffiliated": "NASA-এর সঙ্গে যুক্ত বা NASA দ্বারা অনুমোদিত নয়। NASA-এর উন্মুক্ত ডেটা ব্যবহার করে।",
+  "@notAffiliated": {
+    "description": "Footer",
+    "x-review": "bn-pending"
+  },
+  "credits": "ডেটা: NASA উন্মুক্ত ডেটা। কোড: Apache-2.0। NASA Space Apps Challenge 2026, রাজশাহীর জন্য তৈরি।",
+  "@credits": {
+    "description": "Footer",
+    "x-review": "bn-pending"
+  },
+  "loadingData": "NASA পরীক্ষার ডেটা লোড হচ্ছে",
+  "@loadingData": {
+    "description": "Loading",
+    "x-review": "bn-pending"
+  },
+  "loadErrorTitle": "FlameSense তার ডেটা লোড করতে পারেনি",
+  "@loadErrorTitle": {
+    "description": "Global error",
+    "x-review": "bn-pending"
+  },
+  "loadErrorBody": "{file} ফাইলটি নেই বা নষ্ট। পেজটি আবার লোড করুন। বারবার এমন হলে ডিপ্লয়মেন্ট অসম্পূর্ণ।",
+  "@loadErrorBody": {
+    "description": "Global error",
+    "placeholders": {
+      "file": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "reload": "আবার লোড করুন",
+  "@reload": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "tryAgain": "আবার চেষ্টা করুন",
+  "@tryAgain": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "close": "বন্ধ করুন",
+  "@close": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "back": "পেছনে",
+  "@back": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "next": "পরবর্তী",
+  "@next": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "finish": "শেষ",
+  "@finish": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "exitTour": "ট্যুর থেকে বের হন",
+  "@exitTour": {
+    "description": "Tooltip",
+    "x-review": "bn-pending"
+  },
+  "linkCopied": "লিংক কপি হয়েছে",
+  "@linkCopied": {
+    "description": "Toast",
+    "x-review": "bn-pending"
+  },
+  "csvDownloaded": "CSV ডাউনলোড হয়েছে",
+  "@csvDownloaded": {
+    "description": "Toast",
+    "x-review": "bn-pending"
+  },
+  "answerCopied": "উত্তর কপি হয়েছে",
+  "@answerCopied": {
+    "description": "Toast",
+    "x-review": "bn-pending"
+  },
+  "pageTitle": "{page} | FlameSense",
+  "@pageTitle": {
+    "description": "Browser tab title",
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "homePageTitle": "FlameSense: NASA-র মহাকাশ স্টেশনের আগুন পরীক্ষা থেকে অগ্নি-নিরাপত্তার অন্তর্দৃষ্টি",
+  "@homePageTitle": {
+    "description": "Home document title §15",
+    "x-review": "bn-pending"
+  },
+  "valueYes": "হ্যাঁ",
+  "@valueYes": {
+    "description": "Boolean",
+    "x-review": "bn-pending"
+  },
+  "valueNo": "না",
+  "@valueNo": {
+    "description": "Boolean",
+    "x-review": "bn-pending"
+  },
+  "notAvailable": "—",
+  "@notAvailable": {
+    "description": "Missing value",
+    "x-review": "bn-pending"
+  },
+  "openInNewTab": "নতুন ট্যাবে খোলে",
+  "@openInNewTab": {
+    "description": "Link semantics",
+    "x-review": "bn-pending"
+  },
+  "dismiss": "সরিয়ে দিন",
+  "@dismiss": {
+    "description": "Toast action",
+    "x-review": "bn-pending"
+  },
+  "info": "আরও তথ্য",
+  "@info": {
+    "description": "Info button tooltip",
+    "x-review": "bn-pending"
+  },
+  "gEarth": "পৃথিবী",
+  "@gEarth": {
+    "description": "Gravity label",
+    "x-review": "bn-pending"
+  },
+  "gMars": "মঙ্গল",
+  "@gMars": {
+    "description": "Gravity label",
+    "x-review": "bn-pending"
+  },
+  "gMoon": "চাঁদ",
+  "@gMoon": {
+    "description": "Gravity label",
+    "x-review": "bn-pending"
+  },
+  "gIss": "আইএসএস কক্ষপথ",
+  "@gIss": {
+    "description": "Gravity label",
+    "x-review": "bn-pending"
+  },
+  "gCustom": "কাস্টম",
+  "@gCustom": {
+    "description": "Gravity label",
+    "x-review": "bn-pending"
+  },
+  "gravityValue": "{label} ({value} g)",
+  "@gravityValue": {
+    "description": "Gravity chip",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "gravityClassMicro": "মাইক্রোগ্র্যাভিটি (microgravity)",
+  "@gravityClassMicro": {
+    "description": "Gravity class",
+    "x-review": "bn-pending"
+  },
+  "gravityClassPartial": "চাঁদ বা মঙ্গল",
+  "@gravityClassPartial": {
+    "description": "Gravity class",
+    "x-review": "bn-pending"
+  },
+  "gravityClassEarth": "পৃথিবী",
+  "@gravityClassEarth": {
+    "description": "Gravity class",
+    "x-review": "bn-pending"
+  },
+  "unitMmS": "mm/s",
+  "@unitMmS": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitKpa": "kPa",
+  "@unitKpa": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitPercent": "%",
+  "@unitPercent": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitMm": "mm",
+  "@unitMm": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitKgM3": "kg/m³",
+  "@unitKgM3": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitKgM2": "kg/m²",
+  "@unitKgM2": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitMm2S": "mm²/s",
+  "@unitMm2S": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitG": "g",
+  "@unitG": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitSeconds": "সে.",
+  "@unitSeconds": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "featO2": "অক্সিজেন",
+  "@featO2": {
+    "description": "Feature",
+    "x-review": "bn-pending"
+  },
+  "featPressure": "চাপ",
+  "@featPressure": {
+    "description": "Feature",
+    "x-review": "bn-pending"
+  },
+  "featFlow": "বায়ুপ্রবাহ",
+  "@featFlow": {
+    "description": "Feature",
+    "x-review": "bn-pending"
+  },
+  "featGravity": "মাধ্যাকর্ষণ",
+  "@featGravity": {
+    "description": "Feature",
+    "x-review": "bn-pending"
+  },
+  "featThickness": "পুরুত্ব",
+  "@featThickness": {
+    "description": "Feature",
+    "x-review": "bn-pending"
+  },
+  "featDensity": "ঘনত্ব",
+  "@featDensity": {
+    "description": "Feature",
+    "x-review": "bn-pending"
+  },
+  "featFuelClass": "উপাদানের ধরন",
+  "@featFuelClass": {
+    "description": "Feature",
+    "x-review": "bn-pending"
+  },
+  "featFlowDir": "বায়ুপ্রবাহের দিক",
+  "@featFlowDir": {
+    "description": "Feature",
+    "x-review": "bn-pending"
+  },
+  "featDiluent": "মিশ্রক গ্যাস (diluent)",
+  "@featDiluent": {
+    "description": "Feature",
+    "x-review": "bn-pending"
+  },
+  "featO2Partial": "অক্সিজেনের আংশিক চাপ",
+  "@featO2Partial": {
+    "description": "Derived feature",
+    "x-review": "bn-pending"
+  },
+  "featLogFlow": "বায়ুপ্রবাহ (লগ স্কেল)",
+  "@featLogFlow": {
+    "description": "Derived feature",
+    "x-review": "bn-pending"
+  },
+  "featLogGravity": "মাধ্যাকর্ষণ (লগ স্কেল)",
+  "@featLogGravity": {
+    "description": "Derived feature",
+    "x-review": "bn-pending"
+  },
+  "featArealDensity": "ক্ষেত্রফলভিত্তিক ঘনত্ব",
+  "@featArealDensity": {
+    "description": "Derived feature",
+    "x-review": "bn-pending"
+  },
+  "fuelThinSolid": "পাতলা কঠিন",
+  "@fuelThinSolid": {
+    "description": "Fuel class",
+    "x-review": "bn-pending"
+  },
+  "fuelThickSolid": "পুরু কঠিন",
+  "@fuelThickSolid": {
+    "description": "Fuel class",
+    "x-review": "bn-pending"
+  },
+  "fuelDroplet": "জ্বালানির ফোঁটা",
+  "@fuelDroplet": {
+    "description": "Fuel class",
+    "x-review": "bn-pending"
+  },
+  "fuelGasJet": "গ্যাস জেট",
+  "@fuelGasJet": {
+    "description": "Fuel class",
+    "x-review": "bn-pending"
+  },
+  "fuelOther": "অন্যান্য",
+  "@fuelOther": {
+    "description": "Fuel class",
+    "x-review": "bn-pending"
+  },
+  "dirOpposed": "বিপরীতমুখী",
+  "@dirOpposed": {
+    "description": "Flow direction",
+    "x-review": "bn-pending"
+  },
+  "dirConcurrent": "একমুখী",
+  "@dirConcurrent": {
+    "description": "Flow direction",
+    "x-review": "bn-pending"
+  },
+  "dirQuiescent": "নেই",
+  "@dirQuiescent": {
+    "description": "Flow direction",
+    "x-review": "bn-pending"
+  },
+  "dirOther": "অন্যান্য",
+  "@dirOther": {
+    "description": "Flow direction",
+    "x-review": "bn-pending"
+  },
+  "diluentN2": "নাইট্রোজেন",
+  "@diluentN2": {
+    "description": "Diluent",
+    "x-review": "bn-pending"
+  },
+  "diluentHe": "হিলিয়াম",
+  "@diluentHe": {
+    "description": "Diluent",
+    "x-review": "bn-pending"
+  },
+  "diluentCo2": "কার্বন ডাই-অক্সাইড",
+  "@diluentCo2": {
+    "description": "Diluent",
+    "x-review": "bn-pending"
+  },
+  "diluentOther": "অন্যান্য",
+  "@diluentOther": {
+    "description": "Diluent",
+    "x-review": "bn-pending"
+  },
+  "platformIss": "আইএসএস",
+  "@platformIss": {
+    "description": "Platform",
+    "x-review": "bn-pending"
+  },
+  "platformFreeFlyer": "ফ্রি-ফ্লায়ার মহাকাশযান",
+  "@platformFreeFlyer": {
+    "description": "Platform",
+    "x-review": "bn-pending"
+  },
+  "platformDropTower": "ড্রপ টাওয়ার",
+  "@platformDropTower": {
+    "description": "Platform",
+    "x-review": "bn-pending"
+  },
+  "platformParabolic": "প্যারাবোলিক ফ্লাইট",
+  "@platformParabolic": {
+    "description": "Platform",
+    "x-review": "bn-pending"
+  },
+  "platformGround": "ভূমি",
+  "@platformGround": {
+    "description": "Platform",
+    "x-review": "bn-pending"
+  },
+  "qualityOk": "পরিমাপকৃত",
+  "@qualityOk": {
+    "description": "Quality flag",
+    "x-review": "bn-pending"
+  },
+  "qualityEstimated": "আনুমানিক",
+  "@qualityEstimated": {
+    "description": "Quality flag",
+    "x-review": "bn-pending"
+  },
+  "qualityDigitized": "ডিজিটাইজ করা",
+  "@qualityDigitized": {
+    "description": "Quality flag",
+    "x-review": "bn-pending"
+  },
+  "qualityVideoDerived": "ভিডিও থেকে নেওয়া",
+  "@qualityVideoDerived": {
+    "description": "Quality flag",
+    "x-review": "bn-pending"
+  },
+  "qualitySuspect": "চিহ্নিত",
+  "@qualitySuspect": {
+    "description": "Quality flag",
+    "x-review": "bn-pending"
+  },
+  "supportHigh": "ডেটা সমর্থন: বেশি",
+  "@supportHigh": {
+    "description": "Badge",
+    "x-review": "bn-pending"
+  },
+  "supportMedium": "ডেটা সমর্থন: মাঝারি",
+  "@supportMedium": {
+    "description": "Badge",
+    "x-review": "bn-pending"
+  },
+  "supportLow": "ডেটা সমর্থন: কম",
+  "@supportLow": {
+    "description": "Badge",
+    "x-review": "bn-pending"
+  },
+  "supportHighTip": "এই অবস্থার কাছাকাছি NASA অনেকগুলো পরীক্ষা চালিয়েছে।",
+  "@supportHighTip": {
+    "description": "Badge tooltip",
+    "x-review": "bn-pending"
+  },
+  "supportMediumTip": "এই অবস্থার কাছাকাছি NASA-র কিছু পরীক্ষা আছে। পূর্বাভাসটিকে আনুমানিক ধরুন।",
+  "@supportMediumTip": {
+    "description": "Badge tooltip",
+    "x-review": "bn-pending"
+  },
+  "supportLowTip": "এই অবস্থার কাছাকাছি NASA-র পরীক্ষা খুব কম বা নেই। এটি একটি বহির্বেশন (extrapolation)।",
+  "@supportLowTip": {
+    "description": "Badge tooltip",
+    "x-review": "bn-pending"
+  },
+  "supportShortHigh": "বেশি",
+  "@supportShortHigh": {
+    "description": "Compact badge",
+    "x-review": "bn-pending"
+  },
+  "supportShortMedium": "মাঝারি",
+  "@supportShortMedium": {
+    "description": "Compact badge",
+    "x-review": "bn-pending"
+  },
+  "supportShortLow": "কম",
+  "@supportShortLow": {
+    "description": "Compact badge",
+    "x-review": "bn-pending"
+  },
+  "askErrRate": "অল্প সময়ে অনেক প্রশ্ন হয়েছে। {minutes} মিনিট পরে আবার চেষ্টা করুন।",
+  "@askErrRate": {
+    "description": "Ask error",
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "askErrUpstream": "উত্তর সেবা সাড়া দেয়নি। আবার চেষ্টা করুন, অথবা একটি প্রস্তাবিত প্রশ্ন বেছে নিন; সেগুলোর উত্তর সংরক্ষিত আছে।",
+  "@askErrUpstream": {
+    "description": "Ask error",
+    "x-review": "bn-pending"
+  },
+  "askErrOffline": "আপনি অফলাইনে আছেন। প্রস্তাবিত প্রশ্নগুলো এখনো কাজ করে।",
+  "@askErrOffline": {
+    "description": "Ask error",
+    "x-review": "bn-pending"
+  },
+  "askErrInvalid": "৩ থেকে ৫০০ অক্ষরের মধ্যে একটি প্রশ্ন লিখুন।",
+  "@askErrInvalid": {
+    "description": "Ask error",
+    "x-review": "bn-pending"
+  },
+  "askErrServer": "সার্ভারে সমস্যা হয়েছে। এক মিনিট পরে আবার চেষ্টা করুন।",
+  "@askErrServer": {
+    "description": "Ask error",
+    "x-review": "bn-pending"
+  },
+  "numErrRange": "{min} থেকে {max} এর মধ্যে একটি সংখ্যা লিখুন।",
+  "@numErrRange": {
+    "description": "Numeric field error",
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "noticeOutside": "{feature} NASA-র পরীক্ষিত সীমার বাইরে ({min}–{max} {unit})। পূর্বাভাসটি একটি বহির্বেশন।",
+  "@noticeOutside": {
+    "description": "Lab notice",
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      },
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "noticeLowSupport": "এই অবস্থার কাছাকাছি NASA-র পরীক্ষা খুব কম। এটিকে মোটামুটি অনুমান হিসেবে নিন।",
+  "@noticeLowSupport": {
+    "description": "Lab notice",
+    "x-review": "bn-pending"
+  },
+  "noticePartialG": "চাঁদ বা মঙ্গলের মাধ্যাকর্ষণে NASA-র আগুনের ডেটা খুব কম বা নেই। এখানের পূর্বাভাস পৃথিবী ও কক্ষপথের মাঝের বহির্বেশন। এটি একটি বাস্তব গবেষণার ঘাটতি।",
+  "@noticePartialG": {
+    "description": "Lab notice",
+    "x-review": "bn-pending"
+  },
+  "noticeUnavailable": "{output} নির্ভরযোগ্যভাবে পূর্বাভাস দেওয়ার মতো যথেষ্ট NASA ডেটা নেই, তাই FlameSense কোনো পূর্বাভাস দেখায় না।",
+  "@noticeUnavailable": {
+    "description": "Lab notice",
+    "placeholders": {
+      "output": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "noticeOneExperiment": "সব পরীক্ষা একটি মাত্র এক্সপেরিমেন্ট থেকে, তাই এক্সপেরিমেন্টগুলোর মধ্যে তুলনা এখনো সম্ভব নয়।",
+  "@noticeOneExperiment": {
+    "description": "Explore notice",
+    "x-review": "bn-pending"
+  },
+  "noticeQuantiles": "তিনটি বিস্তার-হার মডেলের মান উল্টে গিয়েছিল, তাই সেগুলো আবার ক্রমে সাজানো হয়েছে।",
+  "@noticeQuantiles": {
+    "description": "Debug-only notice",
+    "x-review": "bn-pending"
+  },
+  "outputSustain": "আগুন জ্বলতে থাকার সম্ভাবনা",
+  "@outputSustain": {
+    "description": "Output name for noticeUnavailable",
+    "x-review": "bn-pending"
+  },
+  "outputSpread": "আগুন ছড়ানোর হার",
+  "@outputSpread": {
+    "description": "Output name",
+    "x-review": "bn-pending"
+  },
+  "mapGapNotice": "এই ডেটাসেটে {body}-এর মাধ্যাকর্ষণে NASA-র কোনো আগুন পরীক্ষা নেই ({n}টি পরীক্ষা)। এখানের রং বহির্বেশিত, তাই মানচিত্রের বেশিরভাগ অংশ দাগকাটা। Artemis ও ভবিষ্যতের মঙ্গল মিশনের জন্য এই ঘাটতি পূরণ জরুরি।",
+  "@mapGapNotice": {
+    "description": "Map notice",
+    "placeholders": {
+      "body": {
+        "type": "String"
+      },
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "physicsNotApplicable": "পদার্থবিজ্ঞান যাচাই কেবল বিপরীতমুখী বায়ুপ্রবাহে পাতলা উপাদানের জন্য। এই অবস্থা তার বাইরে।",
+  "@physicsNotApplicable": {
+    "description": "Physics card",
+    "x-review": "bn-pending"
+  },
+  "physicsNearExt": "নিভে যাওয়ার কাছাকাছি সহজ তত্ত্বটি বিস্তার বেশি দেখায়। এখানে ডেটাভিত্তিক পূর্বাভাসে বেশি ভরসা রাখুন।",
+  "@physicsNearExt": {
+    "description": "Physics card",
+    "x-review": "bn-pending"
+  },
+  "physicsUnavailable": "প্যারামিটারগুলো যাচাই না হওয়া পর্যন্ত পদার্থবিজ্ঞান যাচাই বন্ধ আছে।",
+  "@physicsUnavailable": {
+    "description": "Physics card",
+    "x-review": "bn-pending"
+  },
+  "homeHeadline": "মহাকাশে আগুনের কোনো \"উপর\" নেই।",
+  "@homeHeadline": {
+    "description": "Home",
+    "x-review": "bn-pending"
+  },
+  "homeSubhead": "পৃথিবীতে উঠে যাওয়া গরম বাতাস শিখাকে অশ্রুবিন্দুর মতো লম্বা করে। মহাকাশ স্টেশনে কিছুই ওপরে ওঠে না, তাই শিখা হয় গোল, নীল আর ধীর। FlameSense NASA-র মহাকাশ স্টেশনের আগুন পরীক্ষাগুলোকে এমন পূর্বাভাসে বদলে দেয় যা আপনি নিজে ঘুরে দেখতে পারেন।",
+  "@homeSubhead": {
+    "description": "Home",
+    "x-review": "bn-pending"
+  },
+  "homeCtaLab": "ফায়ার ল্যাব খুলুন",
+  "@homeCtaLab": {
+    "description": "Home CTA",
+    "x-review": "bn-pending"
+  },
+  "homeDataSentence": "{experiments}টি NASA এক্সপেরিমেন্টের {fuels}টি উপাদানের {runs}টি পরীক্ষার ওপর তৈরি।",
+  "@homeDataSentence": {
+    "description": "Home",
+    "placeholders": {
+      "runs": {
+        "type": "String"
+      },
+      "experiments": {
+        "type": "String"
+      },
+      "fuels": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "homeDataPending": "ডেটাসেটে NASA-র পরীক্ষাগুলো যোগ করা হচ্ছে। যথেষ্ট পরীক্ষা যোগ হলে পূর্বাভাস দেখা যাবে।",
+  "@homeDataPending": {
+    "description": "Home, when the dataset is empty (TODO(Q-5))",
+    "x-review": "bn-pending"
+  },
+  "homeEarthFlame": "পৃথিবী",
+  "@homeEarthFlame": {
+    "description": "Chamber label",
+    "x-review": "bn-pending"
+  },
+  "homeYourGravity": "আপনার মাধ্যাকর্ষণ",
+  "@homeYourGravity": {
+    "description": "Chamber label",
+    "x-review": "bn-pending"
+  },
+  "homeBuoyantFlow": "প্লবতাজনিত বায়ুপ্রবাহ",
+  "@homeBuoyantFlow": {
+    "description": "Readout",
+    "x-review": "bn-pending"
+  },
+  "homePredictedSpread": "পূর্বাভাসিত বিস্তার",
+  "@homePredictedSpread": {
+    "description": "Readout",
+    "x-review": "bn-pending"
+  },
+  "homeNextTitle": "এরপর কোথায় যাবেন",
+  "@homeNextTitle": {
+    "description": "Home",
+    "x-review": "bn-pending"
+  },
+  "homeNextMissions": "একটি মিশনের পরিকল্পনা করুন",
+  "@homeNextMissions": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "homeNextMissionsDesc": "চাঁদের আবাসে কোন উপাদান জ্বলতে পারে",
+  "@homeNextMissionsDesc": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "homeNextExplore": "পরীক্ষাগুলো ঘুরে দেখুন",
+  "@homeNextExplore": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "homeNextExploreDesc": "প্রতিটি পরীক্ষা, ফিল্টারযোগ্য, NASA উৎসসহ",
+  "@homeNextExploreDesc": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "homeNextMap": "দাহ্যতার মানচিত্র দেখুন",
+  "@homeNextMap": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "homeNextMapDesc": "অক্সিজেন ও বায়ুপ্রবাহ অনুযায়ী কোথায় শিখা টিকে থাকে",
+  "@homeNextMapDesc": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "homeNextAsk": "NASA-র নথিকে প্রশ্ন করুন",
+  "@homeNextAsk": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "homeNextAskDesc": "উৎসসহ উত্তর",
+  "@homeNextAskDesc": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "homeNextEarth": "পৃথিবীর জন্য শিক্ষা",
+  "@homeNextEarth": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "homeNextEarthDesc": "মহাকাশের আগুন এখানকার নিরাপত্তা নিয়ে কী শেখায়",
+  "@homeNextEarthDesc": {
+    "description": "Home row",
+    "x-review": "bn-pending"
+  },
+  "flameSemantics": "{label}-এ শিখা। {shape}",
+  "@flameSemantics": {
+    "description": "Flame a11y",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "shape": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "flameShapeEarth": "উঠে যাওয়া গরম বাতাসে ওপরের দিকে লম্বা হওয়া কমলা অশ্রুবিন্দু।",
+  "@flameShapeEarth": {
+    "description": "Flame a11y",
+    "x-review": "bn-pending"
+  },
+  "flameShapeSpace": "ম্লান নীল গোলক: মাধ্যাকর্ষণ ছাড়া কিছুই ওপরে ওঠে না।",
+  "@flameShapeSpace": {
+    "description": "Flame a11y",
+    "x-review": "bn-pending"
+  },
+  "flameShapeMid": "পৃথিবীর চেয়ে গোল ও নীল, প্লবতা দুর্বল।",
+  "@flameShapeMid": {
+    "description": "Flame a11y",
+    "x-review": "bn-pending"
+  },
+  "exploreTitle": "পরীক্ষাগুলো ঘুরে দেখুন",
+  "@exploreTitle": {
+    "description": "Explore",
+    "x-review": "bn-pending"
+  },
+  "exploreDesc": "FlameSense যে সব NASA পরীক্ষা ব্যবহার করে, এক টেবিলে। প্রতিটি সারি তার উৎসের সঙ্গে যুক্ত।",
+  "@exploreDesc": {
+    "description": "Explore",
+    "x-review": "bn-pending"
+  },
+  "filterExperiment": "এক্সপেরিমেন্ট",
+  "@filterExperiment": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "filterPlatform": "প্ল্যাটফর্ম",
+  "@filterPlatform": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "filterFuelClass": "উপাদানের ধরন",
+  "@filterFuelClass": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "filterGravity": "মাধ্যাকর্ষণ",
+  "@filterGravity": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "filterO2": "অক্সিজেনের পরিসর",
+  "@filterO2": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "filterPressure": "চাপের পরিসর",
+  "@filterPressure": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "filterQuality": "মান",
+  "@filterQuality": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "qualityIncEstimated": "আনুমানিক অন্তর্ভুক্ত করুন",
+  "@qualityIncEstimated": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "qualityIncDigitized": "ডিজিটাইজ করা অন্তর্ভুক্ত করুন",
+  "@qualityIncDigitized": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "qualityIncVideo": "ভিডিও থেকে নেওয়া অন্তর্ভুক্ত করুন",
+  "@qualityIncVideo": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "qualityIncFlagged": "চিহ্নিত অন্তর্ভুক্ত করুন",
+  "@qualityIncFlagged": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "filterAll": "সব",
+  "@filterAll": {
+    "description": "Filter",
+    "x-review": "bn-pending"
+  },
+  "filtersButton": "ফিল্টার",
+  "@filtersButton": {
+    "description": "Compact filter button",
+    "x-review": "bn-pending"
+  },
+  "filterApply": "প্রয়োগ করুন",
+  "@filterApply": {
+    "description": "Range dialog",
+    "x-review": "bn-pending"
+  },
+  "filterRangeValue": "{min}–{max} {unit}",
+  "@filterRangeValue": {
+    "description": "Range chip",
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "exploreShowing": "{total}টির মধ্যে {shown}টি পরীক্ষা দেখানো হচ্ছে",
+  "@exploreShowing": {
+    "description": "Explore count",
+    "placeholders": {
+      "shown": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "exploreClear": "ফিল্টার মুছুন",
+  "@exploreClear": {
+    "description": "Explore",
+    "x-review": "bn-pending"
+  },
+  "exploreDownload": "CSV ডাউনলোড করুন",
+  "@exploreDownload": {
+    "description": "Explore",
+    "x-review": "bn-pending"
+  },
+  "exploreTabSpread": "বিস্তার বনাম অক্সিজেন",
+  "@exploreTabSpread": {
+    "description": "Chart tab",
+    "x-review": "bn-pending"
+  },
+  "exploreTabBurning": "জ্বলা বনাম বায়ুপ্রবাহ",
+  "@exploreTabBurning": {
+    "description": "Chart tab",
+    "x-review": "bn-pending"
+  },
+  "exploreTabRuns": "এক্সপেরিমেন্টপ্রতি পরীক্ষা",
+  "@exploreTabRuns": {
+    "description": "Chart tab",
+    "x-review": "bn-pending"
+  },
+  "exploreEmptyTitle": "এই ফিল্টারে কোনো পরীক্ষা মেলেনি",
+  "@exploreEmptyTitle": {
+    "description": "Empty",
+    "x-review": "bn-pending"
+  },
+  "exploreEmptyBody": "অক্সিজেন বা চাপের পরিসর বাড়ান, অথবা আরও এক্সপেরিমেন্ট অন্তর্ভুক্ত করুন।",
+  "@exploreEmptyBody": {
+    "description": "Empty",
+    "x-review": "bn-pending"
+  },
+  "exploreNoDataTitle": "এখনো কোনো NASA পরীক্ষা লোড হয়নি",
+  "@exploreNoDataTitle": {
+    "description": "Empty dataset (TODO(Q-5))",
+    "x-review": "bn-pending"
+  },
+  "exploreNoDataBody": "NASA উৎস ফাইলগুলো ডেটাসেটে যোগ হলে পরীক্ষাগুলো এখানে দেখা যাবে।",
+  "@exploreNoDataBody": {
+    "description": "Empty dataset",
+    "x-review": "bn-pending"
+  },
+  "chartNoPoints": "এই মানসহ আঁকার মতো কোনো পরীক্ষা নেই।",
+  "@chartNoPoints": {
+    "description": "Empty chart",
+    "x-review": "bn-pending"
+  },
+  "colRun": "পরীক্ষা",
+  "@colRun": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colExperiment": "এক্সপেরিমেন্ট",
+  "@colExperiment": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colFuel": "জ্বালানি",
+  "@colFuel": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colO2": "O₂ (%)",
+  "@colO2": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colPressure": "চাপ (kPa)",
+  "@colPressure": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colFlow": "বায়ুপ্রবাহ (mm/s)",
+  "@colFlow": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colGravity": "মাধ্যাকর্ষণ (g)",
+  "@colGravity": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colOutcome": "ফলাফল",
+  "@colOutcome": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colSpread": "বিস্তার (mm/s)",
+  "@colSpread": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colQuality": "মান",
+  "@colQuality": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "sortBy": "{column} অনুযায়ী সাজান",
+  "@sortBy": {
+    "description": "Table header semantics",
+    "placeholders": {
+      "column": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "axisO2": "অক্সিজেন (%)",
+  "@axisO2": {
+    "description": "Chart axis",
+    "x-review": "bn-pending"
+  },
+  "axisSpread": "বিস্তারের হার (mm/s, লগ স্কেল)",
+  "@axisSpread": {
+    "description": "Chart axis",
+    "x-review": "bn-pending"
+  },
+  "axisFlow": "বায়ুপ্রবাহ (mm/s, লগ স্কেল)",
+  "@axisFlow": {
+    "description": "Chart axis",
+    "x-review": "bn-pending"
+  },
+  "axisRuns": "পরীক্ষা",
+  "@axisRuns": {
+    "description": "Chart axis",
+    "x-review": "bn-pending"
+  },
+  "chartSpreadSummary": "{n}টি পরীক্ষার বিন্দুচিত্র: অক্সিজেনের বিপরীতে আগুন ছড়ানোর হার, মাধ্যাকর্ষণ শ্রেণি অনুযায়ী রঙিন।",
+  "@chartSpreadSummary": {
+    "description": "Chart semantics",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "chartBurningSummary": "বায়ুপ্রবাহের বিপরীতে {n}টি পরীক্ষা: {kept}টি জ্বলতে থাকে, {out}টি নিভে যায়।",
+  "@chartBurningSummary": {
+    "description": "Chart semantics",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "kept": {
+        "type": "String"
+      },
+      "out": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "chartRunsSummary": "{experiments}টি এক্সপেরিমেন্ট জুড়ে {n}টি পরীক্ষার বার চার্ট।",
+  "@chartRunsSummary": {
+    "description": "Chart semantics",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "experiments": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "runTitle": "পরীক্ষা {id}",
+  "@runTitle": {
+    "description": "Run detail",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "runKeptBurning": "জ্বলতে থাকে",
+  "@runKeptBurning": {
+    "description": "Outcome",
+    "x-review": "bn-pending"
+  },
+  "runWentOut": "নিভে যায়",
+  "@runWentOut": {
+    "description": "Outcome",
+    "x-review": "bn-pending"
+  },
+  "runNoIgnition": "জ্বলেনি",
+  "@runNoIgnition": {
+    "description": "Outcome",
+    "x-review": "bn-pending"
+  },
+  "runUnknownOutcome": "ফলাফল লেখা নেই",
+  "@runUnknownOutcome": {
+    "description": "Outcome",
+    "x-review": "bn-pending"
+  },
+  "runOpenSource": "উৎস খুলুন",
+  "@runOpenSource": {
+    "description": "Run detail",
+    "x-review": "bn-pending"
+  },
+  "runLoadLab": "এই অবস্থা ফায়ার ল্যাবে লোড করুন",
+  "@runLoadLab": {
+    "description": "Run detail",
+    "x-review": "bn-pending"
+  },
+  "runSource": "উৎস",
+  "@runSource": {
+    "description": "Run detail",
+    "x-review": "bn-pending"
+  },
+  "fieldGroup": "পরীক্ষার সিরিজ",
+  "@fieldGroup": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldExperiment": "এক্সপেরিমেন্ট",
+  "@fieldExperiment": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldPlatform": "প্ল্যাটফর্ম",
+  "@fieldPlatform": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldGravity": "মাধ্যাকর্ষণ",
+  "@fieldGravity": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldFuelName": "উপাদান",
+  "@fieldFuelName": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldFuelClass": "উপাদানের ধরন",
+  "@fieldFuelClass": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldThickness": "পুরুত্ব",
+  "@fieldThickness": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldDensity": "ঘনত্ব",
+  "@fieldDensity": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldO2": "অক্সিজেন",
+  "@fieldO2": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldPressure": "চাপ",
+  "@fieldPressure": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldDiluent": "মিশ্রক গ্যাস",
+  "@fieldDiluent": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldFlow": "বায়ুপ্রবাহ",
+  "@fieldFlow": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldFlowDir": "বায়ুপ্রবাহের দিক",
+  "@fieldFlowDir": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldIgnited": "জ্বলেছে",
+  "@fieldIgnited": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldSustained": "জ্বলতে থাকে",
+  "@fieldSustained": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldSpread": "আগুন ছড়ানোর হার",
+  "@fieldSpread": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldBurningRate": "দহন-হার ধ্রুবক",
+  "@fieldBurningRate": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldExtinction": "নিভে যাওয়ার কারণ",
+  "@fieldExtinction": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldSourceFile": "উৎস ফাইল",
+  "@fieldSourceFile": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldQuality": "মান",
+  "@fieldQuality": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "fieldNotes": "টীকা",
+  "@fieldNotes": {
+    "description": "Field",
+    "x-review": "bn-pending"
+  },
+  "labTitle": "ফায়ার ল্যাব",
+  "@labTitle": {
+    "description": "Lab",
+    "x-review": "bn-pending"
+  },
+  "labDesc": "একটি আগুন পরীক্ষার অবস্থা ঠিক করুন এবং দেখুন NASA-র ডেটা কী পূর্বাভাস দেয়।",
+  "@labDesc": {
+    "description": "Lab",
+    "x-review": "bn-pending"
+  },
+  "labConditions": "অবস্থা",
+  "@labConditions": {
+    "description": "Panel",
+    "x-review": "bn-pending"
+  },
+  "labPrediction": "পূর্বাভাস",
+  "@labPrediction": {
+    "description": "Panel",
+    "x-review": "bn-pending"
+  },
+  "labMaterial": "উপাদান",
+  "@labMaterial": {
+    "description": "Dropdown",
+    "x-review": "bn-pending"
+  },
+  "labMaterialCustom": "কাস্টম",
+  "@labMaterialCustom": {
+    "description": "Dropdown",
+    "x-review": "bn-pending"
+  },
+  "labMaterialSummary": "{fuelClass}, {thickness} mm",
+  "@labMaterialSummary": {
+    "description": "Dropdown",
+    "placeholders": {
+      "fuelClass": {
+        "type": "String"
+      },
+      "thickness": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labMarkerSeaLevel": "সমুদ্রপৃষ্ঠ 101.3 kPa",
+  "@labMarkerSeaLevel": {
+    "description": "Slider marker",
+    "x-review": "bn-pending"
+  },
+  "labMarkerEarthAir": "পৃথিবীর বাতাস 21%",
+  "@labMarkerEarthAir": {
+    "description": "Slider marker",
+    "x-review": "bn-pending"
+  },
+  "labReset": "ডিফল্টে ফিরিয়ে নিন",
+  "@labReset": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "labCopyLink": "এই সেটআপের লিংক কপি করুন",
+  "@labCopyLink": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "labCompare": "পৃথিবীর সঙ্গে তুলনা করুন",
+  "@labCompare": {
+    "description": "Toggle",
+    "x-review": "bn-pending"
+  },
+  "labGaugeCaption": "শিখা জ্বলতে থাকার সম্ভাবনা",
+  "@labGaugeCaption": {
+    "description": "Gauge",
+    "x-review": "bn-pending"
+  },
+  "labGoesOut": "নিভে যায়",
+  "@labGoesOut": {
+    "description": "Gauge end",
+    "x-review": "bn-pending"
+  },
+  "labKeepsBurning": "জ্বলতে থাকে",
+  "@labKeepsBurning": {
+    "description": "Gauge end",
+    "x-review": "bn-pending"
+  },
+  "labGaugeUnavailable": "এটি পূর্বাভাস দেওয়ার মতো যথেষ্ট ডেটা নেই",
+  "@labGaugeUnavailable": {
+    "description": "Gauge",
+    "x-review": "bn-pending"
+  },
+  "labGaugeSemantics": "শিখা জ্বলতে থাকার সম্ভাবনা: {pct} শতাংশ।",
+  "@labGaugeSemantics": {
+    "description": "Gauge a11y",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labChanceLabel": "জ্বলতে থাকার সম্ভাবনা",
+  "@labChanceLabel": {
+    "description": "Readout label",
+    "x-review": "bn-pending"
+  },
+  "labSpreadTitle": "আগুন ছড়ানোর হার",
+  "@labSpreadTitle": {
+    "description": "Spread band",
+    "x-review": "bn-pending"
+  },
+  "labRange80": "80% পরিসর: {low} থেকে {high} mm/s",
+  "@labRange80": {
+    "description": "Spread",
+    "placeholders": {
+      "low": {
+        "type": "String"
+      },
+      "high": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labSpreadSemantics": "আগুন ছড়ানোর হার প্রতি সেকেন্ডে {mid} মিলিমিটার, 80% পরিসর {low} থেকে {high}।",
+  "@labSpreadSemantics": {
+    "description": "Spread a11y",
+    "placeholders": {
+      "mid": {
+        "type": "String"
+      },
+      "low": {
+        "type": "String"
+      },
+      "high": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labEffectiveFlow": "কার্যকর বায়ুপ্রবাহ",
+  "@labEffectiveFlow": {
+    "description": "Readout",
+    "x-review": "bn-pending"
+  },
+  "labEffectiveFlowCaption": "(চালিত {forced} + প্লবতাজনিত {buoyant})",
+  "@labEffectiveFlowCaption": {
+    "description": "Readout",
+    "placeholders": {
+      "forced": {
+        "type": "String"
+      },
+      "buoyant": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labEffectiveFlowForcedOnly": "(শুধু চালিত বায়ুপ্রবাহ; প্লবতাজনিত অংশের জন্য পদার্থবিজ্ঞান যাচাই দরকার)",
+  "@labEffectiveFlowForcedOnly": {
+    "description": "Readout",
+    "x-review": "bn-pending"
+  },
+  "labSensTitle": "ঝুঁকি কীসে বদলায়",
+  "@labSensTitle": {
+    "description": "Sensitivity",
+    "x-review": "bn-pending"
+  },
+  "labSensCaption": "প্রতিটি সারি একটি সেটিং তার পরিসরের 10% সরায় এবং বাকিগুলো স্থির রাখে।",
+  "@labSensCaption": {
+    "description": "Sensitivity",
+    "x-review": "bn-pending"
+  },
+  "labSensRow": "{feature} {delta} বাড়ালে: {change}",
+  "@labSensRow": {
+    "description": "Sensitivity row",
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      },
+      "delta": {
+        "type": "String"
+      },
+      "change": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labSensPoints": "{value} পয়েন্ট",
+  "@labSensPoints": {
+    "description": "Sensitivity change",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labSensMmS": "{value} mm/s",
+  "@labSensMmS": {
+    "description": "Sensitivity change",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labSensEmpty": "পূর্বাভাস পাওয়া গেলে সংবেদনশীলতা দেখা যাবে।",
+  "@labSensEmpty": {
+    "description": "Sensitivity",
+    "x-review": "bn-pending"
+  },
+  "labPhysicsTitle": "পদার্থবিজ্ঞান যাচাই",
+  "@labPhysicsTitle": {
+    "description": "Physics card",
+    "x-review": "bn-pending"
+  },
+  "labPhysicsPredicts": "পাতলা-জ্বালানি তত্ত্বের পূর্বাভাস",
+  "@labPhysicsPredicts": {
+    "description": "Physics",
+    "x-review": "bn-pending"
+  },
+  "labPhysicsLower": "ML পূর্বাভাস {pct}% কম, যা নিভে যাওয়ার কাছাকাছি প্রত্যাশিত, যেখানে সহজ তত্ত্ব বেশি দেখায়।",
+  "@labPhysicsLower": {
+    "description": "Physics",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labPhysicsHigher": "ML পূর্বাভাস সহজ তত্ত্বের চেয়ে {pct}% বেশি।",
+  "@labPhysicsHigher": {
+    "description": "Physics",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labPhysicsSeeEquation": "সমীকরণটি দেখুন",
+  "@labPhysicsSeeEquation": {
+    "description": "Physics",
+    "x-review": "bn-pending"
+  },
+  "labCompareYourG": "আপনার মাধ্যাকর্ষণে",
+  "@labCompareYourG": {
+    "description": "Compare",
+    "x-review": "bn-pending"
+  },
+  "labCompareEarth": "পৃথিবীতে (1 g)",
+  "@labCompareEarth": {
+    "description": "Compare",
+    "x-review": "bn-pending"
+  },
+  "labDeltaMore": "পৃথিবীতে জ্বলতে থাকার সম্ভাবনা {n} পয়েন্ট বেশি",
+  "@labDeltaMore": {
+    "description": "Compare",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labDeltaLess": "পৃথিবীতে জ্বলতে থাকার সম্ভাবনা {n} পয়েন্ট কম",
+  "@labDeltaLess": {
+    "description": "Compare",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labDeltaSame": "পৃথিবীতে জ্বলতে থাকার সম্ভাবনা একই",
+  "@labDeltaSame": {
+    "description": "Compare",
+    "x-review": "bn-pending"
+  },
+  "labDeltaFaster": "পৃথিবীতে ×{ratio} দ্রুত",
+  "@labDeltaFaster": {
+    "description": "Compare",
+    "placeholders": {
+      "ratio": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labDeltaSlower": "পৃথিবীতে ×{ratio} ধীর",
+  "@labDeltaSlower": {
+    "description": "Compare (TODO(Q-5))",
+    "placeholders": {
+      "ratio": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labSticky": "{pct}% জ্বলতে থাকে, {spread} mm/s",
+  "@labSticky": {
+    "description": "Compact sticky bar",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      },
+      "spread": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "labStickyNoSpread": "{pct}% জ্বলতে থাকে",
+  "@labStickyNoSpread": {
+    "description": "Compact sticky bar",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "sliderSemantics": "{value} {unit}",
+  "@sliderSemantics": {
+    "description": "Slider a11y value",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "sliderPercentSemantics": "{value} শতাংশ",
+  "@sliderPercentSemantics": {
+    "description": "Slider a11y value",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "numberFieldLabel": "{feature} এর মান",
+  "@numberFieldLabel": {
+    "description": "Number field a11y",
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "mapTitle": "দাহ্যতার মানচিত্র",
+  "@mapTitle": {
+    "description": "Map",
+    "x-review": "bn-pending"
+  },
+  "mapDesc": "বিভিন্ন অক্সিজেন মাত্রা ও বায়ুপ্রবাহের গতিতে একটি শিখার জ্বলতে থাকার সম্ভাবনা কতটা।",
+  "@mapDesc": {
+    "description": "Map",
+    "x-review": "bn-pending"
+  },
+  "mapLegendLow": "নিভে যাওয়ার সম্ভাবনা",
+  "@mapLegendLow": {
+    "description": "Legend",
+    "x-review": "bn-pending"
+  },
+  "mapLegendHigh": "জ্বলতে থাকার সম্ভাবনা",
+  "@mapLegendHigh": {
+    "description": "Legend",
+    "x-review": "bn-pending"
+  },
+  "mapHatch": "এখানে NASA-র ডেটা খুব কম বা নেই",
+  "@mapHatch": {
+    "description": "Legend",
+    "x-review": "bn-pending"
+  },
+  "mapOpenLab": "ফায়ার ল্যাবে খুলুন",
+  "@mapOpenLab": {
+    "description": "Inspector",
+    "x-review": "bn-pending"
+  },
+  "mapOverlays": "ওভারলে",
+  "@mapOverlays": {
+    "description": "Controls",
+    "x-review": "bn-pending"
+  },
+  "mapOverlayRuns": "NASA পরীক্ষা",
+  "@mapOverlayRuns": {
+    "description": "Overlay chip",
+    "x-review": "bn-pending"
+  },
+  "mapOverlayContour": "50% রেখা",
+  "@mapOverlayContour": {
+    "description": "Overlay chip",
+    "x-review": "bn-pending"
+  },
+  "mapContourLabel": "50%",
+  "@mapContourLabel": {
+    "description": "Contour label",
+    "x-review": "bn-pending"
+  },
+  "mapInspectorHint": "একটি ঘরের ওপর কার্সর রাখুন",
+  "@mapInspectorHint": {
+    "description": "Inspector",
+    "x-review": "bn-pending"
+  },
+  "mapInspectorTapHint": "একটি ঘরে ট্যাপ করুন",
+  "@mapInspectorTapHint": {
+    "description": "Inspector",
+    "x-review": "bn-pending"
+  },
+  "mapCellProb": "{pct}% জ্বলতে থাকে",
+  "@mapCellProb": {
+    "description": "Inspector",
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "mapPinned": "পিন করা",
+  "@mapPinned": {
+    "description": "Inspector",
+    "x-review": "bn-pending"
+  },
+  "mapKeptBurning": "জ্বলতে থাকে",
+  "@mapKeptBurning": {
+    "description": "Legend",
+    "x-review": "bn-pending"
+  },
+  "mapWentOut": "নিভে যায়",
+  "@mapWentOut": {
+    "description": "Legend",
+    "x-review": "bn-pending"
+  },
+  "mapSettings": "মানচিত্রের সেটিং",
+  "@mapSettings": {
+    "description": "Compact sheet",
+    "x-review": "bn-pending"
+  },
+  "mapPressureValue": "চাপ {value} kPa",
+  "@mapPressureValue": {
+    "description": "Control",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "mapGravityValue": "মাধ্যাকর্ষণ: {label}",
+  "@mapGravityValue": {
+    "description": "Control",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "mapEmptyTitle": "মানচিত্র আঁকার মতো যথেষ্ট ডেটা নেই",
+  "@mapEmptyTitle": {
+    "description": "Empty",
+    "x-review": "bn-pending"
+  },
+  "mapEmptyBody": "FlameSense-এর জানা ফলাফলসহ অন্তত ৪০টি NASA পরীক্ষা দরকার। যা আছে সব পরীক্ষা আপনি দেখতে পারেন।",
+  "@mapEmptyBody": {
+    "description": "Empty",
+    "x-review": "bn-pending"
+  },
+  "mapEmptyCta": "এক্সপ্লোরে পরীক্ষাগুলো দেখুন",
+  "@mapEmptyCta": {
+    "description": "Empty",
+    "x-review": "bn-pending"
+  },
+  "mapSemantics": "শিখা জ্বলতে থাকার সম্ভাবনার তাপচিত্র, অক্সিজেন {o2min} থেকে {o2max} শতাংশ, বায়ুপ্রবাহ {fmin} থেকে {fmax} mm/s। {total}টি ঘরের {low}টিতে NASA-র ডেটা কম।",
+  "@mapSemantics": {
+    "description": "Map a11y",
+    "placeholders": {
+      "o2min": {
+        "type": "String"
+      },
+      "o2max": {
+        "type": "String"
+      },
+      "fmin": {
+        "type": "String"
+      },
+      "fmax": {
+        "type": "String"
+      },
+      "low": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "askTitle": "NASA-র নথিকে প্রশ্ন করুন",
+  "@askTitle": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askDesc": "উত্তর আসে শুধু FlameSense-এর পড়া NASA নথি থেকে। প্রতিটি বাক্য তার উৎস উল্লেখ করে।",
+  "@askDesc": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askSuggested": "প্রস্তাবিত প্রশ্ন",
+  "@askSuggested": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askQ1": "মাইক্রোগ্র্যাভিটিতে শিখা গোল হয় কেন?",
+  "@askQ1": {
+    "description": "Q",
+    "x-review": "bn-pending"
+  },
+  "askQ2": "কোনো উপাদান কি মহাকাশে জ্বলে কিন্তু পৃথিবীতে জ্বলে না?",
+  "@askQ2": {
+    "description": "Q",
+    "x-review": "bn-pending"
+  },
+  "askQ3": "NASA-র Saffire পরীক্ষাগুলো কী পরীক্ষা করেছে?",
+  "@askQ3": {
+    "description": "Q",
+    "x-review": "bn-pending"
+  },
+  "askQ4": "মাইক্রোগ্র্যাভিটিতে বায়ুপ্রবাহ কীভাবে আগুন ছড়ানোকে প্রভাবিত করে?",
+  "@askQ4": {
+    "description": "Q",
+    "x-review": "bn-pending"
+  },
+  "askQ5": "মহাকাশে শিখা নীল হয় কেন?",
+  "@askQ5": {
+    "description": "Q",
+    "x-review": "bn-pending"
+  },
+  "askQ6": "মহাকাশযানের উপাদানের দাহ্যতা কীভাবে পরীক্ষা করা হয়?",
+  "@askQ6": {
+    "description": "Q",
+    "x-review": "bn-pending"
+  },
+  "askPlaceholder": "মাইক্রোগ্র্যাভিটিতে আগুন নিয়ে প্রশ্ন করুন",
+  "@askPlaceholder": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askInputLabel": "আপনার প্রশ্ন",
+  "@askInputLabel": {
+    "description": "Ask a11y",
+    "x-review": "bn-pending"
+  },
+  "askButton": "প্রশ্ন করুন",
+  "@askButton": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askCounter": "{n} / ৫০০",
+  "@askCounter": {
+    "description": "Ask",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "askGrounded": "NASA-র উৎস থেকে উত্তর",
+  "@askGrounded": {
+    "description": "Ask status",
+    "x-review": "bn-pending"
+  },
+  "askNotGrounded": "FlameSense-এর NASA উৎসে পাওয়া যায়নি",
+  "@askNotGrounded": {
+    "description": "Ask status",
+    "x-review": "bn-pending"
+  },
+  "askSaved": "সংরক্ষিত উত্তর",
+  "@askSaved": {
+    "description": "Ask tag",
+    "x-review": "bn-pending"
+  },
+  "askSearching": "NASA নথি খোঁজা হচ্ছে",
+  "@askSearching": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askCopy": "উত্তর কপি করুন",
+  "@askCopy": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askOpenDoc": "নথি খুলুন",
+  "@askOpenDoc": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askSources": "উৎস",
+  "@askSources": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askPage": "পৃষ্ঠা {n}",
+  "@askPage": {
+    "description": "Ask",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "askEarlier": "আগের প্রশ্ন",
+  "@askEarlier": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askRelated": "একটি সম্পর্কিত প্রশ্ন দেখুন",
+  "@askRelated": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "askCitationTip": "{title}, পৃষ্ঠা {page}",
+  "@askCitationTip": {
+    "description": "Citation tooltip",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "page": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "askCitationSemantics": "উৎস {n}",
+  "@askCitationSemantics": {
+    "description": "Citation a11y",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "askFootnote": "উত্তরগুলো উল্লিখিত নথি থেকে একটি AI মডেল তৈরি করে এবং ভুল থাকতে পারে। ভরসা করার আগে উৎস যাচাই করুন।",
+  "@askFootnote": {
+    "description": "Ask",
+    "x-review": "bn-pending"
+  },
+  "earthTitle": "পৃথিবীর জন্য শিক্ষা",
+  "@earthTitle": {
+    "description": "Earth",
+    "x-review": "bn-pending"
+  },
+  "earthDesc": "কক্ষপথে আগুনের পরীক্ষা এখানকার ঘর, যানবাহন ও কর্মস্থলের অগ্নি-নিরাপত্তা নিয়ে কী শেখায়।",
+  "@earthDesc": {
+    "description": "Earth",
+    "x-review": "bn-pending"
+  },
+  "earthInOrbit": "কক্ষপথে",
+  "@earthInOrbit": {
+    "description": "Earth",
+    "x-review": "bn-pending"
+  },
+  "earthOnEarth": "পৃথিবীতে",
+  "@earthOnEarth": {
+    "description": "Earth",
+    "x-review": "bn-pending"
+  },
+  "earthPractice": "বাস্তবে এর অর্থ কী",
+  "@earthPractice": {
+    "description": "Earth",
+    "x-review": "bn-pending"
+  },
+  "earthFooter": "এগুলো গবেষণার সাধারণ ফলাফল, কোনো নির্দিষ্ট ভবনের নিরাপত্তা নিয়ম নয়। আপনার স্থানীয় ফায়ার সার্ভিসের নির্দেশনা মেনে চলুন।",
+  "@earthFooter": {
+    "description": "Earth",
+    "x-review": "bn-pending"
+  },
+  "earthEmptyTitle": "শিক্ষাগুলো যাচাই করা হচ্ছে",
+  "@earthEmptyTitle": {
+    "description": "Earth",
+    "x-review": "bn-pending"
+  },
+  "earthEmptyBody": "প্রতিটি শিক্ষা এখানে আসার আগে তার উৎসের সঙ্গে মিলিয়ে দেখা হয়।",
+  "@earthEmptyBody": {
+    "description": "Earth",
+    "x-review": "bn-pending"
+  },
+  "methodsTitle": "পদ্ধতি",
+  "@methodsTitle": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsDesc": "ডেটা কোথা থেকে আসে, পূর্বাভাস কীভাবে তৈরি হয়, কতটা ভালো কাজ করে, আর কোথায় থামে।",
+  "@methodsDesc": {
+    "description": "Methods (TODO(Q-5): no description in DESIGN.md)",
+    "x-review": "bn-pending"
+  },
+  "methodsToc": "এই পেজে",
+  "@methodsToc": {
+    "description": "ToC",
+    "x-review": "bn-pending"
+  },
+  "methodsDataTitle": "ডেটা কোথা থেকে আসে",
+  "@methodsDataTitle": {
+    "description": "Section",
+    "x-review": "bn-pending"
+  },
+  "methodsPredTitle": "পূর্বাভাস কীভাবে কাজ করে",
+  "@methodsPredTitle": {
+    "description": "Section",
+    "x-review": "bn-pending"
+  },
+  "methodsValTitle": "এটি কতটা ভালো কাজ করে",
+  "@methodsValTitle": {
+    "description": "Section",
+    "x-review": "bn-pending"
+  },
+  "methodsPhysTitle": "পদার্থবিজ্ঞান যাচাই",
+  "@methodsPhysTitle": {
+    "description": "Section",
+    "x-review": "bn-pending"
+  },
+  "methodsSupportTitle": "ডেটা সমর্থন ও বহির্বেশন",
+  "@methodsSupportTitle": {
+    "description": "Section",
+    "x-review": "bn-pending"
+  },
+  "methodsLimitsTitle": "সীমাবদ্ধতা",
+  "@methodsLimitsTitle": {
+    "description": "Section",
+    "x-review": "bn-pending"
+  },
+  "methodsUsabilityTitle": "মানুষের সঙ্গে পরীক্ষিত",
+  "@methodsUsabilityTitle": {
+    "description": "Section",
+    "x-review": "bn-pending"
+  },
+  "methodsHonestyTitle": "FlameSense যা কখনো করবে না",
+  "@methodsHonestyTitle": {
+    "description": "Section",
+    "x-review": "bn-pending"
+  },
+  "methodsDataBody": "FlameSense {experiments}টি এক্সপেরিমেন্টের {runs}টি পরীক্ষা ব্যবহার করে। প্রতিটি পরীক্ষার উৎস ফাইল ও উল্লেখ সংরক্ষিত থাকে।",
+  "@methodsDataBody": {
+    "description": "Methods data",
+    "placeholders": {
+      "runs": {
+        "type": "String"
+      },
+      "experiments": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "methodsBuild": "ডেটা সংস্করণ {version}, তৈরি {date}।",
+  "@methodsBuild": {
+    "description": "Methods data",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "colSource": "উৎস",
+  "@colSource": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colRuns": "পরীক্ষা",
+  "@colRuns": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colLink": "লিংক",
+  "@colLink": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colFlag": "মানের চিহ্ন",
+  "@colFlag": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colMeaning": "অর্থ",
+  "@colMeaning": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "methodsNoSources": "এখনো কোনো উৎস লোড হয়নি।",
+  "@methodsNoSources": {
+    "description": "Methods data",
+    "x-review": "bn-pending"
+  },
+  "qualityOkDesc": "সরাসরি NASA-র ডেটা ফাইল থেকে নেওয়া।",
+  "@qualityOkDesc": {
+    "description": "Quality",
+    "x-review": "bn-pending"
+  },
+  "qualityEstimatedDesc": "আনুমানিক মান দেওয়া উৎস থেকে পড়া বা রূপান্তর করা।",
+  "@qualityEstimatedDesc": {
+    "description": "Quality",
+    "x-review": "bn-pending"
+  },
+  "qualityDigitizedDesc": "প্রকাশিত প্রতিবেদনের টেবিল বা চার্ট থেকে হাতে কপি করা।",
+  "@qualityDigitizedDesc": {
+    "description": "Quality",
+    "x-review": "bn-pending"
+  },
+  "qualityVideoDesc": "FlameSense-এর ট্র্যাকার দিয়ে পরীক্ষার ভিডিও থেকে মাপা বিস্তারের হার।",
+  "@qualityVideoDesc": {
+    "description": "Quality",
+    "x-review": "bn-pending"
+  },
+  "qualitySuspectDesc": "একটি ব্যতিক্রমী মান। এক্সপ্লোরে দেখানো হয় কিন্তু মডেল প্রশিক্ষণে ব্যবহার হয় না।",
+  "@qualitySuspectDesc": {
+    "description": "Quality",
+    "x-review": "bn-pending"
+  },
+  "methodsPredBody": "FlameSense NASA-র পরীক্ষা থেকে শেখে কোন অবস্থায় শিখা জ্বলতে থাকে এবং কত দ্রুত ছড়ায়। এটি গ্রেডিয়েন্ট-বুস্টেড ডিসিশন ট্রি (decision trees) ব্যবহার করে, যা পুরোপুরি আপনার ব্রাউজারে চলে। প্রতিটি পূর্বাভাসের সঙ্গে ডেটা সমর্থনের মাত্রা থাকে এবং পরীক্ষিত সীমার বাইরে গেলে সতর্কবার্তা।",
+  "@methodsPredBody": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsTwoModels": "দুই ধরনের মডেল: একটি শিখা জ্বলতে থাকার সম্ভাবনা অনুমান করে; তিনটি ধীর, স্বাভাবিক ও দ্রুত বিস্তারের হার অনুমান করে (10ম, 50তম ও 90তম পার্সেন্টাইল)।",
+  "@methodsTwoModels": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsOxygenConstraint": "অক্সিজেনকে এমনভাবে সীমাবদ্ধ করা হয়েছে যাতে বেশি অক্সিজেন কখনো ঝুঁকি কমাতে না পারে, যা দহন বিজ্ঞানের সঙ্গে মেলে।",
+  "@methodsOxygenConstraint": {
+    "description": "Methods (only when the constraint is on)",
+    "x-review": "bn-pending"
+  },
+  "methodsOxygenPending": "লিড চিহ্নটি নিশ্চিত না করা পর্যন্ত অক্সিজেনের সীমাবদ্ধতা বন্ধ আছে।",
+  "@methodsOxygenPending": {
+    "description": "Methods (constraint off, Q-2)",
+    "x-review": "bn-pending"
+  },
+  "methodsFeatures": "মডেল যে ইনপুট ব্যবহার করে",
+  "@methodsFeatures": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsTaskUnavailable": "প্রশিক্ষিত নয়: {reason}",
+  "@methodsTaskUnavailable": {
+    "description": "Methods",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "methodsSustainModel": "শিখা জ্বলতে থাকার সম্ভাবনা",
+  "@methodsSustainModel": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsSpreadModel": "আগুন ছড়ানোর হার",
+  "@methodsSpreadModel": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "colMetric": "পরিমাপ",
+  "@colMetric": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colValue": "মান",
+  "@colValue": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colPlain": "সহজ ভাষায়",
+  "@colPlain": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "metricRows": "ব্যবহৃত পরীক্ষা",
+  "@metricRows": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricGroups": "স্বাধীন পরীক্ষার সিরিজ",
+  "@metricGroups": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricCv": "ক্রস-ভ্যালিডেশন",
+  "@metricCv": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricRocAuc": "ROC-AUC",
+  "@metricRocAuc": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricRocAucPlain": "জ্বলাকে নিভে যাওয়ার ওপরে কতটা ঠিকভাবে সাজায়। 0.5 মানে টস, 1 মানে নিখুঁত।",
+  "@metricRocAucPlain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricBrier": "ব্রায়ার স্কোর",
+  "@metricBrier": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricBrierPlain": "সম্ভাবনার গড় বর্গ ত্রুটি। কম হলে ভালো।",
+  "@metricBrierPlain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricBaselineBrier": "ভিত্তি ব্রায়ার স্কোর",
+  "@metricBaselineBrier": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricBaselineBrierPlain": "সবসময় গড় ফলাফল অনুমান করলে যে স্কোর হয়।",
+  "@metricBaselineBrierPlain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricAccuracy": "50%-এ নির্ভুলতা",
+  "@metricAccuracy": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricAccuracyPlain": "50% সীমায় সঠিকভাবে শ্রেণিবদ্ধ পরীক্ষার অংশ।",
+  "@metricAccuracyPlain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricMae": "গড় পরম ত্রুটি",
+  "@metricMae": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricMaePlain": "পূর্বাভাসিত ও মাপা বিস্তার হারের সাধারণ পার্থক্য।",
+  "@metricMaePlain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricBaselineMae": "ভিত্তি ত্রুটি",
+  "@metricBaselineMae": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricBaselineMaePlain": "সবসময় প্রশিক্ষণের সাধারণ মান অনুমান করলে যে ত্রুটি হয়।",
+  "@metricBaselineMaePlain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricMedianApe": "মধ্যমা শতাংশ ত্রুটি",
+  "@metricMedianApe": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricMedianApePlain": "অর্ধেক পূর্বাভাস এর চেয়ে কাছাকাছি।",
+  "@metricMedianApePlain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricR2": "R² (লগ স্কেল)",
+  "@metricR2": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricR2Plain": "ব্যাখ্যা করা পরিবর্তনের অংশ। 1 মানে নিখুঁত, 0 মানে গড়ের চেয়ে ভালো নয়।",
+  "@metricR2Plain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricCoverage": "80% পরিসরের আওতা",
+  "@metricCoverage": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricCoveragePlain": "পূর্বাভাসিত 80% পরিসরের মধ্যে পড়া মাপা হারের অংশ। 80%-এর কাছাকাছি হলে সৎ।",
+  "@metricCoveragePlain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricPhysicsMae": "পদার্থবিজ্ঞান যাচাইয়ের ত্রুটি",
+  "@metricPhysicsMae": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "metricPhysicsMaePlain": "যে পরীক্ষাগুলো এটি কভার করে সেগুলোতে পাতলা-জ্বালানি তত্ত্বের ত্রুটি।",
+  "@metricPhysicsMaePlain": {
+    "description": "Metric",
+    "x-review": "bn-pending"
+  },
+  "methodsCalibration": "পূর্বাভাসিত সম্ভাবনা বনাম আসলে জ্বলতে থাকার অংশ",
+  "@methodsCalibration": {
+    "description": "Chart title",
+    "x-review": "bn-pending"
+  },
+  "methodsCalibrationSemantics": "{n}টি ভাগসহ ক্যালিব্রেশন চার্ট। কর্ণের কাছে বিন্দু মানে সম্ভাবনাগুলো সৎ।",
+  "@methodsCalibrationSemantics": {
+    "description": "Chart a11y",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "axisPredicted": "পূর্বাভাসিত সম্ভাবনা",
+  "@axisPredicted": {
+    "description": "Chart axis",
+    "x-review": "bn-pending"
+  },
+  "axisObserved": "পর্যবেক্ষিত অংশ",
+  "@axisObserved": {
+    "description": "Chart axis",
+    "x-review": "bn-pending"
+  },
+  "methodsCvNote": "মডেল কখনো দেখেনি এমন পুরো পরীক্ষার সিরিজে যাচাই করা, তাই প্রায়-একই পরীক্ষার কারণে ফলাফল ফুলে ওঠে না।",
+  "@methodsCvNote": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsBaselineNote": "প্রতিটি পরিমাপ মডেলহীন ভিত্তির পাশে দেখানো হয়েছে যাতে লাভটা বোঝা যায়।",
+  "@methodsBaselineNote": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsEq1": "পাতলা-জ্বালানির বিপরীতমুখী প্রবাহে বিস্তার (de Ris, 1969)",
+  "@methodsEq1": {
+    "description": "Equation title",
+    "x-review": "bn-pending"
+  },
+  "methodsEq2": "বৈশিষ্ট্যসূচক প্লবতাজনিত বেগ",
+  "@methodsEq2": {
+    "description": "Equation title",
+    "x-review": "bn-pending"
+  },
+  "methodsEq3": "ল্যাবে দেখানো কার্যকর বায়ুপ্রবাহ",
+  "@methodsEq3": {
+    "description": "Equation",
+    "x-review": "bn-pending"
+  },
+  "colSymbol": "প্রতীক",
+  "@colSymbol": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colParameter": "প্যারামিটার",
+  "@colParameter": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "symVf": "আগুন ছড়ানোর হার",
+  "@symVf": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symLambda": "গ্যাসের তাপ পরিবাহিতা",
+  "@symLambda": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symTf": "শিখার তাপমাত্রা (অক্সিজেন থেকে)",
+  "@symTf": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symTv": "জ্বালানির পাইরোলাইসিস তাপমাত্রা",
+  "@symTv": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symTinf": "পারিপার্শ্বিক তাপমাত্রা",
+  "@symTinf": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symRho": "জ্বালানির ঘনত্ব",
+  "@symRho": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symCs": "জ্বালানির আপেক্ষিক তাপ",
+  "@symCs": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symTau": "জ্বালানির অর্ধ-পুরুত্ব",
+  "@symTau": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symUb": "প্লবতাজনিত বেগ",
+  "@symUb": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symG": "মাধ্যাকর্ষণ ত্বরণ",
+  "@symG": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symAlpha": "গ্যাসের তাপ বিস্তারণশীলতা",
+  "@symAlpha": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "symUeff": "কার্যকর বায়ুপ্রবাহ",
+  "@symUeff": {
+    "description": "Symbol",
+    "x-review": "bn-pending"
+  },
+  "methodsApplicability": "যাচাইটি শুধু বিপরীতমুখী বায়ুপ্রবাহে (বা কক্ষপথে স্থির বাতাসে) পাতলা উপাদানের জন্য। এটি পুরু উপাদান, বিস্তারের একই দিকে বায়ুপ্রবাহ বা ফোঁটা কভার করে না।",
+  "@methodsApplicability": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsPhysLimit": "পাতলা-জ্বালানির সূত্রটি সসীম-হারের রসায়ন ও বিকিরণ উপেক্ষা করে, তাই নিভে যাওয়ার কাছাকাছি (মাইক্রোগ্র্যাভিটিতে খুব কম বায়ুপ্রবাহ, বা কম অক্সিজেন) বিস্তার বেশি দেখায়। ডেটাভিত্তিক মডেল ওই অঞ্চল ডেটা থেকে শেখে।",
+  "@methodsPhysLimit": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsSignedOff": "{date} তারিখে উল্লিখিত উৎসের সঙ্গে মিলিয়ে দেখা হয়েছে",
+  "@methodsSignedOff": {
+    "description": "Sign-off",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "methodsPending": "যাচাই বাকি",
+  "@methodsPending": {
+    "description": "Sign-off",
+    "x-review": "bn-pending"
+  },
+  "methodsParamsPending": "উৎস ও যাচাই হলে প্যারামিটারের মান যোগ করা হবে।",
+  "@methodsParamsPending": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsSupportBody": "ডেটা সমর্থন ব্যাজ মাপে আপনার সেটিং বাস্তব NASA পরীক্ষার কতটা কাছে। বেশি মানে কাছাকাছি অনেক পরীক্ষা; মাঝারি মানে কিছু; কম মানে খুব কম বা নেই, তাই পূর্বাভাসটি বহির্বেশন। মানচিত্রে দাগকাটা ঘরে সমর্থন কম। পরীক্ষিত সীমার বাইরের সেটিংয়ে সবসময় সতর্কবার্তা দেখায়।",
+  "@methodsSupportBody": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "limit1": "ছোট ডেটাসেট: {runs}টি পরীক্ষা। ডেটা যোগ হলে ফলাফল বদলাতে পারে।",
+  "@limit1": {
+    "description": "Limitation",
+    "placeholders": {
+      "runs": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "limit2": "একই সিরিজের পরীক্ষাগুলো একই যন্ত্র ও পদ্ধতি ব্যবহার করে, তাই পুরোপুরি স্বাধীন নয়।",
+  "@limit2": {
+    "description": "Limitation",
+    "x-review": "bn-pending"
+  },
+  "limit3": "পরীক্ষিত সীমার বাইরে, এবং চাঁদ বা মঙ্গলের মাধ্যাকর্ষণে, পূর্বাভাসগুলো বহির্বেশন।",
+  "@limit3": {
+    "description": "Limitation",
+    "x-review": "bn-pending"
+  },
+  "limit4": "পদার্থবিজ্ঞান যাচাই একটি সরলীকৃত তত্ত্ব এবং নিভে যাওয়ার কাছাকাছি খাটে না।",
+  "@limit4": {
+    "description": "Limitation",
+    "x-review": "bn-pending"
+  },
+  "limit5": "বাস্তব ব্যবহারের জন্য নয়: FlameSense অগ্নি-নিরাপত্তা প্রকৌশলের বিকল্প নয়।",
+  "@limit5": {
+    "description": "Limitation",
+    "x-review": "bn-pending"
+  },
+  "methodsUsabilityPending": "ডেভেলপার নন এমন মানুষের সঙ্গে ব্যবহারযোগ্যতা পরীক্ষার পরে ফলাফল এখানে দেখা যাবে।",
+  "@methodsUsabilityPending": {
+    "description": "Methods",
+    "x-review": "bn-pending"
+  },
+  "methodsUsabilityIntro": "সফটওয়্যার তৈরি করেন না এমন {n} জন এই কাজগুলো চেষ্টা করেছেন।",
+  "@methodsUsabilityIntro": {
+    "description": "Methods",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "colTask": "কাজ",
+  "@colTask": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colCompleted": "সম্পন্ন",
+  "@colCompleted": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "colMedianTime": "মধ্যমা সময়",
+  "@colMedianTime": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "usabilityCompleted": "{total} জনের মধ্যে {n} জন",
+  "@usabilityCompleted": {
+    "description": "Table",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "usabilityTime": "{s} সে.",
+  "@usabilityTime": {
+    "description": "Table",
+    "placeholders": {
+      "s": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "honesty1": "কৃত্রিম ডেটা নেই: প্রতিটি পরীক্ষা উল্লিখিত NASA বা প্রকাশিত উৎস থেকে।",
+  "@honesty1": {
+    "description": "Honesty",
+    "x-review": "bn-pending"
+  },
+  "honesty2": "লুকানো বহির্বেশন নেই: NASA-র পরীক্ষিত সীমার বাইরের পূর্বাভাস চিহ্নিত করা হয়।",
+  "@honesty2": {
+    "description": "Honesty",
+    "x-review": "bn-pending"
+  },
+  "honesty3": "নিরাপত্তা সনদের দাবি নেই: FlameSense একটি গবেষণা ও শিক্ষামূলক টুল।",
+  "@honesty3": {
+    "description": "Honesty",
+    "x-review": "bn-pending"
+  },
+  "aboutTitle": "পরিচিতি",
+  "@aboutTitle": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutDesc": "FlameSense কী, কে তৈরি করেছে, এবং কীভাবে।",
+  "@aboutDesc": {
+    "description": "About (TODO(Q-5))",
+    "x-review": "bn-pending"
+  },
+  "aboutWhatTitle": "FlameSense কী",
+  "@aboutWhatTitle": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutWhatBody": "FlameSense NASA-র মাইক্রোগ্র্যাভিটি দহন পরীক্ষাগুলোকে একটি এক্সপ্লোরার, সৎ পূর্বাভাস এবং পৃথিবীর নিরাপত্তার শিক্ষায় রূপ দেয়। এটি দেখায় কক্ষপথে, চাঁদে ও মঙ্গলে আগুন কেমন আচরণ করে, এবং কোথায় NASA-র এখনো ডেটা নেই।",
+  "@aboutWhatBody": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutTeamTitle": "দল",
+  "@aboutTeamTitle": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutTeamBody": "রাজশাহীর দল FlameSense। এহসানুর কোড, ডেটা ও বিজ্ঞান যাচাইয়ের নেতৃত্ব দেন; দুইজন সদস্য নিবন্ধন, ভিডিও ও ব্যবহারযোগ্যতা পরীক্ষার নেতৃত্ব দেন।",
+  "@aboutTeamBody": {
+    "description": "About (TODO(Q-6): names)",
+    "x-review": "bn-pending"
+  },
+  "aboutChallengeTitle": "চ্যালেঞ্জ",
+  "@aboutChallengeTitle": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutChallengeBody": "NASA Space Apps Challenge 2026: Flame in Freefall",
+  "@aboutChallengeBody": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutOpenSourceTitle": "ওপেন সোর্স",
+  "@aboutOpenSourceTitle": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutOpenSourceBody": "সব কোড Apache-2.0 লাইসেন্সে উন্মুক্ত।",
+  "@aboutOpenSourceBody": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutGithub": "GitHub-এ কোড দেখুন",
+  "@aboutGithub": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutAiTitle": "AI ব্যবহার",
+  "@aboutAiTitle": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutAiBody": "একটি কোডিং এজেন্ট (Claude Code) লিডের পর্যালোচনায় কোড লিখেছে; প্রতিটি প্রম্পট AI_USAGE.md-তে তালিকাভুক্ত। প্রশ্ন পেজ শুধু খুঁজে পাওয়া NASA নথির ওপর Claude API ব্যবহার করে। পূর্বাভাস আসে NASA ডেটায় প্রশিক্ষিত LightGBM মডেল থেকে।",
+  "@aboutAiBody": {
+    "description": "About (updated in Phase 17)",
+    "x-review": "bn-pending"
+  },
+  "aboutLicensesTitle": "লাইসেন্স ও কৃতজ্ঞতা",
+  "@aboutLicensesTitle": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutLicenseCode": "কোড: Apache-2.0।",
+  "@aboutLicenseCode": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutLicenseFonts": "ফন্ট: Archivo ও Noto Sans Bengali, SIL Open Font License 1.1।",
+  "@aboutLicenseFonts": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutDataCredits": "ডেটার কৃতজ্ঞতা: {sources}",
+  "@aboutDataCredits": {
+    "description": "About",
+    "placeholders": {
+      "sources": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "aboutDataCreditsPending": "ডেটা যোগ হলে প্রতিটি উৎসের কৃতজ্ঞতা দেখানো হবে।",
+  "@aboutDataCreditsPending": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutViewLicenses": "সব লাইসেন্স দেখুন",
+  "@aboutViewLicenses": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutContactTitle": "যোগাযোগ",
+  "@aboutContactTitle": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutContactBody": "ডেটার ভুল জানাতে বা প্রশ্ন করতে GitHub ব্যবহার করুন।",
+  "@aboutContactBody": {
+    "description": "About (TODO(Q-6): email)",
+    "x-review": "bn-pending"
+  },
+  "aboutContactButton": "GitHub-এ একটি ইস্যু খুলুন",
+  "@aboutContactButton": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutVersion": "সংস্করণ {version}, ডেটা {data}, তৈরি {date}।",
+  "@aboutVersion": {
+    "description": "About",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "data": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "aboutPrivacyTitle": "গোপনীয়তা",
+  "@aboutPrivacyTitle": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "aboutPrivacy": "FlameSense কোনো ব্যক্তিগত তথ্য সংগ্রহ করে না এবং কোনো কুকি রাখে না। প্রশ্ন পেজে লেখা প্রশ্ন শুধু উত্তর তৈরির জন্য AI প্রদানকারীর কাছে পাঠানো হয়।",
+  "@aboutPrivacy": {
+    "description": "About",
+    "x-review": "bn-pending"
+  },
+  "notFoundTitle": "এই পেজটি ভেসে গেছে",
+  "@notFoundTitle": {
+    "description": "404",
+    "x-review": "bn-pending"
+  },
+  "notFoundBody": "ঠিকানাটি ভুল লেখা হতে পারে, অথবা পেজটি সরে গেছে।",
+  "@notFoundBody": {
+    "description": "404",
+    "x-review": "bn-pending"
+  },
+  "notFoundCta": "হোমে যান",
+  "@notFoundCta": {
+    "description": "404",
+    "x-review": "bn-pending"
+  },
+  "tourStep": "ধাপ {n}/{total}",
+  "@tourStep": {
+    "description": "Tour",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "tour1Title": "মাধ্যাকর্ষণ ছাড়া আগুনের আকার বদলায়",
+  "@tour1Title": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour1Body": "মাধ্যাকর্ষণ পৃথিবী থেকে কক্ষপথে টেনে আনুন। শিখা কমলা অশ্রুবিন্দু থেকে ধীর নীল গোলকে বদলে যায়।",
+  "@tour1Body": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour2Title": "একটি আগুন পরীক্ষা সাজান",
+  "@tour2Title": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour2Body": "NASA-র মহাকাশ স্টেশনের পরীক্ষার মতো একটি উপাদান বেছে নিন এবং অক্সিজেন, চাপ, বায়ুপ্রবাহ ও মাধ্যাকর্ষণ ঠিক করুন।",
+  "@tour2Body": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour3Title": "একটি সৎ পূর্বাভাস",
+  "@tour3Title": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour3Body": "মডেলটি শুধু NASA-র পরীক্ষায় প্রশিক্ষিত। ব্যাজটি দেখায় এই উত্তরের পেছনে কতটা বাস্তব ডেটা আছে।",
+  "@tour3Body": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour4Title": "শিখা কোথায় টিকে থাকে",
+  "@tour4Title": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour4Body": "উষ্ণ রং মানে জ্বলতে থাকে। দাগকাটা অংশে NASA-র ডেটা কম, চাঁদ ও মঙ্গলের মাধ্যাকর্ষণসহ।",
+  "@tour4Body": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour5Title": "চাঁদের আবাসের অগ্নি-নিরাপত্তা",
+  "@tour5Title": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour5Body": "NASA 34% অক্সিজেনসহ আবাসের পরিকল্পনা করছে। দেখুন সেখানে কোন উপাদান জ্বলতে পারে, এবং কোন পাঁচটি পরীক্ষা NASA-কে সবচেয়ে বেশি শেখাবে।",
+  "@tour5Body": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour6Title": "প্রতিটি সংখ্যার একটি উৎস আছে",
+  "@tour6Title": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour6Body": "যেকোনো পরীক্ষা খুলে দেখুন এটি কোন NASA ডেটাসেট বা প্রতিবেদন থেকে এসেছে।",
+  "@tour6Body": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour7Title": "NASA-র নথিকে প্রশ্ন করুন",
+  "@tour7Title": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour7Body": "উত্তরগুলো সঠিক নথি ও পৃষ্ঠা উল্লেখ করে।",
+  "@tour7Body": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour8Title": "পৃথিবীর জন্য শিক্ষা",
+  "@tour8Title": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "tour8Body": "মহাকাশের আগুন গবেষণা ঘর, যানবাহন ও কর্মস্থলের অগ্নি-নিরাপত্তায় কী অর্থ বহন করে।",
+  "@tour8Body": {
+    "description": "Tour",
+    "x-review": "bn-pending"
+  },
+  "missionsTitle": "একটি মিশনের পরিকল্পনা করুন",
+  "@missionsTitle": {
+    "description": "Missions",
+    "x-review": "bn-pending"
+  },
+  "missionsDesc": "NASA-র পরবর্তী আবাসে আইএসএস-এর চেয়ে কম চাপ ও বেশি অক্সিজেন থাকতে পারে। একটি মিশন বেছে নিন এবং দেখুন সেখানে কোন উপাদান জ্বলতে পারে, আর কোথায় NASA-র এখনো ডেটা নেই।",
+  "@missionsDesc": {
+    "description": "Missions",
+    "x-review": "bn-pending"
+  },
+  "missionIss": "আন্তর্জাতিক মহাকাশ স্টেশন",
+  "@missionIss": {
+    "description": "Mission",
+    "x-review": "bn-pending"
+  },
+  "missionLunar": "আর্টেমিস চন্দ্র আবাস",
+  "@missionLunar": {
+    "description": "Mission",
+    "x-review": "bn-pending"
+  },
+  "missionMarsTransit": "মঙ্গল যাত্রাপথ",
+  "@missionMarsTransit": {
+    "description": "Mission",
+    "x-review": "bn-pending"
+  },
+  "missionMars": "মঙ্গলপৃষ্ঠের আবাস",
+  "@missionMars": {
+    "description": "Mission",
+    "x-review": "bn-pending"
+  },
+  "missionEarth": "পৃথিবী (তুলনার জন্য)",
+  "@missionEarth": {
+    "description": "Mission",
+    "x-review": "bn-pending"
+  },
+  "missionIssNote": "বর্তমান মহাকাশ স্টেশনের কেবিনের বায়ুমণ্ডল।",
+  "@missionIssNote": {
+    "description": "Mission note",
+    "x-review": "bn-pending"
+  },
+  "missionLunarNote": "চাঁদের মাধ্যাকর্ষণে অনুসন্ধানী বায়ুমণ্ডল।",
+  "@missionLunarNote": {
+    "description": "Mission note",
+    "x-review": "bn-pending"
+  },
+  "missionMarsTransitNote": "ওজনহীন যাত্রায় অনুসন্ধানী বায়ুমণ্ডল।",
+  "@missionMarsTransitNote": {
+    "description": "Mission note",
+    "x-review": "bn-pending"
+  },
+  "missionMarsNote": "মঙ্গলের মাধ্যাকর্ষণে অনুসন্ধানী বায়ুমণ্ডল।",
+  "@missionMarsNote": {
+    "description": "Mission note",
+    "x-review": "bn-pending"
+  },
+  "missionEarthNote": "তুলনার জন্য সমুদ্রপৃষ্ঠের বাতাস।",
+  "@missionEarthNote": {
+    "description": "Mission note",
+    "x-review": "bn-pending"
+  },
+  "missionAtmosphere": "{pressure} kPa, {o2}% অক্সিজেন, {gravity}",
+  "@missionAtmosphere": {
+    "description": "Mission row",
+    "placeholders": {
+      "pressure": {
+        "type": "String"
+      },
+      "o2": {
+        "type": "String"
+      },
+      "gravity": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "missionSource": "উৎস",
+  "@missionSource": {
+    "description": "Mission row",
+    "x-review": "bn-pending"
+  },
+  "missionCountBurn": "জ্বলার সম্ভাবনা",
+  "@missionCountBurn": {
+    "description": "Mission count",
+    "x-review": "bn-pending"
+  },
+  "missionCountOut": "নিভে যাওয়ার সম্ভাবনা",
+  "@missionCountOut": {
+    "description": "Mission count",
+    "x-review": "bn-pending"
+  },
+  "missionCountUnknown": "অজানা",
+  "@missionCountUnknown": {
+    "description": "Mission count",
+    "x-review": "bn-pending"
+  },
+  "verdictBurns": "জ্বলতে থাকার সম্ভাবনা",
+  "@verdictBurns": {
+    "description": "Verdict",
+    "x-review": "bn-pending"
+  },
+  "verdictOut": "নিভে যাওয়ার সম্ভাবনা",
+  "@verdictOut": {
+    "description": "Verdict",
+    "x-review": "bn-pending"
+  },
+  "verdictUnknown": "অজানা, যথেষ্ট ডেটা নেই",
+  "@verdictUnknown": {
+    "description": "Verdict",
+    "x-review": "bn-pending"
+  },
+  "verdictUncertain": "অনিশ্চিত",
+  "@verdictUncertain": {
+    "description": "Verdict",
+    "x-review": "bn-pending"
+  },
+  "missionMaterial": "উপাদান",
+  "@missionMaterial": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "missionVerdict": "রায়",
+  "@missionVerdict": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "missionWorstCase": "সবচেয়ে খারাপ ক্ষেত্রে",
+  "@missionWorstCase": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "missionWorstFlow": "সবচেয়ে খারাপ ক্ষেত্রে বায়ুপ্রবাহ",
+  "@missionWorstFlow": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "missionSupport": "ডেটা সমর্থন",
+  "@missionSupport": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "missionMaterials": "উপাদান",
+  "@missionMaterials": {
+    "description": "Panel",
+    "x-review": "bn-pending"
+  },
+  "missionWorstCaseTip": "এই মিশনের মাধ্যাকর্ষণ, চাপ ও অক্সিজেনে, ডেটার সব বায়ুপ্রবাহ গতির মধ্যে জ্বলার সর্বোচ্চ সম্ভাবনা।",
+  "@missionWorstCaseTip": {
+    "description": "Tooltip",
+    "x-review": "bn-pending"
+  },
+  "missionNoMaterials": "ডেটাসেটে এখনো কোনো উপাদান নেই।",
+  "@missionNoMaterials": {
+    "description": "Empty table",
+    "x-review": "bn-pending"
+  },
+  "missionGap": "এই ডেটাসেটে {gravity} মাধ্যাকর্ষণে {n}টি NASA পরীক্ষা আছে। এখানের রায়গুলো কক্ষপথ ও পৃথিবীর ডেটা থেকে বহির্বেশন।",
+  "@missionGap": {
+    "description": "Mission gap",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "gravity": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "wishlistTitle": "NASA-র পরবর্তী পরীক্ষা কোথায় হওয়া উচিত",
+  "@wishlistTitle": {
+    "description": "Wishlist",
+    "x-review": "bn-pending"
+  },
+  "wishlistCaption": "একটি র‍্যাঙ্কিং সহায়িকা: যেখানে মডেল সবচেয়ে কম নিশ্চিত এবং কাছাকাছি কোনো NASA পরীক্ষা নেই। পরীক্ষা নকশা এখনো বিজ্ঞানীরাই করেন।",
+  "@wishlistCaption": {
+    "description": "Wishlist",
+    "x-review": "bn-pending"
+  },
+  "wishlistReasonUnsure": "এখানে মডেল অনিশ্চিত (p ≈ {p})।",
+  "@wishlistReasonUnsure": {
+    "description": "Reason",
+    "placeholders": {
+      "p": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "wishlistReasonFar": "এই অবস্থার কাছাকাছি কোনো NASA পরীক্ষা নেই।",
+  "@wishlistReasonFar": {
+    "description": "Reason",
+    "x-review": "bn-pending"
+  },
+  "wishlistReasonWide": "বিস্তার-হারের পরিসর বড়।",
+  "@wishlistReasonWide": {
+    "description": "Reason",
+    "x-review": "bn-pending"
+  },
+  "wishlistConditions": "{o2}% O₂, {pressure} kPa, {flow} mm/s, {fuel}",
+  "@wishlistConditions": {
+    "description": "Wishlist row",
+    "placeholders": {
+      "o2": {
+        "type": "String"
+      },
+      "pressure": {
+        "type": "String"
+      },
+      "flow": {
+        "type": "String"
+      },
+      "fuel": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "wishlistPlanned": "পরিকল্পিত NASA পরীক্ষা ({label}) FlameSense-এর তালিকার শীর্ষ {pct}%-এ আছে।",
+  "@wishlistPlanned": {
+    "description": "Wishlist",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "pct": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "wishlistPlannedLegend": "পরিকল্পিত NASA পরীক্ষা ({label})",
+  "@wishlistPlannedLegend": {
+    "description": "Legend",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "wishlistPin": "প্রস্তাবিত পরীক্ষা {n}",
+  "@wishlistPin": {
+    "description": "Pin a11y",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "wishlistCsv": "টেস্ট ম্যাট্রিক্স ডাউনলোড করুন (CSV)",
+  "@wishlistCsv": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "wishlistCsvDone": "টেস্ট ম্যাট্রিক্স ডাউনলোড হয়েছে",
+  "@wishlistCsvDone": {
+    "description": "Toast",
+    "x-review": "bn-pending"
+  },
+  "wishlistEmpty": "তালিকার জন্য জ্বলার মডেল দরকার, যার এখনো যথেষ্ট ডেটা নেই।",
+  "@wishlistEmpty": {
+    "description": "Wishlist",
+    "x-review": "bn-pending"
+  },
+  "briefButton": "মিশন ফায়ার ব্রিফ ডাউনলোড করুন (PDF)",
+  "@briefButton": {
+    "description": "Button",
+    "x-review": "bn-pending"
+  },
+  "briefDone": "ব্রিফ ডাউনলোড হয়েছে",
+  "@briefDone": {
+    "description": "Toast",
+    "x-review": "bn-pending"
+  },
+  "missionsNotice": "মিশনের বায়ুমণ্ডল NASA নথি থেকে নেওয়া। কেবিনের বায়ুপ্রবাহ বদলায় বলে FlameSense প্রতিটি উপাদান পরীক্ষিত সবচেয়ে খারাপ বায়ুপ্রবাহে যাচাই করে।",
+  "@missionsNotice": {
+    "description": "Missions",
+    "x-review": "bn-pending"
+  },
+  "missionsEmptyTitle": "মিশনের প্রিসেট যাচাই করা হচ্ছে",
+  "@missionsEmptyTitle": {
+    "description": "Empty",
+    "x-review": "bn-pending"
+  },
+  "missionsEmptyBody": "প্রতিটি মিশনের বায়ুমণ্ডল এখানে আসার আগে তার NASA উৎসের সঙ্গে মিলিয়ে দেখা হয়।",
+  "@missionsEmptyBody": {
+    "description": "Empty",
+    "x-review": "bn-pending"
+  },
+  "missionUnsourcedDebug": "ডিবাগ বিল্ড: এই মিশনের উৎস নেই এবং রিলিজে লুকানো থাকে।",
+  "@missionUnsourcedDebug": {
+    "description": "Debug-only notice",
+    "x-review": "bn-pending"
+  },
+  "plannedFm2": "FM2",
+  "@plannedFm2": {
+    "description": "Planned experiment label",
     "x-review": "bn-pending"
   }
 }

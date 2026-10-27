@@ -137,3 +137,44 @@ Updated at the end of every phase.
 - **Environment note:** LightGBM needed `brew install libomp` on this Mac.
 - **Open questions:** Q-2 (monotone signs, pending LEAD), Q-3 (slider limits/defaults),
   Q-4 (no monotone constraints for quantile objective).
+
+---
+
+## Phase 6 — Flutter foundation
+- **Date:** 2026-10-27
+- **What was built:**
+  - Bundled variable fonts `Archivo[wdth,wght].ttf`, `NotoSansBengali[wdth,wght].ttf` with OFL
+    texts in `app/assets/fonts/LICENSES/`, registered with `LicenseRegistry`.
+  - Theme from DESIGN.md §14: `tokens.dart` (+ sizes/durations used by widgets),
+    `fs_theme_ext.dart`, `typography.dart`, `theme.dart`, `colors.dart` (flame/brand/shadow hexes).
+  - Settings (theme mode + locale) persisted under `fs.theme` / `fs.locale`.
+  - 525-key `app_en.arb` / `app_bn.arb` generated from `app/tool/l10n_source.py` (single source
+    so keys/placeholders never diverge); every Bangla value marked `bn-pending`.
+  - go_router: StatefulShellRoute with 9 branches, `/missions/:missionId`, `/explore/run/:runId`,
+    error → NotFound, debug-only `/dev/gallery`, path URL strategy, per-route document titles.
+  - Responsive shell: rail 248/80, top bar (tour, theme cycle with right-click menu, EN|বাং),
+    compact top bar ⋯ menu + bottom nav Home/Missions/Lab/Map/More with a sheet.
+  - `AssetRepository` + typed models for every §3.2 file; global loading and error screens
+    (error names the file). Optional files (lessons, missions, ask cache) are loaded only if the
+    asset manifest lists them — on the web a missing file returns index.html (found in browser QA).
+  - Shared widgets §9: FsButton, FsIconButton, FsChip, GravityChip, FsPanel, MetricReadout,
+    UnitValue, FsSlider (custom track: linear/log/log1p, snaps with 2% magnetism, markers,
+    validated number field, ←/→, Shift×10, Home/End, slider semantics), FsSegmented,
+    DataSupportBadge, CitationChip, FsTooltip, SectionHeader, PageHeader, EmptyState,
+    ErrorState, SkeletonBlock, InlineNotice, FsDialog, FsSheet, FsTabBar, toast, FsFocusRing,
+    BrandMark/Lockup, GridBackground, ChamberWindow, FsPage.
+  - Web shell: `index.html` (title, description, OG/Twitter, theme-color for both schemes,
+    noscript, inline splash that follows the saved/system theme), `flutter_bootstrap.js` as
+    specified, `manifest.json`, favicons and icons rendered from the brand mark
+    (`scripts/make_icons.py`). `SemanticsBinding.instance.ensureSemantics()` in `main()`.
+  - Browser-only actions behind a conditional import (`core/platform/browser*.dart`).
+- **Checks run & results:**
+  - `flutter analyze`: No issues found.
+  - `flutter test`: 10 passed (theme persistence, locale switch + restore, 404, every section
+    route reachable, compact bottom nav, missing-asset error screen, all shared widgets at 360 px
+    in both themes with real fonts, prefs keys).
+  - `flutter build web --release --no-web-resources-cdn`: built; previewed in Chrome via
+    `scripts/serve_spa.py`: shell renders with Archivo and grid; `/dev/gallery` → Not found in
+    release. Fixed in QA: optional-asset SPA fallback; buttons stretching inside Wrap; slider
+    semantics needed increased/decreased values.
+- **Open questions:** Q-5 (extra copy), Q-6 (team names/contact).
