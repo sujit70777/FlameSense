@@ -74,7 +74,7 @@ Per page — every listed state reachable and correct:
 | Page | Happy | Loading | Empty | Error | Special states |
 |---|---|---|---|---|---|
 | Home | [x] | [ ] splash→app seamless | – | [x] asset error | [x] reduced motion static flame, [x] ignition only once per session, [x] snaps work |
-| Explore | [ ] | [ ] skeleton | [ ] no-match filters | – | [ ] one-experiment notice, [ ] run detail dialog + page, [ ] CSV download, [ ] Load in Lab |
+| Explore | [x] | [x] skeleton | [ ] no-match filters | – | [ ] one-experiment notice, [ ] run detail dialog + page, [x] CSV download, [x] Load in Lab |
 | Fire Lab | [ ] | – | – | [ ] numeric field errors | [ ] outside-range, [ ] low support, [ ] partial-g notice, [ ] task unavailable, [ ] physics ok/n-a/near-ext/unavailable, [ ] compare mode, [ ] copy link reproduces state |
 | Map | [ ] | [ ] first-draw skeleton | [ ] sustain unavailable | – | [ ] hatching, [ ] contour, [ ] Moon/Mars gap notice, [ ] pinned cell, [ ] Open in Lab |
 | Ask | [ ] | [ ] searching skeleton | – | [ ] rate-limit, [ ] upstream, [ ] offline, [ ] invalid | [ ] cached answers, [ ] not-grounded, [ ] citation chip → source highlight, [ ] copy |

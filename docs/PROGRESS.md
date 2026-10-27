@@ -227,3 +227,24 @@ Updated at the end of every phase.
   once; CTA URL `/lab?g=0.3783`. Browser preview of the release build checked visually.
   60 fps DevTools check is a [LEAD] manual step (the painter repaints only the hero via
   RepaintBoundary).
+
+---
+
+## Phase 9 — Data Explorer
+- **Date:** 2026-10-27
+- **What was built:** pure filter/sort/CSV logic (`explore_filters.dart`), Riverpod filter/sort
+  providers, filter chips (experiment multi-select, platform, material type, gravity class,
+  O₂ and pressure range dialogs, 4 quality toggles; flagged off by default), compact Filters
+  button + sheet with active count, result count, Clear, Download CSV (UTF-8 BOM, every column
+  incl. `source_citation`, `flamesense_runs_<yyyyMMdd>.csv`, via package:web Blob). Charts
+  (fl_chart): spread vs O₂ (log y), burning vs airflow (log x, deterministic jitter by run-id
+  hash), runs per experiment (palette ≤ 6 then Other); gravity encoded by colour AND shape
+  (filled circle / diamond / hollow circle per DESIGN §10.2 — DESIGN wins over the plan's
+  "shape by experiment"); tooltips with units; tap → run detail; chart summaries for screen
+  readers (counts only, no invented interpretation). Virtualized sortable table with sticky
+  header, pinned Run column, horizontal scroll on narrow widths. Run detail: dialog ≥ 1024,
+  page below, every non-null field with units, quality, citation, Open source (new tab),
+  Load these conditions in the Fire Lab; unknown id → not found. States: first-frame
+  skeleton, no data (Q-5), empty filters, one-experiment notice.
+- **Checks:** `flutter test` 45 passed / 1 skipped; analyze clean. Filtering 5,000 runs < 100 ms.
+  Found and fixed in tests: async asset loading inside `testWidgets` must use `tester.runAsync`.
