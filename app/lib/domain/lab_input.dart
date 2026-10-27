@@ -47,13 +47,13 @@ class LabInput {
   Map<String, String> toQuery() => {
     'fuel': fuelClass,
     'mat': ?material,
-    'th': _num(thicknessMm),
-    'rho': _num(densityKgM3),
-    'o2': _num(o2),
-    'p': _num(pressureKpa),
-    'flow': _num(flowMmS),
+    'th': queryNumber(thicknessMm),
+    'rho': queryNumber(densityKgM3),
+    'o2': queryNumber(o2),
+    'p': queryNumber(pressureKpa),
+    'flow': queryNumber(flowMmS),
     'dir': flowDirection,
-    'g': _num(gravityG),
+    'g': queryNumber(gravityG),
   };
 
   /// Applies any recognised query parameters on top of [base]; invalid values are ignored.
@@ -78,7 +78,8 @@ class LabInput {
     );
   }
 
-  static String _num(double v) {
+  /// Compact number for URLs, e.g. 1e-6, 0.21, 101.3.
+  static String queryNumber(double v) {
     if (v != 0 && v.abs() < 1e-3) {
       return v.toStringAsExponential(3).replaceAll(RegExp(r'\.?0+e'), 'e');
     }

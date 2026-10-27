@@ -203,3 +203,27 @@ Updated at the end of every phase.
   - `flutter analyze`: No issues found. `pytest pipeline/tests -q`: 50 passed.
 - **AUDIT ticked:** §4 parity, quantile sweep, derived features.
 - **Open questions:** none new.
+
+---
+
+## Phase 8 — Home and the Gravity Twin hero
+- **Date:** 2026-10-27
+- **What was built:**
+  - `widgets/flame_twin/flame_painter.dart`: DESIGN §9.20 exactly (b = s^1.4, 96-point outline,
+    flicker only when b > 0.25 and motion allowed, colour lerp space → Earth, glow, inner core,
+    soot halo for b > 0.5, fuel sample, ignition scale/fade). `flame_twin.dart`: 4 s loop that
+    pauses offstage (TickerMode), never ticks in microgravity (steady flame), static in reduced motion.
+  - Home (§11.1): headline/subhead/CTAs ("Open the Fire Lab" → `/lab?g=<current>`, tour →
+    `/?tour=1`), Chamber window with Earth + your-gravity flames, heroSeam, readouts (buoyant
+    airflow only when physics is enabled; predicted spread only when the spread model exists),
+    gravity slider with ISS/Moon/Mars/Earth snaps and microg→ember track, ignition once per
+    session, data sentence from app_meta (honest pending sentence while 0 runs, Q-5),
+    "Where to go next" list with Missions first, footer (disclaimer, credits, not affiliated).
+  - Reusable `GravitySlider`, `SiteFooter`; 404 drifting flame (±6 px / 6 s).
+  - Note: DESIGN §11.1 specifies one data sentence; PLAN step 2's "3 facts" strip is the same
+    sentence (no extra un-specified facts invented).
+- **Checks run & results:** `flutter test` 34 passed / 1 skipped; `flutter analyze` clean;
+  hero at 360/768/1440 without overflow; snaps; reduced motion → controller idle; ignition
+  once; CTA URL `/lab?g=0.3783`. Browser preview of the release build checked visually.
+  60 fps DevTools check is a [LEAD] manual step (the painter repaints only the hero via
+  RepaintBoundary).
