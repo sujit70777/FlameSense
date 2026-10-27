@@ -178,3 +178,28 @@ Updated at the end of every phase.
     release. Fixed in QA: optional-asset SPA fallback; buttons stretching inside Wrap; slider
     semantics needed increased/decreased values.
 - **Open questions:** Q-5 (extra copy), Q-6 (team names/contact).
+
+---
+
+## Phase 7 — Predictor engine in Dart
+- **Date:** 2026-10-27
+- **What was built:**
+  - `domain/tree_model.dart` (flat typed arrays, `raw`/`predict`, length/NaN checks, logit
+    calibration, expm1, identity), `gravity.dart` (constants from the NASA fact sheet, log
+    slider mapping, 2% snap labels, gravity class), `lab_input.dart` (URL query round-trip),
+    `predictor.dart` (feature vector from feature_spec order with the §3.1 formulas, quantile
+    sort + `quantilesReordered`, unavailable tasks → null + warnings, outside-range, low
+    support, partial gravity, effective airflow), `support_index.dart` (kNN on standardized
+    features, levels), `physics_model.dart` (port of physics.py; unavailable while any value is
+    null or unsigned in release), `sensitivity.dart` (±10% of slider range, top 4),
+    `materials.dart`, `slider_scale.dart` (moved from widgets), Riverpod providers in
+    `domain/providers.dart`.
+  - `pipeline/tests/make_app_fixtures.py` builds `app/test/fixtures/fixture_*.json` by training on
+    the synthetic fixture rows (tests only; physics fixture values are labelled not real).
+- **Checks run & results:**
+  - `flutter test`: 25 passed, 1 skipped (O₂ monotonicity sweep — constraints off until Q-2).
+    Parity |Dart − LightGBM| < 1e-9 on 4 models × 60 rows; 1,000 predictions < 200 ms on the VM;
+    1,000-point quantile sweep never crosses; real empty assets → no numbers shown.
+  - `flutter analyze`: No issues found. `pytest pipeline/tests -q`: 50 passed.
+- **AUDIT ticked:** §4 parity, quantile sweep, derived features.
+- **Open questions:** none new.

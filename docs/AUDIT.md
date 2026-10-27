@@ -50,14 +50,14 @@ Tick a box only after **testing it**, not after reading the code. Each item has 
 
 ## 4. Models and predictor
 
-- [ ] [B] Parity test passes: Dart vs LightGBM within 1e-9 for every exported model.
+- [x] [B] Parity test passes: Dart vs LightGBM within 1e-9 for every exported model.
 - [ ] [B] Grouped cross-validation used (or warning shown when groups < 3); metrics in the app equal `metrics.json`.
 - [ ] [B] Tasks below the data threshold show the "unavailable" state instead of a prediction.
-- [ ] [M] Spread quantiles never cross in the UI (q10 ≤ q50 ≤ q90) across a 1,000-point random input sweep (test).
+- [x] [M] Spread quantiles never cross in the UI (q10 ≤ q50 ≤ q90) across a 1,000-point random input sweep (test).
 - [ ] [M] Sustain probability increases (or stays equal) when only oxygen increases, across a 1,000-point sweep (monotonicity test).
 - [ ] [M] Data-support badge: inputs equal to a training row → high; far outside → low with outside-range notice (test).
 - [ ] [M] Calibration chart and metrics shown on Methods; model card honest about weak metrics if they are weak.
-- [ ] [M] Derived features computed identically in Python and Dart (test with 3 hand rows).
+- [x] [M] Derived features computed identically in Python and Dart (test with 3 hand rows).
 - [ ] [m] 1,000 predictions < 200 ms in browser (test).
 
 ## 5. UI fidelity and states (every page)

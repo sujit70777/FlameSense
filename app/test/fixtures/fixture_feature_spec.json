@@ -1,0 +1,338 @@
+{
+ "inputs": {
+  "o2_mole_fraction": {
+   "label_key": "featO2",
+   "display_scale": 100,
+   "display_unit": "%",
+   "step": 0.005,
+   "log": false,
+   "min": 0.126139,
+   "max": 0.423669,
+   "default": 0.278626,
+   "train_min": 0.150934,
+   "train_max": 0.398875
+  },
+  "pressure_kpa": {
+   "label_key": "featPressure",
+   "display_scale": 1,
+   "display_unit": "kPa",
+   "step": 0.1,
+   "log": false,
+   "min": 44.87,
+   "max": 106.43,
+   "default": 70.0,
+   "train_min": 50.0,
+   "train_max": 101.3
+  },
+  "flow_velocity_mm_s": {
+   "label_key": "featFlow",
+   "display_scale": 1,
+   "display_unit": "mm/s",
+   "step": 1.0,
+   "log": true,
+   "min": 6.71986,
+   "max": 417.477,
+   "default": 143.647,
+   "train_min": 9.7675,
+   "train_max": 299.031
+  },
+  "gravity_g": {
+   "label_key": "featGravity",
+   "display_scale": 1,
+   "display_unit": "g",
+   "step": null,
+   "log": true,
+   "min": 1e-06,
+   "max": 1.0,
+   "default": 1.0,
+   "train_min": 1e-06,
+   "train_max": 1.0
+  },
+  "fuel_thickness_mm": {
+   "label_key": "featThickness",
+   "display_scale": 1,
+   "display_unit": "mm",
+   "step": 0.01,
+   "log": true,
+   "min": 0.01,
+   "max": 12.8014,
+   "default": 0.240303,
+   "train_min": 0.0537682,
+   "train_max": 9.92349
+  },
+  "fuel_density_kg_m3": {
+   "label_key": "featDensity",
+   "display_scale": 1,
+   "display_unit": "kg/m³",
+   "step": 1.0,
+   "log": false,
+   "min": 228.044,
+   "max": 1280.93,
+   "default": 761.81,
+   "train_min": 315.784,
+   "train_max": 1193.19
+  }
+ },
+ "tasks": {
+  "sustain": {
+   "available": true,
+   "reason_if_unavailable": null,
+   "target": "sustained",
+   "output": "probability",
+   "link": "logit",
+   "n_rows": 160,
+   "features": [
+    {
+     "name": "o2_mole_fraction",
+     "train_min": 0.150934,
+     "train_max": 0.398875,
+     "mean": 0.2772321098129137,
+     "std": 0.07182962846423364,
+     "monotone": 0,
+     "input": "slider",
+     "label_key": "featO2"
+    },
+    {
+     "name": "pressure_kpa",
+     "train_min": 50.0,
+     "train_max": 101.3,
+     "mean": 73.11812499999999,
+     "std": 21.44293844099672,
+     "monotone": 0,
+     "input": "slider",
+     "label_key": "featPressure"
+    },
+    {
+     "name": "o2_partial_kpa",
+     "train_min": 7.64743,
+     "train_max": 40.2404,
+     "mean": 20.351110360161137,
+     "std": 8.53413286510474,
+     "monotone": 0,
+     "input": "derived",
+     "formula": "o2_mole_fraction * pressure_kpa"
+    },
+    {
+     "name": "log10_flow",
+     "train_min": 1.03211,
+     "train_max": 2.47717,
+     "mean": 2.0620580301512264,
+     "std": 0.35676870446879977,
+     "monotone": 0,
+     "input": "derived",
+     "formula": "log10(flow_velocity_mm_s + 1)"
+    },
+    {
+     "name": "log10_gravity",
+     "train_min": -6.0,
+     "train_max": 0.0,
+     "mean": -2.85,
+     "std": 2.996247653315727,
+     "monotone": 0,
+     "input": "derived",
+     "formula": "log10(max(gravity_g, 1e-7))"
+    },
+    {
+     "name": "fuel_thickness_mm",
+     "train_min": 0.0537682,
+     "train_max": 9.92349,
+     "mean": 2.238427791666769,
+     "std": 3.0718893757896035,
+     "monotone": 0,
+     "input": "slider",
+     "label_key": "featThickness"
+    },
+    {
+     "name": "areal_density_kg_m2",
+     "train_min": 0.0265847,
+     "train_max": 10.77,
+     "mean": 1.80315608115206,
+     "std": 2.6761095183224928,
+     "monotone": 0,
+     "input": "derived",
+     "formula": "fuel_thickness_mm / 1000 * fuel_density_kg_m3"
+    },
+    {
+     "name": "diluent__n2",
+     "group": "diluent",
+     "input": "onehot"
+    },
+    {
+     "name": "flow_direction__concurrent",
+     "group": "flow_direction",
+     "input": "onehot"
+    },
+    {
+     "name": "flow_direction__opposed",
+     "group": "flow_direction",
+     "input": "onehot"
+    },
+    {
+     "name": "fuel_class__thick_solid",
+     "group": "fuel_class",
+     "input": "onehot"
+    },
+    {
+     "name": "fuel_class__thin_solid",
+     "group": "fuel_class",
+     "input": "onehot"
+    }
+   ],
+   "groups": {
+    "diluent": {
+     "label_key": "featDiluent",
+     "options": [
+      "n2"
+     ],
+     "default": "n2"
+    },
+    "flow_direction": {
+     "label_key": "featFlowDir",
+     "options": [
+      "concurrent",
+      "opposed"
+     ],
+     "default": "opposed"
+    },
+    "fuel_class": {
+     "label_key": "featFuelClass",
+     "options": [
+      "thick_solid",
+      "thin_solid"
+     ],
+     "default": "thin_solid"
+    }
+   }
+  },
+  "spread": {
+   "available": true,
+   "reason_if_unavailable": null,
+   "target": "flame_spread_rate_mm_s",
+   "output": "mm_s",
+   "link": "expm1",
+   "n_rows": 160,
+   "features": [
+    {
+     "name": "o2_mole_fraction",
+     "train_min": 0.150934,
+     "train_max": 0.398875,
+     "mean": 0.2772321098129137,
+     "std": 0.07182962846423364,
+     "monotone": 0,
+     "input": "slider",
+     "label_key": "featO2"
+    },
+    {
+     "name": "pressure_kpa",
+     "train_min": 50.0,
+     "train_max": 101.3,
+     "mean": 73.11812499999999,
+     "std": 21.44293844099672,
+     "monotone": 0,
+     "input": "slider",
+     "label_key": "featPressure"
+    },
+    {
+     "name": "o2_partial_kpa",
+     "train_min": 7.64743,
+     "train_max": 40.2404,
+     "mean": 20.351110360161137,
+     "std": 8.53413286510474,
+     "monotone": 0,
+     "input": "derived",
+     "formula": "o2_mole_fraction * pressure_kpa"
+    },
+    {
+     "name": "log10_flow",
+     "train_min": 1.03211,
+     "train_max": 2.47717,
+     "mean": 2.0620580301512264,
+     "std": 0.35676870446879977,
+     "monotone": 0,
+     "input": "derived",
+     "formula": "log10(flow_velocity_mm_s + 1)"
+    },
+    {
+     "name": "log10_gravity",
+     "train_min": -6.0,
+     "train_max": 0.0,
+     "mean": -2.85,
+     "std": 2.996247653315727,
+     "monotone": 0,
+     "input": "derived",
+     "formula": "log10(max(gravity_g, 1e-7))"
+    },
+    {
+     "name": "fuel_thickness_mm",
+     "train_min": 0.0537682,
+     "train_max": 9.92349,
+     "mean": 2.238427791666769,
+     "std": 3.0718893757896035,
+     "monotone": 0,
+     "input": "slider",
+     "label_key": "featThickness"
+    },
+    {
+     "name": "areal_density_kg_m2",
+     "train_min": 0.0265847,
+     "train_max": 10.77,
+     "mean": 1.80315608115206,
+     "std": 2.6761095183224928,
+     "monotone": 0,
+     "input": "derived",
+     "formula": "fuel_thickness_mm / 1000 * fuel_density_kg_m3"
+    },
+    {
+     "name": "diluent__n2",
+     "group": "diluent",
+     "input": "onehot"
+    },
+    {
+     "name": "flow_direction__concurrent",
+     "group": "flow_direction",
+     "input": "onehot"
+    },
+    {
+     "name": "flow_direction__opposed",
+     "group": "flow_direction",
+     "input": "onehot"
+    },
+    {
+     "name": "fuel_class__thick_solid",
+     "group": "fuel_class",
+     "input": "onehot"
+    },
+    {
+     "name": "fuel_class__thin_solid",
+     "group": "fuel_class",
+     "input": "onehot"
+    }
+   ],
+   "groups": {
+    "diluent": {
+     "label_key": "featDiluent",
+     "options": [
+      "n2"
+     ],
+     "default": "n2"
+    },
+    "flow_direction": {
+     "label_key": "featFlowDir",
+     "options": [
+      "concurrent",
+      "opposed"
+     ],
+     "default": "opposed"
+    },
+    "fuel_class": {
+     "label_key": "featFuelClass",
+     "options": [
+      "thick_solid",
+      "thin_solid"
+     ],
+     "default": "thin_solid"
+    }
+   }
+  }
+ }
+}

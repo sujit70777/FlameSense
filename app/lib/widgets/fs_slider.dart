@@ -11,10 +11,10 @@ import '../l10n/app_localizations.dart';
 import 'fs_chip.dart';
 import 'fs_slider_number_field.dart';
 import 'fs_slider_track.dart';
-import 'slider_scale.dart';
+import '../domain/slider_scale.dart';
 import 'unit_value.dart';
 
-export 'slider_scale.dart';
+export '../domain/slider_scale.dart';
 
 /// A labelled marker tick under the track, e.g. "Earth air 21%".
 class FsSliderMarker {

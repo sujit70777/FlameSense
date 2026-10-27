@@ -1,0 +1,12 @@
+{
+ "build_time_utc": "2026-10-27T16:32:36Z",
+ "git_sha": "e907d79",
+ "n_runs": 160,
+ "n_experiments": 2,
+ "n_fuels": 2,
+ "experiments": [
+  "FIXTURE_A",
+  "FIXTURE_B"
+ ],
+ "data_version": "45c27fedb294"
+}
