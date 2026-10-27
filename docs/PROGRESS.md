@@ -248,3 +248,24 @@ Updated at the end of every phase.
   skeleton, no data (Q-5), empty filters, one-experiment notice.
 - **Checks:** `flutter test` 45 passed / 1 skipped; analyze clean. Filtering 5,000 runs < 100 ms.
   Found and fixed in tests: async asset loading inside `testWidgets` must use `tester.runAsync`.
+
+---
+
+## Phase 10 — Fire Lab
+- **Date:** 2026-10-27
+- **What was built:** Conditions panel (material presets from the runs → class/thickness/
+  density; Custom unlocks a fuel-class switch and thickness/density sliders; O₂ % with "Earth
+  air 21%" marker, pressure with "Sea level 101.3 kPa" marker, log airflow, gravity with snaps,
+  airflow direction, Reset, Copy link + toast). No "ISS cabin" or "Typical ISS ventilation"
+  marker: DESIGN requires a sourced value, none supplied yet. Chamber window with one flame,
+  gravity label, effective airflow with forced/buoyant caption (forced-only caption while
+  physics is off). Prediction panel: support badge, SustainGauge (ramp colour, mValue tween,
+  unavailable state with info), SpreadBand (log axis from measured spread range), PhysicsCard
+  (4 states), SensitivityList, all notices (quantile notice debug-only). Compare with Earth:
+  delta line + two columns (Earth column emberTint/ember), stacking when the panel is
+  < 560 px. Layouts: 360|flex|400 ≥ 1280, 340 + stacked 1024–1279, compact order flame →
+  prediction → conditions with a sticky result bar. URL ↔ state: queries applied on load /
+  back-forward; changes reflected with `SystemNavigator.routeInformationUpdated(replace: true)`.
+- **Checks:** `flutter test` 60 passed / 1 skipped (Lab at 360/768/1280/1920 × light/dark
+  without overflow; O₂ change; outside-range; query + partial-g; compare; copy link URL;
+  numeric field error; empty-data unavailable state). Browser preview verified.
