@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+Fire has no 'up' in space.
+
+2
+00:00:04,000 --> 00:00:09,000
+NASA plans Moon habitats with 34% oxygen, where fire is harder to predict.
+
+3
+00:00:09,000 --> 00:00:21,000
+FlameSense predicts how flames behave in orbit, on the Moon and on Mars, shows where data runs out, and ranks the experiments NASA should run next.
+
+4
+00:00:21,000 --> 00:00:26,000
+Built on NASA's ISS combustion data: [VERIFY: dataset names].
+
+5
+00:00:26,000 --> 00:00:29,000
+Open source, live now.

@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:15,000
+This is a flame on Earth. And this is the same flame in orbit. Without gravity, fire changes its shape, its color and its behavior. And NASA is about to put astronauts somewhere fire is even harder to predict.
+
+2
+00:00:15,000 --> 00:00:30,000
+We're Team FlameSense from Rajshahi. I'm [VERIFY: name]. I'm [VERIFY: name]. I'm Ehsanur.
+
+3
+00:00:30,000 --> 00:01:05,000
+Our challenge is Flame in Freefall: using AI to turn NASA's microgravity combustion data into fire safety insights. Here's why it matters now. To make spacewalks faster, NASA plans Moon habitats with lower pressure and 34 percent oxygen. More oxygen makes materials burn more easily. NASA's own studies call material flammability one of the hardest problems in that atmosphere, and Moon gravity may make some materials even more flammable. But the data is scattered across archives, and almost none of it was collected at Moon or Mars gravity.
+
+4
+00:01:05,000 --> 00:01:30,000
+FlameSense brings NASA's space-station fire experiments together in one tool. It predicts whether a flame will keep burning and how fast it spreads, checks itself against physics, warns you when it's guessing, and tells NASA where to test next.
+
+5
+00:01:30,000 --> 00:01:55,000
+Everything starts with real data: [VERIFY: N from app_meta.json] test runs from [VERIFY: dataset names from DATA_SOURCES.md]. Every row links back to its NASA source.
+
+6
+00:01:55,000 --> 00:02:25,000
+In the Fire Lab I set up a test. More oxygen, and the chance of the flame surviving rises. Compared with Earth, it behaves differently. This badge shows how much NASA data supports the answer, and this card checks the prediction against combustion theory.
+
+7
+00:02:25,000 --> 00:02:45,000
+This map shows where flames survive. At Moon gravity most of it is hatched. That's the honest answer: NASA has almost no data there yet.
+
+8
+00:02:45,000 --> 00:03:05,000
+Mission Mode lists which materials are likely to burn in the Artemis habitat atmosphere, and ranks the five experiments that would teach NASA the most.
+
+9
+00:03:05,000 --> 00:03:35,000
+FlameSense is trained only on real NASA runs and tested on whole experiment series it never saw: [VERIFY: metric in plain words from metrics.json]. Five people with no technical background tested it: [VERIFY: result from usability.csv]. Where the data is thin, it says so instead of guessing. And the same oxygen physics matters on Earth, in oxygen-rich hospital rooms.
+
+10
+00:03:35,000 --> 00:03:55,000
+FlameSense is open source and live at flamesense.ehsanur.com. Fire has no 'up' in space, but now it has a map.

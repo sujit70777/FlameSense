@@ -104,6 +104,10 @@ verified" until the lead fills sources. Debug builds show them with a warning.
 **[LEAD] to do:** fill each `source` from the NASA document; check every number against it
 (note: §3.10 uses Moon 0.1654 g / Mars 0.3794 g, while `gravity.dart` uses the PLAN Phase 7
 values 0.1652 / 0.3783 from the Planetary Fact Sheet — pick one); copy FM2 points exactly.
+PLAYBOOK_LEAD §3.1 lists the candidate NASA sources to open: NTRS 20240003211 (8.2 psia /
+34% O₂ exploration atmosphere; ISS 14.7 psia / 21%), NTRS 20260003925, NTRS 20240015307 and the
+FM2 test plan NTRS 20260001966. The agent did not fill `source` fields from them, because each
+must be opened and checked by the lead.
 
 ## Q-8 — Phase 11B: wishlist reason thresholds and planned airflow
 

@@ -1558,7 +1558,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get aboutAiBody =>
-      'A coding agent (Claude Code) wrote the code under the lead\'s review; every prompt is listed in AI_USAGE.md. The Ask page uses the Claude API only over retrieved NASA documents. Predictions come from LightGBM models trained on NASA data.';
+      'A coding agent (Claude Code) wrote the code under the lead\'s review; every prompt is listed in AI_USAGE.md. The Ask page uses the Claude API only over retrieved NASA documents. Predictions come from LightGBM models trained on NASA data. No images or voices in the app are AI-generated.';
 
   @override
   String get aboutLicensesTitle => 'Licenses and credits';

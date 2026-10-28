@@ -1556,7 +1556,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get aboutAiBody =>
-      'একটি কোডিং এজেন্ট (Claude Code) লিডের পর্যালোচনায় কোড লিখেছে; প্রতিটি প্রম্পট AI_USAGE.md-তে তালিকাভুক্ত। প্রশ্ন পেজ শুধু খুঁজে পাওয়া NASA নথির ওপর Claude API ব্যবহার করে। পূর্বাভাস আসে NASA ডেটায় প্রশিক্ষিত LightGBM মডেল থেকে।';
+      'একটি কোডিং এজেন্ট (Claude Code) লিডের পর্যালোচনায় কোড লিখেছে; প্রতিটি প্রম্পট AI_USAGE.md-তে তালিকাভুক্ত। প্রশ্ন পেজ শুধু খুঁজে পাওয়া NASA নথির ওপর Claude API ব্যবহার করে। পূর্বাভাস আসে NASA ডেটায় প্রশিক্ষিত LightGBM মডেল থেকে। অ্যাপের কোনো ছবি বা কণ্ঠ AI দিয়ে তৈরি নয়।';
 
   @override
   String get aboutLicensesTitle => 'লাইসেন্স ও কৃতজ্ঞতা';

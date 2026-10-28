@@ -739,10 +739,12 @@ S: list[tuple[str, str, str, str]] = [
     ("aboutAiBody",
      "A coding agent (Claude Code) wrote the code under the lead's review; every prompt is "
      "listed in AI_USAGE.md. The Ask page uses the Claude API only over retrieved NASA "
-     "documents. Predictions come from LightGBM models trained on NASA data.",
+     "documents. Predictions come from LightGBM models trained on NASA data. No images or voices "
+     "in the app are AI-generated.",
      "একটি কোডিং এজেন্ট (Claude Code) লিডের পর্যালোচনায় কোড লিখেছে; প্রতিটি প্রম্পট AI_USAGE.md-তে "
      "তালিকাভুক্ত। প্রশ্ন পেজ শুধু খুঁজে পাওয়া NASA নথির ওপর Claude API ব্যবহার করে। পূর্বাভাস আসে "
-     "NASA ডেটায় প্রশিক্ষিত LightGBM মডেল থেকে।", "About (updated in Phase 17)"),
+     "NASA ডেটায় প্রশিক্ষিত LightGBM মডেল থেকে। অ্যাপের কোনো ছবি বা কণ্ঠ AI দিয়ে তৈরি নয়।",
+     "About (matches docs/AI_USAGE.md, Phase 17)"),
     ("aboutLicensesTitle", "Licenses and credits", "লাইসেন্স ও কৃতজ্ঞতা", "About"),
     ("aboutLicenseCode", "Code: Apache-2.0.", "কোড: Apache-2.0।", "About"),
     ("aboutLicenseFonts", "Fonts: Archivo and Noto Sans Bengali, SIL Open Font License 1.1.",
