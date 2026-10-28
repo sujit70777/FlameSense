@@ -436,3 +436,34 @@ Updated at the end of every phase.
 | light | outlineStrong | surface1 | 1.86 | 3.0 | chart axes (UI) | FAIL |
 
 2 failing pair(s)
+
+---
+
+## Phase 15 — Testing and full audit
+- **Date:** 2026-10-28
+- **Test suites:** `pytest` 64 passed (pipeline coverage **88%**, target 70%); `flutter test`
+  108 passed / 42 skipped (41 screenshot generators + the Q-2 monotonicity sweep; domain
+  coverage **95.4%**, target 90%); `npm --prefix functions test` 11 passed.
+- **Smoke:** `scripts/smoke.mjs` (Playwright, installed Chrome) against `wrangler pages dev`:
+  every route title + semantics label, Lab keyboard step (21.0% → 21.5%), Ask first suggested
+  question, 404, **zero console errors, zero third-party requests** → PASSED.
+  `node scripts/smoke.mjs <url> [--expect-citations]` once the corpus exists.
+- **Ask eval:** `pipeline/tests/ask_eval.yaml` (10 answerable with `expected_doc` for [LEAD] to
+  fill, 5 unanswerable, 5 injections with canaries) + `python -m flamesense.cli ask-eval --url`.
+  Not run: needs the API key and corpus.
+- **Fixed during the audit:** slider semantics nodes had no accessible name (now
+  `container: true`); `functions/` layout broke the Pages build (Q-10); OG/screenshot harness.
+  Verified keyboard Tab order and Enter in tests and in Chrome; back/forward restores Lab state.
+- **Added:** CI workflow (pipeline + ruff, app format/analyze/test, functions, secrets),
+  CONTRIBUTING.md, DATA_UPDATE.md, data-correction issue template, `scripts/contrast.py`.
+- **Open Blockers that need [LEAD]/[TEAM] or production** (cannot be done by the agent):
+  - Data: real runs in `data/raw/`/`data/manual/` + DATA_SOURCES.md; `validate` on final data;
+    5-row unit-conversion spot checks; digitized-row second check.
+  - Science: physics params + sign-off; review of every science sentence; lessons approval;
+    Q-2 monotone signs; missions sources (Q-7).
+  - Ask: corpus + `.dev.vars` key → `ask-cache`, review 12 cached answers, `ask-eval` scores,
+    upstream-failure drill.
+  - Bangla: native review of all strings (still `bn-pending`).
+  - Production: deploy, custom domain, headers, smoke on production, phone on mobile data,
+    `v1.0-submission` tag, cross-browser/device checks, DevTools timing and 60 fps.
+  - Submission: registrations, videos, NASA page, usability test, rehearsals (PLAYBOOKs).

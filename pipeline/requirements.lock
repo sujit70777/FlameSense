@@ -1,7 +1,8 @@
 cloudpickle==3.1.2
 contourpy==1.4.0
+coverage==7.17.0
 cycler==0.12.1
--e git+https://github.com/sujit70777/FlameSense.git@371178da3b05b4d53bb2604e334e5249dca93576#egg=flamesense&subdirectory=pipeline
+-e git+https://github.com/sujit70777/FlameSense.git@3333e7f0b9b1521f00438c14cafb99f6f2b78d4b#egg=flamesense&subdirectory=pipeline
 fonttools==4.66.1
 iniconfig==2.3.1
 joblib==1.6.0
@@ -19,6 +20,7 @@ Pygments==2.21.0
 pyparsing==3.3.3
 pypdf==6.20.0
 pytest==9.1.1
+pytest-cov==7.1.0
 python-dateutil==2.9.0.post0
 PyYAML==6.0.3
 ruff==0.17.0

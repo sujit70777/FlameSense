@@ -8,3 +8,5 @@ pypdf
 pyyaml
 ruff
 pytest
+pytest-cov
+fonttools

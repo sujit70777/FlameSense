@@ -96,6 +96,8 @@ class _FsSliderTrackState extends State<FsSliderTrack> {
     final keyboard =
         FocusManager.instance.highlightMode == FocusHighlightMode.traditional;
     return Semantics(
+      // container: own node, so the slider keeps its accessible name (not merged upward).
+      container: true,
       slider: true,
       label: widget.semanticsLabel,
       value: widget.semanticsValue,

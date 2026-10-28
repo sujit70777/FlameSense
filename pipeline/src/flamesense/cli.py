@@ -325,6 +325,21 @@ def cmd_ask_cache(args: argparse.Namespace) -> None:
           "[LEAD] must review all of them before deploy.")
 
 
+def cmd_ask_eval(args: argparse.Namespace) -> None:
+    """Score a running /api/ask against pipeline/tests/ask_eval.yaml."""
+    from flamesense import config
+    from flamesense.ask_eval import run_eval
+
+    report = run_eval(args.url, config.ROOT / "pipeline" / "tests" / "ask_eval.yaml")
+    ok = True
+    for cat, r in report.items():
+        rate = "n/a" if r["rate"] is None else f"{r['rate']:.0%}"
+        print(f"{cat:13s} {rate:>5s} (target {r['target']:.0%}; scored {r['scored']}, unscored {r['unscored']})"
+              f" {'PASS' if r['pass'] else 'FAIL'}")
+        ok = ok and r["pass"]
+    sys.exit(0 if ok else 1)
+
+
 def cmd_all(args: argparse.Namespace) -> None:
     """Run the full pipeline: ingest → validate → clean → features → report → train → export → evaluate."""
     for cmd in [cmd_ingest, cmd_validate, cmd_clean, cmd_features, cmd_report, cmd_train, cmd_export, cmd_evaluate]:
@@ -353,6 +368,8 @@ def main() -> None:
     sub.add_parser("corpus", help="Process documents → corpus_chunks.json")
     ask_cache = sub.add_parser("ask-cache", help="Cache answers for suggested questions")
     ask_cache.add_argument("--url", default="http://localhost:8788", help="Base URL of /api/ask")
+    ask_eval = sub.add_parser("ask-eval", help="Score /api/ask against ask_eval.yaml")
+    ask_eval.add_argument("--url", default="http://localhost:8788", help="Base URL of /api/ask")
     sub.add_parser("all", help="Run full pipeline end to end")
 
     args = parser.parse_args()
@@ -371,6 +388,7 @@ def main() -> None:
         "evaluate": cmd_evaluate,
         "corpus": cmd_corpus,
         "ask-cache": cmd_ask_cache,
+        "ask-eval": cmd_ask_eval,
         "all": cmd_all,
     }
 
