@@ -91,3 +91,24 @@ Please review the wording.
 and a contact email. Only Ehsanur is named in the docs.
 **Chosen:** `aboutTeamBody` names only Ehsanur and describes the two other roles; Contact links
 to GitHub issues instead of an email. Replace in `app/tool/l10n_source.py` when decided.
+
+---
+
+## Q-7 — Phase 11B: `data/manual/missions.json` is a template ([LEAD] input missing)
+
+**Context:** PLAN Phase 11B needs `data/manual/missions.json` with NASA sources; it did not exist.
+**Chosen:** the agent wrote the §3.10 template with the atmosphere numbers exactly as written
+in PLAN.md §3.10, **every `source` empty** and **no FM2 points**. Release builds hide every
+unsourced mission and planned test, so the Missions page shows "Mission presets are being
+verified" until the lead fills sources. Debug builds show them with a warning.
+**[LEAD] to do:** fill each `source` from the NASA document; check every number against it
+(note: §3.10 uses Moon 0.1654 g / Mars 0.3794 g, while `gravity.dart` uses the PLAN Phase 7
+values 0.1652 / 0.3783 from the Planetary Fact Sheet — pick one); copy FM2 points exactly.
+
+## Q-8 — Phase 11B: wishlist reason thresholds and planned airflow
+
+**Chosen:** a reason is shown when its term is strong — "unsure" when u ≥ 0.6, "no run close"
+when n ≥ 0.5 (distance ≥ p95), "wide range" when w ≥ 0.5; otherwise the largest term's reason.
+`w` = interval width ÷ widest interval among the mission's candidates. Planned points
+("buoyant flow only") are scored at the airflow slider minimum. The percentile sentence
+truncates to one decimal (never rounds up). `TODO(Q-8)`.

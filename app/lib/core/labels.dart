@@ -1,4 +1,5 @@
 import '../domain/gravity.dart';
+import '../domain/missions.dart';
 import '../l10n/app_localizations.dart';
 
 /// Localised labels for data enums (DESIGN.md §12.2).
@@ -78,5 +79,39 @@ extension FsLabels on AppLocalizations {
     _ when name.startsWith('diluent__') =>
       '$featDiluent: ${diluentLabel(name.substring(9))}',
     _ => inputLabel(name),
+  };
+
+  /// Mission name from its `name_key` (falls back to the key).
+  String missionName(String key) => switch (key) {
+    'missionIss' => missionIss,
+    'missionLunar' => missionLunar,
+    'missionMarsTransit' => missionMarsTransit,
+    'missionMars' => missionMars,
+    'missionEarth' => missionEarth,
+    _ => key,
+  };
+
+  /// Mission note from its `note_key`, or null.
+  String? missionNote(String? key) => switch (key) {
+    'missionIssNote' => missionIssNote,
+    'missionLunarNote' => missionLunarNote,
+    'missionMarsTransitNote' => missionMarsTransitNote,
+    'missionMarsNote' => missionMarsNote,
+    'missionEarthNote' => missionEarthNote,
+    _ => null,
+  };
+
+  /// Planned experiment label from its `label_key`.
+  String plannedLabel(String key) => switch (key) {
+    'plannedFm2' => plannedFm2,
+    _ => key,
+  };
+
+  /// Verdict text (DESIGN.md §12.5).
+  String verdictLabel(Verdict v) => switch (v) {
+    Verdict.likelyBurns => verdictBurns,
+    Verdict.likelyOut => verdictOut,
+    Verdict.unknown => verdictUnknown,
+    Verdict.uncertain => verdictUncertain,
   };
 }

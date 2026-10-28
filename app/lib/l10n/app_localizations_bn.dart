@@ -1816,4 +1816,37 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get plannedFm2 => 'FM2';
+
+  @override
+  String briefTitle(String mission) {
+    return 'মিশন ফায়ার ব্রিফ: $mission';
+  }
+
+  @override
+  String briefSummary(String a, String b, String c) {
+    return '$aটি উপাদান জ্বলতে থাকার সম্ভাবনা, $bটি নিভে যাওয়ার সম্ভাবনা, $cটি অজানা।';
+  }
+
+  @override
+  String briefFooter(String url, String date) {
+    return 'FlameSense ($url) দ্বারা $date তারিখে তৈরি। এটি কোনো সনদপ্রাপ্ত নিরাপত্তা মূল্যায়ন নয়।';
+  }
+
+  @override
+  String get briefDataGap => 'ডেটার ঘাটতি';
+
+  @override
+  String get briefPlanned => 'পরিকল্পিত NASA পরীক্ষা';
+
+  @override
+  String get briefCitations => 'উৎসসমূহ';
+
+  @override
+  String get briefDisclaimerTitle => 'দায়মুক্তি';
+
+  @override
+  String get briefConditions => 'অবস্থা';
+
+  @override
+  String get briefReasons => 'এখানে কেন পরীক্ষা';
 }

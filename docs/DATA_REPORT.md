@@ -1,6 +1,6 @@
 # FlameSense — Data Report
 
-Generated: 2026-10-27T15:56:19+00:00 (UTC)
+Generated: 2026-10-27T17:49:50+00:00 (UTC)
 
 ## Key data facts
 

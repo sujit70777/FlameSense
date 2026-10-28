@@ -3073,5 +3073,74 @@
   "@plannedFm2": {
     "description": "Planned experiment label",
     "x-review": "bn-pending"
+  },
+  "briefTitle": "মিশন ফায়ার ব্রিফ: {mission}",
+  "@briefTitle": {
+    "description": "PDF (English only)",
+    "placeholders": {
+      "mission": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "briefSummary": "{a}টি উপাদান জ্বলতে থাকার সম্ভাবনা, {b}টি নিভে যাওয়ার সম্ভাবনা, {c}টি অজানা।",
+  "@briefSummary": {
+    "description": "PDF summary",
+    "placeholders": {
+      "a": {
+        "type": "String"
+      },
+      "b": {
+        "type": "String"
+      },
+      "c": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "briefFooter": "FlameSense ({url}) দ্বারা {date} তারিখে তৈরি। এটি কোনো সনদপ্রাপ্ত নিরাপত্তা মূল্যায়ন নয়।",
+  "@briefFooter": {
+    "description": "PDF footer",
+    "placeholders": {
+      "url": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    },
+    "x-review": "bn-pending"
+  },
+  "briefDataGap": "ডেটার ঘাটতি",
+  "@briefDataGap": {
+    "description": "PDF",
+    "x-review": "bn-pending"
+  },
+  "briefPlanned": "পরিকল্পিত NASA পরীক্ষা",
+  "@briefPlanned": {
+    "description": "PDF",
+    "x-review": "bn-pending"
+  },
+  "briefCitations": "উৎসসমূহ",
+  "@briefCitations": {
+    "description": "PDF",
+    "x-review": "bn-pending"
+  },
+  "briefDisclaimerTitle": "দায়মুক্তি",
+  "@briefDisclaimerTitle": {
+    "description": "PDF",
+    "x-review": "bn-pending"
+  },
+  "briefConditions": "অবস্থা",
+  "@briefConditions": {
+    "description": "PDF",
+    "x-review": "bn-pending"
+  },
+  "briefReasons": "এখানে কেন পরীক্ষা",
+  "@briefReasons": {
+    "description": "PDF",
+    "x-review": "bn-pending"
   }
 }

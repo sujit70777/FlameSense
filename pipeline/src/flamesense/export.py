@@ -14,6 +14,7 @@ import numpy as np
 import pandas as pd
 
 from flamesense import config
+from flamesense.missions import export_missions
 from flamesense.schema import CANONICAL_COLUMNS
 from flamesense.support import build_support_index
 from flamesense.train import TASKS, TaskData, coerce_types, model_names, prepare_task
@@ -353,4 +354,8 @@ def export_all(df: pd.DataFrame, artifacts_dir: Path, out_dir: Path) -> dict[str
     if params.exists():
         (out_dir / "physics_params.json").write_text(params.read_text(encoding="utf-8"))
         written["physics_params.json"] = out_dir / "physics_params.json"
+    for warning in export_missions(config.DATA_MANUAL / "missions.json", out_dir):
+        print(f"  missions: {warning}")
+    if (out_dir / "missions.json").exists():
+        written["missions.json"] = out_dir / "missions.json"
     return written

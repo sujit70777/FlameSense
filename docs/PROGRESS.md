@@ -288,3 +288,24 @@ Updated at the end of every phase.
 - **Checks:** `flutter test` (phase 11: 6 passed; grid computed in < 250 ms on the VM,
   deterministic; contour on a synthetic grid; empty state; Moon notice; 360 px). Visual QA in
   Chrome on a scratch build with fixture data swapped into the served assets (repo untouched).
+
+---
+
+## Phase 11B — Missions, Experiment Wishlist, Mission Fire Brief
+- **Date:** 2026-10-28
+- **Human input missing:** `data/manual/missions.json` — the agent wrote the §3.10 template with
+  empty sources (Q-7); everything is hidden in release until sourced.
+- **What was built:** `pipeline/src/flamesense/missions.py` (validation + export, wired into
+  `export`), `domain/missions.dart` (worst case over the airflow sweep × flow directions,
+  verdicts, gravity-class run counts, release visibility), `domain/wishlist.dart` (13 × 5 × 12 ×
+  fuel-class grid, score = 0.45u + 0.45n + 0.10w, greedy selection with standardized distance
+  ≥ 0.75, reasons, planned-point percentile exactly as computed), `domain/brief.dart` (A4 PDF,
+  English, static Archivo Regular/Bold instanced from the OFL variable font by
+  `scripts/make_pdf_fonts.py`, footer on every page, disclaimer, citations), Missions page,
+  Mission detail (materials table → Lab, data-gap notice, wishlist panel with mini map pins and
+  planned squares, CSV test matrix, PDF brief), Home "Plan for a mission" row (Phase 8).
+- **Checks:** `pytest` 54 passed; `flutter test` 74 passed / 1 skipped (verdict thresholds,
+  worst case = max over sweep, 5 diverse deterministic picks, exact score formula, planned
+  percentile, unsourced hidden in release, PDF builds with the mission name, detail page,
+  unknown id → 404); analyze clean.
+- **Open questions:** Q-7, Q-8.

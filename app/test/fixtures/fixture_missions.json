@@ -1,0 +1,15 @@
+{
+  "version": "1",
+  "signed_off_by_lead": false,
+  "missions": [
+    {"id": "fixture_orbit", "name_key": "missionIss", "gravity_g": 1e-6, "pressure_kpa": 70, "o2": 0.25,
+     "source": "FIXTURE: test mission, not a NASA value", "note_key": "missionIssNote"},
+    {"id": "fixture_unsourced", "name_key": "missionEarth", "gravity_g": 1.0, "pressure_kpa": 101.3, "o2": 0.21,
+     "source": "", "note_key": "missionEarthNote"}
+  ],
+  "planned_experiments": [
+    {"id": "fixture_planned", "label_key": "plannedFm2", "mission_id": "fixture_orbit", "gravity_g": 1e-6,
+     "points": [{"o2": 0.25, "pressure_kpa": 70}], "flow_note": "FIXTURE", "source": "FIXTURE: test planned point"}
+  ],
+  "airflow_sweep_mm_s": {"min": 0, "max": null, "n": 24}
+}
