@@ -77,7 +77,7 @@ Per page — every listed state reachable and correct:
 | Explore | [x] | [x] skeleton | [ ] no-match filters | – | [ ] one-experiment notice, [ ] run detail dialog + page, [x] CSV download, [x] Load in Lab |
 | Fire Lab | [x] | – | – | [x] numeric field errors | [x] outside-range, [ ] low support, [x] partial-g notice, [x] task unavailable, [ ] physics ok/n-a/near-ext/unavailable, [x] compare mode, [x] copy link reproduces state |
 | Map | [x] | [x] first-draw skeleton | [x] sustain unavailable | – | [ ] hatching, [x] contour, [x] Moon/Mars gap notice, [ ] pinned cell, [ ] Open in Lab |
-| Ask | [ ] | [ ] searching skeleton | – | [ ] rate-limit, [ ] upstream, [ ] offline, [ ] invalid | [ ] cached answers, [ ] not-grounded, [ ] citation chip → source highlight, [ ] copy |
+| Ask | [ ] | [ ] searching skeleton | – | [ ] rate-limit, [x] upstream, [ ] offline, [x] invalid | [x] cached answers, [ ] not-grounded, [x] citation chip → source highlight, [ ] copy |
 | Earth | [ ] | – | [ ] no approved lessons | – | [ ] drafts hidden |
 | Methods | [ ] | – | – | – | [ ] equations render, [ ] ToC anchors, [ ] physics sign-off line |
 | About | [ ] | – | – | – | [ ] licenses page opens |
@@ -130,16 +130,16 @@ Per page — every listed state reachable and correct:
 - [ ] [B] All 12 cached answers (6 EN, 6 BN) reviewed by `[LEAD]` for accuracy; wrong ones replaced.
 - [ ] [M] Every citation number in an answer maps to a shown source; no orphan `[Sn]` markers.
 - [ ] [M] The model never gives building-specific or spacecraft-specific operational instructions (test 3 such questions).
-- [ ] [M] Footnote about AI mistakes visible under every answer.
+- [x] [M] Footnote about AI mistakes visible under every answer.
 - [ ] [m] Answer latency p50 < 6 s (10 live questions, record).
 
 ## 11. Security and privacy
 
 - [ ] [B] `scripts/check_secrets.sh` passes on repo and `app/build/web`; `git log -p | grep -c "sk-ant-"` is 0.
 - [ ] [B] API key only in Cloudflare secret + local `.dev.vars` (gitignored).
-- [ ] [B] `/api/ask` rejects: empty, > 500 chars, non-JSON, wrong method (405), unknown origin (403).
+- [x] [B] `/api/ask` rejects: empty, > 500 chars, non-JSON, wrong method (405), unknown origin (403). (Verified on `wrangler pages dev`; re-check on production.)
 - [ ] [M] Rate limit works: 31st request in an hour from one IP returns 429 with `retry_after_s`.
-- [ ] [M] Function logs contain no question text, no IP addresses.
+- [x] [M] Function logs contain no question text, no IP addresses. (vitest + wrangler log check)
 - [ ] [M] Anthropic console spend limit set.
 - [ ] [M] Security headers from PLAN Phase 16 present on production (`curl -I https://flamesense.ehsanur.com`).
 - [ ] [M] No analytics, trackers, cookies, or third-party requests (Network tab shows only own origin).

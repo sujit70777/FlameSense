@@ -1,0 +1,6 @@
+{
+ "askQ1_en": {"q_en": "Why are flames round in microgravity?", "q_bn": "মাইক্রোগ্র্যাভিটিতে শিখা গোল হয় কেন?",
+  "answer": {"answer": "FIXTURE answer: nothing rises without gravity [S1].\n\n- FIXTURE bullet [S1]", "citations": [
+   {"n": 1, "chunk_id": "D1#001", "title": "FIXTURE source", "url": "https://example.test", "page": 3, "snippet": "FIXTURE snippet"}],
+   "grounded": true, "model": "fixture", "cached": true}}
+}

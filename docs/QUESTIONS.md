@@ -112,3 +112,25 @@ when n ≥ 0.5 (distance ≥ p95), "wide range" when w ≥ 0.5; otherwise the la
 `w` = interval width ÷ widest interval among the mission's candidates. Planned points
 ("buoyant flow only") are scored at the airflow slider minimum. The percentile sentence
 truncates to one decimal (never rounds up). `TODO(Q-8)`.
+
+---
+
+## Q-9 — Phase 12: Anthropic request differs from PLAN step 6 for the current model
+
+**Context:** PLAN.md sends `temperature: 0.2` to `claude-sonnet-5-5`. Per the current API
+reference, Claude Sonnet 5.5 rejects non-default sampling values with a 400, thinks by default
+(thinking tokens count toward the 800-token `max_tokens`), and supports a server-side refusal
+fallback. **Chosen** (`functions/lib/anthropic.ts`): no `temperature`; for `claude-sonnet-5-5`
+send `thinking: {type: "between_tools"}` (thinking off, so the budget goes to the answer);
+`fallbacks: "default"` + `anthropic-beta: server-side-fallback-2026-07-01`; `stop_reason` is
+checked before content (a refusal becomes the not-grounded answer). Model id stays from
+`ASK_MODEL` as the plan specifies. **[LEAD]:** confirm with one real question via
+`wrangler pages dev` once `.dev.vars` has the key.
+
+## Q-10 — Phase 12: Pages compiles every file under `functions/`
+
+**Context:** `wrangler pages dev` failed with the planned layout: it builds every file in
+`functions/`, including `node_modules` and vitest tests. **Chosen:** `functions/` keeps only
+`api/` and `lib/` (plus a dependency-free `package.json` whose `test`/`typecheck` scripts forward
+to `../functions-dev`). Tooling and tests live in `functions-dev/`. `npm --prefix functions test`
+still works as CLAUDE.md says.

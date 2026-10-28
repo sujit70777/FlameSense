@@ -9,8 +9,8 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["@cloudflare/workers-types"],
     "noEmit": true,
-    "rootDir": ".",
+    "rootDir": "..",
     "outDir": "dist"
   },
-  "include": ["api/**/*.ts", "lib/**/*.ts", "test/**/*.ts"]
+  "include": ["../functions/api/**/*.ts", "../functions/lib/**/*.ts", "test/**/*.ts"]
 }

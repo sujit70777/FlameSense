@@ -37,6 +37,22 @@ class FixtureBundle extends CachingAssetBundle {
   }
 }
 
+/// Data assets the test bundle can serve: real files plus fixture overrides.
+Set<String> listedDataAssets({
+  bool fixtures = true,
+  Set<String> missing = const {},
+}) {
+  final names = <String>{
+    for (final f in Directory('assets/data').listSync())
+      f.uri.pathSegments.last,
+    if (fixtures)
+      for (final f in Directory('test/fixtures').listSync())
+        if (f.uri.pathSegments.last.startsWith('fixture_'))
+          f.uri.pathSegments.last.substring(8),
+  };
+  return {for (final n in names.difference(missing)) 'assets/data/$n'};
+}
+
 bool _fontsLoaded = false;
 
 /// Loads Archivo and Noto Sans Bengali so text metrics match production.
@@ -80,7 +96,10 @@ Future<SharedPreferences> pumpApp(
       overrides: [
         sharedPreferencesProvider.overrideWithValue(sp),
         assetRepositoryProvider.overrideWithValue(
-          AssetRepository(bundle: bundle),
+          AssetRepository(
+            bundle: bundle,
+            listedAssets: listedDataAssets(fixtures: fixtures, missing: missing),
+          ),
         ),
         routerProvider.overrideWithValue(
           buildRouter(initialLocation: location),

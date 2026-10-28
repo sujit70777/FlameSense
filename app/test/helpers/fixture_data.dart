@@ -8,7 +8,10 @@ import 'test_app.dart';
 /// Loads AppData from test/fixtures (synthetic, tests only) or the real assets.
 Future<AppData> loadData({bool fixtures = true}) {
   TestWidgetsFlutterBinding.ensureInitialized();
-  return AssetRepository(bundle: FixtureBundle(useFixtures: fixtures)).load();
+  return AssetRepository(
+    bundle: FixtureBundle(useFixtures: fixtures),
+    listedAssets: listedDataAssets(fixtures: fixtures),
+  ).load();
 }
 
 /// Override that makes `loadedDataProvider` return [data] in a bare ProviderContainer.

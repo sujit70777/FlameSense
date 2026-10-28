@@ -2,13 +2,9 @@
   "name": "flamesense-functions",
   "version": "0.1.0",
   "private": true,
+  "description": "Cloudflare Pages Functions. Tooling lives in ../functions-dev (Pages compiles every file under functions/, so node_modules and tests must stay outside).",
   "scripts": {
-    "test": "vitest run",
-    "typecheck": "tsc --noEmit"
-  },
-  "devDependencies": {
-    "typescript": "^5.5.0",
-    "vitest": "^2.0.0",
-    "@cloudflare/workers-types": "^4.20240815.0"
+    "test": "npm --prefix ../functions-dev test",
+    "typecheck": "npm --prefix ../functions-dev run typecheck"
   }
 }

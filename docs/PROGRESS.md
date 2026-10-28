@@ -309,3 +309,30 @@ Updated at the end of every phase.
   percentile, unsourced hidden in release, PDF builds with the mission name, detail page,
   unknown id → 404); analyze clean.
 - **Open questions:** Q-7, Q-8.
+
+---
+
+## Phase 12 — Corpus, Ask API, Ask page
+- **Date:** 2026-10-28
+- **Human input missing:** `data/corpus_raw/corpus_meta.csv` and documents; `.dev.vars` key.
+  The `corpus` command writes an empty corpus, so Ask returns the honest not-grounded answer
+  (no LLM call) until documents are added. `ask_cache.json` cannot be generated without the key
+  and a corpus (`python -m flamesense.cli ask-cache --url http://localhost:8788`); suggested
+  questions still work live, and show "Saved answer" once cached.
+- **What was built:** `corpus.py` (PDF per page / HTML stripped, ≥ 200-char pages,
+  ≤ 1,200-char sentence chunks with 150-char overlap, `D<n>#<seq>`, license_note required,
+  8 MB cap), `ask_cache.py` + CLI (`corpus`, `ask-cache --url`). Pages Function: `validate.ts`,
+  `ratelimit.ts` (30/h/IP, 2000/day, KV optional locally), `bm25.ts` (k1 1.2, b 0.75, top 6,
+  15% cut-off, lazy module index), `prompt.ts` (system prompt verbatim), `anthropic.ts` (raw
+  fetch, 25 s timeout, Q-9 adjustments), `answer.ts` (fence stripping, citation filtering,
+  not-found template), `handler.ts` (CORS allow-list + same origin, 403/405/400/429/502/500,
+  logs status/latency/tokens only). App: Ask client with every error mapped to §12 copy,
+  controller (cached suggestions instant, last 5 in memory only), suggested questions, input
+  with counter (Enter sends, Shift+Enter newline), answer card with inline citation chips that
+  scroll to and pulse the source card, sources, copy, not-grounded related-question button,
+  waiting skeleton, error notices with retry, earlier questions, AI footnote.
+- **Layout change (Q-10):** function tooling/tests moved to `functions-dev/`.
+- **Checks:** `npm --prefix functions test` 11 passed, typecheck clean; `pytest` 58 passed;
+  `flutter test` 78 passed / 1 skipped; analyze clean; `wrangler pages dev` probe (valid → 200
+  not-grounded, empty/501/non-JSON → 400, GET → 405, unknown origin → 403, SPA routes 200,
+  `lib/` not routed); `scripts/check_secrets.sh` OK (now also scans git history for real keys).

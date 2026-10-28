@@ -299,13 +299,30 @@ def cmd_evaluate(args: argparse.Namespace) -> None:
 
 
 def cmd_corpus(args: argparse.Namespace) -> None:
-    """Process PDFs/HTML into corpus_chunks.json."""
-    print("Not implemented yet (Phase 12)")
+    """Process PDFs/HTML into pipeline/out/corpus_chunks.json."""
+    from flamesense import config
+    from flamesense.corpus import build_corpus, write_corpus
+
+    corpus = build_corpus(config.CORPUS_RAW)
+    if not corpus["docs"]:
+        print("Warning: data/corpus_raw/corpus_meta.csv not found; writing an empty corpus "
+              "(Ask answers 'not found' until documents are added).")
+    size = write_corpus(corpus, config.PIPELINE_OUT / "corpus_chunks.json")
+    print(f"Corpus: {len(corpus['docs'])} docs, {len(corpus['chunks'])} chunks, {size / 1024:.1f} KB")
 
 
 def cmd_ask_cache(args: argparse.Namespace) -> None:
-    """Generate cached answers for suggested questions."""
-    print("Not implemented yet (Phase 12)")
+    """Cache answers for the suggested questions from a running /api/ask."""
+    import json
+
+    from flamesense import config
+    from flamesense.ask_cache import build_cache
+
+    cache = build_cache(args.url, config.ROOT / "app" / "lib" / "l10n")
+    out = config.APP_ASSETS_OUT / "ask_cache.json"
+    out.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"Wrote {len(cache)} cached answers to {out.relative_to(config.ROOT)}; "
+          "[LEAD] must review all of them before deploy.")
 
 
 def cmd_all(args: argparse.Namespace) -> None:
@@ -334,7 +351,8 @@ def main() -> None:
     sub.add_parser("export", help="Export models + data to app assets")
     sub.add_parser("evaluate", help="Compute evaluation metrics")
     sub.add_parser("corpus", help="Process documents → corpus_chunks.json")
-    sub.add_parser("ask-cache", help="Cache answers for suggested questions")
+    ask_cache = sub.add_parser("ask-cache", help="Cache answers for suggested questions")
+    ask_cache.add_argument("--url", default="http://localhost:8788", help="Base URL of /api/ask")
     sub.add_parser("all", help="Run full pipeline end to end")
 
     args = parser.parse_args()
