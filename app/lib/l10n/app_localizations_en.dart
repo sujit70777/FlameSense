@@ -211,6 +211,33 @@ class AppLocalizationsEn extends AppLocalizations {
   String get unitSeconds => 's';
 
   @override
+  String get unitWmK => 'W/m·K';
+
+  @override
+  String get unitM2S => 'm²/s';
+
+  @override
+  String get unitK => 'K';
+
+  @override
+  String get unitJkgK => 'J/kg·K';
+
+  @override
+  String get unitM => 'm';
+
+  @override
+  String get unitMS => 'm/s';
+
+  @override
+  String get unitMs2 => 'm/s²';
+
+  @override
+  String get colUnit => 'Unit';
+
+  @override
+  String get methodsTocLabel => 'Jump to section';
+
+  @override
   String get featO2 => 'Oxygen';
 
   @override

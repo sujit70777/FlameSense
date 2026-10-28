@@ -336,3 +336,24 @@ Updated at the end of every phase.
   `flutter test` 78 passed / 1 skipped; analyze clean; `wrangler pages dev` probe (valid → 200
   not-grounded, empty/501/non-JSON → 400, GET → 405, unknown origin → 403, SPA routes 200,
   `lib/` not routed); `scripts/check_secrets.sh` OK (now also scans git history for real keys).
+
+---
+
+## Phase 13 — Earth lessons, Methods, About, 404, Judge Tour
+- **Date:** 2026-10-28
+- **Human inputs missing:** `lessons_draft.md`, `usability.csv` (Q-11). No lesson science written.
+- **What was built:** `lessons.py` (draft → lessons.json, approved only with reviewer + source;
+  usability.csv → usability.json, wired into `export`). Earth page (two-half lesson rows, sources,
+  footer notice, empty state, drafts hidden in release). Methods (sticky ToC / compact dropdown,
+  `?s=` anchors; data sources table computed from runs, quality-flag table; predictions with the
+  oxygen-constraint sentence only when the model is constrained; metrics tables with plain-language
+  meanings + calibration chart; physics equations in flutter_math_fork identical to
+  PHYSICS_SPEC.md with symbol/unit tables, parameter table, sign-off line; support; limitations;
+  usability table or pending; honesty). About (what, team per Q-6, challenge, GitHub, AI use,
+  licenses + LicensePage, data credits from runs, not-affiliated, privacy, contact via GitHub
+  issues, version/data version/build date). 404 with drifting flame (Phase 8). Judge Tour:
+  target registry, 8 steps, controller, overlay with spotlight cutout (rLg, 8 px padding, 2 px
+  microg border), caption card placed right/below/above with step counter and Back/Next/Finish/
+  Exit, →/←/Esc, focus on the card, `?tour=1` auto-start, no animation in reduced motion.
+- **Checks:** `flutter test` 86 passed / 1 skipped; `pytest` 60 passed; analyze clean; tour
+  verified in Chrome on the fixture QA build.

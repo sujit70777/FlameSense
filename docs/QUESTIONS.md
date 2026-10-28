@@ -134,3 +134,16 @@ checked before content (a refusal becomes the not-grounded answer). Model id sta
 `api/` and `lib/` (plus a dependency-free `package.json` whose `test`/`typecheck` scripts forward
 to `../functions-dev`). Tooling and tests live in `functions-dev/`. `npm --prefix functions test`
 still works as CLAUDE.md says.
+
+---
+
+## Q-11 — Phase 13: lessons and usability input formats ([LEAD] inputs missing)
+
+**Context:** `data/manual/lessons_draft.md` and `data/manual/usability.csv` do not exist.
+**Chosen:** the agent wrote no lesson text. `pipeline/src/flamesense/lessons.py` documents the
+draft format (`## L1` blocks with `key: value` lines, `source: label | url`); a lesson stays
+`draft` unless it has `reviewed_by` and a source URL. Usability: `usability.csv` with
+`task_en,task_bn,completed,total,median_seconds` and optional `usability_change.txt`.
+`python -m flamesense.cli export` converts both. Until then Earth shows "Lessons are being
+reviewed" and Methods shows the usability-pending sentence. Tour step 5 points at the
+Missions list while the Artemis preset is unsourced.

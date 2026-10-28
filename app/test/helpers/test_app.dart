@@ -98,7 +98,10 @@ Future<SharedPreferences> pumpApp(
         assetRepositoryProvider.overrideWithValue(
           AssetRepository(
             bundle: bundle,
-            listedAssets: listedDataAssets(fixtures: fixtures, missing: missing),
+            listedAssets: listedDataAssets(
+              fixtures: fixtures,
+              missing: missing,
+            ),
           ),
         ),
         routerProvider.overrideWithValue(

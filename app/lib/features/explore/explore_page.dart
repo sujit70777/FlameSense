@@ -52,6 +52,7 @@ class _ExplorePageState extends ConsumerState<ExplorePage> {
     } else if (data.runs.records.isEmpty) {
       children.add(
         FsPanel(
+          key: widget.firstRowKey,
           child: EmptyState(
             icon: Icons.table_chart_rounded,
             title: l.exploreNoDataTitle, // TODO(Q-5)

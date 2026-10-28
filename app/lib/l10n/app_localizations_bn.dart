@@ -212,6 +212,33 @@ class AppLocalizationsBn extends AppLocalizations {
   String get unitSeconds => 'সে.';
 
   @override
+  String get unitWmK => 'W/m·K';
+
+  @override
+  String get unitM2S => 'm²/s';
+
+  @override
+  String get unitK => 'K';
+
+  @override
+  String get unitJkgK => 'J/kg·K';
+
+  @override
+  String get unitM => 'm';
+
+  @override
+  String get unitMS => 'm/s';
+
+  @override
+  String get unitMs2 => 'm/s²';
+
+  @override
+  String get colUnit => 'একক';
+
+  @override
+  String get methodsTocLabel => 'অংশে যান';
+
+  @override
   String get featO2 => 'অক্সিজেন';
 
   @override

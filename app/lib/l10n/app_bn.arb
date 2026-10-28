@@ -338,6 +338,51 @@
     "description": "Unit",
     "x-review": "bn-pending"
   },
+  "unitWmK": "W/m·K",
+  "@unitWmK": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitM2S": "m²/s",
+  "@unitM2S": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitK": "K",
+  "@unitK": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitJkgK": "J/kg·K",
+  "@unitJkgK": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitM": "m",
+  "@unitM": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitMS": "m/s",
+  "@unitMS": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "unitMs2": "m/s²",
+  "@unitMs2": {
+    "description": "Unit",
+    "x-review": "bn-pending"
+  },
+  "colUnit": "একক",
+  "@colUnit": {
+    "description": "Table",
+    "x-review": "bn-pending"
+  },
+  "methodsTocLabel": "অংশে যান",
+  "@methodsTocLabel": {
+    "description": "Compact ToC",
+    "x-review": "bn-pending"
+  },
   "featO2": "অক্সিজেন",
   "@featO2": {
     "description": "Feature",

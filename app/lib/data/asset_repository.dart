@@ -12,6 +12,7 @@ import 'models/missions_file.dart';
 import 'models/physics_params.dart';
 import 'models/run_record.dart';
 import 'models/support_index_data.dart';
+import 'models/usability.dart';
 
 /// Model files exported by the pipeline (PLAN.md §3.2).
 const kModelFiles = [
@@ -46,6 +47,7 @@ class AppData {
     required this.lessons,
     required this.missions,
     required this.askCache,
+    this.usability = Usability.empty,
   });
 
   final AppMeta meta;
@@ -60,6 +62,7 @@ class AppData {
   final List<Lesson> lessons;
   final MissionsFile missions;
   final List<AskCacheEntry> askCache;
+  final Usability usability;
 }
 
 /// Loads and parses the JSON assets under `assets/data/`.
@@ -133,6 +136,7 @@ class AssetRepository {
     final lessons = await _optional('lessons.json');
     final missions = await _optional('missions.json');
     final askCache = await _optional('ask_cache.json');
+    final usability = await _optional('usability.json');
     return AppData(
       meta: _parse('app_meta.json', meta, AppMeta.fromJson),
       runs: _parse('runs.json', runs, RunsTable.fromJson),
@@ -166,6 +170,9 @@ class AssetRepository {
       askCache: askCache == null
           ? const []
           : _parse('ask_cache.json', askCache, parseAskCache),
+      usability: usability == null
+          ? Usability.empty
+          : _parse('usability.json', usability, Usability.fromJson),
     );
   }
 }

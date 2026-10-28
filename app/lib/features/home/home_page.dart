@@ -14,6 +14,7 @@ import 'data_sentence.dart';
 import 'gravity_hero.dart';
 import 'home_providers.dart';
 import 'next_list.dart';
+import '../tour/tour_controller.dart';
 
 /// Home: the Gravity Twin hero, data sentence, next steps and footer (DESIGN.md §11.1).
 class HomePage extends ConsumerWidget {
@@ -46,7 +47,7 @@ class HomePage extends ConsumerWidget {
         label: l.takeTour,
         variant: FsButtonVariant.secondary,
         fullWidth: size.isCompact,
-        onPressed: () => context.go('/?tour=1'),
+        onPressed: ref.read(tourProvider.notifier).start,
       ),
     ];
     final hero = GravityHero(targetKey: heroKey);

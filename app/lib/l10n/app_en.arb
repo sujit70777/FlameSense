@@ -275,6 +275,42 @@
   "@unitSeconds": {
     "description": "Unit"
   },
+  "unitWmK": "W/m·K",
+  "@unitWmK": {
+    "description": "Unit"
+  },
+  "unitM2S": "m²/s",
+  "@unitM2S": {
+    "description": "Unit"
+  },
+  "unitK": "K",
+  "@unitK": {
+    "description": "Unit"
+  },
+  "unitJkgK": "J/kg·K",
+  "@unitJkgK": {
+    "description": "Unit"
+  },
+  "unitM": "m",
+  "@unitM": {
+    "description": "Unit"
+  },
+  "unitMS": "m/s",
+  "@unitMS": {
+    "description": "Unit"
+  },
+  "unitMs2": "m/s²",
+  "@unitMs2": {
+    "description": "Unit"
+  },
+  "colUnit": "Unit",
+  "@colUnit": {
+    "description": "Table"
+  },
+  "methodsTocLabel": "Jump to section",
+  "@methodsTocLabel": {
+    "description": "Compact ToC"
+  },
   "featO2": "Oxygen",
   "@featO2": {
     "description": "Feature"

@@ -18,6 +18,7 @@ import '../features/missions/missions_page.dart';
 import '../features/not_found/not_found_page.dart';
 import '../features/shell/app_shell.dart';
 import '../features/shell/nav_items.dart';
+import '../features/tour/tour_targets.dart';
 import 'theme/tokens.dart';
 
 /// Root navigator (dialogs and full-screen detail pages sit above the shell).
@@ -69,13 +70,15 @@ GoRouter buildRouter({String initialLocation = '/'}) => GoRouter(
       builder: (context, state, shell) => AppShell(shell: shell),
       branches: [
         StatefulShellBranch(
-          routes: [_section(NavSection.home, const HomePage())],
+          routes: [
+            _section(NavSection.home, HomePage(heroKey: TourTargets.homeHero)),
+          ],
         ),
         StatefulShellBranch(
           routes: [
             _section(
               NavSection.missions,
-              const MissionsPage(),
+              MissionsPage(listKey: TourTargets.missions),
               routes: [
                 GoRoute(
                   path: ':missionId',
@@ -83,6 +86,10 @@ GoRouter buildRouter({String initialLocation = '/'}) => GoRouter(
                     state,
                     MissionDetailPage(
                       missionId: state.pathParameters['missionId']!,
+                      targetKey:
+                          state.pathParameters['missionId'] == 'artemis_lunar'
+                          ? TourTargets.mission
+                          : null,
                     ),
                   ),
                 ),
@@ -94,7 +101,7 @@ GoRouter buildRouter({String initialLocation = '/'}) => GoRouter(
           routes: [
             _section(
               NavSection.explore,
-              const ExplorePage(),
+              ExplorePage(firstRowKey: TourTargets.exploreRow),
               routes: [
                 GoRoute(
                   path: 'run/:runId',
@@ -107,16 +114,34 @@ GoRouter buildRouter({String initialLocation = '/'}) => GoRouter(
           ],
         ),
         StatefulShellBranch(
-          routes: [_section(NavSection.lab, const LabPage())],
+          routes: [
+            _section(
+              NavSection.lab,
+              LabPage(
+                conditionsKey: TourTargets.labConditions,
+                predictionKey: TourTargets.labPrediction,
+              ),
+            ),
+          ],
         ),
         StatefulShellBranch(
-          routes: [_section(NavSection.map, const MapPage())],
+          routes: [_section(NavSection.map, MapPage(mapKey: TourTargets.map))],
         ),
         StatefulShellBranch(
-          routes: [_section(NavSection.ask, const AskPage())],
+          routes: [
+            _section(
+              NavSection.ask,
+              AskPage(firstQuestionKey: TourTargets.askFirst),
+            ),
+          ],
         ),
         StatefulShellBranch(
-          routes: [_section(NavSection.earth, const EarthPage())],
+          routes: [
+            _section(
+              NavSection.earth,
+              EarthPage(firstLessonKey: TourTargets.earthFirst),
+            ),
+          ],
         ),
         StatefulShellBranch(
           routes: [_section(NavSection.methods, const MethodsPage())],

@@ -476,6 +476,60 @@ abstract class AppLocalizations {
   /// **'s'**
   String get unitSeconds;
 
+  /// Unit
+  ///
+  /// In en, this message translates to:
+  /// **'W/m·K'**
+  String get unitWmK;
+
+  /// Unit
+  ///
+  /// In en, this message translates to:
+  /// **'m²/s'**
+  String get unitM2S;
+
+  /// Unit
+  ///
+  /// In en, this message translates to:
+  /// **'K'**
+  String get unitK;
+
+  /// Unit
+  ///
+  /// In en, this message translates to:
+  /// **'J/kg·K'**
+  String get unitJkgK;
+
+  /// Unit
+  ///
+  /// In en, this message translates to:
+  /// **'m'**
+  String get unitM;
+
+  /// Unit
+  ///
+  /// In en, this message translates to:
+  /// **'m/s'**
+  String get unitMS;
+
+  /// Unit
+  ///
+  /// In en, this message translates to:
+  /// **'m/s²'**
+  String get unitMs2;
+
+  /// Table
+  ///
+  /// In en, this message translates to:
+  /// **'Unit'**
+  String get colUnit;
+
+  /// Compact ToC
+  ///
+  /// In en, this message translates to:
+  /// **'Jump to section'**
+  String get methodsTocLabel;
+
   /// Feature
   ///
   /// In en, this message translates to:

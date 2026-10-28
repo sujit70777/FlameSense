@@ -14,6 +14,7 @@ import numpy as np
 import pandas as pd
 
 from flamesense import config
+from flamesense.lessons import build_lessons, build_usability
 from flamesense.missions import export_missions
 from flamesense.schema import CANONICAL_COLUMNS
 from flamesense.support import build_support_index
@@ -356,6 +357,10 @@ def export_all(df: pd.DataFrame, artifacts_dir: Path, out_dir: Path) -> dict[str
         written["physics_params.json"] = out_dir / "physics_params.json"
     for warning in export_missions(config.DATA_MANUAL / "missions.json", out_dir):
         print(f"  missions: {warning}")
+    for name, payload in (("lessons.json", build_lessons(config.DATA_MANUAL)),
+                          ("usability.json", build_usability(config.DATA_MANUAL))):
+        write_json(out_dir / name, payload, indent=1)
+        written[name] = out_dir / name
     if (out_dir / "missions.json").exists():
         written["missions.json"] = out_dir / "missions.json"
     return written

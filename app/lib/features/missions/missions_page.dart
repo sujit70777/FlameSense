@@ -12,7 +12,10 @@ import 'mission_row.dart';
 
 /// Missions list (DESIGN.md §11.11, F11).
 class MissionsPage extends ConsumerWidget {
-  const MissionsPage({super.key});
+  const MissionsPage({super.key, this.listKey});
+
+  /// Tour target (step 5 fallback).
+  final Key? listKey;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -24,6 +27,7 @@ class MissionsPage extends ConsumerWidget {
       children: [
         if (missions.isEmpty)
           FsPanel(
+            key: listKey,
             child: EmptyState(
               icon: Icons.rocket_launch_rounded,
               title: l.missionsEmptyTitle,
@@ -34,6 +38,7 @@ class MissionsPage extends ConsumerWidget {
           InlineNotice(message: l.missionsNotice),
           const SizedBox(height: FsSpace.s4),
           FsPanel(
+            key: listKey,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [

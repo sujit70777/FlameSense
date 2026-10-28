@@ -19,7 +19,7 @@ Tick a box only after **testing it**, not after reading the code. Each item has 
 - [ ] [B] No NASA insignia, worm logo, or Space Apps logo used in the app, favicon, OG image, video, or slides; no wording that implies NASA endorsement. "Not affiliated with or endorsed by NASA" appears on About and in the footer.
 - [ ] [B] Every dataset used is listed with its link in DATA_SOURCES.md, the Methods page, README, and submission.
 - [ ] [M] Every corpus document's license allows public serving (`license_note` filled for each row of `corpus_meta.csv`; journal papers without redistribution rights removed).
-- [ ] [M] Font licenses (SIL OFL) included in `app/assets/fonts/LICENSES/` and shown via `showLicensePage` / About.
+- [x] [M] Font licenses (SIL OFL) included in `app/assets/fonts/LICENSES/` and shown via `showLicensePage` / About.
 - [ ] [M] `LICENSE` (Apache-2.0) present; README states license.
 - [ ] [m] Third-party package licenses reviewed (`flutter pub deps`, `npm ls`) — all permissive.
 
@@ -78,13 +78,13 @@ Per page — every listed state reachable and correct:
 | Fire Lab | [x] | – | – | [x] numeric field errors | [x] outside-range, [ ] low support, [x] partial-g notice, [x] task unavailable, [ ] physics ok/n-a/near-ext/unavailable, [x] compare mode, [x] copy link reproduces state |
 | Map | [x] | [x] first-draw skeleton | [x] sustain unavailable | – | [ ] hatching, [x] contour, [x] Moon/Mars gap notice, [ ] pinned cell, [ ] Open in Lab |
 | Ask | [ ] | [ ] searching skeleton | – | [ ] rate-limit, [x] upstream, [ ] offline, [x] invalid | [x] cached answers, [ ] not-grounded, [x] citation chip → source highlight, [ ] copy |
-| Earth | [ ] | – | [ ] no approved lessons | – | [ ] drafts hidden |
-| Methods | [ ] | – | – | – | [ ] equations render, [ ] ToC anchors, [ ] physics sign-off line |
-| About | [ ] | – | – | – | [ ] licenses page opens |
-| 404 | [ ] | – | – | – | [ ] `/nope` and `/explore/run/does-not-exist` |
+| Earth | [ ] | – | [x] no approved lessons | – | [x] drafts hidden |
+| Methods | [x] | – | – | – | [x] equations render, [x] ToC anchors, [x] physics sign-off line |
+| About | [x] | – | – | – | [x] licenses page opens |
+| 404 | [x] | – | – | – | [x] `/nope` and `/explore/run/does-not-exist` |
 | Missions | [ ] | [ ] skeleton | [ ] no sourced missions | – | [ ] unsourced missions hidden in release, [ ] counts match detail page |
 | Mission detail | [ ] | [ ] skeleton table + map | [ ] sustain unavailable | – | [ ] verdict colors + text, [ ] data-gap notice, [ ] wishlist 5 diverse picks, [ ] planned-test percentile equals computed value, [ ] CSV, [ ] PDF numbers equal screen, [ ] row → Lab |
-| Tour | [ ] all 8 steps | – | – | – | [ ] `?tour=1`, [ ] keyboard, [ ] Esc, [ ] reduced motion |
+| Tour | [x] all 8 steps | – | – | – | [x] `?tour=1`, [x] keyboard, [x] Esc, [ ] reduced motion |
 
 ## 6. Accessibility (WCAG 2.2 AA)
 
@@ -179,8 +179,8 @@ Per page — every listed state reachable and correct:
 - [ ] [M] CI runs all tests on every push.
 - [ ] [M] Issue templates for data corrections (run_id, correction, source).
 - [ ] [m] Uptime check on the production URL (free monitor) with email alerts.
-- [ ] [m] Version and data version shown in About (from `app_meta.json`).
-- [ ] [m] Privacy note on About: no personal data collected; questions sent to the AI provider only to generate answers.
+- [x] [m] Version and data version shown in About (from `app_meta.json`).
+- [x] [m] Privacy note on About: no personal data collected; questions sent to the AI provider only to generate answers.
 
 ---
 
