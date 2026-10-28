@@ -467,3 +467,21 @@ Updated at the end of every phase.
   - Production: deploy, custom domain, headers, smoke on production, phone on mobile data,
     `v1.0-submission` tag, cross-browser/device checks, DevTools timing and 60 fps.
   - Submission: registrations, videos, NASA page, usability test, rehearsals (PLAYBOOKs).
+
+---
+
+## Phase 16 — Deploy (prepared; deploy itself is a [LEAD] step)
+- **Date:** 2026-10-28
+- **Done by the agent:** `app/web/_headers` exactly as PLAN step 7, plus `no-cache` for the deferred
+  `main.dart.js_*.part.js` chunk and `flutter_service_worker.js` (so a redeploy is never stale);
+  `wrangler.toml` carries a commented `[[kv_namespaces]]` block to fill. Release build +
+  `scripts/check_secrets.sh` OK. Headers verified on `wrangler pages dev` (nosniff, referrer,
+  permissions, SAMEORIGIN; no-cache for index/bootstrap/main; 600 s assets; 86400 s canvaskit);
+  smoke test passes with them.
+- **Not done (needs [LEAD]):** `npx wrangler whoami` → not authenticated. Steps 1–4, 6, 8–10:
+  `wrangler login`, `pages project create flamesense --production-branch main`,
+  `kv namespace create RATE_KV` (paste id into wrangler.toml), `pages secret put ANTHROPIC_API_KEY`
+  + Anthropic spend limit, `bash scripts/build_all.sh && bash scripts/check_secrets.sh`,
+  `npx wrangler pages deploy app/build/web --project-name flamesense --branch main` from the repo
+  root, custom domain CNAME, `node scripts/smoke.mjs https://flamesense.ehsanur.com`, phone check,
+  `git tag v1.0-submission && git push --tags`. Nothing was pushed or published by the agent.

@@ -7,4 +7,8 @@ ASK_MODEL = "claude-sonnet-5-5"
 ASK_MAX_TOKENS = "800"
 ALLOWED_ORIGINS = "https://flamesense.ehsanur.com,https://flamesense.pages.dev,http://localhost:8788"
 
-# [[kv_namespaces]] added in Phase 16
+# Rate-limit KV (Phase 16 step 3): run `npx wrangler kv namespace create RATE_KV`, then
+# uncomment and paste the printed id. Without it the function skips rate limiting.
+# [[kv_namespaces]]
+# binding = "RATE_KV"
+# id = "<printed id>"
