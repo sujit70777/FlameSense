@@ -82,3 +82,6 @@ flutter:
     - family: NotoSansBengali
       fonts:
         - asset: "assets/fonts/NotoSansBengali[wdth,wght].ttf"
+    - family: FsSymbols
+      fonts:
+        - asset: assets/fonts/FsSymbols.ttf

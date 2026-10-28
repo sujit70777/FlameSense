@@ -12,7 +12,7 @@ TextStyle fsStyle(
 }) {
   return TextStyle(
     fontFamily: 'Archivo',
-    fontFamilyFallback: const ['NotoSansBengali'],
+    fontFamilyFallback: const ['NotoSansBengali', 'FsSymbols'],
     fontSize: size,
     height: height / size,
     fontWeight:

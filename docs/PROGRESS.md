@@ -357,3 +357,82 @@ Updated at the end of every phase.
   Exit, →/←/Esc, focus on the card, `?tour=1` auto-start, no animation in reduced motion.
 - **Checks:** `flutter test` 86 passed / 1 skipped; `pytest` 60 passed; analyze clean; tour
   verified in Chrome on the fixture QA build.
+
+---
+
+## Phase 14 — Responsive, accessibility, Bangla, performance, polish
+- **Date:** 2026-10-28
+- **Responsive:** `test/phase14_responsive_test.dart` pumps every route (incl. run detail, mission
+  detail, 404) at 360/390/768/1024/1280/1440/1920 in both themes, in Bangla at 360/1440, and on the
+  real empty data: no overflow anywhere.
+- **Accessibility:** contrast table from `scripts/contrast.py` (all text pairs ≥ 4.5:1 in both
+  themes; focus ring, markers and badge borders ≥ 3:1; chart axis lines ~2:1, Q-12). Compact hit
+  areas ≥ 44 px (chips via `HitTarget`, segmented 44 px tall). Tooltips + labels on every icon
+  button (FsIconButton requires them), chart/map/gauge/slider semantics, information never by
+  colour alone, reduced motion stops flame flicker, ignition, shimmer, pulses and tour animation.
+- **Fonts:** every UI string is covered by Archivo + Noto Sans Bengali except U+207B; added the
+  908-byte `FsSymbols.ttf` so no fallback font is fetched at runtime (Q-12).
+- **Bangla:** still a first draft (all `bn-pending`); awaiting [TEAM] review. Line height ×1.15,
+  no letter spacing, Bangla digits via `intl` already in place.
+- **Performance (measured, gzip):** `main.dart.js` 1.28 MB (pdf package now a deferred part),
+  CanvasKit (Chromium build) 2.09 MB, all manifest fonts 1.02 MB, data 3 KB → **4.40 MB** worst
+  case (≤ 4.5 MB budget). Splash/interactive timing and 60 fps drag need a DevTools run on
+  [LEAD]'s laptop (manual AUDIT §8 items).
+- **Polish:** per-route document titles, locale-aware 3-significant-digit formatting, no debug
+  banner, brand name through l10n. Screenshots of 10 pages × 2 themes × 1440/390 in
+  `docs/img/screens/` (real data, so they show the honest empty states) and `app/web/og.png`
+  rendered from FlamePainter: `flutter test --update-goldens --dart-define=FS_SCREENSHOTS=true test/screenshots_test.dart`.
+| Theme | Foreground | Background | Ratio | Needs | Use | Result |
+|---|---|---|---|---|---|---|
+| dark | textPrimary | bg | 16.56 | 4.5 | body text | pass |
+| dark | textPrimary | surface1 | 15.45 | 4.5 | panel text | pass |
+| dark | textPrimary | surface3 | 12.42 | 4.5 | tooltip/hover | pass |
+| dark | textSecondary | surface1 | 8.63 | 4.5 | supporting text | pass |
+| dark | textSecondary | surface2 | 7.79 | 4.5 | table header | pass |
+| dark | textTertiary | bg | 5.59 | 4.5 | captions on bg | pass |
+| dark | textTertiary | surface1 | 5.21 | 4.5 | captions in panels | pass |
+| dark | textTertiary | surface2 | 4.71 | 4.5 | hint in inputs | pass |
+| dark | microg | bg | 8.82 | 4.5 | links | pass |
+| dark | microg | surface1 | 8.23 | 4.5 | links in panels | pass |
+| dark | microg | microgTint/surface1 | 6.08 | 4.5 | selected chip/nav | pass |
+| dark | onMicrog | microgStrong | 5.75 | 4.5 | primary button | pass |
+| dark | emberText | surface1 | 7.54 | 4.5 | ember text | pass |
+| dark | textPrimary | emberTint/surface1 | 12.44 | 4.5 | Earth column text | pass |
+| dark | textPrimary | warnTint/surface1 | 11.51 | 4.5 | warn notice | pass |
+| dark | textPrimary | dangerTint/surface1 | 12.79 | 4.5 | danger notice | pass |
+| dark | warn | surface1 | 10.86 | 4.5 | unknown count / debug notes | pass |
+| dark | onDanger | danger | 7.30 | 4.5 | danger button | pass |
+| dark | focusRing | bg | 13.32 | 3.0 | focus ring (UI) | pass |
+| dark | focusRing | surface1 | 12.42 | 3.0 | focus ring in panels | pass |
+| dark | ember | surface1 | 7.54 | 3.0 | ember dots/markers (UI) | pass |
+| dark | partial | surface1 | 8.05 | 3.0 | partial-g markers (UI) | pass |
+| dark | success | surface1 | 9.74 | 3.0 | badge border (UI) | pass |
+| dark | danger | surface1 | 6.43 | 3.0 | badge border (UI) | pass |
+| dark | outlineStrong | surface1 | 2.01 | 3.0 | chart axes (UI) | FAIL |
+| light | textPrimary | bg | 16.98 | 4.5 | body text | pass |
+| light | textPrimary | surface1 | 18.22 | 4.5 | panel text | pass |
+| light | textPrimary | surface3 | 15.34 | 4.5 | tooltip/hover | pass |
+| light | textSecondary | surface1 | 8.12 | 4.5 | supporting text | pass |
+| light | textSecondary | surface2 | 7.30 | 4.5 | table header | pass |
+| light | textTertiary | bg | 4.94 | 4.5 | captions on bg | pass |
+| light | textTertiary | surface1 | 5.30 | 4.5 | captions in panels | pass |
+| light | textTertiary | surface2 | 4.77 | 4.5 | hint in inputs | pass |
+| light | microg | bg | 4.98 | 4.5 | links | pass |
+| light | microg | surface1 | 5.34 | 4.5 | links in panels | pass |
+| light | microg | microgTint/surface1 | 4.65 | 4.5 | selected chip/nav | pass |
+| light | onMicrog | microgStrong | 5.34 | 4.5 | primary button | pass |
+| light | emberText | surface1 | 5.42 | 4.5 | ember text | pass |
+| light | textPrimary | emberTint/surface1 | 16.22 | 4.5 | Earth column text | pass |
+| light | textPrimary | warnTint/surface1 | 16.05 | 4.5 | warn notice | pass |
+| light | textPrimary | dangerTint/surface1 | 15.59 | 4.5 | danger notice | pass |
+| light | warn | surface1 | 4.73 | 4.5 | unknown count / debug notes | pass |
+| light | onDanger | danger | 5.49 | 4.5 | danger button | pass |
+| light | focusRing | bg | 4.98 | 3.0 | focus ring (UI) | pass |
+| light | focusRing | surface1 | 5.34 | 3.0 | focus ring in panels | pass |
+| light | ember | surface1 | 3.50 | 3.0 | ember dots/markers (UI) | pass |
+| light | partial | surface1 | 5.34 | 3.0 | partial-g markers (UI) | pass |
+| light | success | surface1 | 4.14 | 3.0 | badge border (UI) | pass |
+| light | danger | surface1 | 5.49 | 3.0 | badge border (UI) | pass |
+| light | outlineStrong | surface1 | 1.86 | 3.0 | chart axes (UI) | FAIL |
+
+2 failing pair(s)

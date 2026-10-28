@@ -14,6 +14,7 @@ Stream<LicenseEntry> fontLicenses() async* {
   for (final (name, file) in [
     ('Archivo', 'Archivo-OFL.txt'),
     ('Noto Sans Bengali', 'NotoSansBengali-OFL.txt'),
+    ('FsSymbols (superscript minus derived from Archivo)', 'Archivo-OFL.txt'),
   ]) {
     final text = await rootBundle.loadString('assets/fonts/LICENSES/$file');
     yield LicenseEntryWithLineBreaks([name], text);

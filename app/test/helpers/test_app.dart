@@ -61,6 +61,7 @@ Future<void> loadAppFonts() async {
   for (final (family, path) in [
     ('Archivo', 'assets/fonts/Archivo[wdth,wght].ttf'),
     ('NotoSansBengali', 'assets/fonts/NotoSansBengali[wdth,wght].ttf'),
+    ('FsSymbols', 'assets/fonts/FsSymbols.ttf'),
   ]) {
     final loader = FontLoader(family)..addFont(rootBundle.load(path));
     await loader.load();

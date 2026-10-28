@@ -147,3 +147,17 @@ draft format (`## L1` blocks with `key: value` lines, `source: label | url`); a 
 `python -m flamesense.cli export` converts both. Until then Earth shows "Lessons are being
 reviewed" and Methods shows the usability-pending sentence. Tour step 5 points at the
 Missions list while the Artemis preset is unsourced.
+
+---
+
+## Q-12 — Phase 14: accessibility deviations from DESIGN.md sizes
+
+- **Touch targets:** chips stay 32 px visually but get a 44 px tall hit area on compact
+  (`widgets/hit_target.dart`); `FsSegmented` is 44 px tall on compact instead of 36 px (a hit
+  area can't be extended inside the fixed container). `TODO(Q-12)`.
+- **Chart axes:** `outlineStrong` axis lines are ~2:1 against `surface1` (below the 3:1 for
+  graphical objects). Token values are final per DESIGN.md, so they are unchanged; tick labels
+  (`textTertiary`, ≥ 4.5:1) carry the information. Decide whether to darken the token.
+- **Superscript minus:** Archivo has no U+207B (used in "10⁻⁶ g"). `FsSymbols.ttf` (908 bytes,
+  `scripts/make_symbol_font.py`) holds that one glyph, derived from Archivo's hyphen, so no
+  fallback font is fetched from Google at runtime.

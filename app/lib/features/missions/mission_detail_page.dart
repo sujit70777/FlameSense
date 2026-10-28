@@ -8,7 +8,7 @@ import '../../core/platform/browser.dart';
 import '../../core/providers.dart';
 import '../../core/theme/tokens.dart';
 import '../../data/models/missions_file.dart';
-import '../../domain/brief.dart';
+import '../../domain/brief.dart' deferred as brief;
 import '../../domain/gravity.dart';
 import '../../domain/missions.dart';
 import '../../l10n/app_localizations.dart';
@@ -58,8 +58,10 @@ class _MissionDetailPageState extends ConsumerState<MissionDetailPage> {
     final m = ref.read(missionByIdProvider(widget.missionId))!;
     final data = ref.read(loadedDataProvider);
     final w = ref.read(wishlistProvider(widget.missionId));
-    final bytes = await buildBrief(
-      BriefContent(
+    // The pdf package loads only when someone asks for a brief (keeps first load small).
+    await brief.loadLibrary();
+    final bytes = await brief.buildBrief(
+      brief.BriefContent(
         mission: m,
         materials: ref.read(missionAssessmentProvider(widget.missionId)),
         wishlist: w,

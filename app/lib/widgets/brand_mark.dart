@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../core/theme/colors.dart';
 import '../core/theme/fs_theme_ext.dart';
 import '../core/theme/typography.dart';
+import '../l10n/app_localizations.dart';
 
 /// The FlameSense mark: a teardrop (Earth flame) holding a sphere (space flame).
 /// Path from DESIGN.md §2.3, drawn on a 64-unit viewBox.
@@ -95,14 +96,16 @@ class BrandLockup extends StatelessWidget {
       c.textPrimary,
     );
     return Semantics(
-      label: 'FlameSense',
+      label: AppLocalizations.of(context).appName,
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           BrandMark(size: markSize),
           if (showWordmark) ...[
             const SizedBox(width: 10),
-            ExcludeSemantics(child: Text('FlameSense', style: word)),
+            ExcludeSemantics(
+              child: Text(AppLocalizations.of(context).appName, style: word),
+            ),
           ],
         ],
       ),

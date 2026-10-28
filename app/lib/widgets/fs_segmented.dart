@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../core/breakpoints.dart';
 import '../core/theme/fs_theme_ext.dart';
 import '../core/theme/tokens.dart';
 import '../core/theme/typography.dart';
@@ -42,7 +43,10 @@ class FsSegmented<T> extends StatelessWidget {
       label: semanticLabel,
       container: true,
       child: Container(
-        height: FsSize.segmentedHeight,
+        // 44 px on compact so each segment meets the touch-target minimum (TODO(Q-12)).
+        height: FsWidth.of(context).isCompact
+            ? FsSize.touch
+            : FsSize.segmentedHeight,
         decoration: BoxDecoration(
           color: c.surface2,
           borderRadius: BorderRadius.circular(FsRadius.sm),
