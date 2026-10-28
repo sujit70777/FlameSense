@@ -111,12 +111,15 @@ class _RailItem extends StatelessWidget {
             mouseCursor: SystemMouseCursors.click,
             child: SizedBox(
               height: FsSize.railItem,
+              // Expand so the row fills the 44 px tile and centres vertically.
               child: Stack(
+                fit: StackFit.expand,
                 children: [
                   if (selected)
                     Positioned(
                       left: 0,
                       top: (FsSize.railItem - FsSize.activeBarHeight) / 2,
+                      height: FsSize.activeBarHeight,
                       child: Container(
                         width: FsSize.activeBarWidth,
                         height: FsSize.activeBarHeight,
