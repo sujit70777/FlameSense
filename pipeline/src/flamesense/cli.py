@@ -340,6 +340,20 @@ def cmd_ask_eval(args: argparse.Namespace) -> None:
     sys.exit(0 if ok else 1)
 
 
+def cmd_readiness(args: argparse.Namespace) -> None:
+    """Print which human inputs the demo still needs."""
+    from flamesense.readiness import readiness
+
+    items = readiness()
+    for it in items:
+        mark = "OK  " if it.ok else "TODO"
+        print(f"{mark} {it.name:26s} {it.detail}")
+        if not it.ok:
+            print(f"     -> {it.action}")
+    done = sum(it.ok for it in items)
+    print(f"\n{done}/{len(items)} ready")
+
+
 def cmd_all(args: argparse.Namespace) -> None:
     """Run the full pipeline: ingest → validate → clean → features → report → train → export → evaluate."""
     for cmd in [cmd_ingest, cmd_validate, cmd_clean, cmd_features, cmd_report, cmd_train, cmd_export, cmd_evaluate]:
@@ -370,6 +384,7 @@ def main() -> None:
     ask_cache.add_argument("--url", default="http://localhost:8788", help="Base URL of /api/ask")
     ask_eval = sub.add_parser("ask-eval", help="Score /api/ask against ask_eval.yaml")
     ask_eval.add_argument("--url", default="http://localhost:8788", help="Base URL of /api/ask")
+    sub.add_parser("readiness", help="List missing human inputs for the demo")
     sub.add_parser("all", help="Run full pipeline end to end")
 
     args = parser.parse_args()
@@ -389,6 +404,7 @@ def main() -> None:
         "corpus": cmd_corpus,
         "ask-cache": cmd_ask_cache,
         "ask-eval": cmd_ask_eval,
+        "readiness": cmd_readiness,
         "all": cmd_all,
     }
 

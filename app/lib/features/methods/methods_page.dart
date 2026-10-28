@@ -139,6 +139,7 @@ class _MethodsPageState extends State<MethodsPage> {
               style: TextButton.styleFrom(
                 alignment: Alignment.centerLeft,
                 minimumSize: const Size(0, FsSize.touch),
+                padding: EdgeInsets.zero,
               ),
               onPressed: () => _jump(s),
               child: Text(

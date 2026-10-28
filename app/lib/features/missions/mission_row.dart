@@ -72,15 +72,19 @@ class MissionRow extends ConsumerWidget {
         Text(label, style: context.text.labelSmall),
       ],
     );
-    final counts = Wrap(
-      spacing: FsSpace.s5,
-      runSpacing: FsSpace.s2,
-      children: [
-        count(burn, l.missionCountBurn),
-        count(out, l.missionCountOut),
-        count(unknown, l.missionCountUnknown, warn: true),
-      ],
-    );
+    // With no materials in the dataset, "0 / 0 / 0" would read like a finding; say so instead.
+    final rows = ref.watch(missionAssessmentProvider(mission.id));
+    final Widget counts = rows.isEmpty
+        ? Text(l.missionNoMaterials, style: context.text.bodyMedium)
+        : Wrap(
+            spacing: FsSpace.s5,
+            runSpacing: FsSpace.s2,
+            children: [
+              count(burn, l.missionCountBurn),
+              count(out, l.missionCountOut),
+              count(unknown, l.missionCountUnknown, warn: true),
+            ],
+          );
     final name = Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

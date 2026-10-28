@@ -59,10 +59,12 @@ class MethodsData extends ConsumerWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Text(
-          l.methodsDataBody(
-            f.integer(d.meta.nRuns),
-            f.integer(d.meta.nExperiments),
-          ),
+          d.meta.nRuns == 0
+              ? l.homeDataPending
+              : l.methodsDataBody(
+                  f.integer(d.meta.nRuns),
+                  f.integer(d.meta.nExperiments),
+                ),
           style: context.text.bodyLarge,
         ),
         if (built != null)
