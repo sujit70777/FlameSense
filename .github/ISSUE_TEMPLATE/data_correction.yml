@@ -1,0 +1,26 @@
+name: Data correction
+description: Report a wrong value in an experiment run, with its source.
+title: "Data correction: <run_id>"
+labels: [data]
+body:
+  - type: input
+    id: run_id
+    attributes:
+      label: Run id
+      description: As shown in Explore, e.g. psi_bass:37
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is wrong and what it should be
+      description: Field, current value, correct value, with units.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link or citation (document, table, page) that shows the correct value.
+    validations:
+      required: true

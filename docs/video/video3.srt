@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+Fire has no 'up' in space.
+
+2
+00:00:04,000 --> 00:00:09,000
+The Moon base will likely use 30% oxygen or more, where fire is harder to predict.
+
+3
+00:00:09,000 --> 00:00:21,000
+NASA's fire data stops at orbit. FlameSense shows where it ends, predicts only where data exists, and ranks the experiments NASA should run next.
+
+4
+00:00:21,000 --> 00:00:26,000
+Built on NASA's ISS combustion data: [VERIFY: dataset names].
+
+5
+00:00:26,000 --> 00:00:29,000
+Open source, live now.

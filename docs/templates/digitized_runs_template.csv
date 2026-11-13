@@ -1,0 +1,1 @@
+run_id,group_id,experiment,platform,gravity_g,fuel_name,fuel_class,fuel_thickness_mm,fuel_density_kg_m3,o2_mole_fraction,pressure_kpa,diluent,flow_velocity_mm_s,flow_direction,ignited,sustained,flame_spread_rate_mm_s,burning_rate_k_mm2_s,extinction_reason,source_id,source_file,source_citation,source_url,quality_flag,notes

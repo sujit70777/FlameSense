@@ -1,0 +1,15 @@
+name = "flamesense"
+pages_build_output_dir = "app/build/web"
+compatibility_date = "2026-10-01"
+
+[vars]
+ASK_MODEL = "gemini-flash-latest"
+ASK_MAX_TOKENS = "2048"
+# Fallback when Gemini is busy or out of free quota (GROQ_API_KEY secret).
+GROQ_MODEL = "openai/gpt-oss-120b"
+ALLOWED_ORIGINS = "https://flamesense.ehsanur.com,https://flamesense.pages.dev,http://localhost:8788"
+
+# Rate-limit KV (Phase 16 step 3): 30 questions per IP per hour.
+[[kv_namespaces]]
+binding = "RATE_KV"
+id = "945b447f9ced4aeabe5412dfa189399b"

@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:12,000
+This is a flame on Earth. And this is the same flame in orbit. Without gravity, fire has no 'up': it turns round, blue and slow.
+
+2
+00:00:12,000 --> 00:00:24,000
+We're Team FlameSense from Rajshahi. I'm [VERIFY: name]. I'm [VERIFY: name]. I'm Ehsanur.
+
+3
+00:00:24,000 --> 00:00:56,000
+Our challenge is Flame in Freefall. Here is our main finding. NASA's fire data stops at orbit. Every NASA run our models could learn from was on the space station, and NASA has almost no fire data at Moon or Mars gravity. Yet the Moon base will likely breathe 34 percent oxygen, where materials burn more easily. So our first result is not a guess about the Moon. It is a map of what NASA doesn't know yet.
+
+4
+00:00:56,000 --> 00:01:24,000
+Mission Mode takes the Moon-base atmosphere and shows which materials fall outside NASA's tested range. Then it ranks the experiments that would teach NASA the most, so the next test flight fills the biggest gap first.
+
+5
+00:01:24,000 --> 00:01:42,000
+Everything starts with real data: 123 test runs from BASS, BASS-II, Saffire and published papers. Every row links back to its NASA source.
+
+6
+00:01:42,000 --> 00:02:16,000
+In orbit, where NASA has data, raise the oxygen and the chance of the flame surviving rises. This badge shows how much data supports the answer, and this card checks it against combustion theory. Now move gravity to the Moon. The flame changes shape, because that is physics. But the model gives no number, because it has never seen a Moon fire. That is the gap, shown honestly.
+
+7
+00:02:16,000 --> 00:02:32,000
+The map makes it visible. In orbit there is a region we can predict. At Moon gravity it is all hatched: no NASA data yet.
+
+8
+00:02:32,000 --> 00:02:56,000
+Ask the NASA papers answers from 68 documents in our NASA library, and each answer cites the pages it used. NASA's own studies suggest Earth gravity may not be the worst case for flammability.
+
+9
+00:02:56,000 --> 00:03:12,000
+Earth lessons connects this to history: Apollo 1, Apollo 13, the Mir fire, and NASA fire-safety technology now used on Earth.
+
+10
+00:03:12,000 --> 00:03:36,000
+The models are small and honest. On experiment series they never saw, the burn-or-go-out model's error score is 0.19, against 0.35 for a simple guess. With 42 runs, it says 'not enough data' instead of guessing.
+
+11
+00:03:36,000 --> 00:03:55,000
+FlameSense is open source and live at flamesense.ehsanur.com. Fire has no 'up' in space, and NASA's data has an edge. Now we can see it, and test past it.
+

@@ -1,0 +1,47 @@
+# Python
+pipeline/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+
+# Flutter
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+
+# Node
+node_modules/
+
+# Secrets
+.dev.vars
+*.key
+
+# Data intermediates
+data/interim/
+data/processed/
+artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Large re-downloadable raw data (data/raw > 50 MB, PLAN Phase 1 step 2; see QUESTIONS Q-13)
+data/raw/ntrs/*.pdf
+data/raw/ntrs/_api/
+data/raw/psi/**/investigation_api.json
+data/raw/psi/**/versions_api.json
+data/raw/third_party/**/*.pdf
+
+# Local Cloudflare dev state
+.wrangler/
+
+# Local deploy target (scripts/deploy.sh)
+scripts/deploy.env
