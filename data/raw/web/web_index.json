@@ -1,0 +1,118 @@
+{
+ "fetched_utc": "2026-11-02T02:29:24+00:00",
+ "source": "RESOURCES.md (challenge Resources tab)",
+ "pages": [
+  {
+   "name": "NASA Combustion Science",
+   "url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+   "slug": "nasa-combustion-science",
+   "what": "Basic information about most combustion investigations in PSI",
+   "type": "web",
+   "status": "saved",
+   "title": "Combustion Science - NASA",
+   "html_path": "raw/web/nasa-combustion-science.html",
+   "txt_path": "raw/web/nasa-combustion-science.txt",
+   "pdfs": []
+  },
+  {
+   "name": "A Researcher's Guide to International Space Station Combustion Science",
+   "url": "https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/",
+   "slug": "researchers-guide-iss-combustion",
+   "what": "2015 review of ISS combustion research",
+   "type": "web",
+   "status": "saved",
+   "title": "A Researcher’s Guide to: Combustion Science - NASA",
+   "html_path": "raw/web/researchers-guide-iss-combustion.html",
+   "txt_path": "raw/web/researchers-guide-iss-combustion.txt",
+   "pdfs": [
+    {
+     "url": "https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf?emrc=c9b273",
+     "status": "downloaded",
+     "pdf_path": "raw/web/researchers-guide-iss-combustion__np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf",
+     "txt_path": "raw/web/researchers-guide-iss-combustion__np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.txt",
+     "pages": 56
+    }
+   ]
+  },
+  {
+   "name": "Apollo 1",
+   "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1",
+   "slug": "apollo-1",
+   "what": "Apollo 1 fire: crew, investigation, lessons learned",
+   "type": "web",
+   "status": "saved",
+   "title": "Apollo 1",
+   "html_path": "raw/web/apollo-1.html",
+   "txt_path": "raw/web/apollo-1.txt",
+   "pdfs": []
+  },
+  {
+   "name": "Apollo 13",
+   "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13",
+   "slug": "apollo-13",
+   "what": "Apollo 13 oxygen tank explosion: investigation, lessons learned",
+   "type": "web",
+   "status": "saved",
+   "title": "Apollo 13",
+   "html_path": "raw/web/apollo-13.html",
+   "txt_path": "raw/web/apollo-13.txt",
+   "pdfs": []
+  },
+  {
+   "name": "25 Years Ago: Fire Aboard Space Station Mir",
+   "url": "https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/",
+   "slug": "mir-fire-1997",
+   "what": "1997 Mir fire caused by an oxygen generator failure",
+   "type": "web",
+   "status": "saved",
+   "title": "25 Years Ago: Fire Aboard Space Station Mir - NASA",
+   "html_path": "raw/web/mir-fire-1997.html",
+   "txt_path": "raw/web/mir-fire-1997.txt",
+   "pdfs": []
+  },
+  {
+   "name": "Fireman's Air Tanks",
+   "url": "https://spinoff.nasa.gov/node/9582",
+   "slug": "spinoff-firefighter-air-tanks",
+   "what": "Spinoff: spacesuit technology to firefighter air tanks",
+   "type": "web",
+   "status": "saved",
+   "title": "Fireman's Air Tanks | NASA Spinoff",
+   "html_path": "raw/web/spinoff-firefighter-air-tanks.html",
+   "txt_path": "raw/web/spinoff-firefighter-air-tanks.txt",
+   "pdfs": []
+  },
+  {
+   "name": "Fire Detector",
+   "url": "https://spinoff.nasa.gov/node/9407",
+   "slug": "spinoff-fire-detector",
+   "what": "Spinoff: shuttle smoke detector that tells smoke from dust",
+   "type": "web",
+   "status": "saved",
+   "title": "Fire Detector | NASA Spinoff",
+   "html_path": "raw/web/spinoff-fire-detector.html",
+   "txt_path": "raw/web/spinoff-fire-detector.txt",
+   "pdfs": []
+  },
+  {
+   "name": "New Technology for the Fire Attire",
+   "url": "https://spinoff.nasa.gov/node/9918",
+   "slug": "spinoff-fire-attire",
+   "what": "Spinoff: spacesuit technology to firefighter clothing",
+   "type": "web",
+   "status": "saved",
+   "title": "New Technology for the Fire Attire | NASA Spinoff",
+   "html_path": "raw/web/spinoff-fire-attire.html",
+   "txt_path": "raw/web/spinoff-fire-attire.txt",
+   "pdfs": []
+  },
+  {
+   "name": "NASA ScienceCasts: The Power of Studying Combustion on the ISS",
+   "url": "https://www.youtube.com/watch?v=W1oXykoz9zg",
+   "slug": "sciencecasts-combustion-iss-video",
+   "what": "3.6-minute video (2018); recorded only, not downloaded",
+   "type": "video_link",
+   "status": "link_only"
+  }
+ ]
+}

@@ -1,0 +1,1610 @@
+=== page 1 ===
+THREE-XD_NSIONAL
+UPWARD
+FLAME
+SPREADING
+IN
+PARTIAL-GRAVITY
+BUOYANT
+FLOWS
+Kurt
+1L Saeksteder,
+NASA
+Glenn
+Research
+Center,
+Cleveland
+OH
+Ioan I. Feier, Hsin-Yi
+Shih,
+and James
+S. T'ien,
+Case
+Western
+Reserve
+Univ.,
+Cleveland
+OH
+Introduction
+Reduced-gravity
+environments
+have
+been
+used
+to
+establish
+low-speed,
+purely
+forced
+flows
+for
+both
+opposed-
+and
+concurrent-flow
+flame
+spread
+studies.
+Altenkirch's
+group
+obtained
+space-
+based
+experimental
+results
+and
+developed
+unsteady,
+two-dimensional
+ntmaerical
+simulations
+of
+opposed-flow
+flame
+spread
+including
+gas-phase
+radiation,
+primarily
+away
+from
+the
+flammability
+limit
+for
+fftin
+fuels,
+but
+including
+observations
+of
+thick
+fuel
+quenching
+in
+quiescent
+environ-
+ments 1.
+T'ien's
+group
+contributed
+some
+early
+flame
+spreading
+results
+for
+thin
+fuels
+both
+in
+opposed
+flow 2,s and
+concurrent
+flow
+4
+regimes,
+with
+more
+focus
+on near-limit
+conditions.
+T'ien's
+group
+also
+developed
+two-
+and
+three-dimensional
+mmaerical
+simulations
+of
+conommat-flow
+flame
+spread
+incorporating
+gas-phase
+radiative
+models, 5'6'7'8
+including
+predictions
+of
+a
+radiatively-induced
+quenching
+limit
+reached
+in
+very
+low-speed
+air
+flows.
+Radiative
+quenching
+has
+been
+subsequently
+observed
+in
+other
+studies
+of
+combustion
+in
+very
+low-speed
+flows
+including
+other
+flame
+spread
+investigations,
+9
+droplet
+combustion
+and
+homogeneous
+diffusion
+flames,
+and is the subject
+of several
+contemporary
+studies
+reported
+in this workshop.
+Using
+NASA
+aircraft
+flying
+partial-gravity
+"parabolic"
+trajectories,
+flame
+spreading
+in
+purely-
+buoyant,
+opposed-flow
+(downward
+burning)
+has
+been
+studied. 1°
+These
+results
+indicated
+increases
+in
+flame
+spread
+rates
+and
+enhanced
+flammability
+(lower
+limiting
+atmospheric
+oxygen
+content)
+as
+gravity
+levels
+were
+reduced
+from
+normal
+Earth
+gravity,
+and
+were
+consistent
+with
+earlier
+data
+obtained
+by Altenkirch
+using
+a centrifuge.
+11
+In
+this
+work,
+ext_ental
+results
+and
+a three-dimensional
+numerical
+simulation
+of
+upward
+flame
+spreading
+in
+variable
+partial-gravity
+environments
+were
+obtained
+including
+some
+effects
+of
+reduced
+pressure
+and
+variable
+sample
+width.
+The
+simulation
+provides
+physical
+insight
+for
+interpreting
+the
+experimental
+results
+and
+shows
+the
+intrinsic
+3-D
+nature
+of
+buoyant,
+upward
+flame
+spreading.
+This
+study
+is intended
+to link
+the evolving
+understanding
+of
+flame
+spreading
+in
+purely-forced
+flows
+to
+the
+purely-buoyant
+flow
+environment,
+particularly
+in
+the
+concurrent
+flow
+regime;
+provide
+additional
+insight
+into
+the
+exis'tence
+of
+steady
+flame
+spread
+in
+conctment
+flows;
+and
+stimulate
+direct
+comparisons
+between
+opposed-
+and
+concurrent-flow
+flame
+spread,
+Additionally,
+this
+effort
+is
+intended
+to
+provide
+direct
+practical
+understanding
+applicable
+to
+fire
+protection
+planning
+for
+the
+habitable
+facilities
+in
+partial
+gravity
+environments
+of
+anticipated
+Lunar
+and Martian explorations.
+Experiments
+Upward
+flame
+spreading
+was
+observed
+in:reduced-pressure
+air
+environments
+in
+normal-gravity
+and
+in
+partial-gravity
+environments
+using
+the
+GIFFTS
+test
+apparatus
+I°
+with
+slight
+modifications.
+Fig.1
+shows
+the
+test
+apparatus.
+Fuel
+samples
+were
+a
+thin
+cellulosic
+tissue,
+wade
+name
+"KJmwipes,"
+used
+by
+others.
+2'3'4'10
+An
+improved,
+repeatable
+sample-drying
+procedure
+was
+developed
+using
+a hot-air
+gun.
+Test
+pressures
+between
+0.2-0.4
+atmospheres
+were
+established
+using
+primary
+standard,
+precision
+mixtures
+of
+21%
+02,
+balance
+N2.
+Flight
+tests
+were
+performed
+NASA/CP--2001-210826
+37
+
+=== page 2 ===
+onboard
+the
+NASA
+KC-135
+aircraft
+providing
+partial-gravity
+environments
+of
+0.1,
+0.16,
+and
+0.38
+g/gearth.
+Chamber
+pressure
+and
+3-axis
+accelerations
+were
+recorded
+by
+the GIFFTS
+computer.
+Conventional
+video
+and
+a FSI
+Inc.
+Prism
+DS
+IR
+camera
+with
+a
+flame
+filter
+at
+3.8Bin
+(to
+reject
+emissions
+from
+H20,
+CO2)
+were used
+to image
+the solid
+surface.
+Numerical
+Flame
+Spread
+Simulation
+A
+3-dimensional
+model
+developed
+to
+simulate
+steady
+laminar
+flame
+spread
+and
+extinction
+over
+a
+flain
+solid
+fuel
+in
+low-speed
+forced
+concurrent
+flows 8
+was
+modified
+to
+simulate
+purely
+buoyant
+flow
+in
+partial-gravity
+and
+reduced-pressure
+environments.
+For
+the
+gas
+phase,
+full
+three-dimensional,
+steady, laminar
+Navier-Stokes
+equations
+for
+conservation
+of
+mass,
+momentum,
+energy
+and
+species
+(02,
+N2,
+CO2,
+H20
+and
+fuel
+vapor)
+were
+solved.
+Gas-
+phase
+reactions
+were
+modeled
+using
+one-step,
+second-order
+Arrhenius
+kinetics.
+The
+ther-
+mally
+thin
+solid
+model
+consists
+of
+continuity
+and
+energy
+equations
+with
+a
+surface
+radiative
+loss
+(e=0.92)
+whose
+solutions
+provide
+the
+boundary
+conditions
+for
+the
+gas
+phase.
+Fuel
+no,aer
+\
+"1
+/_
+('Samp_card')_
+\,,,._.
+•
+j
+_
+............
+<_
+Portfor fillingand
+_
+.
+[
+I'_
+_
+\_, evacuatingthe
+I-font
+[\. l"
+""
+.
+,/i
+chamber
+window
+I1
+..........
+.l_....'_...I!
+Fuel
+camera
+_
+I I
+_
+I
+N
+_,._]_""!
+[_
+_] [
+I
+Sldewindow
+_-
+Side view
+_
+I I
+_,"
+camera
+--?
+-i"tdJ.I
+T'
+Fron , aw
+/I
+\
+,.I)
+Hot wire-
+)_"_.._
+....%_f:i
+y'_lp-
+igniter
+Chamber
+_-_ _:
+.....
+,ig.
+/
+....
+Pressure
+Accelerometar
+transducer
+assembly
+Figure
+1. GIFlwrS
+Apparatus
+Schematic:
+Combustion
+chamber (27 liter), thin stainless-steel
+sample-holder
+cards with
+1,2 and 4 cm wide gaps for fuel exposure
+on
+both sides,
+conventional
+video
+imaging
+of the fuel surface
+and edge, infrared
+camera
+for imaging
+the fuel surface
+through
+a 3.8Bm flame reject
+filter,
+a pressure
+transducer
+and 3-axis
+accelerometer.
+Samples
+are ignited
+using
+a
+resistive]yheafedKa_tiiol
+alloy wire (approximately
+J00J"
+ignition
+energy).
+An embedded
+computer
+controls
+tile
+=experiment
+operation
+and data acquisition
+sequence.
+pyrolysis
+is modeled
+as
+a
+one-step,
+zeroth-order
+Arrhenius
+process;
+manifested
+as
+shrinking
+fuel
+thickness.
+Gas-phase
+radiation
+was neglected
+at this stage
+of the buoyant
+model
+development.
+Results
+of Expe_ent_and
+theNumerical
+Simulation
+A
+more
+detailed
+summary
+of
+the
+experimental
+and:
+ntmaerical
+results can
+be found
+in
+reference
+12.
+Figure
+2
+shows
+a comparison
+of a visible
+flame
+and the
+computed
+gas-phase
+reaction
+rates
+from
+the
+mmerical
+situation.
+The
+computed
+flames
+are
+longer
+than
+the
+experimental
+counterparts,
+but
+fhe_
+office
+experimental
+flames
+are
+well
+i(roduced
+by
+the- _ulation.
+Experimentally,
+short
+flame
+shapes
+were
+steady
+and
+regular;,
+longer
+flames
+exhibited
+oscillating
+tips
+and
+irregular
+shapes.
+Figure
+3 shows
+a comparison
+of
+an
+image
+of
+the pyrolyzing
+fuel
+and
+the
+computed
+fuel
+thickness.
+In
+both
+cases,
+the
+downstream
+pyrolysis
+front
+is
+pointed,
+suggesting
+the
+three
+dimensional
+nature
+of
+the
+flames.
+Figure
+4
+shows
+comparisons
+between
+IR
+camera
+indications
+of
+fuel
+surface
+temperature
+and
+the
+computed
+values.
+The
+centefline
+temperature
+profiles
+in
+Fig.
+4c
+are
+qualitatively
+similar;,
+but
+the
+computed
+surface
+temperatures
+are
+higher
+than
+the
+equivalent
+blackbody
+temperature
+indicated
+by
+the
+camera
+detector.
+Surface
+emissivity
+less
+than
+unity
+would
+increase
+the
+temperatures
+indicated
+by
+the
+camera
+data,
+but
+the
+actual
+emissivity
+of
+partially
+pyrolyzed
+Kimwipes
+at
+elevated
+terh_-watia:es
+is not
+ImowrL:Fi_
+5 shows
+a comparison
+of
+measm_
+and
+experimental
+pyrolysis
+an_--ffame _iengths
+for
+2_
+wi_
+samples
+burning
+at
+different
+gravity
+levels
+at
+0.27
+atm
+pressure.
+_e
+the
+fiend
+with
+gravity
+level
+is the same,
+the computed
+lengths
+are consistently
+longer
+than
+file measured
+values.
+(A pre-
+NASAJCP--2001-210826
+38
+E
+
+=== page 3 ===
+a)
+21¸¸¸
+-21
+1(3"_
+|_
+:! :
+_:_._=_.,
+......
+4 .........
+........
+,_ ...............
+_
+_-___.
+--_
+....
+_
+.
+10
+....
+,t: __.:_
+;;::;;::,-
+,o. j
+.:L_I .....................
+--
+.......
+.........
+::::::.....................................................
+Figure
+2.
+(a) Experimental
+and
+(b) numerical
+results
+showing
+upward
+flame
+spread
+over
+thin fuel
+samples
+2era wide
+in 0.16 g/gearth (g vector
+toward
+the left)
+and
+0.27
+atm pressure.
+Computed
+fuel
+reactivity
+contours
+shown
+are values
+integrated
+over
+the 3D flame
+width.
+Values
+of approximately
+10.4 g/cm2/s
+correspond
+to the
+visible
+flame length.
+a)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+_
+from burnout (cm)
+Comparison
+of (a) fuel
+surface infra-red
+image,
+Co)
+computed
+dimensionless
+fuel
+surface
+temperatures,
+and
+(c)
+centerline
+fuel
+surface
+temperatures
+from
+(a)
+and
+Co) for
+2-cm
+wide
+fuel
+burning
+in 0.16
+g/gearth, and 0.27 atm pressure.
+The IR
+___
+850
+i
+550
+45O
+-2
+-1
+c)
+Figure
+4.
+a)
+7 i
+{Sar_l_e
+h,=;d,_)
+"-2
+4
+0
+'t
+2
+3
+4
+5
+6
+7
+8
+9
+10
+b)
+x _c_)
+Figure
+3.
+(a)
+Experimental
+and
+CO) numerical
+results
+showing
+the visible
+degradation
+of the fuel
+compared
+to computed
+fuel
+thickness
+contours
+for
+upward
+flame
+spread
+over
+thin
+fuel
+samples
+2cm
+wide
+in 0.16
+g/ge_th (g vector
+toward
+the left)
+and
+0.27 atm pressure.
+Computed
+fuel
+thicknesses
+of
+approximately
+95%
+of the unburnt fuel
+correspond
+to the onset
+of visible
+discoloration.
+14
+12
+O
+10
+i-
+8
+-J
+¢D
+E
+It
+&
+4
+2
+o
+0.0
+!
+• Numedca[ Frame Leag_
+• Numedcal _
+L.eng_
+o Expeflrnent_l
+Flame Let)gth
+4 Ex#erlraent_
+Pyrolysis Length
+0.1
+0.2
+0.3
+0.4
+0.5
+Gravity
+Level G (g/g.)
+Figure
+5
+Comparison
+of
+experimental
+and
+computed
+flame
+and
+pyrolysis
+lengths
+of 2 cm
+wide
+samples
+burning
+at 0.27
+atm
+pressure
+in
+various
+gravity levels.
+vious
+2-D
+flame-spread
+simulatiorg 6
+showed
+timt
+including
+flame
+radiation
+shortens
+the
+flame
+and
+pyrolysis
+lengths
+in
+low-speed
+flow
+with
+little
+affect
+on
+spread
+rates.)
+Figure
+6a
+camera
+reports
+equivalent
+blackbody
+temperatures,
+shows
+computed
+results
+in
+a
+plane
+perpen-
+and
+its
+sensitivity
+limits
+the
+lowest
+detectable
+dicular
+to
+the
+fuel
+surface.
+Downstrean_
+the
+temperature
+to423K,
+temperature
+contours
+are
+nearly
+parallel
+to the
+fuel.
+In
+this
+buoyancy-driven
+case,
+flow
+is induced
+by
+density
+gradients
+and
+accelerates
+inside
+the
+flame
+#om
+10cm/s
+just
+upslream
+of
+the
+flame
+to 60 cm/s
+downstream.
+In purely
+forced-flow,
+the
+downstream
+flames
+and
+streamlines
+diverge
+from
+the
+fuel, 4,s unless
+the
+flow
+is
+confined
+by
+a
+NASA/CP--2001-210826
+39
+
+=== page 4 ===
+0
+>
+._..,,..L_.A--.L.J--LJ-
+--_....Z--Z---_L_ :
+t
+,
+_
+I
+J 1 _ i
+"-2
+t
+0
+1
+2
+3
+4
+5
+6
+?
+8
+9
+10
+.)
+x {_)
+Figure
+6.
+Flame
+structure
+and
+flow
+field
+in two-dimensional
+slices
+through
+an
+upward
+spreading
+/lame
+over
+a
+2cm
+wide
+sample
+in 0.16g/g_a_h,
+0.27atm
+pressure,
+oriented
+a) perpendicular
+to fuel
+surfaceandb)parallel
+to and
+1 _m
+above
+the
+fuel
+surface:
+In
+a),
+the
+top
+half
+of
+the
+image
+shows
+velocity
+vectors,
+non-dimensional
+temp-
+erature
+(_=1
+is 300K).
+Bottom
+half
+shows
+streamlines,
+oxygen
+mass
+flux
+vectors,
+and
+fuel
+reaction
+rate
+contours
+(10 "3, 10
+, 10-5 g/cm3/s
+from
+smallest
+to
+largest
+contour-.)
+ha_),=the'_ta
+presentation:
+is reversed'
+NOte
+the
+characteristic
+buoyant
+velocity
+profile
+in a), with
+the
+local
+peak
+inside
+the
+flame,
+and
+in b) the
+lateral
+entrainmenl
+of air and
+the
+substantial
+diffusion
+of oxygen
+across
+the
+streamlines.
+small
+wind
+tunneL7'8
+Figure
+6b shows
+computed
+results
+in a plane
+parallel
+to and offset
+by
+lena
+fi_m
+the fuel
+surface.
+In the
+purely
+buoyant
+flow,
+the
+gas
+accelerates
+throughout
+the
+length
+of
+the
+flame,
+entraining
+air
+from
+the
+sides
+and
+pulling
+the
+streamlines
+toward
+the
+central
+plane.
+Flow
+recireulation
+occurs
+beside
+the
+flame.
+Oxygen
+_s
+into
+the
+flame
+from
+the
+side
+at
+fluxes
+comparable
+to
+the
+convective
+oxygen
+stream.
+The
+enUainment,
+reorc_fion
+and
+lateral
+_ion
+could
+not
+be
+observed
+in a two-dimensional
+_on.
+Although
+not
+shown
+here,
+the
+computed
+flame
+spread
+rates
+closely
+predicted
+corresponding
+experimental
+rates.
+The
+simulation
+predicted
+significantly
+wider
+flammability
+_ts
+than
+were
+observed
+in
+the
+experiments,
+As
+forced-flow
+simulations
+have
+shown,7
+flame
+and
+pyrolysis
+lengths
+shrink
+and
+_
+limits
+narrow
+when
+gas-phase
+radiation
+is
+included
+in the
+flame
+spread
+simulations.
+Better
+agreement
+between
+the
+experimenlal
+and
+simulation
+results
+can
+be
+expected
+once
+the
+existing
+gas
+radiation
+model
+is coupled
+to
+the
+3D
+buoyant
+code.
+Despite
+this
+limitation,
+the
+model
+shows
+agreement
+with the flame
+behavior
+_nds
+that were
+experimentally
+observed.
+References
+1.
+Sacksteder,
+K.R., ESA
+SP-454,
+1st Int. Syrup. Microg.
+Res. & Appl.,
+Sorrento, Italy, (2000).
+2.
+Olson,
+S.L,
+Ferkul, P.V., and T'ien, J.S., Proc. Combust.
+Inst. Vol. 22, pp.1213-1222
+(1988).
+3.
+Cn_t,
+S.L,
+Comb.
+Sci. Tech., VoL 76, pp. 233-249,
+(1991).
+4.
+Grayson, G.D.,
+Sacksteder,
+K.R., Ferkul, P.V., T'ien,
+J.S., Microg.
+Sci. Tech. VII-2 (1994).
+5.
+Ferkul, P.V.,
+and T'ien, J.S., Vol. 99, pp. 345-370
+(1994) ........
+6.
+Jiang, C.B.,
+T'ien, J.S. and Shih, H.Y., Prec. Combust.
+Inst. Vol. 26, pp.1353-1300
+(1996).
+7.
+Shih, H.Y. and T'ien, J.S., AIAA
+97-0236,
+35thAerospace
+Sciences
+Meeting,
+(1997).
+8,
+Shih, H.Y. and T'ien,
+J.S. Proc. Combust.
+Inst. Vol.
+28, to appear.
+9.
+Honda,
+L. K. and Ronney,
+P. D., Proc. Combust.
+Inst. Vol. 28, to appear.
+10. Sacksteder,
+K.R., and T'ien,
+J.S., Proc. Combust.
+Inst., Vol. 25, pp. 1685-1692
+(1994).
+11. Altenkirch,
+R.A., Eichom
+R., Shang, P.C., Combust.
+Flame, VoL 37, pp. 71-83 (1980).
+12. Feier,
+I.L, Shih,
+H-Y,
+Sacksteder,
+K.S.,
+and T'ien,
+J.S., AIAA-2001-046_,
+39th Aerospace
+Sciences
+Meeting,
+(2001).
+NASA/CP--2001-210826
+40

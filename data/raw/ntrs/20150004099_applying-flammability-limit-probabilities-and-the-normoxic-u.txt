@@ -1,0 +1,868 @@
+=== page 1 ===
+44th International Conference on Environmental Systems 
+Paper Number ICES-2014-179 
+13-17 July 2014, Tucson, Arizona 
+Applying Flammability Limit Probabilities and the 
+Normoxic Upward Limiting Pressure Concept to NASA        
+STD-6001 Test 1   
+Sandra L. Olson1 
+NASA John H. Glenn Research Center at Lewis Field1, Cleveland, OH 44135  
+Harold Beeson2 
+NASA Johnson Space Center- White Sands Test Facility2, Las Cruces, NM, 88004 
+A. Carlos Fernandez-Pello3 
+University of California at Berkeley3, Berkeley, CA, 94720 
+Repeated Test 1 extinction tests near the upward flammability limit are expected to follow a Poisson process 
+trend.  This Poisson process trend suggests that rather than define a ULOI and MOC (which requires two 
+limits to be determined), it might be better to define a single upward limit as being where 1/e (where e 
+(=~2.7183) is the characteristic time of the normalized Poisson process) of the materials burn, or, rounding, 
+where approximately 1/3 of the samples fail the test (and burn).  Recognizing that spacecraft atmospheres 
+will not bound the entire oxygen-pressure parameter space, but actually lie along the normoxic atmosphere 
+control band,  we can focus the materials flammability testing along this normoxic band.  A Normoxic 
+Upward Limiting Pressure (NULP) is defined that determines the minimum safe total pressure for a material 
+within the constant partial pressure control band. Then, increasing this pressure limit by a factor of safety, 
+we can define the material as being safe to use at the NULP + SF (where SF is on the order of 10 kPa, based 
+on existing flammability data).  It is recommended that the thickest material to be tested with the current 
+Test 1 igniter should be 3 mm thick (1/8”) to avoid the problem of differentiating between an ignition limit 
+and a true flammability limit. 
+Nomenclature   
+αs 
+=  thermal diffusivity of the solid 
+ 
+l 
+= burn length, cm 
+L 
+= burn length non-dimensionalized with 15.2 cm, Test 1 length criterion 
+ℓ 
+= characteristic thickness of the solid 
+MOC 
+= maximum oxygen concentration where all samples tested (at least five) pass the Test 1 criteria 
+N 
+= integer number of Test 1 tests 
+NULP 
+= Normoxic Upward Limiting Pressure 
+μNULP 
+= NULP + SF, the microgravity normoxic upward limiting pressure 
+O2 
+= Oxygen percentage by volume 
+p 
+= average probability of observing a burn in a Test 1 test (material fails test) 
+ 
+= maximum likelihood estimate of p from a set of data. 
+q 
+= probability of not observing a burn in Test 1 = 1-p 
+SF 
+= safety factor to account for enhanced flammability in spacecraft 
+t 
+= time  
+ULOI 
+= upward limiting oxygen concentration where ~ 50 % of samples fail the Test 1 criteria  
+Vf 
+= flame spread rate 
+x 
+= integer number of actual observed burns 
+λ 
+= mean number of burns observed in a given number of tests.  = Np, also the variance of the distribution 
+ 
+= maximum likelihood estimate of λ from a set of data. = N 
+σ 
+= standard deviation for number of burns observed = (Npq)1/2 
+τ 
+= characteristic time of process 
+                                                          
+1 Spacecraft Fire Safety Research, 21000 Brookpark Rd., m.s.77-5. 
+2 Chief, Materials and Components Laboratories Office,  WSTF RF111. 
+3 Endowed Chair and Professor of Mechanical Engineering,  6105A Etcheverry Hall, Mailstop 1740. 
+
+p
+
+O
+
+p
+
+=== page 2 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+2 
+I:  Introduction 
+EST 1 of STD-6001[1] is an upward flame spread test to determine if a material is safe to use in a particular 
+environment.  It is pass-fail and is only valid at the atmosphere tested.  NASA tests materials for flammability 
+using NASA STD-6001 Test 1, which is an upward burning test at the worst-case atmospheric conditions in which 
+the material will be used. A similar 
+Test 4 [1] is done with wire samples. 
+A modified Test 1 has been proposed 
+[1-3] 
+and 
+evaluated 
+to 
+provide 
+additional 
+information 
+about 
+the 
+flammability limits of the material and 
+not just a pass/fail statement regarding 
+its use in the worst-case atmosphere.  
+In the modified test procedure, the 
+oxygen concentration in Test 1 is 
+successively reduced to identify the 
+Upward Limiting Oxygen Index (1g 
+ULOI) and the Maximum Oxygen 
+Concentration 
+(1g 
+MOC) 
+that 
+consistently 
+results 
+in 
+self-
+extinguishment of the material.  The 
+1g ULOI is defined as the oxygen 
+concentration at which a material 
+passes the NASA STD 6001 Test 1 
+burn length criterion 50% of the time.  
+The 1g MOC is defined as the oxygen 
+concentration where five samples 
+passed the burning criterion [2, 3] and 
+where at least one sample in five 
+failed 
+in 
+the 
+environment 
+that 
+contained 1 percent more oxygen by 
+volume.  
+ 
+This is depicted conceptually in 
+Figure 1 [3].  The curve in Figure 1 
+was approximated with a cumulative 
+normal distribution.  According to 
+T’ien [5], the closer a flame is to 
+extinction, the more likely a small 
+disturbance will extinguish it.  At any 
+given 
+oxygen 
+concentration 
+near 
+enough to the limit, there will be a 
+normal 
+distribution 
+of 
+random 
+perturbations, and a fraction of those 
+will be adequate to extinguish the 
+flame.    Far from the limit, no 
+perturbations 
+will 
+extinguish 
+the 
+flame, and none would extinguish the 
+flame.  As the oxygen is reduced, the 
+flame is easier to extinguish, and more 
+of the perturbations would extinguish 
+the flame, so the probability of 
+extinction increases (material would 
+pass the test).  Eventually, even the 
+smallest perturbation will extinguish 
+the flame, so no flame will survive.  
+T
+ 
+ 
+Figure 2.   Flame tracking of the pyrolysis front (green-black border) and
+flame burnout position (bottom of flame) as a function of time for the steady-
+state flame case at 6.5 psia air with SIBAL fuel.  The flame is  shown on the 
+left after the flame has reached a steady size.  This growth to steady state 
+flame size history is in very good agreement with [7,8].  Ref:  [6].   
+Figure 1. Near limit probability that a material will burn or not, 
+with the ULOI and MOC indicated.  [4] 
+
+=== page 3 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+3 
+The ULOI in 1g is defined as the oxygen concentration where 50% of the samples burn less than 6”.   For 
+upward flame spread, the initial flame growth is acceleratory.   Test 1 has been criticized for being an ignition limit 
+test rather than a flammability limit test.  Indeed, for many materials, the 6” pass/fail burn length criteria is too short 
+for a 1g steady flame size.  For thick fuels, the 25 second chemical ignition time may sustain a brief flame, but solid-
+phase conductive losses will be too large, and the flame will extinguish after the igniter burns out. 
+ 
+Ignition at the bottom of a vertical fuel sample results in a rapid acceleratory upward flame spread, as shown in 
+Figure 2.  For these conditions, (6.5-psia air test with 12.5 cm wide, 1 m tall SIBAL cotton-fiberglass fuel), a steady-
+state flame size was reached [6].  This was a near-limit atmosphere.    Similar steady flame length trends for 5 cm 
+wide samples were reported recently by Johnston et al. [7]. 
+ 
+In theory [8], after the initial acceleratory flame spread, there is a stable flame length for upward spread for thin 
+fuels, but it is difficult to attain for most practical fuel dimensions.  In the work of Ref. [5] this stable flame spread 
+was tracked and the flame image and tracking results are shown in Figure 2.   Some interesting observations from 
+this include that even for this relatively wide sample, the pyrolysis front is clearly parabolic in shape.   The flame 
+pyrolysis front rapidly achieves a steady-state spread rate of 3.44 cm/s.  The flame base accelerates more slowly, but 
+reaches the same spread rate by about 25 seconds (well beyond a 6” (15.2 cm) spread).  The flame reaches a steady 
+size of ~ 34 cm at this time, and maintains it until the pyrolysis front reaches the end of the sample.  The flame base 
+continues until burnout.  At any point on the fuel surface, the time between the onset of pyrolysis and burnout 
+remains constant (Lf/Vf ~ 10 s), also in good agreement with theory. 
+ 
+For a thick fuel [9] the flame spread rate Vf is proportional to the pyrolysis length, which accelerates at xp ~ t2.  
+So for both thin and thick fuels, the initial growth phase is acceleratory.  Test 1 achieves a blowoff extinction during 
+this acceleratory growth phase of the flame, which occurs when the residence time of the premixed gases in the hot 
+zone becomes too short for the reactions to occur, and the flame can no longer stabilize in the hot zone, but blows 
+off the surface of the material.   As the flammability boundary is approached, small perturbations can blow off the 
+flame. 
+II:  Extinction as a Poisson Process 
+ 
+Finding a flammability limit is not an easy task.  The extinction process is stochastic, and the actual time to 
+extinction will vary considerably with repeated tests under the exact same conditions due to the random timing of an 
+encounter with a perturbation of adequate size to extinguish the flame. It is hypothesized here that the extinction 
+process can be modeled as a Poisson process, which is a stochastic branching process where the spacing (in time or 
+length) between consecutive independent events has an exponential distribution.  This model is commonly used to 
+describe exponential decay, and other processes.  It is the simplest birth-death model, and we can apply it to an 
+ignition-extinction process in a similar manner.  
+ 
+   A Poisson probability is calculated as       
+)1(
+!
+)
+(
+!
+)
+,
+(
+x
+Np
+e
+x
+e
+x
+P
+x
+Np
+x
+
+
+ 
+ 
+O
+O
+O
+ 
+ 
+In Equation 1, λ=Np is the mean number (and variance) of burns observed for N number of tests with a mean 
+rate of burns of p. The mean rate of burns, p, is selected to achieve the desired determination of the flammability 
+boundary.  For example, if p is selected to be a mean rate of one burn per three tests (i.e. material fails Test 1), one 
+would expect to find through repeated triplets of tests at decreasing oxygen concentrations, a flammability limit 
+between the ULOI and MOC of Figure 1, which is deemed to be an acceptable intermediate limit between the two 
+and is actually close to the 1/5 rate that is the basis of the MOC. 
+ 
+Also in Equation 1, x is the actual number of burns observed (since burns are undesirable, they can be considered 
+a rare event when trying to determine the limit).   
+ 
+A cumulative Poisson probability, given in Equation 2, refers to the probability that the Poisson random variable 
+x is greater than some specified lower limit and less than some specified upper limit. 
+ 
+ 
+
+=== page 4 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+4 
+ 
+Assume that for Test 1, we would like to define the flammability limit to be where the mean probability of 
+observing a burn is p=1/5 (one in five tests on average), based on [1-3].   N=5 tests can be conducted, so that λ =Np. 
+Figure 3 show the probability of observing one burn (one Test 1 failure), i.e. x=1, as a function of the value of this 
+λ=Np.  If we want to reduce the number N of tests needed to achieve the limit, we want to maximize the probability 
+of finding the limit.  Figure 3 shows that the maximum probability occurs at λ =Np= 1. 
+ 
+The inset to Figure 3 gives the probability and cumulative probability of observing x burns in N tests for λ=1.  If 
+p=1/5, and N=5, and the probability of observing x=0 burns in 5 tests is 0.3679 at this limit, and the probability of 
+observing x=1 burn in 5 tests is also 0.3679, which is the maximum possible probability for Figure 3. It is a property 
+of Equation 1 that the maximum probability occurs at both x=λ and x=λ-1.    This 36.79%  probability is simply 
+100/e where e is the Euler transcendental number (=~2.7183) characteristic of the normalized Poisson process.   
+Thus p=1/5 and N=5 seem to be good choices for the mean rate of burns for defining a Test 1 limit to maximize the 
+probability in a reasonable number of tests.  The probability of observing one or fewer burns in Test 1 testing at the 
+ 
+ 
+Figure 3:  The Poisson probability of observing one event as a function of the mean rate, showing that the 
+maximum probability is at λ=1. The inset shows the probability and cumulative probability of observing x burns 
+for N tests if λ=1. 
+)
+2
+(
+!
+)
+,
+(
+¦
+ 
+
+
+ 
+ 
+
+xhigh
+x
+xlow
+x
+x
+high
+low
+x
+e
+x
+x
+x
+P
+O
+O
+O
+
+=== page 5 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+5 
+limit (i.e. the rate required to pass Test 1) is the sum of the probability of observing one burn plus the probability of 
+observing no burns, for a cumulative probability of 73.6% via Eq.2. 
+ 
+We can estimate the maximum likelihood for the value of p for λ=Np, from a set N tests with measured values xi 
+where i=1…N.  We can take the natural logarithm of Eq. 2 and then partially differentiate the distribution with 
+respect to p,  
+ 
+ 
+and set the derivative to zero to find the maximum likelihood estimate 
+
+p , which is simply 
+)
+4
+(
+0
+)
+(ln
+1
+ 
+¦
+
+
+ 
+p
+x
+N
+dp
+P
+d
+N
+i
+                                                
+)
+5
+(
+1
+N
+x
+p
+N
+i
+¦
+ 
+
+ 
+This maximum likelihood estimate
+
+p is also statistically the minimum variance unbiased estimator of p. 
+III:   Poisson Distribution example:  Test 1 and Test 4 Round Robin results 
+As part of the effort to evaluate the consistency of Test 1 and Test 4 [1] upward flame spread test results  
+between different labs for flat and wire samples, six materials were tested and the burn length results 
+compared [10, 11].  This data set provides a useful example for how to use the Poisson distribution to 
+determine how close to the limit a material is under a given set of test conditions (O2, pressure).  Three to 
+five labs conducted the tests, each performing the test per the test protocol (N=5).  The test conditions 
+were standard test conditions, and not specifically near the ULOI or MOC for the materials.    
+If the desired failure rate at the limit is p=0.2 (i.e. 1/5 of tests so λ=1), we can compare that to the estimate 
+value of     from Eq. 5.  The closer the two p values, the closer to the desired limit.   We can also estimate 
+the probability of observing the actual failed tests (x) for the N tests reported (i.e. burn length > 15.2 cm) 
+using Eq. 1. The higher the probability, the nearer to the desired flammability limit the material is at the 
+test conditions.  Table 1 shows that the highest probability was for the cotton fabric, which also had the 
+closest to desired p values.  The lowest probability was for Wire M22759 (Test 4), where 16 of 30 tests 
+failed Test 4 standards (15.2 cm criteria also). The 
+
+p was close to the ULOI of 0.5 for this wire. 
+Table 1:   Test 1 and Test 4 Statistics,   using data from [10, 11]4 
+Poisson 
+model 
+parameter 
+Kydex 100 
+25.9% O2 
+14.3 
+Kydex 100, 
+30% O2, 
+10.2 psia  
+Silicone, 
+20.9% O2, 
+14.7 psia 
+Wire 
+M22759 
+30% O2, 
+10.2 psia    
+Wire 
+M81044 
+20.9% O2 
+14.7 psia 
+Royal Blue 
+Cotton, Flame 
+Resistant 30% O2 
+10.p psia 
+x, # failed 
+Test 1 
+0 
+1 
+1 
+16 
+0 
+1 
+N, # Test 1 
+tests 
+20 
+35 
+45 
+30 
+35 
+20 
+p, mean 
+failure rate 
+0.2 
+0.2 
+0.2 
+0.2 
+0.2 
+0.2 
+
+p estimate 
+0 
+0.029 
+0.022 
+0.533 
+0 
+0.05 
+P(x, λ=1) 
+0.018316 
+0.006383 
+0.001111 
+0.000334 
+0.000912 
+0.073262556 
+                                                          
+4 Trade names or manufacturer’s names are used in this paper for identification only.  This usage does not constitute 
+an official endorsement, either expressed or implied, by the National Aeronautics and Space Administration. 
+)3
+(
+)!
+ln(
+)
+ln(
+)
+ln(
+)
+,
+.....
+(
+ln
+1
+1
+1
+1
+¦
+
+¦
+
+¦
+
+
+
+ 
+N
+i
+N
+i
+N
+i
+N
+x
+x
+N
+x
+p
+NN
+Np
+Np
+x
+x
+P
+
+p
+
+=== page 6 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+6 
+We can also use the burn lengths (l) reported [10, 11] as a measure of how close to the limit a material 
+was at a given condition.  We can graph the sorted normalized length (L=l/15.2 cm) against number of 
+tests to compare the length distribution to a cumulative probability distribution like that shown in the inset 
+to Figure 3.  The sorted normalized length (L) is shown in Figure 4.  The M22759 clearly fails the test and 
+is above the flammability limit at the conditions (O2, pressure) listed in Table 1.   Silicone, Kydex at 
+30%, and the cotton all have one failure.  All the tests show a nice distribution of lengths.  Based on these 
+length distributions, all but the Wire M22759 appear to be below the flammability boundary.  It is 
+interesting that Wire M22759 still exhibits finite burn lengths well beyond the 15.2 cm and the average 
+burn length is only 16 cm, which calls into question the appropriateness of that length as a criterion for 
+flammability. This material may be very close to the ULOI.  The length criterion does err on the 
+conservative side, though, which is acceptable. 
+ 
+   For each set of 5 tests (at a give atmospheric condition), the maximum likelihood estimate of 
+
+p can be 
+calculated to determine how close to the desired limit p that atmospheric condition is.  The current 
+recommended test protocol [2] has incremental changes in oxygen concentration of  1%.  It is noted [12] 
+however, that with very few exceptions, the MOC occurrs at an oxygen concentration of less than or equal to 3% 
+below the ULOI.  Using the maximum likelihood estimates, intelligently chosen larger increments of 
+oxygen concentration can be made to approach the limit more efficiently. 
+ 
+In addition to the Round Robin data [10, 11], the effect of oxygen on the probability of failing Test 1 was 
+published in [13]. In that paper, the ambient oxygen concentration was reduced in 1% increments and the probability 
+of failing Test 1 was reported for Kydex 100 and Nomex materials.  This data is plotted in Figure 5.  It is interesting 
+that for each material, the ΔO2 is 5% from zero probability to unity, or approximately 2.5 from zero to 50% 
+probability, corresponding to the ULOI-MOC difference.  Figure 6 replots this data by normalizing the oxygen 
+ 
+Figure 4:   Round Robin burn length results [10, 11], sorted from low to high, to show the Poisson distribution 
+character of the length data. 
+
+=== page 7 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+7 
+concentration with the oxygen concentration where the reported probability of failure is 0.2.  The two materials 
+overlap fairly well.  Similar trends as Figures 4 and 5 for burn length and oxygen concentration for Kydex 100, 
+Conathane, silicone rubber, and Lexan are found in [14].  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5:   Probability of failing Test 1 for two materials as a function of ambient oxygen 
+concentration by volume. [13]. 
+ 
+Figure 6:  Replotting Figure 5 data by normalizing the oxygen with the oxygen 
+concentration where the probability is 0.2, the desired failure rate to determine a 
+flammability limit for a material. 
+
+=== page 8 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+8 
+IV: Proposed Normoxic Upward Limiting Pressure (NULP) 
+ 
+Typical NASA Test 1 test conditions are selected at a fixed pressure, and oxygen concentration is decreased for 
+each set of five tests until the desired failure rate is observed (one in five tests burns more than 15.2 cm) [1, 3, 15].    
+However, we can utilize the 
+fact that except for EVA 
+suits (which are a special 
+case), all spacecraft will 
+operate in a band around the 
+normoxic 
+atmosphere 
+condition.  The normoxic 
+atmosphere is where the 
+partial pressure of oxygen is 
+held 
+constant 
+at 
+Earth 
+normal (ppO2=21 kPa), and 
+the total pressure is varied 
+by changing the relative 
+amount of diluent.   Human 
+lungs require an adequate 
+partial pressure of oxygen to 
+provide 
+an 
+adequate 
+concentration 
+gradient 
+to 
+support diffusion of oxygen 
+across the alveoli into the 
+capillary 
+blood 
+flow.  
+Material flammability, on 
+the other hand, is a function 
+of both pressure and oxygen.   
+ 
+If 
+we 
+can 
+limit 
+the 
+flammability test parameter 
+space to the control band 
+around 
+the 
+normoxic 
+condition, this makes the 
+evaluation 
+of 
+material 
+flammability limits simpler 
+since they don’t need to be 
+evaluated over the entire 
+classic pressure-O2% range, 
+but just in the narrow 
+normoxic 
+band 
+of 
+conditions.    
+ 
+This is shown in Figure 7 
+for 11 different spacecraft 
+materials MOC limits [16].  
+As is clear from this figure 
+two materials, PTFE and 
+PCTFE (yellow lines),  are 
+not flammable in  any 
+spacecraft 
+normoxic 
+atmospheres  and 6 materials 
+are flammable under all 
+normoxic atmospheres (grey 
+lines).  Only 3 materials 
+ 
+Figure 7:   Material MOC flammability limits plotted with pressure and partial 
+pressure of oxygen. A second x axis reflects the oxygen concentration at each 
+pressure.  The spacecraft normoxic atmosphere control band is shown in red 
+shading.   Data from [16]. 
+ 
+ 
+Figure 8:    Figure from [17] for Nomex HT-9040 in a flow duct.  Normal 
+gravity flammability boundaries as a function of partial pressure of oxygen 
+and ambient total pressure.   The normoxic atmosphere control band for 
+exploration spacecraft atmospheres is shown by the rectangle.  The red X 
+marks the upward (concurrent) flame spread limit conditions for the 
+material.  The arrow indicates the direction of Test 1 conditions to 
+determine this limit.
+
+=== page 9 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+9 
+(green lines) cross over from the non-flammable or marginally flammable at higher ambient pressures to flammable 
+at lower ambient pressures relative to the normoxic control band.   
+ 
+Where the material crosses the upper limit of the spacecraft normoxic control band (±2% on the fixed partial 
+pressure of oxygen) can be considered the Normoxic Upward Limiting Pressure (NULP).   At pressures above this, 
+the material is not flammable.   In Figure 7, all three green line materials (MQ, PA-66, FKM) have NULP values of 
+up to 101.3 kPa.   Notice a second x axis provides the ambient oxygen concentration by volume for each pressure. 
+ 
+Published data [17] for Nomex HT-90-40 indicates that the NULP in 1g is approximately 90 kPa for the 
+concurrent vertical worst case test geometry, most similar to NASA’s Test 1.  This data is shown in Figure 8 with 
+the normoxic atmosphere control band added.   
+ 
+ The general trend for all these materials shown in Figures 7-8 is for flammability to be worst at the lower 
+total pressures for fixed partial pressure of O2, which corresponds to the highest % O2.    So it makes sense to start at 
+the lowest expected total pressure for a spacecraft (8.2 psia exploration atmosphere, excluding EVA environments 
+which are a special case), and run constant partial pressure of oxygen Test 1 tests there.  If the material passes at that 
+atmosphere, it is safe for all higher pressure atmospheres as well.   If it burns at that atmosphere, increase the total 
+pressure along the high normoxic control band until the material passes Test 1, thus defining the NULP for the 
+material in a much smaller test parameter space. For each pressure tested, evaluate the 
+
+p to determine how close to 
+the desired p limit the pressure is.  The same ≤ 3% oxygen guide can be used to inform the increments in pressure to 
+optimize the test matrix.    
+ 
+Once the NULP is determined, then, a safety factor (SF) can be incorporated to define under what 
+normoxic atmospheres the material is safe for use in space.  This is the μNULP = NULP + SF (where SF is on the 
+order of 10 kPa, based on existing flammability data). 
+ 
+V: Ignition Limits versus Flammability Limits 
+ 
+For flame spread over solid fuels, the characteristic time for extinction is often dictated by the solid-phase response 
+time, since gas-phase reaction times are typically much faster than solid phase response times.  For a thin fuel,  the 
+characteristic response time is τ~Lf/Vf.   
+ 
+For thick fuels, the characteristic time is a solid phase conduction time, estimated using ℓ2/αs where ℓ is the 
+characteristic thickness of the material (a half-thickness, a solid-phase conduction length), and αs is the solid phase 
+thermal diffusivity.  It should be noted that the ignition time should exceed this characteristic time so that the sample 
+is adequately heated to sustain a flame without undue heat losses to the cold solid.  Depending on the thickness of 
+the solid this time can become quite long, and the existing Test 1 igniter, which only lasts for 25 seconds, may not 
+be adequate.   
+ 
+Using the thermal diffusivity of PMMA (1.2 x 10-3 cm2/s) as representative of plastic materials, the critical thickness 
+for a Test 1 ignition is ~ 3 mm (1/8’).  The thicker the sample, the longer it takes to heat it to a sustained ignition.  A 
+flame may appear while the igniter is on, but extinguish as soon as the igniter is off, due to excessive heat losses to 
+cold material.  It is thus possible to pass Test 1 with a material that is thick enough so that the observed limit is 
+actually an ignition limit, and not a flammability limit.  There have been cases where if the test is run and the 
+material fails at the worst case thickness [1], they then run the test at the use thickness to support the Materials 
+Usage Agreement.  The material must be reasonably close to the flammability limit to pass at the use thickness 
+while fail at the worst case thickness. 
+ 
+On the other hand, if the igniter is on long enough, it preheats the material which will sustain a too-weak flame for 
+some time after the igniter is turned off until the material cools back down, or the flame moves out of the preheated 
+region.  It is be possible for the flame to exceed the 15.2 cm in the 25 s ignition time, resulting in a failure due to an 
+overdriven ignition.  The best practice for evaluating materials for flammability rather than ignitability is matching 
+the ignition time to the solid phase response time, which for the current chemical igniter is estimated to be ~3 mm 
+thick material to evaluate the intrinsic flammability of the material.    
+
+=== page 10 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+10 
+ 
+ 
+VI: Conclusions 
+ 
+A material’s flammability boundary is shown here to be a fuzzy boundary due to the stochastic nature of the 
+flame spread and burning processes near extinction.   The probability of a near-limit flame extinguishing within a 
+characteristic length is shown to follow a Poisson distribution that can be used to understand the variation in 
+reproducibility found for near-limit tests.   
+ 
+This Poisson process trend suggests that rather than define a ULOI and MOC for Test 1 (which requires two limits 
+to be determined), it might be better to define a single upward limit as being where one sample out of five tests fail 
+the test (and burn).  The limit is approached from the flammable side, so that statistics on the burns at each test 
+condition can be used to evaluate the proximity of the limit. This is shown to optimize the probability of achieving 
+the desired low average burn rate in the fewest number of tests. 
+ 
+To further reduce the number of Test 1 tests required to screen a material, it is recognized that spacecraft 
+atmospheres will not bound the entire oxygen-pressure parameter space, but actually lie along the normoxic 
+atmosphere control band.  Test 1 tests can thus focus the materials flammability testing along this normoxic band.  A 
+Normoxic Upward Limiting Pressure (NULP) is defined that determines the minimum safe total pressure for a 
+material within the constant partial pressure control band. Then, increasing this pressure limit by a factor of safety, 
+we can define the material as being safe to use at the μNULP= NULP + SF. 
+  
+Lastly, it is recommended while evaluating materials for flammability that the ignition time should be matched to 
+the solid phase response time.  It is estimated that the thickest material to be tested with the current Test 1 igniter 
+should be 3 mm thick (1/8”) to avoid the problem of differentiating between an ignition limit and a true flammability 
+limit.    
+ 
+VII:  Acknowledgements 
+ 
+The authors would like to acknowledge support from NASA as part of the international JAXA AO to support the 
+International Fire Safety Standard Experiment “FLARE”. 
+ 
+ 
+
+=== page 11 ===
+ 
+International Conference on Environmental Systems 
+ 
+ 
+11 
+ 
+VIII: References 
+ 
+1. 
+NASA STD-6001, Flammability, Odor, Offgassing, and Compatibility Requirements and Test Procedures for 
+Materials in Environments that Support Combustion,, Test 1, Upward Flame Propagation, (formerly NHB 8060.1C), 
+(February 9, 1998). 
+2. 
+Hirsch, D.B., and Beeson, H.D. “Test Method to Determine Flammability of Aerospace Materials,” Journal of Testing 
+and Evaluation V.30, Issue 2, (4 pages), (March, 2002). 
+3. 
+ISO/TS 16697: 2012(e), Space systems — Safety and compatibility of materials — Method to determine the 
+flammability thresholds of materials,  
+4. 
+Ferkul, P.V., and Olson, S.L.; “Zero-Gravity Centrifuge Used for the Evaluation of Material Flammability in Lunar-
+Gravity”, Journal of Thermophysics and Heat Transfer, V. 25, No. 3, (2011)  pp. 457-461; also presented at the 40th 
+International Conference on Environmental Systems, July 11-15, 2010, Barcelona, Spain.  
+5. 
+T’ien, J.S., “The Effects of Perturbation on the Flammability Limits”, Comb. Sci. Tech., V.7,  185-188 (1973). 
+6. 
+S.L. Olson, L. Clayman, H. Kacher, M.A. Kuczmarski, S.A. Gokoglu, “Pressure Response in Enclosures During and 
+After Large-Scale Flame Spread:  Testing and Modeling”, 43rd International Conference on Environmental Systems,   
+14 - 18 July, 2013, Vail, CO.   
+7. 
+Johnston, M.C., T’ien, J.S., Olson, S.L., Ferkul, P. V., Muff, D.,  “Self Induced Buoyant Blow-off in Upward Flame 
+Spread on Thin Solid Fuels”, 8th U. S. National Combustion Meeting, University of Utah, Salt Lake City, UT, May 19-
+22, 2013. 
+8. 
+Markstein, G.H, and de Ris, J.“Upward Fire Spread Over Textiles”,   14th International Symposium on Combustion, 
+The Combustion Institute, pp. 1085-1097, (1973). 
+9. 
+L. Orloff, J. de Ris, and G.H. Markstein; “Upward Turbulent Fire Spread and Burning of Fuel Surface”,  Proc. 15th Int’l 
+Symp. Comb., 1975, 183-192. 
+10. 
+Hirsch, David and Beeson, Harold, “Analysis of 2004 Round Robin Tests 1 and 4 Data”, NASA/JAXA Technical 
+Interchange Meeting, Tsukuba, Japan, April 4-8, 2005. 
+11. 
+Hirsch, D.B., “Upward Flame Propagation and Wire Insulation Flammability:  2006 Round Robin Data Analysis”, 
+NASA / JAXA Technical Interchange Meeting, Tsukuba, Japan, June 4-8, 2007. 
+12. 
+D. B. Hirsch, J. H. Williams, S. A. Harper, H. Beeson, and M. D. Pedley, “Oxygen Concentration Flammability 
+Thresholds of Selected Aerospace Materials Considered for the Constellation Program”,  2nd IAASS Conference Space 
+Safety in Global World; 14-16 May 2007 
+13. 
+Hirsch, David and Beeson, Harold, “An Approach to Evaluate Precision and Inter-Laboratory Variability of 
+Flammability Test Methods for Aerospace Materials”,  SAE Technical Paper 2005-01-3000,  doi: 10.4271.2995-01-
+3000., 2005. 
+14. 
+Engel, C.D., Davis, S. E., and Richardson, E., “Upeward Flammability Testing – A Probabilistic Measurement”,  STP 
+1454, Flammability and Sensitivity of Materials in Oxygen-Enriched Atmospheres:  10th Volume,  pp. 46-57,  
+Steinberg, T.A., Newton, B.E., and Beeson, H. D., editors,  ASTM 2003. 
+15. 
+Hirsch, D.B., Williams, J.H., Harper, S.A., Beeson, H.D., Ruff, G. A., and Pedley, M.D., “Pressure Flammability 
+Threshholds in Oxygen of Selected Aerospace Materials”, AIAA 2010-6259, 40th International Conference on 
+Environmental Systems, 2010. 
+16. 
+Hirsch, D.B, Williams, J., and Beeson, H.; “Pressure Effects on Oxygen Concentration Flammability Thresholds of 
+Polymeric Materials for Aerospace Applications” Journal of Testing and Evaluation, V.36, Issue 1, (pp. 69-72).  NASA 
+Document ID 20070018178, (2008). 
+17. 
+Andres F. Osorio; A. Fernandez Pello; David L. Urban; Gary A. Ruff,  “Low-pressure flame spread limits of fire 
+resistant fabrics”,  AIAA-2013-3386 
+ 
+ 

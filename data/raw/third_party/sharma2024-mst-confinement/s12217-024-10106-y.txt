@@ -1,0 +1,1032 @@
+=== page 1 ===
+RESEARCH
+Microgravity Science and Technology (2024) 36:20
+https://doi.org/10.1007/s12217-024-10106-y
+Introduction
+Fires in space vehicles and aboard the International Space 
+Station (ISS) can pose a significant risk to the mission, crew, 
+and spacecraft. Hence it is crucial to develop understanding 
+of material flammability in actual spacecraft environments 
+(microgravity). Flame spread is one of the most important 
+characteristics of material flammability as it indicates how 
+fast a flame would travel and potentially ignite nearby mate­
+rials. Many experiments have been carried out to study the 
+fundamental nature of fire spread over solid combustibles in 
+microgravity conditions using drop towers (Bhattacharjee 
+et al. 2003; Carney et al. 2021; Olson et al. 1989; Olson 
+	
+ Ankit Sharma
+ankit.sharma@case.edu
+	
+ Ya-Ting T. Liao
+yating.liao@case.edu
+1	
+Case Western Reserve University, Cleveland 
+OH-44106, USA
+2	
+USRA, NASA Glenn Research Center, Cleveland 
+OH-44135, USA
+3	
+National Aeronautics and Space Administration, 
+Cleveland OH-44135, USA
+4	
+ZIN Technologies, Middleburg Heights OH-44130, USA
+Abstract
+Opposed-flow flame spread over solid materials has been investigated in the past few decades owing to its importance in 
+fundamental understanding of fires. These studies provided insights on the behavior of opposed-flow flames in different 
+environmental conditions (e.g., flow speed, oxygen concentration). However, the effect of confinement on opposed-flow 
+flames remains under-explored. It is known that confinement plays a critical role in concurrent-flow flame spread in 
+normal and microgravity conditions. Hence, for a complete understanding it becomes important to understand the effects 
+of confinement for opposed-flow flames. In this study, microgravity experiments are conducted aboard the International 
+Space Station (ISS) to investigate opposed-flow flame spread in different confined conditions. Two materials, cotton-
+fiberglass blended textile fabric (SIBAL) and 1 mm thick polymethyl methacrylate (PMMA) slab are burned between a 
+pair of parallel flow baffles in a small flow duct. By varying the sample-baffle distance, various levels of confinement 
+are achieved (H = 1–2 cm). Three types of baffles, transparent, black, and reflective, are used to create different radiative 
+boundary conditions. The purely forced flow speed is also varied (between 2.6 and 10.5 cm/s) to investigate its interplay 
+with the confinement level. For both sample materials, it is observed that the flame spread rate decreases when the confine­
+ment level increases (i.e., when H decreases). In addition, flame spread rate is shown to have a positive correlation with 
+flow speed, up to an optimal value. The results also indicate that the optimal flow speed for flame spread can decrease 
+in highly confined conditions. Surface radiation on the confinement boundary is shown to play a key role. For SIBAL 
+fabric, stronger flames are observed when using black baffles compared to transparent. For PMMA, reflective baffles yield 
+stronger flames compared to black baffles. When comparing the results to the concurrent-flow case, it is also noticed that 
+opposed-flow flames spread slower and blow off at larger flow speeds but are not as sensitive to the flow speed. This 
+work provides unique long-duration microgravity experimental data that can inform the design of future opposed-flow 
+experiments in microgravity and the development of theory and numerical models.
+Keywords  Opposed-flow flame spread · Microgravity combustion · Confined space · Flame-wall interactions · Confined 
+combustion
+Received: 25 January 2024 / Accepted: 12 March 2024 / Published online: 1 April 2024
+© The Author(s) 2024
+Effects of Confinement on Opposed-Flow Flame Spread over Cellulose 
+and Polymeric Solids in Microgravity
+Ankit Sharma1
+ · Yanjun Li1 · Ya-Ting T. Liao1
+ · Paul V. Ferkul2,3 · Michael C. Johnston3 · Charles Bunnell4
+1 3
+
+=== page 2 ===
+Microgravity Science and Technology (2024) 36:20
+and Miller 2009; Vetturini et al. 2020; Zhu et al. 2022), 
+parabolic flights (Consalvi et al. 2021; Feier et al. 2002; 
+Guibaud et al. 2020; Kleinhenz et al. 2008; Konno et al. 
+2022; Nagachi et al. 2021), space shuttles (Li et al. 2019; 
+Sacksteder et al. 1998), and facilities aboard the ISS (Bhat­
+tacharjee et al. 2017; Huang et al. 2019; Li et al. 2021a; 
+Li et al. 2021b). These tests provided insights on the effect 
+of different environmental conditions (e.g., oxygen level, 
+pressure, flow speed) and flow configurations on the flame 
+growth and flame spread rate. Comparisons of concurrent-
+flow results in different NASA projects such as Burning and 
+Suppression of Solids (BASS) (Zhao et al. 2017) and Saf­
+fire (Urban et al. 2019) highlighted that flame spread rate 
+is also affected by the confinement level. Even in normal 
+gravity, constrained geometries can enhance (or even hinder 
+depending upon the cavity size) fire spread due to the chim­
+ney effect, such as what happened in the London Grenfell 
+Tower Fire accident in 2017 (Sharma and Mishra 2021).
+The buoyant flow in a normal-gravity Earth environment 
+establishes a positive feedback loop between the supply of 
+oxygen and the growth of the fire (Comas et al. 2015; Cui 
+et al. 2023; Matsuoka et al. 2018). This buoyancy-induced 
+convection enhances the availability of oxygen, promoting 
+the rapid expansion of the flames, especially in concurrent 
+flow. For opposed flow, however, buoyant flow in some 
+cases may promote blow off extinction (Olson et al. 1989). 
+On the other hand, in microgravity the absence of buoyancy 
+usually means that another oxygen transport method must 
+be provided to enable fire spread. Flames may still be pos­
+sible simply due to air circulation in the space station or 
+crew vehicle ventilation systems (around 10 to 20 cm/s). 
+However, if the airflow in microgravity is less than around 
+10  cm/s, the system enters the “oxygen-limited regime,” 
+where the flame weakens and moves away from the solid 
+surface and towards fresh oxygen in the environment. Con­
+sequently, the increased flame standoff distance weakens the 
+transfer of heat from the flame to the fuel surface, causing a 
+decrease in the spread rate. For thin cellulose sheets, (Olson 
+et al. 1989) observed that this oxygen-limited behavior 
+is observed when the flow falls below 15 cm/s for a 30% 
+oxygen concentration and below 25 cm/s for a 21% oxy­
+gen concentration. Confinement exacerbates the deficiency 
+of oxygen, especially in microgravity, further complicat­
+ing the flame spread process by exploring the relationship 
+between airflow speed and flame spread, we can gain valu­
+able insights into the dynamics of fire behavior and develop 
+more effective fire safety measures.
+Considering these, (Li et al. 2021a) investigated the effect 
+of confinement on concurrent-flow flame spread in micro­
+gravity in the “Confined Combustion” ISS project. Here, 
+the BASS hardware (Zhao et al. 2017) was refurbished and 
+modified to allow different levels of flow confinement and 
+different radiative wall properties. The results demonstrated 
+that at the same confined condition, steady-state flame length 
+and spread rate are proportional to the concurrent flow 
+speed over the tested range. When confinement increases, 
+the flame spread rate and flame length first increase and 
+then decrease. The work stressed that a long test duration is 
+needed to reveal the various stages of flame development, 
+such as accelerating flame spread, steady state, and extinc­
+tion, under different confinement levels.
+Other studies have investigated opposed-flow flame 
+spread (Huang and Gao 2021), with most focusing on flow 
+speed, oxygen concentration, fuel thickness, fuel width, 
+and radiation feedback in actual (Bhattacharjee et al. 2016; 
+Bhattacharjee and Carmignani 2022; Carmignani et al. 
+2020; Kashiwagi et al. 1996; Olson et al. 2001; Olson 1991; 
+Takahashi et al. 2002; Urban et al. 2019; Wang et al. 2015) 
+or simulated (Hossain et al. 2018, 2020; Olson et al. 2009; 
+Zhang and Yu 2011) microgravity conditions. A few stud­
+ies have specifically examined the impact of confinement 
+on opposed-flow flame spread. For instance, Nakamura et 
+al. (Konno et al. 2020) conducted numerical simulations 
+to investigate enclosure effects on opposed-flow flame 
+spread and observed that flame spread rate was faster for the 
+enclosed case than the open case. Wang et al. (Wang et al. 
+2015) conducted experiments using a drop tower to inves­
+tigate the impact of confinement on the flame spread over 
+thin solid fuels in a low speed opposing flow (5 cm/s). Their 
+results revealed a non-monotonic trend of flame spread rate 
+with respect to the height of the tunnel where the flame 
+spread occurred. However, it is important to note that the 
+tests were conducted at a single flow speed and were lim­
+ited to a duration of 3.6 s due to the inherent constraints of 
+achieving microgravity conditions on Earth (e.g., the limit­
+ing height of the drop tower).
+Additional studies examined longer durations by using 
+a simulated microgravity environment in normal gravity 
+(Hossain et al. 2018; Olson et al. 2009). (Olson et al. 2009) 
+developed a Narrow Channel Apparatus (NCA) that physi­
+cally constrains buoyant convection by using short-height 
+channels. Opposed-flow flame spread experiments were per­
+formed at different flow speeds, oxygen concentrations, and 
+channel gap sizes. Good agreement was obtained between 
+the results from the NCA, and corresponding equivalent 
+tests performed at the NASA microgravity drop facilities. 
+(Hossain et al. 2018) further investigated various channel 
+heights and airflow speeds for opposed-flow flame spread 
+over thin fuels using the NCA. It was noted that only limited 
+confinement levels can be studied in NCA since making the 
+gap too narrow yields excessive heat loss to the confining 
+walls and making the gap too large nullifies the simulated 
+microgravity conditions because significant buoyant flow 
+can develop.
+1 3
+20 
+Page 2 of 13
+
+=== page 3 ===
+Microgravity Science and Technology (2024) 36:20
+Furthermore, as reported by (Li et al. 2021a) in the case of 
+concurrent flow a longer testing duration is needed to reveal 
+the various stages of flame development, such as accelerat­
+ing flame spread, steady state, and extinction, under different 
+confinement levels. To the best of the authors’ knowledge, 
+no other experiments have been conducted that specifically 
+examine the impact of confinement on fire behavior in long-
+duration opposed-flow microgravity conditions, the objec­
+tive of the present study. This work focuses on investigating 
+the impact of confinement on flame behavior and spread for 
+long duration microgravity conditions in different opposing 
+airflows. The study also investigates the radiative interac­
+tions between the flame and surrounding walls. Our ultimate 
+goal is to gain insights that could be useful in identifying 
+risks in future structural designs and enhancing fire safety 
+codes for space and Earth applications.
+Microgravity Experiments
+This work presents additional results from the Confined 
+Combustion ISS project. Specifically, we will present the 
+opposed-flow flame spread data for the cotton-fiberglass 
+composite fabric fuel (also called “SIBAL fabric”) and 
+PMMA. Results of the concurrent-flow portion of the proj­
+ect have been published in separate papers (Li et al. 2021b; 
+Li et al. 2021a).
+Experiment Facility
+The experimental apparatus is shown in Fig. 1. It is identi­
+cal to that reported in (Li et al. 2021a) except for the fuel 
+ignited on the downstream trailing edge (to initiate the 
+opposed-flow flame spread), and thus will be described here 
+only briefly. Cotton-fiberglass composite fabric fuel sam­
+ples and 1-mm-thick PMMA (the same as used in (Li et al. 
+2021a; Olson et al. 2021; Zhao et al. 2017) are burned in an 
+opposed flow in the BASS flow duct located in the Micro­
+gravity Science Glovebox (MSG) aboard the ISS. The flow 
+duct is 20 cm long and has a square cross-Sect. 7.6 cm by 
+7.6 cm. A fan provides a variable forced convective flow up 
+to 55 cm/s. (Flow speeds reported here are the average value 
+at a given cross section.) The MSG is equipped with an O2 
+sensor (Quantek model 201) that has an accuracy ± 2% 
+of reading. This sensor is installed to monitor the oxygen 
+consumption in the MSG during each test. In addition, the 
+environmental oxygen sensor data is also collected from 
+the ISS. In this study, all experiments are conducted at ISS 
+ambient conditions i.e., at 1.0 atm and ~ 22% oxygen mole 
+fraction (with daily oxygen variation between 21.3% and 
+22.9%). The burning events are recorded by a video camera 
+through the top window of the flow duct. The video record­
+ings have a spatial resolution of 12.5 pixels/mm (equivalent 
+to 0.08 mm/pixel) and a frame rate of 24 frames per second. 
+The camera is configured to automatically adjust for white 
+balance, exposure, and digital gain.
+Sample-Baffle Assembly and test Matrix
+The study involves evaluating the SIBAL fabric (75% cot­
+ton, 25% fiberglass, area density: 18 mg/cm2, 0.33 mm thick) 
+and PMMA materials, which were previously assessed in 
+BASS (Olson et al. 2021; Zhao et al. 2017) and in the con­
+current-flow tests in Confined Combustion. Both samples 
+Fig. 1  Experimental setup of the BASS hardware in the Microgravity 
+Science Glovebox aboard the International Space Station. (a) ISS crew 
+member performing a test with real-time communication with the sci­
+ence team located at the NASA Glenn Research Center ISS Payload 
+Operations Center (GIPOC). (b) Close-up view of the experimental 
+setup (Li et al.2021a)
+ 
+1 3
+Page 3 of 13 
+20
+
+=== page 4 ===
+Microgravity Science and Technology (2024) 36:20
+Three types of baffles, namely transparent polycarbon­
+ate, black anodized aluminum, and polished (reflective) alu­
+minum are used to study the impact of radiative boundary 
+conditions (Fig. 3). The surface properties and other details 
+of these baffles can be found in (Li et al. 2021a). To facilitate 
+the attachment of the baffle/sample assembly to the BASS 
+flow duct, the top window of the flow duct is retrofitted, 
+and the assembly is magnetically integrated with the top 
+window mount. This new design ensures that the sample is 
+centered in the middle of the flow duct.
+Arrangement of baffles and sample is sketched in Fig. 4. 
+The flame burns on both sides of the SIBAL fabric while for 
+the PMMA, the flame is only allowed on one side. Note that 
+the weaker, single-sided flame is preferred in the PMMA 
+tests to protect the baffles from thermal damage as observed 
+in the concurrent tests (Li et al. 2021b). The single-sided 
+flame configuration is achieved by installing a quenching 
+baffle, 5 mm away from the back side of the sample. The 
+are considered thermally thin in the experiments. The sam­
+ple is held between two thin, stainless steel, black-oxide-
+treated sample frames that are 13.8 cm long and 6.1 cm wide 
+(Fig. 2a). The exposed area of the sample is 10 cm long and 
+2.2 cm wide (Fig. 2a). A 29-AWG Kanthal hotwire of resis­
+tance ~ 1 Ω located at the downstream edge of the sample is 
+used to ignite the samples. After ignition, the samples are 
+allowed to burn in the opposed-flow configuration. A newly 
+developed baffle/sample system enables the creation of dif­
+ferent confinement conditions inside the flow duct (Fig. 2b). 
+The sample frame is installed at the center position of a 
+mounting system, with two parallel flat baffles on each side 
+of the sample (Fig. 2b). The dimensions of the baffles are 
+the same as those of the exterior measurements of the black 
+stainless steel sample holder. The mounting system com­
+prises a series of 5 mm spacers. By adjusting the number of 
+spacers between the baffles and the sample, various levels of 
+flame confinement can be achieved.
+Fig. 3  Types of flow baffles. (a) Transparent polycarbonate. (b) Anodized black aluminum. (c) Reflective aluminum
+ 
+Fig. 2  Sample setup. (a) Sample holder with fuel and igniter mounted. (b) Assembly of baffle/sample system showing sample, sample frame, and 
+two parallel black baffles
+ 
+1 3
+20 
+Page 4 of 13
+
+=== page 5 ===
+Microgravity Science and Technology (2024) 36:20
+the sample). Preflight flow calibration performed at various 
+sample-baffle distances and at three different streamwise 
+locations (near the entrance, at the center, and near the exit 
+of the duct) is discussed in detail in our previous work (Li 
+et al. 2021a). In this study, flow speed is decreased in steps 
+as the flame spreads over the sample. After each flow reduc­
+tion, the flow speed is maintained for a certain period (~ 20 s 
+for SIBAL and ~ 200 s for PMMA) to allow the flame to 
+reach steady state at the new flow condition. It is noted 
+that flames in the opposed-flow configuration exhibit rapid 
+response to changes in flow conditions. This is because 
+the preheating of the fuel and hence the flame spread rate 
+rely mainly on radiation and thermal diffusion in a small 
+region surrounding the upstream flame base stabilization 
+zone. This characteristic of opposed-flow flames is used to 
+observe and analyze the flame spread behavior as a function 
+of flow speed by conducting a series of incremental flow 
+adjustments in a single test. This procedure is similar to that 
+used in the previous BASS tests and allows multiple flow 
+speeds to be examined in one burn (Zhao et al. 2017).
+Results and Discussions
+Transient Flame Development Process
+The process of flame development resulting in steady, 
+spreading flames at each flow step for SIBAL is illustrated in 
+Fig. 6. In this case, two black baffles are used with a 1.5 cm 
+flame cannot be established in this narrow gap because there 
+is minimal air flow and excessive conductive heat loss for 
+any flame that might try to become established there. For the 
+thin SIBAL samples, flame residence time over the sample 
+is short and heat transfer to flow baffles is not as significant, 
+so a two-sided flame is permitted.
+The test matrix for SIBAL and PMMA is shown in 
+Table 1; Fig. 5. Key variables in the study are flow speed 
+(ranging from 2.6 to 10.5 cm/s) and confinement level (i.e., 
+sample-baffle distance H, at 1, 1.5, and 2 cm depending upon 
+Fig. 5  Test matrix for SIBAL and PMMA samples in opposed flow 
+confined combustion
+ 
+Sample
+Burning 
+scenario
+Baffle type (boundary 
+wall condition)
+Sample-baffle 
+distance (H 
+in cm)
+Opposed-flow speeda (cm/s)
+SIBAL
+Double 
+sided
+Anodized black 
+aluminum
+1.5
+10.3b → 7.3 → 6.1c
+2.0
+10.3b → 7.3c
+Transparent 
+polycarbonate
+1.0
+10.5b → 8.8 → 7.4c
+1.5
+10.3b → 7.3 → 6.1c
+PMMA
+Single 
+sided
+Anodized black 
+aluminum
+1.5
+7.31b→10.3→7.3→6→4.7→3.2→10.3c
+Reflective aluminum
+1.5
+7.31b→6→4.7→3.2 →2.6d
+a Crew manually adjusts flow rate with a dial between opposed flow speed setpoints
+b Initial flow speed for ignition
+c Flame sustained and consumed the sample at this flow speed (i.e., flame reached end of sample)
+d Flame quenched within 10 s at this flow speed
+Table 1  Test matrix for SIBAL 
+and PMMA
+ 
+Fig. 4  Sample/baffle configura­
+tion for (a) SIBAL (b) PMMA 
+(H: sample-baffle distance; 
+2 H = D: inter-baffle distance for 
+SIBAL)
+ 
+1 3
+Page 5 of 13 
+20
+
+=== page 6 ===
+Microgravity Science and Technology (2024) 36:20
+The flame position, spread rate, and imposed flow speed 
+are depicted in Fig. 7. The video frames are processed using 
+a custom-built code using MATLAB Image Analysis Tool­
+box, which converts the images to binary format, detects the 
+flame boundary, and monitors the flame position over time. 
+The specifics of the code and the methodology used to track 
+the flame location are described in previous research (Li et 
+al. 2021a).
+At the beginning of the video recording, the igniter emits 
+bright light that saturates the camera, making it difficult to 
+accurately identify the flame’s location. However, as soon 
+as the igniter is turned off, the flame reaches a steady spread 
+rate and length at the three tested flow rates (10.3, 7.3, 
+and 6.1 cm/s, respectively). The steady flame spread rates 
+(Vt and Vb for downstream flame tip and upstream base, 
+respectively) are deduced in time periods bounded by small 
+vertical arrows in Fig. 7. For each flow rate tested, a lin­
+ear least-squares curve fitting method is used to determine 
+the flame spread rate, and the average visible flame length 
+is calculated for each steady spread stage. Similar obser­
+vations of steady flame length and spread rate are made in 
+other SIBAL tests as well. In general, the spread rate and 
+flame length decreased with the imposed flow speed and the 
+sample-baffle distance. This will be discussed further in the 
+next section.
+Figure  8 depicts a typical flame development process 
+resulting in steady, spreading one-sided flames at each flow 
+step for PMMA. Two reflective baffles with 1.5 cm sample-
+baffle distance (H) (see Fig. 4b) are used in this case, and 
+the opposed-flow speed is gradually decreased from 7.3 to 
+2.6 cm/s in four steps. Following activation of the ignitor, a 
+gaseous flame emerges at the downstream trailing edge of 
+the sample and propagates against the flow until the sample 
+is completely burned. The flame appears mostly blue right 
+from the start, indicating minimal soot formation. Compared 
+to the SIBAL fabrics, the PMMA samples have smaller 
+flame lengths and spread rates. Flame position, spread rates, 
+flame length, and flow speed are shown in Fig. 9. Similar 
+to the SIBAL fabric samples, steady-state flame spread is 
+observed for PMMA samples, both for reflective and black 
+baffles.
+Effects of Confinement and flow Speed
+Figure 10 illustrates the flame profiles for SIBAL fabric at 
+different sample-baffle distances, all at the same opposed-
+flow speed of 7.3 cm/s. As the confinement increases (i.e., 
+H decreases from 2.0 cm to 1.5 cm for black baffles and 
+from H = 1.5 cm to 1.0 cm for transparent baffles), the flame 
+length reduces due to oxygen starvation (Li and Liao 2022; 
+Olson 1991; Olson et al. 1989) and heat loss to the baffles 
+(Li et al. 2021a; Li and Liao 2022). This is further discussed 
+sample-baffle distance (H, see Fig. 4a). The opposed flow 
+is decreased from 10.3 to 6.1 cm/s in two steps. Following 
+activation of the hotwire ignitor, the solid fuel is heated and 
+pyrolyzed and a gaseous flame initiate at the downstream 
+trailing edge of the sample and propagates against the flow 
+until the sample is completely burned. Decreasing the 
+flow speed results in a bluish color of the flame, indicating 
+reduced formation of soot and possible lower flame temper­
+ature, along with a decrease in flame length and spread rate.
+Fig. 7  Flame location versus time for opposed-flow flame spread over 
+SIBAL fabric sample with flow speeds shown in green. Confined con­
+ditions: black anodized aluminum baffles with 1.5 cm sample-baffle 
+distance (H). x = 0 is defined at the downstream trailing edge of the 
+sample
+ 
+Fig. 6  Opposed-flow flame spread over SIBAL fabric sample. Con­
+fined conditions: black anodized aluminum baffles with 1.5 cm sam­
+ple-baffle distance (H). Ignition is at upper left, and images are 5 s 
+apart, left to right, top row to bottom row
+ 
+1 3
+20 
+Page 6 of 13
+
+=== page 7 ===
+Microgravity Science and Technology (2024) 36:20
+in the next section on the effect of radiation feedback. It 
+is worth noting that when the flame is small and dim at 
+the smallest baffle distances (e.g., H = 1.0 cm), the camera 
+struggles with white balance, leading to videos with unreal­
+istic flame colors (as seen in Fig. 10d).
+The flame spread rates at different baffle distances are 
+summarized and compared in Fig. 11. When flow speeds are 
+held constant (tested flow speeds are marked next to data 
+points on the plot), the rate of flame spread decreases as 
+the confinement increases. As the distance between sam­
+ple and baffles (H) decreases, two factors come into play: 
+oxygen depletion (Li and Liao 2022; Olson 1991; Olson et 
+al. 1989) and increased net heat loss to the baffles (Li et 
+al. 2021a; Li and Liao 2022). Comparing black anodized 
+aluminum baffles to polycarbonate transparent baffles, the 
+former is anticipated to have higher conductive heat loss 
+and lower spread rates due to their significantly larger ther­
+mal conductivity (200 vs. 0.2 W/m/K) and volumetric heat 
+capacity (ρCp ~2.46 vs. 1.44 J/cm3/K). However, contrary 
+Fig. 9  Opposed-flow flame location versus time for PMMA sample 
+with flow speeds shown in green. Confined conditions: Reflective 
+aluminum baffles with H = 1.5  cm (sample-baffle distance). x = 0 is 
+defined at the downstream trailing edge of the sample
+ 
+Fig. 8  Opposed-flow flame 
+spread over PMMA sample. 
+Confined conditions: Reflective 
+aluminum baffles with sample-
+baffle distance H = 1.5 cm. Igni­
+tion is at upper left, and images 
+are 50 s apart, left to right, top 
+row to bottom row
+ 
+1 3
+Page 7 of 13 
+20
+
+=== page 8 ===
+Microgravity Science and Technology (2024) 36:20
+lower than H = 1.5 cm. Furthermore, at such proximity, the 
+flow viscosity will also significantly reduce the local flow 
+near the sample surface, hindering the flame growth process 
+for much weaker opposed-flow flames.
+Figure  12 compares the opposed-flow SIBAL results 
+obtained in this work with previous concurrent flow results 
+in Confined Combustion (2.2  cm wide sample) (Li et al. 
+2021a) and opposed flow results in BASS (2  cm wide 
+sample) (Ferkul et al. 2013). At sample baffle distance 
+H = 1.5 and 2 cm, the opposed-flow flame spread rates are 
+~ 25–36% lower than the concurrent-flow flame spread 
+rates obtained from previous studies (Li et al. 2021a). At 
+the minimum tested baffle distance H = 1.0 cm, with slightly 
+higher flow speeds, the opposed-flow flame spread rates 
+are slightly larger than for concurrent-flow flames. Also, 
+opposed-flow flame spread is not as sensitive to the baffle 
+to expectations, black anodized aluminum baffles exhibit 
+higher spread rates. This unexpected result is attributed to 
+the relatively higher radiation emission from black baffles 
+compared to transparent ones. Consequently, due to ther­
+mal radiation, the net heat loss in black baffles is reduced, 
+leading to higher spread rates (to be discussed further in 
+Sect. 3.3). In Fig. 10, the flame standoff distance (i.e., the 
+maximum distance from the flame to the sample surface) 
+was observed to be ~ 6 mm in all cases (it decreased slightly 
+when the confinement increased). For the black baffles, if the 
+sample-baffle distance is reduced further (e.g., to H ≤ 1 cm) 
+and the flame is in the immediate proximity to the baffles, 
+conductive heat loss from the baffles may become domi­
+nant, resulting in higher net heat loss and lower spread rates 
+compared to the transparent baffles (due to the higher con­
+ductivity and the higher heat capacity), as observed in the 
+concurrent cases (Fig. 12). However, for the opposed cases, 
+this needs to be confirmed with more experiments as black 
+baffles in the present study were not tested for distances 
+Fig. 12  Comparison of flame spread rate (Vb) at different inter-baffle 
+distance in opposed-flow (present and literature (Ferkul et al. 2013) 
+and concurrent-flow (literature (Li et al. 2021a) experiments for 
+SIBAL. Numbers marked next to the data points are the tested flow 
+speeds
+ 
+Fig. 11  Flame spread rates (Vb) at different inter-baffle distances (H) 
+for the opposed-flow configuration over SIBAL fabric with black and 
+transparent baffles. Numbers marked next to the data points are the 
+tested flow speeds
+ 
+Fig. 10  Comparisons of opposed-
+flow flame profiles in different 
+confined conditions at a flow 
+speed of 7.3 cm/s for SIBAL (H 
+is sample-baffle distance)
+ 
+1 3
+20 
+Page 8 of 13
+
+=== page 9 ===
+Microgravity Science and Technology (2024) 36:20
+obtained in the previous studies (i.e., 10–15 cm/s) (Olson 
+et al. 1989) and a decrease in opposed-flow spread rate with 
+increase in flow speed is not observed except for the case 
+with the smallest sample-baffle distance at H = 1 cm. For 
+this case, the optimal flow speed is observed at ~ 8.8 cm/s 
+(Fig. 13). At such a high confinement level, heat loss to the 
+baffles and reduction of oxygen transport to the combustion 
+zone hinder the gas-phase combustion, requiring a longer 
+flow residence time. As a result, the optimal flow speed and 
+the blow-off limit are expected to be smaller. This shows 
+that confinement plays a significant role and can change the 
+dominant physical processes in fires. It is also clear from 
+Fig. 14 that over the tested flow range, opposed-flow flame 
+distance compared to the concurrent-flow case, with a maxi­
+mum decrease of ~ 5% (for the opposed-flow, transparent 
+baffle case) compared to 50% for the concurrent-flow (black 
+baffle case) when H changes from 1.5 to 1 cm. Furthermore, 
+in previous concurrent-flow tests, an optimal inter-baffle 
+distance is observed at H = 2.0 cm where the spread rate is 
+maximum. However, an optimal distance is not noticed in 
+the present opposed-flow data. This can be due to the lim­
+ited number of data points. It is also possible that the effects 
+of flow acceleration due to confinement are not as sig­
+nificant for opposed-flow flame spread. For opposed-flow 
+flames, the flow acceleration mainly occurs downstream of 
+the pyrolysis zone in the burnout region. For current-flow 
+flames, the flow acceleration occurs in both pyrolysis and 
+preheat regions, directly resulting in enhanced heat trans­
+fer from the flame to the virgin solid fuels. In addition, the 
+opposed-flow flames are generally smaller and hence cause 
+less thermal expansion compared to concurrent-flames.
+When comparing the present results with previous 
+opposed-flow tests at lower and higher confinement levels 
+(i.e., sample baffle distance H = 0.5, 0.9, 3.8 cm) in Fig. 12, it 
+appears that the opposed-flow spread rate for SIBAL follows 
+a monotonically decreasing trend with increase in confine­
+ment levels (i.e., from H = 3.8 to 1 cm) due to oxygen star­
+vation and conductive heat loss to the baffles. However, this 
+is different from the non-monotonic trend of flame spread 
+rate with confinement (5 to 1.5 cm) observed in a previous 
+study where a 0.062-mm-thick laboratory wipe was burned 
+at a fixed opposed-flow speed of 5 cm/s in a 3.6 s drop tower 
+(Wang et al. 2015). There, fastest flame spread was seen for 
+a 3 cm tunnel height. These differences can be attributed 
+to many factors including different fuel samples, properties, 
+experimental setup, conditions, and duration.
+Figure 13 compares the opposed-flow flame spread rate 
+at different flow speeds. When the confinement level is con­
+stant, the flame spread rate increases with the increase in 
+flow speed, although only slightly. As flow is increased, the 
+viscous boundary layer becomes thinner and heat flux to the 
+fuel surface increases. There may also be reduced flame radi­
+ation percentage loss (Takahashi et al. 2015) and enhanced 
+mixing of fuel and oxidizer, both of which result in increase 
+of the flame spread rate. This agrees with previous research 
+as shown in Fig.  14 (Kleinhenz et al. 2008; Olson et al. 
+1989) where opposed-flow flame spread rate increases with 
+ambient flow to a maximum when the flow speed is around 
+20 cm/s. Further, in these previous studies, it was also noted 
+that the opposed-flow spread rate decreases at higher flow 
+speeds due to enhanced cooling effects and a shorter resi­
+dence time for the gas phase reaction (i.e., the Damkohler 
+number effect), finally leading to blow-off extinction at 
+higher flow speeds. In this study, the maximum flow speed 
+tested is ~ 10.5  cm/s, lower than the optimal flow speed 
+Fig. 14  Flame spread rate for SIBAL fabric at different flow speeds in 
+previous opposed-flow and concurrent-flow experiments (Ferkul et al. 
+2013) (Urban et al. 2019) with black baffles in present opposed forced 
+flow work
+ 
+Fig. 13  Flame spread rate at different flow speeds for the opposed-flow 
+configuration over SIBAL fabric with black and transparent baffles
+ 
+1 3
+Page 9 of 13 
+20
+
+=== page 10 ===
+Microgravity Science and Technology (2024) 36:20
+comparing flame profiles for PMMA in Fig.  16. Longer 
+flames and faster spread rate are observed for the reflective 
+baffles due to enhanced heat feedback to the solid fuel com­
+pared to black baffles.
+spread is not as sensitive to the variation in the flow speed 
+compared to concurrent flow in previous studies.
+Similarly, Fig.  15 compares the flame spread rates for 
+PMMA with reflective and black baffles at 1.5  cm sam­
+ple-baffle distance. Spread rates for both baffles decrease 
+with the flow speed with higher spread rates for reflective 
+baffles as discussed in the next section. For the reflective 
+baffle case, the sample was not consumed fully, and flame 
+quenched within 10 s after the flow speed was reduced to 
+2.6 cm/s. For the black baffle case, the sample was fully 
+consumed when the flow speed was reduced to 4.7 cm/s and 
+the low-speed quenching limit was not reached.
+Comparisons are also drawn for PMMA in opposed 
+(present and literature (Olson et al. 2021) and concurrent 
+(Confined Combustion data previously reported in (Li et al. 
+2021b)) flows in Fig. 15. Similar to SIBAL samples, con­
+current spread rates are observed to be higher compared 
+to opposed flow spread rates at the same baffle distance 
+and flow speed for PMMA samples. This is because in a 
+concurrent flow, the flame extends downstream and cov­
+ers the pyrolysis and preheat regions of the solid fuel. In 
+an opposed flow, the flame covers the burned region of the 
+solid fuel and the thermal diffusion occurs against the flow 
+in a small region near the upstream flame base. Therefore, 
+the heat transfer between the flame and the solid fuel is more 
+effective in concurrent than in opposed flows. For the same 
+reason, the no-spread quenching limit occurs at a higher 
+flow speed in the opposed-flow test (2.6 cm/s for reflective 
+baffle) compared to the concurrent-flow test (2.0 cm/s for 
+black baffles (Li et al. 2021b)) at the same confined level 
+(H = 1.5  cm). Note that in both concurrent and opposed 
+flow tests, the no-spread limits were determined at the flow 
+speeds for which the flame could not be sustained for more 
+than 10 s.
+Effect of Radiation Feedback
+Referring back to Fig. 10b and c for SIBAL, it is observed 
+that when the baffle distance is the same (i.e., H = 1.5 cm), 
+the flame appears longer with black baffles compared to 
+transparent. During the combustion process, some of the 
+heat is lost to the surroundings due to radiation. The baffles 
+absorbed some of the radiation from the flame (~α ˙q′′
+f), and 
+provided heat feedback to the flame through surface radia­
+tion emission (~ϵσT 4
+s ). With higher absorptivity (α) and 
+emissivity (ϵ), the black baffles were expected to absorb a 
+higher fraction of radiation and re-emit it to the sample and 
+the gaseous flame, leading to a longer flame. Conversely, a 
+higher proportion of radiation passes through the transpar­
+ent baffles and is lost to the ambient, resulting in less heat 
+feedback to the fuel, a lower flame temperature, and a lower 
+flame spread rate (Fig. 11). Similar behavior is seen when 
+Fig. 16  Comparison of opposed-flow flame profiles over PMMA in 
+different boundary wall conditions (i.e., reflective, and black baffles) at 
+sample baffle distance H = 1.5 cm and flow speed 6.0 cm/s
+ 
+Fig. 15  Comparison of PMMA flame spread rate at different flow 
+speeds and inter-baffle distances in opposed-flow (present and litera­
+ture) and concurrent-flow (literature) experiments. No-spread limits 
+were determined at the flow speeds for which the flame was not sus­
+tained for more than 10 s
+ 
+1 3
+20 
+Page 10 of 13
+
+=== page 11 ===
+Microgravity Science and Technology (2024) 36:20
+H = 1.5 cm) compared to concurrent-flow flame spread 
+at the same conditions.
+5.	 The opposed-flow SIBAL data from present and pre­
+vious experiments (BASS) suggested a monotonic 
+decrease of flame spread rate when flow confinement 
+level increases. This is different from the non-mono­
+tonic trend observed in a previous microgravity experi­
+ment with a short test duration (3.6 s) and confinement 
+level 1.5–5 cm at ambient flow speed of 5 cm/s and may 
+be due to the inherent differences in the fuel sample and 
+experimental setup.
+The present work provides unique long-duration micro­
+gravity data for understanding the effects of confinement 
+in the opposed-flow flame spread configuration. The time-
+resolved data can also be used to assess and validate exist­
+ing and future fire models and theories. However, additional 
+experiments are required to investigate the burning of sol­
+ids and flame propagation in different confinement condi­
+tions. More data points and a comprehensive investigation 
+are needed to achieve a complete understanding of the fire 
+dynamics associated with this burning process. In addition, 
+investigations on how one burning sample ignites the next, 
+the criterion for such ignition to occur, and the interaction of 
+two (or more) burning samples in opposed-flow configura­
+tions in different confined conditions also need to be inves­
+tigated to mitigate fire risk in future space missions.
+Acknowledgements  This research is co-sponsored by the National 
+Science Foundation (NSF) and Center for the Advancement of Sci­
+ence in Space (CASIS) under grant number CBET-1740478. Opera­
+tions support, payload modifications for Confined Combustion, and 
+the design and manufacturing of the BASS modifications were per­
+formed by ZIN Technologies. The original wind tunnel adapted from 
+Enclosed Laminar Flames (ELF) was designed and built by NASA 
+Glenn Research Center. The science team received tremendous sup­
+port during operations from NASA Glenn Research Center, Marshall 
+Spaceflight Center, and ZIN Technologies. We especially appreciate 
+the support from Emily Griffin, Steve Lawn, Russell Valentine, Beth 
+Curtis, Chris Rogers, Wendell Booth, Michael Hall, and the Micro­
+gravity Science Glovebox team. We would also like to express our 
+immense appreciation to our lab partners in space, ISS crew members 
+Christina Koch, Jessica Meir, Andrew Morgan, Luca Parmitano, Shan­
+non Walker, and Michael Hopkins for supporting and conducting the 
+microgravity experiments aboard the ISS.
+Author Contributions  A. S. performed research, analyzed data, and 
+prepared the manuscript. Y. L. performed research and analyzed 
+data. Y.-T. T. L. advised the research, supported the ISS operations, 
+and revised the manuscript. P. V. F. and M. C. J. provided science in­
+puts, supported the ISS operations, and revised the manuscript. C. B. 
+developed the experiment hardware and supported the ISS operations.
+Funding  This research is co-sponsored by the National Science Foun­
+dation (NSF) and Center for the Advancement of Science in Space 
+(CASIS) under grant number CBET-1740478.
+Data Availability  Data obtained from the ISS experiments will be 
+Concluding Remarks
+In the present study, opposed-flow flame spread over thin 
+cotton-fiberglass blend fabrics (SIBAL) and 1-mm-thick 
+PMMA is investigated in a small flow duct aboard the ISS. 
+The opposed flow varies from 2.6 to 10.5 cm/s. Different 
+confinement levels are achieved by placing flow baffles next 
+to the burning sample at different distances (H = 1–2 cm). 
+Three different baffle materials, black anodized aluminum, 
+reflective aluminum, and transparent polycarbonate are 
+used to simulate different radiative boundary conditions. 
+Results obtained are compared with previous opposed- and 
+concurrent-flow tests in different confinements. Key find­
+ings are as follows.
+1.	 Opposed-flow flame spread rate has been shown to be 
+positively correlated to the ambient flow speed (up to 
+an optimal flow rate). This remains true in this study 
+when the burning is subjected to various levels of 
+confinement. The correlation is stronger for the 1-mm 
+thick PMMA samples than for the thin SIBAL samples. 
+For SIBAL samples at confinement level H = 1–2 cm, 
+flame spread rate increases by ~ 11% when flow speed 
+increases by ~ 70%. For PMMA samples at H = 1.5 cm, 
+flame spread rate increases by 40% when flow speed 
+increases by ~ 87%.
+2.	 Confinement introduces heat loss to the surrounding 
+walls (i.e., baffles in this study) and restricts oxygen 
+supply to the combustion zone. As a result, flame spread 
+rate is observed to generally decrease as the confinement 
+level increases. These effects also reduce the gas-phase 
+reaction rate, increase the required flow residence time, 
+and decrease the optimal flow speed. The optimal flow 
+speed for flame spread is found to be around 8.8 cm/s 
+at H = 1 cm, lower than the previously reported 15 cm/s 
+for the same sample burning in a taller flow duct (BASS 
+flow duct, H = 3.8 cm).
+3.	 The radiation boundary condition in a confined space is 
+shown to play a significant role. For SIBAL samples, at 
+the same confinement level, the black baffles result in a 
+stronger flame with a higher spread rate (12% higher) 
+and a longer flame length compared to the transparent 
+baffles. For PMMA samples, the flame spread rates can 
+be ~ 40% higher with reflective baffles compared to 
+black baffles at same confined conditions.
+4.	 Compared to concurrent-flow flame spread, opposed-
+flow flame spread is less sensitive to the ambient 
+flow speed and the confinement level (over the tested 
+range in this study). In addition, the opposed-flow 
+flame spread rate is generally slower (by ~ 25–36% for 
+SIBAL samples) and the low-speed quenching limit 
+is larger (2.6 cm/s vs. 2.0 cm/s for PMMA samples at 
+1 3
+Page 11 of 13 
+20
+
+=== page 12 ===
+Microgravity Science and Technology (2024) 36:20
+insulated wire in microgravity. Combust. Flame. 230, 111447 
+(2021). https://doi.org/10.1016/j.combustflame.2021.111447
+Cui, W., Sharma, A., Liao, Y.-T.T.: Upward flame spread over discrete 
+thin solids separated by heat-absorbing inert materials. J. Fire Sci. 
+41, 32–50 (2023). https://doi.org/10.1177/07349041231153145
+Feier, I.I., Shih, H.-Y., Sacksteder, K.R., Tien, J.S.: Upward flame spread 
+over thin solids in partial gravity. Proc. Combust. Inst. 29, 2569–
+2577 (2002). https://doi.org/10.1016/S1540-7489(02)80313-3
+Ferkul, P.V., Olson, S.L., Johnston, M.C., T’ien, J.S.: Flammability 
+aspects of fabric in opposed and concurrent air flow in micrograv­
+ity. In: 8th US National Combustion Meeting Organized by the 
+Western States Section of the Combustion Institute and hosted by 
+the University of Utah May. pp. 19–22 (2013)
+Guibaud, A., Consalvi, J.-L., Citerne, J.-M., Legros, G.: Pressure 
+effects on the soot production and radiative heat transfer of non-
+buoyant laminar diffusion flames spreading in opposed flow over 
+insulated wires. Combust. Flame. 222, 383–391 (2020). https://
+doi.org/10.1016/j.combustflame.2020.09.003
+Hossain, S., Wichman, I.S., Sidebotham, G.W., Olson, S.L., Miller, 
+F.J.: Influence of gap height and flow field on global stoichiom­
+etry and heat losses during opposed flow flame spread over thin 
+fuels in simulated microgravity. Combust. Flame. 193, 133–144 
+(2018). https://doi.org/10.1016/j.combustflame.2018.02.023
+Hossain, S., Wichman, I.S., Miller, F.J., Olson, S.L.: Opposed flow 
+flame spread over thermally thick solid fuels: Buoyant flow sup­
+pression, stretch rate theory, and the regressive burning regime. 
+Combust. Flame. 219, 57–69 (2020). https://doi.org/10.1016/j.
+combustflame.2020.05.001
+Huang, X., Gao, J.: A review of near-limit opposed fire spread. 
+Fire Saf. J. 120, 103141 (2021). https://doi.org/10.1016/j.
+firesaf.2020.103141
+Huang, X., Link, S., Rodriguez, A., Thomsen, M., Olson, S., Ferkul, 
+P., Fernandez-Pello, C.: Transition from opposed flame spread 
+to fuel regression and blow off: Effect of flow, atmosphere, and 
+microgravity. Proc. Combust. Inst. 37, 4117–4126 (2019). https://
+doi.org/10.1016/j.proci.2018.06.022
+Kashiwagi, T., McGrattan, K.B., Olson, S.L., Fujita, O., Kikuchi, 
+M., Ito, K.: Effects of slow wind on localied radiative igni­
+tion and transition to flame spread in microgravity. Symp. Int. 
+Combust. 26, 1345–1352 (1996). https://doi.org/10.1016/
+S0082-0784(96)80353-5
+Kleinhenz, J., Feier, I.I., Hsu, S.-Y., T’ien, J.S., Ferkul, P.V., Sackst­
+eder, K.R.: Pressure modeling of upward flame spread and burning 
+rates over solids in partial gravity. Combust. Flame. 154, 637–643 
+(2008). https://doi.org/10.1016/j.combustflame.2008.05.023
+Konno, Y., Kobayashi, Y., Fernandez-Pello, C., Hashimoto, N., 
+Nakaya, S., Tsue, M., Fujita, O.: Opposed-Flow Flame spread 
+and extinction in Electric wires: The effects of gravity, External 
+Radiant Heat Flux, and wire characteristics on Wire Flammabil­
+ity. Fire Technol. 56, 131–148 (2020). https://doi.org/10.1007/
+s10694-019-00935-4
+Konno, Y., Li, Y., Citerne, J.-M., Legros, G., Guibaud, A., Hashimoto, 
+N., Fujita, O.: Experimental study on downward/opposed flame 
+spread and extinction over electric wires in partial gravity envi­
+ronments. Proc. Combust. Inst. (2022). https://doi.org/10.1016/j.
+proci.2022.07.002
+Li, C., Liao, Y.-T.T., T’ien, J.S., Urban, D.L., Ferkul, P., Olson, S., 
+Ruff, G.A., Easton, J.: Transient flame growth and spread pro­
+cesses over a large solid fabric in concurrent low-speed flows in 
+microgravity – model versus experiment. Proc. Combust. Inst. 37, 
+4163–4171 (2019). https://doi.org/10.1016/j.proci.2018.05.168
+Li, Y., Liao, Y.-T.T.: Numerical study of flame spread in a narrow flow 
+duct in microgravity – effects of flow confinement and radia­
+tion reflection. Combust. Flame. 235, 111714 (2022). https://doi.
+org/10.1016/j.combustflame.2021.111714
+made available on NASA’s online database after the paper is pub­
+lished. In the meantime, data will be shared upon requests to the cor­
+responding author.
+Declarations
+Ethical Approval  Not applicable.
+Conflict of Interest  The authors declare that they have no known com­
+peting financial interests or personal relationships that could have ap­
+peared to influence the work reported in this paper.
+Author Consent  All authors agree to be included in the author list of 
+this manuscript and agree to publish this research.
+Open Access  This article is licensed under a Creative Commons 
+Attribution 4.0 International License, which permits use, sharing, 
+adaptation, distribution and reproduction in any medium or format, 
+as long as you give appropriate credit to the original author(s) and the 
+source, provide a link to the Creative Commons licence, and indicate 
+if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless 
+indicated otherwise in a credit line to the material. If material is not 
+included in the article’s Creative Commons licence and your intended 
+use is not permitted by statutory regulation or exceeds the permitted 
+use, you will need to obtain permission directly from the copyright 
+holder. To view a copy of this licence, visit http://creativecommons.
+org/licenses/by/4.0/.
+References
+Bhattacharjee, S., Carmignani, L.: Prediction of flame length in 
+opposed-Flow Flame Spread: Global Similarity Analysis and 
+experiments. Combust. Sci. Technol. 194, 2659–2673 (2022). 
+https://doi.org/10.1080/00102202.2021.1885030
+Bhattacharjee, S., Wakai, K., Takahashi, S.: Predictions of a critical 
+fuel thickness for flame extinction in a quiescent microgravity 
+environment. Combust. Flame. 132, 523–532 (2003). https://doi.
+org/10.1016/S0010-2180(02)00501-1
+Bhattacharjee, S., Laue, M., Carmignani, L., Ferkul, P., Olson, S.: 
+Opposed-flow flame spread: A comparison of microgravity and 
+normal gravity experiments to establish the thermal regime. 
+Fire Saf. J. 79, 111–118 (2016). https://doi.org/10.1016/j.
+firesaf.2015.11.011
+Bhattacharjee, S., Simsek, A., Miller, F., Olson, S., Ferkul, P.: Radia­
+tive, thermal, and kinetic regimes of opposed-flow flame spread: 
+A comparison between experiment and theory. Proc. Com­
+bust. Inst. 36, 2963–2969 (2017). https://doi.org/10.1016/j.
+proci.2016.06.025
+Carmignani, L., Dong, K., Bhattacharjee, S.: Radiation from flames in 
+a Microgravity Environment: Experimental and Numerical inves­
+tigations. Fire Technol. 56, 33–47 (2020). https://doi.org/10.1007/
+s10694-019-00884-y
+Carney, A., Li, Y., Liao, Y.-T., Olson, S., Ferkul, P.: Concurrent-flow 
+flame spread over thin discrete fuels in microgravity. Com­
+bust. Flame. 226, 211–221 (2021). https://doi.org/10.1016/j.
+combustflame.2020.12.005
+Comas, B., Carmona, A., Pujol, T.: Experimental study of the chan­
+nel effect on the flame spread over thin solid fuels. Fire Saf. J. 
+71, 162–173 (2015). https://doi.org/10.1016/j.firesaf.2014.12.001
+Consalvi, J.-L., Guibaud, A., Coimbra, A., Citerne, J.-M., Legros, 
+G.: Effects of oxygen depletion on soot production, emission 
+and radiative heat transfer in opposed-flow flame spreading over 
+1 3
+20 
+Page 12 of 13
+
+=== page 13 ===
+Microgravity Science and Technology (2024) 36:20
+Sharma, A., Mishra, K.B.: Experimental investigations on the influ­
+ence of ‘chimney-effect’ on fire response of rainscreen façades in 
+high-rise buildings. J. Build. Eng. 44, 103257 (2021). https://doi.
+org/10.1016/j.jobe.2021.103257
+Takahashi, S., Kondou, M., Wakai, K., Bhattacharjee, S.: Effect of 
+radiation loss on flame spread over a thin PMMA sheet in micro­
+gravity. Proc. Combust. Inst. 29, 2579–2586 (2002). https://doi.
+org/10.1016/S1540-7489(02)80314-5
+Takahashi, S., Ebisawa, T., Bhattacharjee, S., Ihara, T.: Simplified 
+model for predicting difference between flammability limits 
+of a thin material in normal gravity and microgravity environ­
+ments. Proc. Combust. Inst. 35, 2535–2543 (2015). https://doi.
+org/10.1016/j.proci.2014.07.017
+Urban, D.L., Ferkul, P., Olson, S., Ruff, G.A., Easton, J., T’ien, J.S., 
+Liao, Y.-T.T., Li, C., Fernandez-Pello, C., Torero, J.L., Legros, 
+G., Eigenbrod, C., Smirnov, N., Fujita, O., Rouvreau, S., Toth, 
+B., Jomaas, G.: Flame spread: Effects of microgravity and scale. 
+Combust. Flame. 199, 168–182 (2019). https://doi.org/10.1016/j.
+combustflame.2018.10.012
+Vetturini, A., Cui, W., Liao, Y.-T., Olson, S., Ferkul, P.: Flame spread 
+over ultra-thin solids: Effect of Area Density and concurrent-
+opposed spread reversal phenomenon. Fire Technol. 56, 91–111 
+(2020). https://doi.org/10.1007/s10694-019-00878-w
+Wang, S., Hu, J., Xiao, Y., Ren, T., Zhu, F.: Opposed-flow Flame 
+Spread over Solid fuels in Microgravity: The Effect of Confined 
+spaces. Microgravity Sci. Technol. 27, 329–336 (2015). https://
+doi.org/10.1007/s12217-015-9419-z
+Zhang, X., Yu, Y.: Experimental studies on the three-dimensional 
+effects of opposed-flow flame spread over thin solid materi­
+als. Combust. Flame. 158, 1193–1200 (2011). https://doi.
+org/10.1016/j.combustflame.2010.10.004
+Zhao, X., Liao, Y.-T.T., Johnston, M.C., T’ien, J.S., Ferkul, P.V., 
+Olson, S.L.: Concurrent flame growth, spread, and quenching 
+over composite fabric samples in low speed purely forced flow in 
+microgravity. Proc. Combust. Inst. 36, 2971–2978 (2017). https://
+doi.org/10.1016/j.proci.2016.06.028
+Zhu, F., Huang, X., Wang, S.: Flame Spread over Polyethylene Film: 
+Effects of gravity and fuel inclination. Microgravity Sci. Technol. 
+34, 26 (2022). https://doi.org/10.1007/s12217-022-09945-4
+Publisher’s Note  Springer Nature remains neutral with regard to juris­
+dictional claims in published maps and institutional affiliations. 
+Li, Y., Liao, Y.-T.T., Ferkul, P.V., Johnston, M.C., Bunnell, C.: Experi­
+mental study of concurrent-flow flame spread over thin solids 
+in confined space in microgravity. Combust. Flame. 227, 39–51 
+(2021a). https://doi.org/10.1016/j.combustflame.2020.12.042 (a)
+Li, Y., Liao, Y.-T.T., Ferkul, P.V., Johnston, M.C., Bunnell, C.: Con­
+fined combustion of polymeric solid materials in microgravity. 
+Combust. Flame. 234, 111637 (2021). https://doi.org/10.1016/j.
+combustflame.2021.111637 (b)
+Matsuoka, T., Nakashima, K., Yamazaki, T., Nakamura, Y.: Geometri­
+cal effects of a narrow Channel on Flame Spread in an opposed 
+Flow. Combust. Sci. Technol. 190, 409–424 (2018). https://doi.
+org/10.1080/00102202.2017.1394848
+Nagachi, M., Citerne, J.-M., Dutilleul, H., Guibaud, A., Jomaas, G., 
+Legros, G., Hashimoto, N., Fujita, O.: Effect of ambient pressure 
+on the extinction limit for opposed flame spread over an electrical 
+wire in microgravity. Proc. Combust. Inst. 38, 4767–4774 (2021). 
+https://doi.org/10.1016/j.proci.2020.05.005
+Olson, S.L.: Mechanisms of Microgravity Flame Spread over a thin solid 
+fuel: Oxygen and opposed Flow effects. Combust. Sci. Technol. 
+76, 233–249 (1991). https://doi.org/10.1080/00102209108951711
+Olson, S.L., Miller, F.J.: Experimental comparison of opposed and 
+concurrent flame spread in a forced convective microgravity 
+environment. Proc. Combust. Inst. 32, 2445–2452 (2009). https://
+doi.org/10.1016/j.proci.2008.05.081
+Olson, S.L., Ferkul, P.V., T’ien, J.S.: Near-limit flame spread over a 
+thin solid fuel in microgravity. Symp. Int. Combust. 22, 1213–
+1222 (1989). https://doi.org/10.1016/S0082-0784(89)80132-8
+Olson, S.L., Kashiwagi, T., Fujita, O., Kikuchi, M., Ito, K.: Experi­
+mental observations of spot radiative ignition and subsequent 
+three-dimensional flame spread over thin cellulose fuels. Com­
+bust. Flame. 125, 852–864 (2001). https://doi.org/10.1016/
+S0010-2180(00)00249-2
+Olson, S.L., Miller, F.J., Jahangirian, S., Wichman, I.S.: Flame spread 
+over thin fuels in actual and simulated microgravity condi­
+tions. Combust. Flame. 156, 1214–1226 (2009). https://doi.
+org/10.1016/j.combustflame.2009.01.015
+Olson, S.L., Ferkul, P.V., Bhattacharjee, S., Miller, F.J., Fernandez-
+Pello, C., Link, S., T’ien, J.S., Wichman, I.: Burning and Suppres­
+sion of Solids–II (BASS–II) Summary Report. San Diego. (2021)
+Sacksteder, K.R., Greenberg, P.S., Pettegrew, R.D., Tien, J.S., Ferkul, 
+P.V., Shih, H.-Y.: Forced Flow Flame Spreading Test: Prelimi­
+nary Findings From the USMP-3 Shuttle Mission. Presented at 
+the November 1 (1998)
+1 3
+Page 13 of 13 
+20

@@ -1,0 +1,715 @@
+=== page 1 ===
+ 
+American Institute of Aeronautics and Astronautics 
+ 
+1
+Spacecraft Fire Detection: Smoke Properties and Transport 
+in Low-Gravity 
+David L. Urban1, Gary A. Ruff2 and John E. Brooker3, 
+NASA Glenn Research Center, Cleveland, Ohio 44135 
+Thomas Cleary4 and Jiann Yang5 
+National Institute of Standards and Technology, Gaithersburg, Maryland 20899 
+George Mulholland6 
+The University of Maryland, College Park, Maryland 20742 
+and 
+Zeng-guang Yuan7 
+National Center for Space Exploration Research, Cleveland, Ohio 44135 
+Results from a recent smoke particle size measurement experiment conducted on the 
+International Space Station (ISS) are presented along with the results from a model of the 
+transport of smoke in the ISS.  The experimental results show that, for the materials tested, 
+a substantial portion of the smoke particles are below 500 nm in diameter.  The smoke 
+transport model demonstrated that mixing dominates the smoke transport and that 
+consequently detection times are longer than in normal gravity.   
+I. Introduction 
+he absence of buoyant flow increases the residence time in microgravity fires causing substantial changes in 
+flame structure and consequently changes the properties of the produced smoke. In particular, the increased 
+residence time in the high temperature zone where the smoke is formed, can increase the opportunity for growth in 
+the size of the smoke particulate.  However, no measurements of the properties of smoke from microgravity fires 
+had been made at the time when the detectors were designed for both the space shuttle and the ISS.  This absence of 
+data caused the designers to base the design on 1-g information and the current state of the art. As a result, the two 
+detectors were designed using different detection technologies which have very different particle size sensitivities. 
+The objective of this work was to make sufficient measurements of smoke from spacecraft fires to enable improved 
+design of future detectors.  
+A. Smoke Background 
+Smoke is a general term that encompasses aerosol materials produced by a number of processes.  In particular it 
+can include unburned, recondensed, original polymer or pyrolysis products that can be either liquid or solid, 
+hydrocarbon soot, condensed water vapor, and ash particles.  Ash and soot particles dominate the smoke particulate 
+in established flaming fires while unburned pyrolysis products and recondensed polymer fragments are produced by 
+smoldering and pyrolysis in the early stage of fire growth.  Given the constrained space on any spacecraft, the target 
+                                                          
+1 Branch Chief, Combustion and Reacting Systems Branch, 21000 Brookpark Road, MS 77-5, Senior Member. 
+2 Advanced Capabilities Project Office, 21000 Brookpark Road, MS 77-7, Associate Fellow. 
+3 Aerospace Engineer, Combustion and Reacting Systems Branch, 21000 Brookpark Road, MS 77-5. 
+4 Integrated Performance Assessment Group Leader, 100 Bureau Drive, Stop 8664. 
+5 Fire Metrology Group Leader, 100 Bureau Drive, Stop 8662. 
+6 Visiting Professor of Mechanical Engineering, Glenn L. Martin Hall. 
+7 Staff Scientist, 21000 Brookpark Road, MS 77-5. 
+T 
+
+=== page 2 ===
+ 
+American Institute of Aeronautics and Astronautics 
+ 
+2
+for the fire detection system is necessarily the early phase and not established flaming fires; consequently, the 
+primary target for detection is the pyrolysis products and not the soot and ash.   
+B. Prior Spacecraft Systems 
+In the Mercury, Gemini and Apollo missions, the crew quarters were limited and mission durations were short, 
+consequently it was considered reasonable that the astronauts would rapidly detect any fire. The Skylab module, 
+however, included approximately 30 UV-sensing fire detectors.1 These devices were limited to line-of-sight and 
+were reported to have difficulties with false alarms.   
+C. Space Shuttle Detectors 
+At the time the Space Shuttle Orbiter (Space Transportation System (STS)) was developed, smoke detection for 
+terrestrial applications was becoming commonplace.2 In particular, ionization detectors were becoming readily 
+available but photoelectric (scattering or obscuration detectors) were generally unavailable due to the difficulty of 
+producing stable light sources.  There was no data available concerning the smoke or dust particle size distribution 
+in low-gravity and the database of normal-
+gravity smoke characteristics was a fraction of 
+what is available today. Consequently, the STS 
+smoke detector (Fig. 1) employed a variant of 
+the 
+accepted 
+ground 
+based 
+approach 
+(ionization detectors).  The Orbiter has nine 
+particle-ionization smoke detectors in avionics 
+cooling air return lines in the mid-deck and 
+flight deck and SpaceLab had six additional 
+particle-ionization smoke detectors in the 
+avionics lines.3 While the design rationale is 
+not completely known, Celesco™ (later 
+Brunswick Defense™) based their design on 
+data that suggested incipient fires could be 
+discriminated by looking for particulate in the 
+0.4 to 0.7 μm range.4  Use of a pump provided 
+the opportunity to employ a particle separator 
+allowing rejection of particulate larger than 
+1μm.  This air pump increased the power 
+requirements and reduced the operational life 
+for the detectors. 
+D. ISS Detectors 
+The International Space Station (ISS) smoke detector design took advantage of the availability of stable laser-
+diode light sources, mirroring a trend in terrestrial detectors toward light scattering devices.  This provided the 
+opportunity to produce a detector that required substantially less power, (1.5 Watts versus 9 Watts for the Orbiter 
+detector)5 and, with no moving parts, was quieter with a much longer operational life. The choice was supported by 
+data indicating that early smoldering fires produce larger particulate than established flaming fires.2 The designated 
+detectors (Fig. 2) for the ISS are laser-diode, forward-scattering, smoke or particulate detectors. Their sensitivity is 
+greatest for particles larger than 1 μm with sensitivity extending down to 0.6 μm. The current requirements for the 
+ISS call for two detectors in the open area of the US Lab module, and detectors in racks that have cooling air-flow.6  
+The design developed for the ISS by Allied Signal™ (Fig. 2) consists of a 2-pass laser diode to sense forward 
+scattered light (30 degrees). There is also a zero degree obscuration system that is used as a measure of the beam 
+strength.  The system is designed to alarm based on the magnitude of the scattered light signal referenced to the 
+beam intensity. The system is less sensitive to particles smaller than the wavelength of the laser (near IR) than it is 
+to larger particles. The minimum reported sensitivity is 0.3 μm.5 On the other hand, for a fixed mass concentration 
+of smoke aerosol; the STS ionization smoke detector is more sensitive to smaller particle sizes. 
+ 
+ Figure 1. Brunswick Defense™ smoke detector used in the 
+NASA Orbiter fleet. The inlet is on the right and the gas is 
+expelled out the small plate on the top. 
+
+=== page 3 ===
+ 
+American Institute of Aeronautics and Astronautics 
+ 
+3
+As a result of these design decisions, the 
+ISS and the Orbiter detectors are sensitive to 
+particles in different size ranges.  In both 
+cases the designs were based upon the best 
+available data however, due to the complete 
+absence of low-g data concerning the nature 
+of particulate and radiant emission from 
+incipient and fully developed low-g fires, 
+different 
+conclusions 
+were 
+drawn 
+concerning the optimal design for spacecraft 
+fire detection.  
+As described by Friedman7 there have 
+been six overheat and failed component 
+failures in the NASA Orbiter fleet. None of 
+these events spread into a real fire but as 
+mission durations increase, the likelihood of 
+failures increases. The experience on Mir in 
+1997 has shown that failure of oxygen 
+generation systems can have significant 
+consequences. 
+As 
+a 
+result, 
+improved 
+understanding of spacecraft fire detection is 
+critically needed.8  
+E. Background in Low Gravity Smoke 
+The salient result on smoke particle size 
+determination in low-gravity reported by 
+Urban et al.9 is that particulate produced by 
+low-gravity flames (soot or unburned fuel 
+particles) tends to have larger size particles 
+than in normal gravity.  Results from the 
+CSD (Comparative Soot Diagnostics) Experiment9 which studied smoke properties in low-gravity from several 
+spacecraft materials suggested that liquid smoke particles could achieve sizes larger than 1 µm while solid 
+particulate remained in the sub-micrometer range.  The combined impact of these limited results and theoretical 
+predictions is that, as opposed to extrapolation from 1-g data, direct knowledge of low-g combustion particulate is 
+needed for more confident design of smoke detectors for spacecraft. 
+F. Spacecraft Atmosphere Dust Background 
+Any effort to detect fires must be able to discriminate against the ambient background and nuisance signals.  In 
+the case of smoke detection, the background dust aerosol conditions must be considered. The only spacecraft 
+background aerosol particulate measurements to date were made on the Orbiter on STS 32 in 199010 and on the ISS.9 
+The STS measurements included the results from two cascade impactors and a light scattering device.  The two 
+impactors reported a bimodal particle size distribution with ~ 40% of the particles in each of the 2.5 to10 μm and 
+>100 μm ranges.  The other two ranges < 2.5 μm and 10 to 100 μm were very lightly populated.  Each impactor 
+sampled approximately 15 m3 of air over approximately 30 hours.  These results showed substantially higher 
+concentrations than typical indoor measurements (over a factor of 5 for the two most populated size ranges). These 
+data were supported by the light scattering instrument which made 17 measurements in 12 locations, all of these 
+reported mass concentrations ranging from 50 to 70 μg/m3.  The ISS results of Urban et al.9 were a secondary result 
+of an experiment to validate the operation of an aerosol particle counter in low-gravity.  The measurements were 
+made in the US Lab on Increment 10 and the particle count levels were at the noise level for the instrument (less 
+than 5 particles/cc). The low particle levels in the < 2.5 μm bin for the STS and the low overall numbers for the ISS 
+suggest a zone of opportunity for spacecraft fire detection since typical normal gravity fires produce substantial 
+particulate in this size range.2,11  However more complete particle size statistics are needed. 
+ 
+Figure 2. Allied Signal/Honeywell light-scattering smoke 
+detector used in the ISS.  The near IR laser beam emerges 
+from the enclosure into the top assembly (A) and is reflected 
+by two mirrors (one visible at top right (B)) and is then 
+reflected back to the sensors in the enclosure (C).  One sensor 
+detects the forward scattered light and is referenced by 
+another sensor that looks directly at the incident beam. 
+
+=== page 4 ===
+ 
+American Institute of Aeronautics and Astronautics 
+ 
+4
+II. SAME Experiment 
+Although the CSD experiment produced useful information concerning the likely size of spacecraft smoke 
+particulate, the data set was not particularly large as the size statistics were obtained from TEM data and critical 
+details were not obtained for the liquid droplet aerosols.  To rectify this concern, another experiment (Smoke 
+Aerosol Measurement Experiment: SAME) was developed.  The SAME experiment sought to avoid the problems 
+experienced by the CSD experiment by obtaining the particulate size statistics on-orbit with a reduced dependence 
+upon sample return to Earth.  This is a challenging endeavor because existing aerosol instrumentation is typically 
+large, incompatible with spacecraft experiment constraints, and may require substantial sample return to Earth.  As 
+will be described below, an alternative approach was employed that used three discrete instruments to measure 
+separate moments of the size distribution.  When combined, these moments provide useful aggregate statistics of the 
+size distribution.  The measurements were made using smoke generated by overheated spacecraft materials in much 
+the same manner as the CSD experiment however the sample temperature, flow field, and particle aging time were 
+more rigorously controlled.   
+A. Moment Method 
+The approach used by the SAME experiment is termed the ‘moment method’ for convenience.12  As will be 
+described below, the approach consists of measuring three moments of the size distribution (zeroth, first and third) 
+and using the properties of the log-normal distribution to estimate the geometric mean diameter and the standard 
+deviation. 
+The average particle size and an estimate of the width of the size distribution will be estimated from various 
+moments of the size distribution. The number distribution, fN(D), is defined as 
+ 
+dD
+dN
+D
+fN
+=
+)
+(
+  
+(1) 
+where dN is the number of particles per cm3 with diameter between D and D + dD. The moments of interest consist 
+of the number concentration, M0, the first moment M1, and the volume or mass concentration moment, M3.  
+ 
+       
+∫
+=
+dD
+D
+f
+D
+M
+N
+i
+i
+)
+(
+   
+3,1,0
+=
+i
+  
+(2) 
+The first moment which can also be thought of as the “diameter concentration” or integrated diameter per unit 
+volume is approximately proportional to the ionization detector moment (signal).  For particles in the Mie scattering 
+regime, particles sizes from 0.3λ to about 3λ (~0.2 to 2.0 μm for a red laser) the light scattering signal is 
+approximately proportional to the third moment. From these moments, and a measurement of M0 using a 
+condensation nucleus counter, two mean diameters can be computed: the count (arithmetic) mean diameter D0.5 
+ord , which is equal to M1/M0 and the diameter of average mass D1.5 or
+m
+d
+, which is equal to (M3/M0)1/3. The log-
+normal size distribution is widely used for describing the size distribution of aerosols including non-flaming smoke.  
+As in most aerosols; the bulk of the number concentration is associated with smaller particles.13, 14 The form of the 
+distribution is the same as the normal distribution except that the diameter is replaced with the ln D so that one has 
+ 
+ f
+D
+N
+D
+D
+D
+N
+t
+g
+g
+g
+( )
+(
+)
+ln
+exp
+ln
+ln
+ln
+/
+=
+−
+−
+⎛
+⎝
+⎜⎜
+⎞
+⎠
+⎟⎟
+2
+2
+1 2
+2
+π
+σ
+σ
+  
+(3) 
+where Nt is the total number concentration of the aerosol (=M0), and Dg and σg are the geometric mean number 
+diameter and geometric standard deviation defined by 
+ 
+ 
+∫
+∫
+∞
+∞
+=
+0
+0
+/
+)
+(
+ln
+ln
+dD
+f
+dD
+D
+Df
+D
+N
+N
+g
+ 
+(4) 
+
+=== page 5 ===
+ 
+American Institute of Aeronautics and Astronautics 
+ 
+5
+ 
+2
+/
+1
+0
+0
+2
+)
+(
+/
+)
+(
+)
+ln
+(ln
+ln
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
+= ∫
+∫
+∞
+∞
+dD
+D
+f
+dD
+D
+f
+D
+D
+N
+N
+g
+g
+σ
+  
+(5) 
+For the log-normal distribution, one finds that the various diameter definitions are related to the geometric mean 
+number diameter, Dg, via the equation:13, 14 
+ 
+ D
+D
+p
+p
+g
+g
+=
+exp( ln
+)
+2 σ
+  
+(6) 
+For the count mean diameter, D0.5, and the diameter of average mass, D1.5, the corresponding values of p are 0.5 
+and 1.5. As an example, for a log-normal distribution with Dg=1.0 μm and σg=2.0, the corresponding values of D0.5 
+and D1.5 are1.27 μm and 2.06 μm, respectively. Using equation (6), one can relate σg to the ratio of D1.5 and D0.5 via 
+the equation: 
+ 
+(
+)
+σ g
+D
+D
+= exp ln(
+/
+)
+.
+.
+/
+15
+0 5
+1 2 
+(7) 
+By combining these three moments it is possible to compute three mean diameters of the size distribution and the 
+geometric standard deviation.  Validation of this approach is discussed in Cleary, Weinert and Mulholland.3 These 
+statistics provide a strong basis for design of spacecraft smoke detectors. 
+ 
+B. Instruments  
+These measurements were made using an assembly of three separate instruments. Two are industrial hygiene 
+instruments manufactured by TSI and one is a modified residential smoke detector.   
+The zeroth-moment instrument is a condensation nuclei counter P-Trak™  (TSI Inc.).  This device operates by 
+passing the aerosol-laden particle stream through a region where it is saturated with isopropanol vapor and then into 
+a cooler region where the vapor condenses onto the particles raising them all to a size where they are readily counted 
+by a light scattering device.  This instrument is very robust and operates over a range of 0 to 105 particles/cm3 and 
+20 nm to 1 μm diameter.  Some dilution is required since the smoke concentration ranges from about 0.5 × 106 to 5 
+× 106. There was also a concern that the isopropanol condensate would not return to the wick in low-gravity.9 To 
+mitigate this issue, the condensing section of the device was modified with very small grooves to improve 
+conductance of the condensate back to the wick.  These changes were tested in a separate space experiment with 
+good results indicating the modified device could be used successfully in low gravity.9 
+The first-moment instrument is the ionization chamber from a residential smoke detector which uses an alpha-
+particle emitter to generate ions in a region inside a DC electric field which causes the ions to drift producing 
+current.  The presence of particulate reduces the current as a result of the attachment of the ions to the particulate.  
+The mobility of the charged aerosol is too small for it to be collected on the ionization chamber electrode. The 
+required particle concentrations are on the order of 105 particles / cm3 and no sample dilution was required.  
+The third-moment instrument is a light scattering device DustTrak™ (TSI Inc.).  The device uses a 90 degree 
+light scattering signal to quantify the aerosol mass density.  For terrestrial dust particulate this signal correlates well 
+with the mass concentration, however additional compensation will be needed to account for the range of particle 
+sizes that will be seen in the SAME experiment.  The device operating range is from 0.001 to 100 mg /m3.  These 
+devices are equipped with an aerodynamic impactor at the inlet which captures particles larger than the selected size.  
+The SAME experiment included 2 DustTraks™ one with a 1 μm impactor and one with a 10 μm impactor.  The 
+difference in the signal from these two devices provided a measure of the fraction of the particulate that was larger 
+than 1 μm.  In some cases dilution was required owing to the high smoke concentration levels. 
+ 
+A schematic of the assembled hardware appears in Fig. 3.  Smoke was generated by overheating a small sample 
+of material in the smoke generation duct for approximately 60 seconds.  During this interval, controlled flow was 
+induced by a moving piston in the aging chamber which drew the smoke into the chamber.  The smoke was held in 
+the chamber for a predetermined time, allowing the particles to coagulate.  The smoke was then pushed by the piston 
+into the diagnostics duct where the moment instruments made their measurements. Also installed in the diagnostics 
+duct were space shuttle and ISS smoke detectors.   As the smoke was monitored by the moment instruments, a 
+
+=== page 6 ===
+ 
+American Institute of Aeronautics and Astronautics 
+ 
+6
+sample of the smoke particles was 
+deposited 
+on 
+Transmission 
+Electron 
+Microscope (TEM) grid via a thermal 
+precipitator which uses thermophoresis to 
+deposit the particles on the grids.  
+C. Experimental Results 
+The system was installed in the 
+Microgravity Science Glovebox, an ISS 
+facility that provides many resources 
+including: containment, power, data, video 
+and uplink commanding.  The assembled 
+hardware is shown in Fig 4.  Overall 30 
+sample materials were tested.  These were 
+comprised of six samples each of 5 
+materials: Teflon™, Kapton™, silicone rubber, cellulose, and dibutyl-phthalate deposited on a porous wick. These 
+samples were tested at different airflow rates, pyrolysis temperatures, and smoke aging durations.  The analog 
+signals from the diagnostics were digitized at 1 
+Hz.  At this time the used samples and TEM 
+grids have just been received back from the ISS 
+so mass-balances and TEM analysis have not 
+been initiated.  The zeroth and first moment 
+instruments have a limited dependence of 
+particle diameter so they may be directly 
+calibrated.  The third moment instrument (the 
+DustTrak™) has a significant dependence on 
+the particle diameter and the refractive index.  
+An algorithm has been implemented to use the 
+results of a Mie Scattering calculation with the 
+measured results to iteratively converge on the 
+value of the third moment that best fits the 
+DustTrak™ signal and the other two moment 
+measurements.  This work is currently 
+underway so only results from the zeroth and 
+first moment instruments will be presented 
+here.  As discussed above, the ratio of the first to the zeroth moment is the count mean diameter (D0.5).  Values of 
+D0.5 were calculated directly from the calibrated signals from the P-Trak and the Ion sensor and are shown in Table 1 
+for the baseline runs of the 4 solid materials with the 
+percentage increase over the sizes from a comparable test in 
+normal gravity. 
+III. Smoke Transport Model   
+To assist in the interpretation of the SAME results and to 
+provide a further understanding of the implementation of 
+smoke detectors in spacecraft applications, a numerical model 
+of the smoke transport and detection in the Destiny Laboratory 
+(US Lab) of the ISS was developed.  The details of the model 
+are discussed by Brooker et al.15 This study was conducted 
+using FDS (Fire Dynamics Simulator) a fire modeling 
+program developed by McGrattan et al.16,17  at NIST.  FDS 
+(version 4.0.7 Linux) is a computational fluid dynamics (CFD) 
+model that numerically solves a form of the Navier-Stokes 
+equations for low speed, thermally driven flow with an 
+emphasis on smoke and heat transport from fires.16 A detailed 
+description 
+of 
+the 
+theoretical 
+equations, 
+underlying 
+Figure 3. Schematic of the SAME hardware. 
+ 
+Figure 4. SAME Experiment installed in the MSG Facility 
+Material 
+Count 
+Mean 
+Diameter (nm) 
+Count 
+Mean Diameter 
+(% larger than 
+1-g) 
+Silicone 
+Rubber 
+263 
+53 
+Teflon™ 
+223 
+ 
+Lamp wick 
+248 
+65 
+Kapton™ 
+114 
+58 
+ 
+Table 1: Count Mean Diameters for Baseline 
+Runs with comparison to 1-g tests. 
+
+=== page 7 ===
+ 
+American Institute of Aeronautics and Astronautics 
+ 
+7
+assumptions, and numerical solution can be found in the technical reference guide.17 For this application, large eddy 
+simulation (LES) was utilized in which the large scale eddies are computed directly and the sub-grid scale 
+dissipative processes are modeled. Since the ISS is in low earth orbit, the gravitational acceleration was set to zero. 
+As a result, the vorticity generated by buoyancy is no longer present in the momentum equation; therefore, the 
+baroclinic torque was included to account for other sources of vorticity. A mixture fraction combustion model (a 
+conserved quantity representing the fraction of material at a given point that originated in the fuel stream) was 
+utilized for this analysis. All solid surfaces were designated as inert with a thermal boundary condition of 293 K. 
+The 
+number 
+of 
+grid 
+cells 
+spanning 
+each 
+coordinate 
+direction was determined such 
+that the cell dimension was 
+approximately 5 cm in length for 
+a total of 259,200 cells. The 
+model layout is shown in Fig 5. 
+The smoke generation was 
+modeled 
+using 
+a 
+source 
+positioned at the center of each 
+rack 
+location 
+or 
+ISPR 
+(International Standard Payload 
+Rack).  The source was modeled 
+as a propane burner with an area 
+of 0.023 m2 and heat flux of 57.6 
+kW/m2 at three soot yield levels, 
+producing 
+smoke 
+particulate 
+outputs of 1.46, 2.95, and 8.47 
+mg/s. The alarm point for the ISS 
+detector is on the order of 0.5 mg/m3.   The computational model was run at each smoke generation rate and rack 
+location.   The flow conditions in the lab were established to duplicate the operation of the ventilation system on 
+orbit.  The return and diffuser vanes are 
+oriented to create an overall toroidal 
+flow field that rotates counterclockwise 
+(looking forward).  Axial flow is 
+induced near the floor on the port side 
+by the Inter Module Ventilation (IMV) 
+register on the aft bulkhead. For smoke 
+generation locations at sections 5 and 6, 
+the simulations were also run with and 
+without the internal obstructions shown 
+in Fig. 5.  These internal obstructions 
+were positioned to simulate typical 
+installed hardware in the US Lab 
+Module.  The smoke source was 
+activated 30 seconds after the simulation was initiated and the simulations were run for an additional 300 seconds. 
+Figure 6 presents a reconstruction of the smoke distribution for an 8.5 mg/s generation rate case after 177 seconds.  
+It is notable that other than the high concentration zone near the source, the smoke is fairly well mixed throughout 
+the region without obstructions.  The region with obstructions has lower smoke levels than the rest of the module.  
+This scenario is substantially different from that seen in normal gravity where the smoke concentrates near the 
+ceiling and mixing is generally not as complete as seen in Fig. 6.   
+Figures 7, 8 and 9 show the alarm time response for sources at Section LA1 (Fig. 7), LA3 (Fig. 8) and LA6 
+(Fig.9). Evident in the figures is the variation in detection times with soot yield and source location.  Although for 
+LA3, for the zenith smoke source, the detectors alarmed at the same time, overall one detector typically alarmed 
+significantly sooner than the other, particularly at low smoke yield levels.  For LA1and LA3, the port detector was 
+the first to alarm in most cases while by LA6 the starboard detector was the first to alarm.  This behavior is 
+consistent with the relative proximity of the detectors to the smoke sources.  In Fig. 9, the impact of the obstructions 
+is evident.  For sources on the floor, the obstruction had no effect.  This is consistent with expectation since the 
+ 
+Figure 5.  Computational Model Domain showing six overhead supply 
+diffusers, six deck return registers, and one aft-port IMV diffuser for air 
+ventilation. Induced flow patterns are indicated with dashed lines. Two 
+area smoke detectors are located in front of LAP1 return register 
+(LAP1RR) and LAS5 return register (LAS5RR). Also shown are 
+internal obstructions representing on-orbit equipment and a smoke 
+source at LAP3. ISPR sections are numbered one through six (fwd to 
+aft) and labeled: port (P), starboard (S), nadir (N), or zenith (Z). 
+Figure 6:  Representation of the smoke distribution 177 seconds 
+after the smoke source was activated at location 4 on the floor. 
+The smoke generation rate was 8.5 mg/s. 
+
+=== page 8 ===
+ 
+American Institute of Aeronautics and Astronautics 
+ 
+8
+floors are unobstructed and the flow is across the floor toward the detector.  For cases on the starboard or zenith, the 
+obstructions had a strong impact due to the longer transit time of the smoke to the detector. 
+ 
+IV. Conclusion 
+Smoke particulate produced in low-gravity was found 
+to be typically 50% large in count mean diameter than 
+similar conditions in normal gravity.  The resultant sizes 
+were all below 300 nm suggesting that discriminating 
+smoke from spacecraft dust possibly could be achieved by 
+detecting in the sub-micrometer range.  Numerical 
+modeling of smoke transport in the US Lab Module of the 
+ISS predicted that actual detection times can be quite long 
+and strongly dependent on location and the presence of 
+obstructions.    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 7 (left) and 8 (right): Smoke detector alarm time response to a variable strength smoke source. 
+Data is from a circumferential profile at section LA1 (Fig. 7) and LA3 (Fig. 8). Note that a DNA (did not 
+alarm) condition occurred for LA1 for the 0.05 soot yield on the N1 wall for LAS5RR and for LA3 0.05 
+soot yield on the S3 wall for LAP1RR. 
+ 
+Figure 9. Smoke detector alarm time response to a 
+variable strength smoke source. Data is from a 
+circumferential profile at section LA6. Note that a 
+DNA (did not alarm) condition occurred for the 
+0.05 soot yield on the S6, Z6, and N6 walls for 
+LAP1RR, and S6 and Z6 walls for LAS5RR. Solid 
+lines and symbols: with internal obstructions, 
+dashed lines and open symbols: no obstructions. 
+
+=== page 9 ===
+ 
+American Institute of Aeronautics and Astronautics 
+ 
+9
+V. Acknowledgments 
+The support of the SAME experiment team and the crews of ISS increments 10, 13, and 15 are gratefully 
+acknowledged. The SAME project was conducted through the ISS Exploration Research Project of the Exploration 
+Technology Development Program. The support of this program is also acknowledged. 
+Certain commercial entities, equipment, or materials may be identified in this document in order to describe an 
+experimental procedure or concept adequately. Such identification is not intended to imply recommendation or 
+endorsement by the National Aeronautics and Space Administration or the National Institute of Standards and 
+Technology, nor is it intended to imply that the entities, materials, or equipment are necessarily the best available for 
+the purpose. 
+VI. References 
+1Friedman, R., “Fire Safety Practices and Needs in Human-Crew Spacecraft,” Journal of Applied Fire Science, Vol. 2, 1992, 
+pp. 243-259. 
+2Bukowski, R.W. and G.W. Mulholland, “Smoke Detector Design and Smoke Properties,” NBS Technical Note 973, 1978. 
+3Martin, C.E. and R.C. DaLee, “Spacecraft Fire Detection and Suppression (FDS) Systems: An Overview and 
+Recommendations for Future Flights,” SAE Technical Paper 932166, 23rd International Conference on Environmental Systems, 
+Colorado Springs, CO, July 12-15, 1993. 
+4National Research Council, Fire Detection for Life Safety, National Academy of Sciences, Washington D.C., 1975. 
+5Steisslinger, H. R., D. M. Hoy, J. A. McLin and E. C. Thomas, SAE Paper 932291, 19th International Conference on 
+Environmental System, 1993. 
+6McKinnie, J., “Fire Response Aboard the International Space Station,” SAE Technical Paper 972334, 27th International 
+Conference on Environmental Systems, Lake Tahoe, NV, July 14-17, 1997. 
+7Friedman, R., “Risks and Issues in Fire Safety on the Space Station,” NASA TM 106430, 1994. 
+8Ruff, G.A., D.L. Urban, and M.K. King, “A Research Plan for Fire Prevention Detection and Suppression,” AIAA-2005-
+0341, 43rd Aerospace Sciences Meeting and Exhibit, Reno, NV, January 9-12, 2005. 
+9Urban, D.L., Griffin D., Ruff, G.A., Cleary, T., Yang, J., Mulholland, G.,  Yuan,  Z.G.,  “Detection of Smoke from 
+Microgravity Fires”, 2005 International Conference on Environmental Systems, Rome Italy, Paper # 2005-01-2930 July 2005, 
+SAE Transactions, pp 375-384. 
+10Liu, B. Y. H., K. L. Rubow, P. H. McMurry, T. J. Kotz and D. Russo, “Airborne Particulate Matter and Spacecraft Internal 
+Environments,”  SAE Technical Paper 911476, 21st International Conference on Environmental Systems, San Francisco, CA , 
+July 15-18, 1991. 
+11Bukowski, R. W, R. D. Peacock, J. D. Averill,  T. G. Cleary, N. P. Bryner, W. D. Walton, P. A. Reneke, and E. D. 
+Kuligowski, “Performance of Home Smoke Alarms, Analysis of the Response of Several Available Technologies in Residential 
+Fire Settings,” NIST Technical Note 1455, December 2003. 
+12Cleary, T.G., D W. Weinert, and G.W. Mulholland, ”Moment Method for Obtaining Particle Size Measures of Test 
+Smokes", Natl. Inst. Stand. Technol., NISTIR 7050, 2003. 
+13Raabe, O.G., J. Aerosol Sci., Vol. 2, 1971, p. 289. 
+14Reist, P.C., Introduction to Aerosol Science, Macmillan Pub. Co., NY, NY, 1984. 
+15Brooker, J. E., Urban, D.L., Ruff, G.A., “ISS Destiny Laboratory Smoke Detection Model”, 07ICES-113, 2007 
+International Conference on Environmental Systems, Chicago, Ill. July 2007. 
+16K.B. McGrattan and G.P. Forney. “Fire Dynamics Simulator (Version 4) User Guide”. NIST Special Publication 1019, 
+National Institute of Standards and Technology, Gaithersburg, Maryland, March 2006. 
+17K.B. McGrattan (editor). “Fire Dynamics Simulator (Version 4) Technical Reference Guide”. NIST Special Publication 
+1018, National Institute of Standards and Technology, Gaithersburg, Maryland, March 2006. 
+ 
+ 

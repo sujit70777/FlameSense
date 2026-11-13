@@ -1,0 +1,70 @@
+=== page 1 ===
+Compartment Fire Modeling of a Crew Cabin in 1-g and Lunar-g
+Introduction
+• A fire on a spacecraft poses a catastrophic risk
+• Large-scale fire growth tests were performed to inform 
+the decision regarding cabin atmosphere for the 
+Artemis 3 mission
+• Data from these tests was used to develop a model to 
+determine the habitability inside a crew cabin
+• The profile from the top thermocouple at the door was 
+used as the heat input of the model and the magnitude 
+of the heat input was calibrated until the model 
+matched the experiment
+• Other thermocouples at the door were used to validate 
+the model
+• Model was simulated in lunar-g to determine the effect 
+of gravity
+Objectives
+•Use data from tests to estimate 
+heat input into crew cabin 
+•Validate numerical model in 1-g 
+using test data
+•Use model in lunar-g to estimate 
+the effect of gravity on the 
+habitability inside the crew cabin
+Justin Niehaus and David Urban
+NASA Glenn Research Center
+Experimental Conditions
+Nine tests were performed on partial crew 
+quarters mockups at White Sands Test Facility to
+observe fire growth in exploration atmospheres
+• O2 from 24% to 37%
+• Pressure from 8.2 to 12.44 psia
+Ignition from chemical igniter or Surface Pro 
+(lithium-ion battery thermal runaway via patch 
+heater)
+•A test campaign was completed at WSTF in order to test fire 
+growth and fire propagation properties at exploration 
+atmospheres
+•Data from the test campaign was used to validate a model in 1-g 
+that generated a heat input to match the atmospheric 
+temperature
+•The model was simulated in Lunar-g to determine the effect of 
+gravity on habitability
+•Air temperature in the lunar-g simulation was substantially 
+higher than in 1-g showing buoyant transport significantly 
+affects habitability
+Conclusions
+Figure 1: Geometry of model with Heat Input Parameter. The 
+model shows and open pressure chamber in gray to visualize 
+the crew cabin, despite being a closed pressure chamber 
+during the experiment and simulation.
+Figure 2: Experimental and simulated temperature profiles at the door for Test 4 (24% 
+O2, 12.4 psia and chemical igniter). Thermocouples were 9.2 inches apart, with D6 at the 
+top and D1 at the bottom. 
+Figure 4: Heat loss through the door of the crew 
+cabin for 1-g and Lunar-g simulations calculated 
+Figure 5: Temperature and mass flow rate at the door of the crew cabin for 
+lunar-g and 1-g simulations. The darker red in the top of the lunar-g simulation 
+temperature contour on the left indicate a higher temperature. The darker blue at 
+the top of the mass flow contour for the 1-g simulation shows more hot mass 
+exiting the top, while the dark red in the bottom of the mass flow contour shows 
+more cold air entering from the bottom when compared to the lunar-g simulation.
+Figure 3: Midplane of crew cabin temperature contours for lunar-g and 1-g simulations at 250 s. 
+Lunar-g simulation is noticeable hotter.
+lunar 
+gravity
+1-g
+This work was funded by the Mars Campaign Office, and test data provided by White Sands/Human Landing System Test Program
+Acknowledgements 

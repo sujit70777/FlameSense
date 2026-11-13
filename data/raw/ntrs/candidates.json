@@ -1,0 +1,4475 @@
+[
+ {
+  "id": "20250010653",
+  "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+  "reasons": [
+   "must-include: LUCI results",
+   "search 'lunar gravity flammability' (rank 1)",
+   "search 'partial gravity combustion' (rank 9)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20260001966",
+  "title": "Material Flammability at Lunar and Martian Gravity",
+  "reasons": [
+   "must-include: FM2 test plan (LPSC 2026)",
+   "search 'lunar gravity flammability' (rank 4)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20240015307",
+  "title": "Flammability of Materials on the Moon",
+  "reasons": [
+   "must-include: FM2",
+   "search 'lunar gravity flammability' (rank 9)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20210020516",
+  "title": "Fire on the Moon: Solid Fuel Combustion Experiments",
+  "reasons": [
+   "must-include: Fire on the Moon",
+   "search 'lunar gravity flammability' (rank 8)",
+   "search 'partial gravity combustion' (rank 8)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20240003211",
+  "title": "Moon to Mars (M2M): Exploration Atmosphere",
+  "reasons": [
+   "must-include: Exploration atmosphere",
+   "search 'exploration atmosphere flammability' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": true
+ },
+ {
+  "id": "20260003925",
+  "title": "Impacts of Reduced Pressure Atmospheres on Environmental Control and Life Support Systems (ECLSS) Architectures",
+  "reasons": [
+   "must-include: Life support at 8.2 psia / 34% O2",
+   "search 'exploration atmosphere flammability' (rank 12)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20190030735",
+  "title": "SoFIE Design/Status",
+  "reasons": [
+   "must-include: Named by the lead",
+   "search 'SoFIE' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20200002311",
+  "title": "Exploration Atmosphere & EVA Prebreathe Protocol Validation in the 20-Foot Chamber",
+  "reasons": [
+   "must-include: Named by the lead",
+   "search 'exploration atmosphere flammability' (rank 8)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20160000593",
+  "title": "Combustion of Solids in Microgravity: Results from the BASS-II Experiment",
+  "reasons": [
+   "must-include: Named by the lead (BASS / BASS-II summary)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20210011385",
+  "title": "Burning and Suppression of Solids\u2013II  (BASS-II) Summary Report",
+  "reasons": [
+   "must-include: BASS-II"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20170001636",
+  "title": "The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status",
+  "reasons": [
+   "PSI publication of PSI-100 SAFFIRE-III",
+   "PSI publication of PSI-98 SAFFIRE-I",
+   "PSI publication of PSI-99 SAFFIRE-II",
+   "search 'spacecraft fire safety' (rank 19)",
+   "search 'Saffire' (rank 8)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20140006585",
+  "title": "Evaluation of Low-Gravity Smoke Particulate for Spacecraft Fire Detection",
+  "reasons": [
+   "PSI publication of PSI-101 SAME-R",
+   "search 'spacecraft fire safety' (rank 77)",
+   "search 'spacecraft fire safety' (rank 78)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20130000422",
+  "title": "Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2",
+  "reasons": [
+   "PSI publication of PSI-101 SAME-R",
+   "search 'SAME smoke aerosol' (rank 4)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20080012612",
+  "title": "Spacecraft Fire Detection: Smoke Properties and Transport in Low-Gravity",
+  "reasons": [
+   "PSI publication of PSI-102 SAME"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20070021776",
+  "title": "ISS Destiny Laboratory Smoke Detection Model",
+  "reasons": [
+   "PSI publication of PSI-102 SAME"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20010074094",
+  "title": "SMOKE: Characterization of Smoke Particulate for Spacecraft Fire Detection",
+  "reasons": [
+   "PSI publication of PSI-102 SAME",
+   "search 'spacecraft fire safety' (rank 76)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20070013892",
+  "title": "The Microgravity Science Glovebox (MSG), a Resource for Gravity-Dependent Phenomena Research on the International Space Station (ISS)",
+  "reasons": [
+   "PSI publication of PSI-102 SAME",
+   "PSI publication of PSI-107 SPICE"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150002322",
+  "title": "A Computational and Experimental Study of Coflow Laminar Methane/Air Diffusion Flames: Effects of Fuel Dilution, Inlet Velocity, and Gravity",
+  "reasons": [
+   "PSI publication of PSI-106 SLICE",
+   "PSI publication of PSI-21 ACME CLD Flame",
+   "PSI publication of PSI-21 ACME CLD Flame"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "27530189361808",
+  "title": "A Combined Experimental and Computational Study of Soot Formation in Normal and Microgravity Conditions",
+  "reasons": [
+   "PSI publication of PSI-106 SLICE",
+   "PSI publication of PSI-107 SPICE",
+   "PSI publication of PSI-21 ACME CLD Flame"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20010117668",
+  "title": "Shapes of Nonbuoyant Round Luminous Hydrocarbon/Air Laminar Jet Diffusion Flames",
+  "reasons": [
+   "PSI publication of PSI-107 SPICE"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "25983543780692",
+  "title": "On the existence of steady-state gaseous microgravity spherical diffusion flames in the presence of radiation heat loss",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "31112159710975",
+  "title": "Critical temperature and reactant mass flux for radiative extinction of ethylene microgravity spherical diffusion flames at 1\u00a0bar",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "15732120706972",
+  "title": "An investigation of thermal radiation from laminar diffusion flames in a tri-coflow burner with central oxygen",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "50051858674903",
+  "title": "Dilution effects on laminar jet diffusion flame lengths",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "33978975350427",
+  "title": "A new method of flame temperature measurement utilizing the acoustic emissions from laser-induced plasmas",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "23296868447605",
+  "title": "Simplifying the complexity of diffusion flames through interpretation in C/O ratio space",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20070017909",
+  "title": "Radiative Extinction of Gaseous Spherical Diffusion Flames in Microgravity",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "10022129583755",
+  "title": "The effects of elevated pressure on the kinetics and extinction of hot, warm, and cool gaseous ethylene spherical diffusion flames",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20010059993",
+  "title": "On Soot Inception in Nonpremixed Flames and the Effects of Flame Structure",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20000057049",
+  "title": "Effects of Structure and Hydrodynamics on the Sooting Behavior of Spherical Microgravity Diffusion Flames",
+  "reasons": [
+   "PSI publication of PSI-10 ACME/Flame Design"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "27270201908869",
+  "title": "Dynamics of cool flames",
+  "reasons": [
+   "PSI publication of PSI-142",
+   "search 'cool flames' (rank 21)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "12653711440682",
+  "title": "The radical index and the effect of oxygen concentration on non-premixed cool flame extinction of large n-alkanes",
+  "reasons": [
+   "PSI publication of PSI-142"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "13565623778282",
+  "title": "Study of the low-temperature reactivity of large n-alkanes through cool diffusion flame extinction",
+  "reasons": [
+   "PSI publication of PSI-142"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "13936609795162",
+  "title": "Low-temperature multistage warm diffusion flames",
+  "reasons": [
+   "PSI publication of PSI-142"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19030765795041",
+  "title": "On the chemical characteristics and dynamics of n-alkane low-temperature multistage diffusion flames",
+  "reasons": [
+   "PSI publication of PSI-142"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "28027456094425",
+  "title": "Transient interactions between a premixed double flame and a vortex",
+  "reasons": [
+   "PSI publication of PSI-142"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "28516810543238",
+  "title": "Spherical gas-fueled cool diffusion flames",
+  "reasons": [
+   "PSI publication of PSI-159 ACME CFI-G",
+   "search 'cool flames' (rank 23)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "27482090396921",
+  "title": "Burning in microgravity: Experimental results and analysis",
+  "reasons": [
+   "PSI publication of PSI-20 ACME BRE"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "79490066403600",
+  "title": "Transient dynamics of radiative extinction in low-momentum microgravity diffusion flames",
+  "reasons": [
+   "PSI publication of PSI-20 ACME BRE"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "17720132749449",
+  "title": "Theoretical analysis and predictions of burning in microgravity using a burning emulator",
+  "reasons": [
+   "PSI publication of PSI-20 ACME BRE"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "10021121381631",
+  "title": "Constrained-temperature solutions of coflow laminar diffusion flames",
+  "reasons": [
+   "PSI publication of PSI-21 ACME CLD Flame"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "31427677890843",
+  "title": "Electric Field Induced Changes of a Diffusion Flame and Heat Transfer near an Impinging Surface",
+  "reasons": [
+   "PSI publication of PSI-22 ACME E-FIELD Flames"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "30580252934587",
+  "title": "Electric-field effects on methane coflow flames aboard the international space station (ISS): ACME E-FIELD flames",
+  "reasons": [
+   "PSI publication of PSI-22 ACME E-FIELD Flames",
+   "search 'E-FIELD flames' (rank 1)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19960008450",
+  "title": "On burner-stabilized cylindrical premixed flames in microgravity",
+  "reasons": [
+   "PSI publication of PSI-23 ACME s-Flame"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "18564228327142",
+  "title": "Direct Numerical Simulation of turbulent nonpremixed \u201ccool\u201d flames: Applicability of flamelet models",
+  "reasons": [
+   "PSI publication of PSI-23 ACME s-Flame",
+   "search 'cool flames' (rank 28)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "23660487788725",
+  "title": "Binary collision of a burning droplet and a non-burning droplet of xylene: Outcome regimes and flame dynamics",
+  "reasons": [
+   "PSI publication of PSI-23 ACME s-Flame"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19980028145",
+  "title": "Stabilization Mechanisms and Burning Rates of Cylindrical Burner Flames",
+  "reasons": [
+   "PSI publication of PSI-23 ACME s-Flame"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20150019858",
+  "title": "Results from On-Board CSA-CP and CDM Sensor Readings During the Burning and Suppression of Solids II (BASS-II) Experiment in the Microgravity Science Glovebox (MSG)",
+  "reasons": [
+   "PSI publication of PSI-25 BASS-II"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20150008962",
+  "title": "Concurrent Flame Growth, Spread and Extinction over Composite Fabric Samples in Low Speed Purely Forced Flow in Microgravity",
+  "reasons": [
+   "PSI publication of PSI-25 BASS-II",
+   "search 'microgravity flame spread' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20160012691",
+  "title": "Correlation of Normal Gravity Mixed Convection Blowoff Limits with Microgravity Forced Flow Blowoff Limits",
+  "reasons": [
+   "PSI publication of PSI-25 BASS-II"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20150008961",
+  "title": "Microgravity Flammability of PMMA Rods in Concurrent Flow",
+  "reasons": [
+   "PSI publication of PSI-25 BASS-II"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20140011099",
+  "title": "Thickness and Fuel Preheating Effects on Material Flammability in Microgravity from the BASS Experiment",
+  "reasons": [
+   "PSI publication of PSI-26 BASS",
+   "search 'microgravity flame spread' (rank 91)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20140004923",
+  "title": "Opposed-Flow Flame Spread in a Narrow Channel Apparatus over Thin PMMA Sheets",
+  "reasons": [
+   "PSI publication of PSI-26 BASS",
+   "search 'microgravity flame spread' (rank 7)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20140006750",
+  "title": "Cool-flame Extinction During N-Alkane Droplet Combustion in Microgravity",
+  "reasons": [
+   "PSI publication of PSI-39 CFI",
+   "PSI publication of PSI-68 FLEX-2",
+   "PSI publication of PSI-69 FLEX"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "16842364914670",
+  "title": "Two-color pyrometry based flame to fuel surface radiative heat flux diagnostic using flamelets",
+  "reasons": [
+   "PSI publication of PSI-62"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "27411022589758",
+  "title": "Combustion of Submillimeter Heptane/Methanol and Heptane/Ethanol Droplets in Reduced Gravity",
+  "reasons": [
+   "PSI publication of PSI-68 FLEX-2",
+   "PSI publication of PSI-69 FLEX"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "33966871921292",
+  "title": "Combustion of Methanol Droplets in Air-Diluent Environments with Reduced and Normal Gravity",
+  "reasons": [
+   "PSI publication of PSI-68 FLEX-2",
+   "PSI publication of PSI-69 FLEX"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "67052638184922",
+  "title": "Experimental Observations of the Low-Temperature Burning of Decane/Hexanol Droplets in Microgravity",
+  "reasons": [
+   "PSI publication of PSI-68 FLEX-2"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "77379521988671",
+  "title": "Cool-flame dodecane-droplet extinction diameters",
+  "reasons": [
+   "PSI publication of PSI-68 FLEX-2"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20170000666",
+  "title": "A Burke-Schumann Analysis of Dual-Flame Structure Supported by a Burning Droplet",
+  "reasons": [
+   "PSI publication of PSI-68 FLEX-2",
+   "search 'cool flames' (rank 17)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20130014061",
+  "title": "Methanol Droplet Combustion in Oxygen-Inert Environments in Microgravity",
+  "reasons": [
+   "PSI publication of PSI-69 FLEX",
+   "search 'FLEX droplet extinction' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20120016855",
+  "title": "Methanol Droplet Extinction in Oxygen/Carbon-dioxide/Nitrogen Mixtures in Microgravity: Results from the International Space Station Experiments",
+  "reasons": [
+   "PSI publication of PSI-69 FLEX"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20120015928",
+  "title": "FLEX: A Decisive Step Forward in NASA's Combustion Research Program",
+  "reasons": [
+   "PSI publication of PSI-69 FLEX"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20130010979",
+  "title": "Dynamics of Water Absorption and Evaporation During Methanol Droplet Combustion in Microgravity",
+  "reasons": [
+   "PSI publication of PSI-69 FLEX"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20150022421",
+  "title": "Buoyant Effects on the Flammability of Silicone Samples Planned for the Spacecraft Fire Experiment (Saffire)",
+  "reasons": [
+   "PSI publication of PSI-98 SAFFIRE-I",
+   "search 'Saffire' (rank 10)",
+   "search 'Saffire' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20170000230",
+  "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+  "reasons": [
+   "PSI publication of PSI-98 SAFFIRE-I",
+   "search 'spacecraft fire safety' (rank 9)",
+   "search 'Saffire' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20200000557",
+  "title": "Buoyancy Effects on Concurrent Flame Spread Over Thick PMMA",
+  "reasons": [
+   "PSI publication of PSI-99 SAFFIRE-II",
+   "search 'microgravity flame spread' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "77766245676546",
+  "title": "Evaluation of gas and particle sensors for detecting spacecraft-relevant fire emissions",
+  "reasons": [
+   "PSI publication of PSI-99 SAFFIRE-II"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20205004657",
+  "title": "Effects of Confinement on Flame Spread in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 1)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19970020626",
+  "title": "Microgravity Experiment on Flame Spread of a Fuel Droplet Array",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 3)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20060050783",
+  "title": "Flame Spread Along Free Edges of Thermally Thin Samples in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 4)",
+   "search 'microgravity flame spread' (rank 24)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19970020613",
+  "title": "Ignition, Transition, Flame Spread in Multidimensional Configurations in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010074095",
+  "title": "Flame Spread in a Microgravity Environment-Role of Fuel Thickness",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 8)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19880006471",
+  "title": "The Effect of Microgravity on Flame Spread over a Thin Fuel",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 9)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19920034452",
+  "title": "Opposed-flow flame spread with implications for combustion at microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 10)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19970020607",
+  "title": "Flame Spread Across Liquids",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990054039",
+  "title": "Flame Spread Across Liquids: Experimental Results",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 12)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20040053597",
+  "title": "A Characterization Of Alcohol Fuel Vapor For Wavelength Modulation Spectroscopy Applied To Microgravity Flame Spread",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 13)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19960008391",
+  "title": "Flame spread across liquids",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 14)",
+   "search 'microgravity flame spread' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19960008387",
+  "title": "Solid surface combustion experiment flame spread in a quiescent, microgravity environment implications of spread rate and flame structure",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 15)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19900045780",
+  "title": "Near-Limit Flame Spread over a Thin Solid Fuel in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 16)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19960008423",
+  "title": "Triple flames in microgravity flame spread",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 17)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19960008418",
+  "title": "Ignition and subsequent transition to flame spread in a microgravity environment",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 18)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19900004364",
+  "title": "An Investigation of Flame Spread over Shallow Liquid Pools in Microgravity and Nonair Environments",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 19)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19920033985",
+  "title": "An investigation of flame spread over shallow liquid pools in microgravity and nonair environments",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 20)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20140004929",
+  "title": "Effect of Longitudinal Oscillations on Downward Flame Spread over Thin Solid Fuels",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 21)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19970020615",
+  "title": "Flame Attachment in Flame Spread",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 22)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20010074014",
+  "title": "Multidimensional Effects on Ignition, Transition, and Flame Spread in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 23)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20000056910",
+  "title": "Flame Spread Along Free Edges of Thermally Thin Samples in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 24)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19930011020",
+  "title": "Flame spread across liquid pools",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 25)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20020027542",
+  "title": "Radiation-Driven Flame Spread Over Thermally-Thick Fuels in Quiescent Microgravity Environments",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 26)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053557",
+  "title": "Extinction Criteria for Opposed-Flow Flame Spread in a Microgravity Environment",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 27)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20080034883",
+  "title": "Microgravity Flame Spread in Exploration Atmospheres: Pressure, Oxygen, and Velocity Effects on Opposed and Concurrent Flame Spread",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 28)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010073994",
+  "title": "Fluid Management of and Flame Spread Across Liquid Pools",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 29)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20030111833",
+  "title": "Sounding Rocket Microgravity Experiments Elucidating Diffusive and Radiative Transport Effects on Flame Spread over Thermally-Thick Solids",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 30)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19920029132",
+  "title": "The effect of surface radiation on flame spread in a quiescent, microgravity environment",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 31)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19930066371",
+  "title": "Mechanisms of microgravity flame spread over a thin solid fuel - Oxygen and opposed flow effects",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 32)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19990054043",
+  "title": "Transport and Chemical Effects on Concurrent and Opposed-Flow Flame Spread at Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 33)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20010074085",
+  "title": "Retrieval of Temperature and Species Distributions from Multispectral Image Data of Surface Flame Spread in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 34)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010073997",
+  "title": "Transport and Chemical Effects on Concurrent and Opposed-flow Flame Spread at Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 35)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990054085",
+  "title": "Flame Spread and Extinction in Partial-Gravity Environments",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 36)",
+   "search 'partial gravity combustion' (rank 3)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19990054042",
+  "title": "Ignition, Transition, Flame Spread in Multidimensional Configurations in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 37)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20040053516",
+  "title": "Transport And Chemical Effects On Concurrent And Opposed-Flow Flame Spread At Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 38)",
+   "search 'microgravity flame spread' (rank 35)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19920033982",
+  "title": "Radiation-Controlled, Opposed-Flow Flame Spread in a Microgravity Environment",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 39)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20040053547",
+  "title": "Computational And Experimental Studies Of Three-Dimensional Flame Spread Over Liquid Fuel Pools",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 40)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20020071119",
+  "title": "Effect of Wind Velocity on Flame Spread in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 41)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20130013793",
+  "title": "Quantitative Infrared Image Analysis Of Simultaneous Upstream and Downstream Microgravity Flame Spread over Thermally-Thin Cellulose in Low Speed Forced Flow",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 42)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053565",
+  "title": "Localized Ignition And Subsequent Flame Spread Over Solid Fuels In Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 43)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19970003746",
+  "title": "Ignition and Wind Effects on the Transition to Flame Spread in a Microgravity Environment",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 44)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990054038",
+  "title": "Diffusive and Radiative Transport in Fires (DARTFire): Opposed-Flow Flame Spread in Low-Velocity Flows",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 45)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19920030274",
+  "title": "Opposed Flow Flame Spread in Normal, Enhanced and Reduced Gravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 46)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19930011016",
+  "title": "Ignition and subsequent flame spread over a thin cellulosic material",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 47)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20190033433",
+  "title": "Infrared Measurements of Forward Heat Conduction during Simulated Microgravity Flame Spread in the Narrow Channel Apparatus",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 48)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20130013749",
+  "title": "Large Scale Flame Spread Environmental Characterization Testing",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 49)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20000070853",
+  "title": "Spot Radiative Ignition and Subsequent Three Dimensional Flame Spread Over Thin Cellulose Fuels",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 50)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20050179434",
+  "title": "Spread Across Liquids: The World's First Microgravity Combustion Experiment on a Sounding Rocket",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 51)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20120013117",
+  "title": "Quantitative Infrared Image Analysis Of Thermally-Thin Cellulose Surface Temperatures During Upstream and Downstream Microgravity Flame Spread from A Central Ignition Line",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 52)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053555",
+  "title": "Gravitational Influences on Flame Propagation Through Non-Uniform, Premixed Gas Systems",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 53)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20050176400",
+  "title": "Radiative Ignition and the Transition to Flame Spread Investigated in the Japan Microgravity Center's 10-sec Drop Shaft",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 54)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19890014267",
+  "title": "An experimental study of opposed flow diffusion flame extinction over a thin fuel in microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 55)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990054003",
+  "title": "Investigation of Diffusion Flame Tip Thermodiffusive and Hydrodynamic Instability under Microgravity Conditions",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 56)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19890041049",
+  "title": "The effects of radiative heat loss on microgravity flame spread",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 57)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20210017787",
+  "title": "Determining the Cause of Reduced Concurrent Flame Spread over Thin Solid Fuels in Low Pressure and Low Gravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 58)",
+   "search 'partial gravity combustion' (rank 23)",
+   "search 'microgravity flame spread' (rank 59)",
+   "search 'partial gravity combustion' (rank 24)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210017837",
+  "title": "Determining the Cause of Reduced Concurrent Flame Spread over Thin Solid Fuels in Low Pressure and Low Gravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 59)",
+   "search 'partial gravity combustion' (rank 24)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19960008417",
+  "title": "Research on ignition and flame spread of solid materials in Japan",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 60)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20050215015",
+  "title": "Radiative Enhancement Effects on Flame Spread (REEFS) Project Studied \"Green House\" Effects on Fire Spread",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 61)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20220012861",
+  "title": "Determining Flame Temperature By Broadband Two Color Pyrometry in A Flame Spreading Over A Thin Solid in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 62)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053553",
+  "title": "Effect Of Low External Flow On Flame Spreading Over ETFE Insulated Wire Under Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 63)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20050199447",
+  "title": "Spread Across Liquids Continues to Fly",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 64)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19930011017",
+  "title": "Opposed-Flow Flame Spreading in Reduced Gravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 65)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20220009086",
+  "title": "Opposed-flow Spreading Flames: Effect of Sub-atmospheric Pressure on Spread and Burning Rates",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 66)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19860000696",
+  "title": "Ignition and Flame Spread Above Liquid Fuel Pools",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 67)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20050215394",
+  "title": "Edge Diffusion Flame Propagation and Stabilization Studied",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 68)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990020831",
+  "title": "Forced Flow Flame Spreading Test: Preliminary Findings From the USMP-3 Shuttle Mission",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 69)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19990053978",
+  "title": "Gravitational Influences on Flame Propagation Through Non-Uniform Premixed Gas Systems",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 70)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19970020614",
+  "title": "Premixed Atmosphere and Convection Influences on Flame Inhibition and Combustion (PACIFIC)",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 71)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20040053567",
+  "title": "Upward And Downward Flame Spreading And Extinction In Partial Gravity Environments",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 72)",
+   "search 'partial gravity combustion' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20010074074",
+  "title": "Gravitational Influences on Flame Propagation through Non-Uniform, Premixed Gas Systems",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 73)",
+   "search 'microgravity flame spread' (rank 53)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19960008415",
+  "title": "Low velocity opposed-flow frame spread in a transport-controlled environment DARTFire",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 74)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19970024857",
+  "title": "Laser-Induced Incandescence in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 75)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19950029962",
+  "title": "Flame spreading over a thin solid in low-speed concurrent flow- Drop tower experimental results and comparison with theory",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 76)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20040053519",
+  "title": "Material Properties Governing Co-Current Flame Spread: The Effect of Air Entrainment",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 77)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990020832",
+  "title": "Radiative Ignition and Transition to Spread Investigation (RITSI)",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 78)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20020027088",
+  "title": "Numerical Model of Flame Spread Over Solids in Microgravity: A Supplementary Tool for Designing a Space Experiment",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 79)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20130012832",
+  "title": "Flammability Aspects of a Cotton-Fiberglass Fabric in Opposed and Concurrent Airflow in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 80)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040161243",
+  "title": "Partially Premixed Flame (PPF) Research for Fire Safety",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 81)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010074079",
+  "title": "Large Lewis No. Edge-Flame Instabilities",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 82)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210017789",
+  "title": "The Effect of Reduced Pressure on the Characteristics of Spreading Flames",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 83)",
+   "search 'microgravity flame spread' (rank 84)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210017835",
+  "title": "The effect of reduced pressure on the characteristics of spreading flames",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 84)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19970020594",
+  "title": "Quantitative Measurement of Oxygen in Microgravity Combustion",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 85)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19950017584",
+  "title": "Microgravity Combustion Science: 1995 Program Update",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 86)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20170008805",
+  "title": "Results of Large-Scale Spacecraft Flammability Tests",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 87)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19910034108",
+  "title": "Combustion Phenomena in Relationship to Microgravity Research",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 88)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20040171930",
+  "title": "Analysis of the Spread Across Liquid-5 (SAL-5) Experiment Failure to Fill Properly During Flight",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 89)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19910066826",
+  "title": "Heat Transfer to a Thin Solid Combustible in Flame Spreading at Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 90)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19990053973",
+  "title": "Flow Effects on the Flammability Diagrams of Solid Fuels: Microgravity Influence on Ignition Delay",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 92)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19970020616",
+  "title": "Interactions Between Flames on Parallel Solid Surfaces",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 93)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010074003",
+  "title": "Three-Dimensional Upward Flame Spreading in Partial-Gravity Buoyant Flows",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 94)",
+   "search 'lunar gravity flammability' (rank 17)",
+   "search 'partial gravity combustion' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19930047031",
+  "title": "Contributions of microgravity test results to the design of spacecraft fire-safety systems",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 95)",
+   "search 'spacecraft fire safety' (rank 37)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19930015566",
+  "title": "Contributions of Microgravity Test Results to the Design of Spacecraft Fire Safety Systems",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 96)",
+   "search 'spacecraft fire safety' (rank 38)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19970020592",
+  "title": "Real Time Quantitative 3-D Imaging of Diffusion Flame Species",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 97)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20010074022",
+  "title": "Unsteady Spherical Diffusion Flames in Microgravity",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 98)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010073995",
+  "title": "Three-Dimensional Ignition and Flame Propagation Above Liquid Fuel Pools: Computational Analysis",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 99)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19970020547",
+  "title": "Fourth International Microgravity Combustion Workshop",
+  "reasons": [
+   "search 'microgravity flame spread' (rank 100)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150000894",
+  "title": "Large-Scale Spacecraft Fire Safety Tests",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 1)",
+   "search 'Saffire' (rank 18)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20130000677",
+  "title": "Large Scale Experiments on Spacecraft Fire Safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20130001713",
+  "title": "Large Scale Experiments on Spacecraft Fire Safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 3)",
+   "search 'spacecraft fire safety' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20205000063",
+  "title": "Spacecraft Fire Safety Technology Development Plan For Exploration Missions",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 4)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19880003138",
+  "title": "Spacecraft Fire Safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 5)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19890015042",
+  "title": "Fire safety applications for spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20140011433",
+  "title": "Large-Scale Spacecraft Fire Safety Experiments in ISS Resupply Vehicles",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 7)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20140006578",
+  "title": "Development of Large-Scale Spacecraft Fire Safety Experiments",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 8)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19720008780",
+  "title": "Manned spacecraft electrical fire safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 10)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19930019549",
+  "title": "Risk-based Spacecraft Fire Safety Experiments",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 11)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20260001600",
+  "title": "Spacecraft Fire Safety Predictions using Verified Saffire Model",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 12)",
+   "search 'Saffire' (rank 4)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19720008759",
+  "title": "Conference on Materials for Improved Fire Safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 13)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20170007283",
+  "title": "Spacecraft Fire Safety Research at NASA Glenn Research Center",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 14)",
+   "search 'SAME smoke aerosol' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19880003144",
+  "title": "Aircraft fire safety research",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 15)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20030053427",
+  "title": "Spacecraft Fire Safety: A Human Space Flight Program Perspective",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 16)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19910029452",
+  "title": "Critical safety assurance factors for manned spacecraft - A fire safety perspective",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 17)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19920004363",
+  "title": "Risks, designs, and research for fire safety in spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 18)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20020028886",
+  "title": "Spacecraft Fire Safety and Microgravity Combustion Research",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 20)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19900003329",
+  "title": "Advanced spacecraft fire safety: Proposed projects and program plan",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 21)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20030053426",
+  "title": "Research Needs in Fire Safety for the Human Exploration and Utilization of Space",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 22)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19880010969",
+  "title": "Spacecraft Fire-Safety Experiments for Space Station: Technology Development Mission",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 23)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19870006579",
+  "title": "Science and technology issues in spacecraft fire safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 24)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19870043833",
+  "title": "Science and technology issues in spacecraft fire safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 25)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19930004527",
+  "title": "Findings of a review of spacecraft fire safety needs",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 26)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20190025615",
+  "title": "Compact Multi-Channel Infrared Laser Absorption Spectrometer for Spacecraft Fire Safety Monitoring",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 27)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20220007045",
+  "title": "Multiscale Modeling of the Uptake of Hydrogen Chloride on Anodized Aluminum in Relevance to Spacecraft Fire Safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 28)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19890014130",
+  "title": "Expert systems applied to spacecraft fire safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 29)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150021283",
+  "title": "Modeling and Analysis of Realistic Fire Scenarios in Spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 30)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210017780",
+  "title": "Fire Safety Implications of Preliminary Results from Saffire IV and V Experiments on Large Scale Spacecraft Fires",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 31)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210011521",
+  "title": "Fire Safety Implications of Preliminary Results from Saffire IV and V Experiments on Large Scale Spacecraft Fires",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 32)",
+   "search 'spacecraft fire safety' (rank 31)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19720008777",
+  "title": "Fire safety design of a mobile quarantine facility",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 33)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20130014735",
+  "title": "Spacecraft Fire Safety 1956 to 1999: An Annotated Bibliography",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 34)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20140006580",
+  "title": "Determination of Realistic Fire Scenarios in Spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 35)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990063738",
+  "title": "Fire Safety in the Low-Gravity Spacecraft Environment",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 36)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19870010909",
+  "title": "Fire safety concerns in space operations",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 39)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20030053425",
+  "title": "Research Needs in Fire Safety for the Human Exploration and Utilization of Space: Proceedings and Research Plan",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 40)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19710021280",
+  "title": "NASA Aircraft Safety and Operating Problems, Volume 1",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 41)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19940022933",
+  "title": "Risks and issues in fire safety on the Space Station",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 42)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20205007829",
+  "title": "Spacecraft Fire Safety Needs for Exploration",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 43)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19890000740",
+  "title": "Fire behavior and risk analysis in spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 44)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20180005168",
+  "title": "Saffire: A Novel Approach to Study of Spacecraft Fire Safety Using Un-Manned Spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 45)",
+   "search 'Saffire' (rank 9)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20040161216",
+  "title": "Spacecraft Fire Suppression: Testing and Evaluation",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 46)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20180004258",
+  "title": "Spacecraft Fire Safety: Protecting Vehicles and Crews on Long-Duration Exploration Missions",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 47)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19930074562",
+  "title": "Fire safety design considerations for advanced space vehicles",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 48)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20210012108",
+  "title": "The Combustion Product Monitor instrument for the spacecraft fire safety demonstration project",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 49)",
+   "search 'Saffire' (rank 16)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20210023340",
+  "title": "Topical: Recommendations for Fire Extinguisher Research for Crewed Missions",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 50)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19720020916",
+  "title": "Systematic control of nonmetallic materials for improved fire safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 51)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20070010766",
+  "title": "Technology Development for Fire Safety in Exploration Spacecraft and Habitats",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 52)",
+   "search 'spacecraft fire safety' (rank 61)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040152128",
+  "title": "Fire Signatures of Materials Used in Spacecraft Construction",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 53)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20210022143",
+  "title": "Research Questions and Challenges for Improved Spacecraft Fire Detection",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 54)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19880003145",
+  "title": "Space station internal environmental and safety concerns",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 55)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19880009228",
+  "title": "Spacecraft Fire Detection and Extinguishment: A Bibliography",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 56)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20000120369",
+  "title": "A User's Guide for the Spacecraft Fire Safety Facility",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 57)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20230004106",
+  "title": "Combined Experimental and Modeling Study of the Interactions of Acid Gas with Common Spacecraft Surfaces for Fire Safety Applications",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 58)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19930011015",
+  "title": "Fire safety practices in the Shuttle and the Space Station Freedom",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 59)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19720008770",
+  "title": "The performance of lightweight plastic foams developed for fire safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 60)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20110001653",
+  "title": "Technology Development for Fire Safety in Exploration Spacecraft and Habitats",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 61)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19880003141",
+  "title": "Fire extinguishment and inhibition in spacecraft environments",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 62)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19880003143",
+  "title": "Fire-related medical science",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 63)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210021318",
+  "title": "Development of Spacecraft Fire Safety Technology for Exploration",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 64)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19730064278",
+  "title": "Proceedings of the NASA Conference on Materials for Improved Fire Safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 65)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20260003546",
+  "title": "Risks of Depress as a Fire Suppression Technique in Spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 66)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20000034017",
+  "title": "Testing and Selection of Fire-Resistant Materials for Spacecraft Use",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 67)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20070021234",
+  "title": "ISO 14624 Series - Space Systems - Safety and Compatibility of Materials Flammability Assessment of Spacecraft Materials",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 68)",
+   "search 'exploration atmosphere flammability' (rank 4)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210010621",
+  "title": "Modeling the Uptake of Hydrogen Chloride onto Interior Spacecraft Materials",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 69)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20220002714",
+  "title": "Model Development of Large-Scale Spacecraft Fires During the Saffire-IV Experiments",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 70)",
+   "search 'Saffire' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20240007488",
+  "title": "Preliminary Results from the Saffire VI Experiment",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 71)",
+   "search 'Saffire' (rank 7)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19880035178",
+  "title": "Experiments to ensure Space Station fire safety - A challenge",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 72)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19720008765",
+  "title": "Nonmetallic-materials development for spacecraft applications",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 73)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19900004946",
+  "title": "Risk-Based Fire Safety Experiment Definition for Manned Spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 74)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150018213",
+  "title": "Integration of a Fire Detector into a Spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 75)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053578",
+  "title": "\"Smoke\": Characterization Of Smoke Particulate For Spacecraft Fire Detection",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 76)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20140006579",
+  "title": "Evaluation of Low-Gravity Smoke Particulate for Spacecraft Fire Detection",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 78)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20000120278",
+  "title": "Progress in Fire Detection and Suppression Technology for Future Space Missions",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 79)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20240002981",
+  "title": "Preliminary Results from the Saffire VI Experiment",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 80)",
+   "search 'Saffire' (rank 6)",
+   "search 'spacecraft fire safety' (rank 71)",
+   "search 'Saffire' (rank 7)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20160010292",
+  "title": "Spacecraft Fire Safety Demonstration",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 81)",
+   "search 'Saffire' (rank 12)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20240015018",
+  "title": "Compartment Fire Modeling of a Crew Cabin in 1-g and Lunar-g",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 82)",
+   "search 'lunar gravity flammability' (rank 16)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20040053602",
+  "title": "Quantification Of Fire Signatures For Practical Spacecraft Materials",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 83)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19720008779",
+  "title": "Fire Extinguishment in Hypobaric and Hyperbaric Environments",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 84)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20010074097",
+  "title": "Fire Accident Testing Evaluation (FATE)",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 85)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20200000365",
+  "title": "Hazardous Product Detection and Environmental Clean-up Removal in Spacecraft Vehicles from Fire Induced Li-Ion Fires",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 86)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20090036308",
+  "title": "Applicability of Aerospace Materials Ground Flammability Test Data to Spacecraft Environments Theory and Applied Technologies",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 87)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20140006584",
+  "title": "Unmanned Vehicle Material Flammability Test",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 88)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20170002628",
+  "title": "Operation and Development Status of the Spacecraft Fire Experiment (Saffire)",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 89)",
+   "search 'Saffire' (rank 13)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19750029607",
+  "title": "System safety as applied to Skylab",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 90)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20090022745",
+  "title": "Development of a Test Protocol for Spacecraft Post-Fire Atmospheric Cleanup and Monitoring",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 91)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20150001653",
+  "title": "Selected Topics on Spacecraft Fire Safety",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 92)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19930010991",
+  "title": "Overview of NASA's microgravity combustion science and fire safety program",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 93)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19790022995",
+  "title": "Conference on Fire Resistant Materials:  A compilation of presentations and papers",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 94)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20160000940",
+  "title": "Particle Morphology and Elemental Composition of Smoke Generated by Overheating Common Spacecraft Materials",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 95)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150020937",
+  "title": "Flammability Configuration Analysis for Spacecraft Applications",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 96)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19790003858",
+  "title": "Conference on Fire Resistant Materials (FIREMEN):  A compilation of presentations and papers",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 97)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010074098",
+  "title": "Physical and Chemical Aspects of Fire Suppression in Extraterrestrial Environments",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 98)",
+   "search 'partial gravity combustion' (rank 18)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19760004091",
+  "title": "Fire-resistant aircraft materials development and evaluation program",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 99)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20040084199",
+  "title": "Comparison of Carbon Dioxide and Helium as Fire Extinguishing Agents for Spacecraft",
+  "reasons": [
+   "search 'spacecraft fire safety' (rank 100)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20250002675",
+  "title": "Vehicle Modeling During the Burn Events in the Saffire VI Experiments",
+  "reasons": [
+   "search 'Saffire' (rank 3)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20240008602",
+  "title": "Vehicle Modeling During the Burning of Thermally Thick Samples in the Saffire V Experiments",
+  "reasons": [
+   "search 'Saffire' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150022123",
+  "title": "Buoyant Effects on the Flammability of Silicone Samples Planned for the Spacecraft Fire Experiment (Saffire)",
+  "reasons": [
+   "search 'Saffire' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210017343",
+  "title": "Evaluation of Combustion Products from Large-Scale Spacecraft Fires during the Saffire-IV and Saffire-V Experiments",
+  "reasons": [
+   "search 'Saffire' (rank 14)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150003025",
+  "title": "Saffire Offgas Testing Strategy, International Offgas Round Robin Status & Results",
+  "reasons": [
+   "search 'Saffire' (rank 15)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210012606",
+  "title": "Desko Inferno - Overcoming COVID Hurdles to Light Our Fire",
+  "reasons": [
+   "search 'Saffire' (rank 17)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20260001992",
+  "title": "Heat and Smoke Emission from Tests on the Saffire VI Experiment",
+  "reasons": [
+   "search 'Saffire' (rank 19)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20140011192",
+  "title": "Tropical Atlantic Dust and Smoke Aerosol Variations Related to the Madden-Julian Oscillation in MODIS and MISR Observations",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20070031686",
+  "title": "Particle and Smoke Detection on ISS for Next Generation Smoke Detectors",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19970010461",
+  "title": "The Efficiency of the Smoke Meter at Characterizing Engine Emissions",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 3)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150002728",
+  "title": "Sensitivity of Mesoscale Modeling of Smoke Direct Radiative Effect to the Emission Inventory: a Case Study in Northern Sub-Saharan African Region",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210014195",
+  "title": "Assessment of urban aerosol pollution over the Moscow megacity by the MAIAC aerosol product",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 7)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20220014681",
+  "title": "A Comparison of Stratospheric Smoke Events Seen by SAGE II (1984-2005) and SAGE III (2017-2021)",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 8)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20240009953",
+  "title": "Mapping Aerosol Lidar Ratios Over Ocean using MODIS AOD Constrained Retrievals and GOCART Model Simulations",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 9)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20140013042",
+  "title": "The Collection 6 'dark-target' MODIS Aerosol Products",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 10)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20030054376",
+  "title": "Calculations of Aerosol Radiative Forcing in the SAFARI Region from MODIS Data",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20220004415",
+  "title": "Evaluation and Intercomparison of Wildfire Smoke Forecasts from Multiple Modeling Systems for the 2019 Williams Flats Fire",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 12)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20020034896",
+  "title": "BOREAS Aerosol Optical Depth Measurements and Atmospheric Correction",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 13)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20130013403",
+  "title": "MODIS 3km Aerosol Product: Algorithm and Global Perspective",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 14)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20190034133",
+  "title": "Can OMPS and VIIRS Be Used as a Single Virtual Sensor for Aerosol Retrieval?",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 15)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20140013248",
+  "title": "Physical and Optical Characteristics of the October 2010 Haze Event Over Singapore: A Photometric and Lidar Analysis",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 16)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20230002746",
+  "title": "Circular Polarization in Atmospheric Aerosols",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 17)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20120010367",
+  "title": "Combined Retrievals of Boreal Forest Fire Aerosol Properties with a Polarimeter and Lidar",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 18)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20230003155",
+  "title": "Employing Relaxed Smoothness Constraints on Imaginary Part of Refractive Index in AERONET Aerosol Retrieval Algorithm",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 19)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210021366",
+  "title": "Biomass Burning Smoke and Coincident Water Vapor Over the Southeast Atlantic Stratocumulus Region: Results from Observations and Models",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 20)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19900053185",
+  "title": "Satellite measurements of large-scale air pollution - Methods",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 21)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20010051279",
+  "title": "Tropospheric Ozone Pollution from Space: New Views from the TOMS (Total Ozone Mapping Spectrometer) Instrument",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 22)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20240003929",
+  "title": "Increased Atmospheric PM<sub>2.5</sub> Events Due to Open Waste Burning in Qaanaaq, Greenland, Summer of 2022",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 23)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20050215648",
+  "title": "Fundamental Research Applied To Enable Hardware Performance in Microgravity",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 24)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20160002940",
+  "title": "Revised (Mixed-Effects) Estimation for Forest Burning Emissions of Gases and Smoke, Fire/Emission Factor Typology, and Potential Remote Sensing Classification of Types for Ozone and Black-Carbon Simulation",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 25)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20190032657",
+  "title": "Characterization and Measurement of Spacecraft Airborne Particulate Matter",
+  "reasons": [
+   "search 'SAME smoke aerosol' (rank 26)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150019539",
+  "title": "Additive Construction with Mobile Emplacement (ACME)",
+  "reasons": [
+   "search 'ACME' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19940016644",
+  "title": "Design and implementation of GaAs HBT circuits with ACME",
+  "reasons": [
+   "search 'ACME' (rank 2)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20220015583",
+  "title": "ACME: Advanced Combustion via Microgravity Experiments",
+  "reasons": [
+   "search 'ACME' (rank 3)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19960055148",
+  "title": "Air Traffic Complexity Measurement Environment (ACME): Software User's Guide",
+  "reasons": [
+   "search 'ACME' (rank 4)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210015913",
+  "title": "Advanced Combustion via Microgravity Experiments (ACME) on the International Space Station (ISS)",
+  "reasons": [
+   "search 'ACME' (rank 5)",
+   "search 'cool flames' (rank 26)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20180002459",
+  "title": "Additive Construction with Mobile Emplacement (ACME) / Automated Construction of Expeditionary Structures (ACES) Materials Delivery System (MDS)",
+  "reasons": [
+   "search 'ACME' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150023504",
+  "title": "Pathfinder Lander Rover Recharge System, and MARCO POLO Controls and ACME Regolith Feed System Controls and Integration",
+  "reasons": [
+   "search 'ACME' (rank 7)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20180006820",
+  "title": "Additive Construction with Mobile Emplacement (ACME)",
+  "reasons": [
+   "search 'ACME' (rank 8)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20120014113",
+  "title": "Antenna Calibration and Measurement Equipment",
+  "reasons": [
+   "search 'ACME' (rank 9)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19930008322",
+  "title": "Toward domain-specific design environments: Some representation ideas from the telecommunications domain",
+  "reasons": [
+   "search 'ACME' (rank 10)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20170011110",
+  "title": "Additive Construction with Mobile Emplacement (ACME) 3D Printing Structures with In-Situ Resources",
+  "reasons": [
+   "search 'ACME' (rank 11)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19890010752",
+  "title": "Aerospace Vehicle Design, Spacecraft Section. Volume 3",
+  "reasons": [
+   "search 'ACME' (rank 12)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20160010073",
+  "title": "A Burning Rate Emulator (BRE) for Study in Microgravity",
+  "reasons": [
+   "search 'Burning Rate Emulator' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20170009141",
+  "title": "Emulation of Condensed Fuel Flames Using a Burning Rate Emulator (BRE) in Microgravity",
+  "reasons": [
+   "search 'Burning Rate Emulator' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20010074026",
+  "title": "Characteristics of Non-Premixed Turbulent Flames in Microgravity",
+  "reasons": [
+   "search 'E-FIELD flames' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19970028635",
+  "title": "Measurements and Modeling of Soot Formation and Radiation in Microgravity Jet Diffusion Flames",
+  "reasons": [
+   "search 'E-FIELD flames' (rank 3)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040161242",
+  "title": "EPS (Electric Particulate Suspension) Microgravity Technology Provides NASA with New Tools",
+  "reasons": [
+   "search 'E-FIELD flames' (rank 4)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19930072469",
+  "title": "Gasdynamics of relativistically expanding gamma-ray burst sources - Kinematics, energetics, magnetic fields, and efficiency",
+  "reasons": [
+   "search 'E-FIELD flames' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20230018465",
+  "title": "Simplified Structure Models for Premixed n-Alkane Cool Flames",
+  "reasons": [
+   "search 'cool flames' (rank 1)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20260002014",
+  "title": "The Effect of Pressure on Radiative Losses in Hot, Warm, and Cool Microgravity Spherical Diffusion Flames",
+  "reasons": [
+   "search 'cool flames' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20205008449",
+  "title": "Effects of Ambient Inert Gas Properties on Cool-Flame Combustion of Normal-Alkane Droplets in Microgravity",
+  "reasons": [
+   "search 'cool flames' (rank 3)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010074072",
+  "title": "The Cool Flames Experiment",
+  "reasons": [
+   "search 'cool flames' (rank 4)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010074099",
+  "title": "Cool Flame Quenching",
+  "reasons": [
+   "search 'cool flames' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19750042097",
+  "title": "Cool flame quench distances",
+  "reasons": [
+   "search 'cool flames' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20050195845",
+  "title": "Cool Flames and Autoignition: Thermal-Ignition Theory of Combustion Experimentally Validated in Microgravity",
+  "reasons": [
+   "search 'cool flames' (rank 7)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210016049",
+  "title": "Asymptotic Analysis of Premixed N-alkane Cool Flame Propagation",
+  "reasons": [
+   "search 'cool flames' (rank 8)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990054006",
+  "title": "Low-Temperature Oxidation Reactions and Cool Flames at Earth and Reduced Gravity",
+  "reasons": [
+   "search 'cool flames' (rank 9)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20210013131",
+  "title": "Asymptotic Analysis of Premixed N-alkane Cool Flame Propagation",
+  "reasons": [
+   "search 'cool flames' (rank 10)",
+   "search 'cool flames' (rank 8)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20160000344",
+  "title": "Aspects of Cool-Flame Supported Droplet Combustion in Microgravity",
+  "reasons": [
+   "search 'cool flames' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053556",
+  "title": "Cool Flames in Propane-Oxygen Premixtures at Low and Intermediate Temperatures at Reduced-Gravity",
+  "reasons": [
+   "search 'cool flames' (rank 12)",
+   "search 'partial gravity combustion' (rank 19)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20250006774",
+  "title": "Asymptotic Analysis of Influence of Ozone on Cool-Flame Propagation in Mixtures of an n-Alkane, Oxygen, and Nitrogen",
+  "reasons": [
+   "search 'cool flames' (rank 13)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20020087739",
+  "title": "Soot Surface Growth in Laminar Hydrocarbon/Air Diffusion Flames",
+  "reasons": [
+   "search 'cool flames' (rank 14)",
+   "search 'cool flames' (rank 20)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "10583349709289",
+  "title": "Understanding cool flames and warm flames",
+  "reasons": [
+   "search 'cool flames' (rank 15)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20250001364",
+  "title": "Fire and Flame Research in the International Space Station\u2019s Combustion Integrated Rack",
+  "reasons": [
+   "search 'cool flames' (rank 16)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040042477",
+  "title": "Turbulent Jet Flames Into a Vitiated Coflow",
+  "reasons": [
+   "search 'cool flames' (rank 18)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150018397",
+  "title": "Combustion Characteristics in a Non-Premixed Cool-Flame Regime of n-Heptane in Microgravity",
+  "reasons": [
+   "search 'cool flames' (rank 19)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20030016587",
+  "title": "Soot Surface Growth in Laminar Hydrocarbon/Air Diffusion Flames",
+  "reasons": [
+   "search 'cool flames' (rank 20)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19880016183",
+  "title": "Combustion rate limits of hydrogen plus hydrocarbon fuel: Air diffusion flames from an opposed jet burner technique",
+  "reasons": [
+   "search 'cool flames' (rank 22)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "27518049286817",
+  "title": "Studies of autoignition-assisted nonpremixed cool flames",
+  "reasons": [
+   "search 'cool flames' (rank 24)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20040053550",
+  "title": "Particle Effects On The Extinction And Ignition Of Flames In Normal- And Micro-Gravity",
+  "reasons": [
+   "search 'cool flames' (rank 25)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20250002347",
+  "title": "Fire and Flame Research in the Combustion Integrated Rack (CIR) on the International Space Station (ISS)",
+  "reasons": [
+   "search 'cool flames' (rank 27)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "33762050316338",
+  "title": "Can cool flames support candle flame burning in microgravity?",
+  "reasons": [
+   "search 'cool flames' (rank 29)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "12909835392861",
+  "title": "Simplified structure models for premixed n-alkane cool flames",
+  "reasons": [
+   "search 'cool flames' (rank 30)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "14738246734639",
+  "title": "Numerical simulations of premixed cool flames of dimethyl ether/oxygen mixtures",
+  "reasons": [
+   "search 'cool flames' (rank 31)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "31683218311584",
+  "title": "Effects of ozone on n-heptane low temperature chemistry and premixed cool flames",
+  "reasons": [
+   "search 'cool flames' (rank 32)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "19930087188",
+  "title": "Radiant heat transfer from flames in a single tubular turbojet combustor / Leonard Topper",
+  "reasons": [
+   "search 'cool flames' (rank 33)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "21780672433315",
+  "title": "Kinetic effects of n-propylbenzene on n-dodecane counterflow nonpremixed cool flames",
+  "reasons": [
+   "search 'cool flames' (rank 34)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "10136653145277",
+  "title": "Flame structure and ignition limit of partially premixed cool flames in a counterflow burner",
+  "reasons": [
+   "search 'cool flames' (rank 35)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20220015203",
+  "title": "Decadal and Annual Variations in Meteoric Flux from Ulysses, Wind, and SOFIE Observations",
+  "reasons": [
+   "search 'SoFIE' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20200000361",
+  "title": "Solid Fuel Ignition and Extinction (SoFIE) Project on ISS",
+  "reasons": [
+   "search 'SoFIE' (rank 3)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19850026620",
+  "title": "Bevalac calibration of the SOFIE range and hodoscope detectors",
+  "reasons": [
+   "search 'SoFIE' (rank 4)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20100011222",
+  "title": "Freeze Tape Casting of Functionally Graded Porous Ceramics",
+  "reasons": [
+   "search 'SoFIE' (rank 5)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20240008623",
+  "title": "Flammability of Materials on the Moon",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 2)",
+   "search 'exploration atmosphere flammability' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20260000646",
+  "title": "Material Flammability at Lunar and Martian Gravity",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 3)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20250010975",
+  "title": "Characterizing the Flammability of Nomex Fabric for the Preparation of FM<sup>2</sup>",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210020446",
+  "title": "Impact of Lunar Gravity on Material Flammability ",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20130010991",
+  "title": "Evaluating Material Flammability in Microgravity and Martian Gravity Compared to the NASA Standard Normal Gravity Test",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 7)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20250002114",
+  "title": "Solid Fuel Ignition Testing for Lunar Applications, Theory and Experimental Results",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 10)",
+   "search 'lunar gravity flammability' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20250006779",
+  "title": "Solid Fuel Ignition Testing for Lunar Applications, Theory and Experimental Results",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20260002050",
+  "title": "Surface Vehicle Atmospheric Considerations for Moon to Mars Exploration",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 12)",
+   "search 'exploration atmosphere flammability' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010074096",
+  "title": "An Earth-Based Equivalent Low Stretch Apparatus to Assess Material Flammability for Microgravity & Extraterrestrial Fire-Safety Applications",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 13)",
+   "search 'exploration atmosphere flammability' (rank 10)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19930040901",
+  "title": "Downward Diffusion Flame Spread and Extinction in Variable Gravitational Fields - Lunar and Martian Simulations",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 14)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20260006059",
+  "title": "Surface Vehicle Atmospheric Considerations for Moon to Mars Exploration",
+  "reasons": [
+   "search 'lunar gravity flammability' (rank 15)",
+   "search 'exploration atmosphere flammability' (rank 3)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20260000641",
+  "title": "Computational Fluid Dynamics Analysis of Flame Dynamics in Partial Gravity Environments in a Rotating Centrifuge",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20170011213",
+  "title": "Centrifuge in Free Fall: Combustion at Partial Gravity",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 2)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20210022402",
+  "title": "Topical: Solid Fuel Combustion in Partial and Micro-Gravity ",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 4)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19880016095",
+  "title": "Solid-state combustion synthesis of ceramics and alloys in reduced gravity",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 7)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20260005612",
+  "title": "Early Fire Detection System for Partial and Low Gravity Environments",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 10)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990053966",
+  "title": "NASA Microgravity Combustion Science Program",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20060008906",
+  "title": "Two Phase Flow Modeling: Summary of Flow Regimes and Pressure Drop Correlations in Reduced and Partial Gravity",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 12)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20010073993",
+  "title": "Sixth International Microgravity Combustion Workshop",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 13)",
+   "search 'water mist suppression microgravity' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20080012740",
+  "title": "Intravenous Fluid Mixing in Normal Gravity, Partial Gravity, and Microgravity: Down-Selection of Mixing Methods",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 14)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053575",
+  "title": "Gravity Effects Observed In Partially Premixed Flames",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 15)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053576",
+  "title": "Modeling Candle Flame Behavior In Variable Gravity",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 16)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990053965",
+  "title": "Fifth International Microgravity Combustion Workshop",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 17)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053504",
+  "title": "Seventh International Workshop on Microgravity Combustion and Chemically Reacting Systems",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 20)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19970020578",
+  "title": "Vortex Ring/Diffusion Flame Interactions in Microgravity Conditions",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 21)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20010074017",
+  "title": "Low Stretch PMMA Burning in Microgravity: Status of the Ground-Based Program and New ISS Glovebox Experiment SALSA",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 22)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "22998206264281",
+  "title": "Computational fluid dynamics analysis of flame dynamics in partial gravity environments in a rotating centrifuge",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 25)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20170003880",
+  "title": "Low Pressure Flame Blowoff from the Forward Stagnation Region of a Blunt-Nosed Cast PMMA Cylinder in Axial Mixed Convective Flow",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 26)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20050172094",
+  "title": "Microgravity Turbulent Gas-Jet Diffusion Flames",
+  "reasons": [
+   "search 'partial gravity combustion' (rank 27)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20150004099",
+  "title": "Applying Flammability Limit Probabilities and the Normoxic Upward Limiting Pressure Concept to NASA STD-6001 Test 1",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "20170004705",
+  "title": "NASA-STD-6001B Test 7: Impact of Test Methodology and Detection Advancements on the Obsolescence of Historical Offgas Data",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 2)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040084025",
+  "title": "Reference Material Kydex(registered trademark)-100 Test Data Message for Flammability Testing",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 3)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040142368",
+  "title": "Organizing Questions for Reduced-Gravity Flammability",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 4)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20070019871",
+  "title": "Technical Note: Some Issues Related to the Selection of Polymers for Aerospace Oxygen Systems",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 5)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040084155",
+  "title": "A New Test Method for Material Flammability Assessment in Microgravity and Extraterrestrial Environments",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20100015582",
+  "title": "Pressure Flammability Thresholds of Selected Aerospace Materials",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 7)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20050245285",
+  "title": "Promoted Metals Combustion at Ambient and Elevated Temperatures",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 8)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "19990036744",
+  "title": "Flammability, Odor, Offgassing, and Compatibility Requirements and Test Procedures for Materials in Environments that Support Combustion",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 9)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040053558",
+  "title": "An Earth-Based Equivalent Low Stretch Apparatus to Assess Material Flammability for Microgravity and Extraterrestrial Fire-Safety Applications",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 10)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20040000104",
+  "title": "Upward Flammability Testing: A Probabilistic Measurement",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 11)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20160009024",
+  "title": "Environmentally Friendly Corrosion Preventative Compounds",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 12)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20030061405",
+  "title": "Obtaining NASA Approval for use of Non-Metallic Materials in Manned Space Flight",
+  "reasons": [
+   "search 'NASA-STD-6001 Test 1' (rank 13)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20230015380",
+  "title": "Development, Validation and Approval of A Planetary Extravehicular Activity Prebreathe Protocol: NASA Exploration Atmosphere Tests 1 & 2",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20110011524",
+  "title": "Ignition Delay of Combustible Materials in Normoxic Equivalent Environments",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 7)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20080013149",
+  "title": "Piloted Ignition Delay of PMMA in Space Exploration Atmospheres",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 9)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20070009850",
+  "title": "The Exploration Atmospheres Working Group's Report on Space Radiation Shielding Materials",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 11)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20080026001",
+  "title": "Reduced Pressure Atmosphere Impacts on Life Support and Internal Thermal Systems",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 13)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20240013238",
+  "title": "Nasa Exploration Atmosphere Tests 3 & 4: Development and Validation of Planetary Extravehicular Activity Prebreathe Protocols for Alternate Atmospheres and Suit Pressures",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 14)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20250004535",
+  "title": "NASA Exploration Atmosphere Tests 3 and 4: Development and Validation of Planetary Extravehicular Activity Prebreathe Protocols for Alternate Atmospheres and Suit Pressures",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 15)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20080012607",
+  "title": "Effect of Pressure on Piloted Ignition Delay of PMMA",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 16)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20220015737",
+  "title": "Evaluation of Planetary Extravehicular Activity Prebreathe Protocols using a 56.5 kPa, 34% O2, 66% N2 Saturation Cabin Atmosphere in an 11-day Hypobaric Hypoxia Study",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 17)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20220009546",
+  "title": "Results of a 3-day Pilot Study to Validate Planetary Prebreathe Protocols Using a 56.5 kPa 34% O2, 66% N2 Saturation Cabin Atmosphere ",
+  "reasons": [
+   "search 'exploration atmosphere flammability' (rank 18)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20040053582",
+  "title": "The Water-Mist Fire Suppression Experiment (Mist): Preliminary Results From The STS-107 Mission",
+  "reasons": [
+   "search 'water mist suppression microgravity' (rank 1)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": true
+ },
+ {
+  "id": "19990053980",
+  "title": "A Study of Flame Propagation on Water-Mist Laden Gas Mixtures in Microgravity",
+  "reasons": [
+   "search 'water mist suppression microgravity' (rank 2)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20050175855",
+  "title": "STS-107 Microgravity Environment Summary Report",
+  "reasons": [
+   "search 'water mist suppression microgravity' (rank 3)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ },
+ {
+  "id": "20030011461",
+  "title": "STS-107 Flight Day 12 Highlights",
+  "reasons": [
+   "search 'water mist suppression microgravity' (rank 4)"
+  ],
+  "nasa": false,
+  "distribution": "PUBLIC",
+  "has_pdf": false,
+  "selected": false
+ },
+ {
+  "id": "20050215409",
+  "title": "Combustion Module-2 Achieved Scientific Success on Shuttle Mission STS-107",
+  "reasons": [
+   "search 'water mist suppression microgravity' (rank 6)"
+  ],
+  "nasa": true,
+  "distribution": "PUBLIC",
+  "has_pdf": true,
+  "selected": false
+ }
+]

@@ -1,0 +1,299 @@
+=== page 1 ===
+Glenn Research Center
+SoFIE Design/Status
+Paul Ferkul
+Project Scientist; USRA
+Lauren Brown
+Project Manager; NASA GRC
+Chris Mroczka
+Contractor Lead; ZIN Technologies, Inc.
+Spacecraft Materials Flammability Workshop 
+May 20-22, 2019 at NASA Glenn Research Center (GRC) 
+
+=== page 2 ===
+Glenn Research Center
+Overall Objective:
+• Ignition and flammability of solid spacecraft materials in practical geometries and realistic atmospheric conditions
+Relevance/Impact:
+• Improve EVA suit design
+• Safer selection of cabin materials
+• Validate NASA materials flammability selection 1-g test protocols for low-gravity fires
+• Improve understanding of early fire growth behavior
+• Validate material flammability numerical models
+• Determine optimal suppression techniques for burning materials by diluents, flow reduction, and venting
+Development Approach:
+• Develop SoFIE facility (CIR insert and avionics) to support multiple solid-material
+combustion and fire suppression studies
+• Utilize Combustion Integrated Rack (CIR); common infrastructure
+SoFIE — Solid Fuel Ignition and Extinction
+
+=== page 3 ===
+Glenn Research Center
+SoFIE — Solid Fuel Ignition and Extinction
+Material Ignition and Suppression Test (MIST)
+Fernandez-Pello: UC Berkeley
+Externally applied heat flux; Fuel: acrylic cylinders (PMMA)
+Spacecraft Materials Microgravity Research on Flammability (SMμRF)
+Olson: NASA GRC
+Concurrent-flow flammability curve for acrylic cylinders (PMMA); and opposed and concurrent burning behavior of 
+actual engineering materials (sheets)
+Narrow Channel Apparatus (NCA)
+Miller: San Diego State University
+Opposed-flow flame spread data for a thick acrylic (PMMA) slab
+Residence Time Driven Flame Spread (RTDFS)
+Bhattacharjee: San Diego State University
+Opposed-flow flame spread over thin acrylic sheets (PMMA) to examine thickness effects
+Growth and Extinction Limit (GEL)
+T’ien: Case Western Reserve University
+Acrylic spheres (PMMA) in concurrent flow; effect of gravity, flow, O2, pressure, and preheating
+
+=== page 4 ===
+Glenn Research Center
+PI: Carlos Fernandez-Pello, University of California at Berkeley
+International Co-I: Nickolay Smirnov, M.V. Lomonosov State University, Moscow, Russia
+Material Ignition and Suppression Test (MIST)
+Objectives:
+• Determine the boundaries for ignition and extinction of a solid fuel (PMMA cylinder) as a 
+function of flow speed, oxygen concentration, and external radiant flux.
+• Understand the effects of the space exploration atmospheres under consideration by NASA 
+(lower pressure and increased oxygen concentrations compared to air) on the flammability 
+and suppression of materials.
+• Provide guidance to interpret current NASA testing procedures to environments expected in 
+space-based facilities.
+• Develop ground-based apparatus that better reflects the environments that are expected in 
+space-based facilities.
+• Establish theoretical modeling and an extensive normal gravity data base, together with a 
+few of the validation space experiments, to support the testing methodology.
+Opposed-flow 
+flame spread over 
+PMMA rods in g
+Opposed-flow 
+flame spread over 
+PMMA rods in g
+
+=== page 5 ===
+Glenn Research Center
+Blowoff in 0g: flame strengthens but then 
+blows off when flow is increased 
+Objectives:
+• Refine materials fire screening: Tests are done in 1g, but materials are more flammable in 0g.
+• In the normal gravity screening tests,  flames extinguish by blowoff, where the buoyant flow is too fast for the chemical 
+reactions to occur in the hot flame zone.
+• In reduced gravity (0g, Lunar g, Martian g), the flow is slower (reduced-g buoyancy or spacecraft ventilation flows of 5-20 
+cm/s) and a flame can be sustained at lower O2 where the slower reactions have enough residence time in the hot zone.
+• We need to measure the Negative Oxygen Margin of Safety to de-rate materials. PMMA rods:  Negative Oxygen Margin of 
+Safety = 1.4% O2
+• Thin fuel sheets: Very few materials have been rated even in 1g at 34% O2, 8.2 psia (exploration atmosphere). 
+Spacecraft Materials μg Research on Flammability (SMμRF)
+~15% O2
+FLOW
+Astronauts Tim Kopra and Scott Kelly 
+are amazed at  a  BASS-II blowoff test.
+Blowoff
+Quenching
+PI: Sandra Olson, NASA Glenn Research Center
+
+=== page 6 ===
+Glenn Research Center
+PI: Professor Fletcher Miller, San Diego State University
+Co-I: Sandra Olson, NASA GRC and Indrek Wichman, Michigan State University
+Narrow Channel Apparatus (NCA)
+Objectives:
+• Use a “narrow channel” to create flow conditions in normal gravity – defined by pressure, 
+oxygen concentration, and velocity - that closely reproduce the conditions aboard an actual 
+spacecraft by controlling the effect of buoyancy. The creation of these conditions will allow 
+microgravity opposed-flow flame spread rate and (possibly) extinction limits (due to any of 
+the above three factors) for both thermally thick and thin fuels to be determined on earth in 
+the apparatus.
+• Measure flame spread rate across a thermally thick solid fuel (PMMA slabs) as a function of 
+forced opposed flow velocity, oxygen concentration, and pressure.  The conditions chosen 
+will correspond in particular to NASA’s proposed Exploration atmospheres (i.e. along the 
+normoxic curve).
+• Determine opposed-flow extinction limits for thick solid fuel by lowering the velocity until the 
+flame extinguishes at a given oxygen concentration and pressure.
+• Obtain additional data that can be used to compare to a numerical model of the flame 
+spread process.  These include surface temperature and side view images of the flame.
+Flame burning PMMA 
+slab in g from BASS 
+experiments.
+Flame burning PMMA 
+slab in g from BASS 
+experiments.
+
+=== page 7 ===
+Glenn Research Center
+Flame spread over a thin PMMA sheet in g 
+with air as the oxidizer as a function of time. 
+The top two images are side view of the 
+computational flames and the bottom two 
+images are from recent BASS-II experiments.
+Flame spread over a thin PMMA sheet in g 
+with air as the oxidizer as a function of time. 
+The top two images are side view of the 
+computational flames and the bottom two 
+images are from recent BASS-II experiments.
+PI: Subrata (Sooby) Bhattacharjee, San Diego State University, San Diego, CA
+International Co-I: S. Takahashi and K. Wakai (岐阜大学Gifu University, Japan) 
+Residence Time Driven Flame Spread (RTDFS)
+Objectives:
+• Establish the boundaries of radiative quenching in terms of the critical velocity 
+of the oxidizer and critical thickness of fuel (PMMA sheets) in a microgravity 
+environment using experiments, theory, and computational model.
+• Establish the mechanism of flame extinguishment by delineating the thermal 
+field from the concentration field through microgravity experiment and 
+numerical results.
+• Conduct ground based experiments at normal gravity with similar setups and 
+develop a comprehensive set of data on flame spread over thin fuels in the 
+radiative, thermal, and kinetic regimes.
+
+=== page 8 ===
+Glenn Research Center
+PI: James S. T’ien, Case Western Reserve University, Cleveland, Ohio
+Co-Is: Paul Ferkul, USRA/NASA GRC; Sandra Olson, NASA GRC
+International Co-I: Oleg Korobeinichev, Siberian Branch Russian Academy of Sciences, Novosibirsk, Russia
+Growth and Extinction Limit of Solid Fuels (GEL)
+Objectives:
+• Experimentally determine the flame growth  characteristics (growth rate, flame shape and dimensions) over a thick solid fuel 
+(PMMA spheres) as a function of flow velocity, oxygen percentage, pressure and the degree of internal heating.
+• Experimentally determine the flame extinction characteristics (quenching and blowoff limits) over a thick solid fuel as a 
+function of flow velocity, oxygen percentage, pressure and the degree of internal heating.
+• Establish a high-fidelity numerical model that can be compared with the microgravity results and serve as a tool connecting 
+normal gravity  and microgravity performance.
+
+=== page 9 ===
+Glenn Research Center
+Payload Specific Hardware
+• Unique hardware components
+• Specific Diagnostics
+• Unique PI source gases
+Chamber Insert
+•
+Infrastructure that uniquely 
+meets the needs of PI 
+experiments
+•
+Unique science requirements
+FCF Combustion Integrated Rack
+• Power Supply
+• Avionics/Control
+• Structural Support & Power
+• Common Diagnostics and Illumination
+• Environmental Control
+• Data Processing/Distribution
+• Fluids Control/Distribution
+• Combustion Containment
+The Combustion Integrated Rack (CIR) includes support subsystems and 
+combustion diagnostics
+Payload specific and multi-user hardware 
+customizes the CIR in a unique laboratory 
+configuration to perform research effectively.
+Solid Fuel Ignition and 
+Extinction Insert Assembly
+CIR Sub-rack Payload Relationship
+
+=== page 10 ===
+Glenn Research Center
+SoFIE Chamber Insert Assembly
+
+=== page 11 ===
+Glenn Research Center
+•
+Replaceable filter
+•
+Integral air speed and radiometer
+•
+2 transparent sides with Sapphire 
+windows for imaging
+•
+Fans, duct, radiometer and filter can 
+be individually replaced
+Flow Duct (Full-size and Short)
+
+=== page 12 ===
+Glenn Research Center
+•
+3 Samples mounted on a rotating system
+•
+Motor provides rotation into position
+•
+Linear slide moves the sample in and out 
+of the flow duct
+Shown with Smurf Rod
+Sample Rotation and Translation
+
+=== page 13 ===
+Glenn Research Center
+•
+The Heater Assembly installs on the exit of the 
+flow duct
+•
+Removed and stowed for non-heater test points
+MIST Sample Heater Installed
+
+=== page 14 ===
+Glenn Research Center
+•
+Internal cameras act in conjunction to image the entire combustion area
+•
+External camera images orthogonal view
+Internal Cameras
+
+=== page 15 ===
+Glenn Research Center
+In addition to the radiometer in the duct and 
+sample based measurements, the following 
+sensors and diagnostics are in the system
+•
+2 CO2, CO, and relative humidity modules 
+with filtering
+•
+2 Additional radiometers for orthogonal 
+views to the duct
+•
+PyroScience FireStingO2 Fiber Optic 
+Oxygen Sensor Module with 4 inputs
+•
+2 Far Field Thermocouples
+Sensors and Diagnostics
+
+=== page 16 ===
+Glenn Research Center
+•
+The Igniter Mounting Arm attaches to the end of the positioning arm
+•
+Provides support and power connections to the igniter tip
+•
+Can be replaced based on sample requirements
+Igniter Mounting Arm
+
+=== page 17 ===
+Glenn Research Center
+•
+Igniter tips are 24 Gauge Kanthal-A wire
+•
+Different shapes will be provided based on PI requirements
+•
+Tips are individually replaceable
+Igniter Tips
+
+=== page 18 ===
+Glenn Research Center
+
+=== page 19 ===
+Glenn Research Center
+Igniter Insertion Animation
+
+=== page 20 ===
+Glenn Research Center
+Hardware fabrication is underway
+
+=== page 21 ===
+Glenn Research Center
+SoFIE Schedule Overview
+Flight Hardware Availability: July 2020
+Experiment Operations Begin: July 2021
+Experiment Operations End: December 2023
+
+=== page 22 ===
+Glenn Research Center
+End

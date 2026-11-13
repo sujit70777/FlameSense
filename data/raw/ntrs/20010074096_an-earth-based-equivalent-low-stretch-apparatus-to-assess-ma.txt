@@ -1,0 +1,1131 @@
+=== page 1 ===
+;
+i
+k
+An
+Earth-Based
+Equivalent
+Low
+Stretch
+Apparatus
+to
+Assess
+Material
+Flammability
+for
+Microgravity
+&
+Extraterrestrial
+Fire-Safety
+Applications
+S.L.
+Olson,
+NASA
+Glenn
+Research
+Center
+H. Beeson,
+and J. Haas,
+NASA
+White
+Sands
+Test
+Facility
+Abstract
+One
+of the performance
+goals
+for NASA's
+enterprise
+of Human
+Exploration
+and
+Development
+of Space
+(HEDS)
+is to develop
+methods,
+data
+bases,
+and validating
+tests
+for
+material
+flammability
+characterization,
+hazard
+reduction,
+and
+fire detection/suppression
+strategies
+for spacecraft
+and
+extraterrestrial
+habitats.
+This
+work
+addresses
+these
+needs
+by applying
+the
+fundamental
+knowledge
+gained
+from
+low
+stretch
+experiments
+to the development
+of a normal
+gravity
+low
+stretch
+material
+flammability
+test
+method.
+The
+concept
+of the apparatus
+being
+developed
+uses
+the low
+stretch
+geometry
+[ 1] to simulate
+the conditions
+of the extraterrestrial
+environment
+through
+proper
+scaling
+of the sample
+dimensions
+to reduce
+the buoyant
+stretch
+in
+normal
+gravity.
+The
+apparatus
+uses
+controlled
+forced-air
+flow
+to augment
+the low
+stretch
+to
+levels
+which
+simulate
+Lunar
+or Martian
+gravity
+levels.
+In addition,
+the effect
+of imposed
+radiant
+heat
+flux on material
+flammability
+can
+be studied
+with
+the cone
+heater.
+After
+breadboard
+testing,
+the apparatus
+will
+be integrated
+into NASA's
+White
+Sands
+Test
+Facility's
+Atmosphere-Controlled
+Cone
+Calorimeter
+for evaluation
+as a new
+materials
+screening
+test
+method.
+Applicability
+of the NASA's
+Upward
+Flammability
+Test
+NASA's
+current
+methods
+of material
+screening
+determine
+fire resistance
+under
+conditions
+presenting
+a worst-case
+for normal
+gravity
+flammability-
+the upward
+flammabifity
+Test
+1.
+The
+applicability
+of these
+Test
+1 conditions
+to
+22
+fires
+in microgravity
+and extraterrestrial
+21
+environments,
+however,
+is uncertain
+because
+._
+the relationship
+between
+these
+buoyancy-
+_
+20 J
+dominated
+tests
+and actual
+extraterrestrial
+fire
+_
+19
+hazards
+is not fully
+understood.
+Flames
+in
+microgravity
+are known
+to preferentially
+spread
+o
+lr'
+upwind
+[2], not
+downwind
+as in the normal
+_=
+16
+gravity
+upward
+flammability
+screening
+Test
+1.
+At low
+velocity
+flow,
+the Test
+1 type
+flame
+15
+spread
+was
+not viable
+over
+solid
+cylinders,
+as
+14 ,
+shown
+in Figure
+1. However,
+the stagnation
+1
+point
+flame
+at the tip of the cylinder
+0ow
+stretch
+flame)
+was
+viable
+[3].
+In addition,
+the
+maximum
+flammability
+in the upwind
+spread
+configuration
+is known
+to be at lower
+imposed
+Halli
+and T'ien,
+1986
+Upward
+Flammability
+Limits
+for PMMA
+Rods
+(-
+77
+Shoulder-stabilized
+flame
+extinction
+limit
+--
+Shoulder
+flame
+curve
+_t
+"
+Stagnation
+flame
+extinction
+limit
+[_
+Stagnation
+curve
+flame
+fit
+Quench
+"_.._OWOff
+10
+100
+Average
+Velocity,
+cm/s
+Figure
+1: Upward
+flammability
+limits
+for
+flame
+spread
+along
+PMMA
+rods.
+flows
+and lower
+oxygen
+concentrations
+than
+occur
+in normal
+gravity
+[4].
+NASA/CP--2001-210826
+409
+
+=== page 2 ===
+Theoretical
+Foundation
+Theoretical
+predictions
+by Foutch
+and T'ien
+(1987f,
+shown
+in Figure
+2, indicate
+that
+it is
+possible
+to understand
+a material's
+burning
+characteristics
+in the low stretch
+environment
+of spacecraft
+(Fr=0,
+non-buoyant,
+but with
+some
+movement
+induced
+by fans
+and
+crew
+disturbances)
+by understanding
+its burning
+characteristics
+in an equivalent
+Earth-based
+stretch
+environment
+fir=o,,,
+induced
+by normal
+gravity
+buoyancy).
+Similarly,
+Earth-based
+stretch
+environments
+can
+be made
+equivalent
+to
+those
+in Lunar-
+and Martian-surface
+stretch
+environments
+(which
+would
+induce
+partial-
+gravity
+buoyancy).
+Equivalent
+Low
+Stretch
+Sealing
+Equivalent
+stretch
+rates
+can be
+determined
+as a function
+of gravity,
+imposed
+flow,
+and geometry.
+For purely
+buoyant
+flow,
+the equivalent
+stretch
+rate
+is
+a b = [(Pe-
+p*)/po]
+[g/R]_
+tl.5]. For
+purely
+forced
+flow,
+the
+.,6[
+.25 l"t
+.\
+.:o --
+II
+24
+_t
+• ,\
+,:,
+--
+!1
+.22
+'
+.21
+'
+\_\
+__, (withSurface
+//!
+•
+\v-"
+///i
+.o
+//////
+QUENCH
+_
+//,,"
+//!
+BLOWOFF
+._gr._.....
+\
+_,¢.-"
+///
+......
+•,=k
+/4_o(.,t,o.,
+/
+L/'-_"
+Surface
+/
+F
+,
+,
+, /,/
+,
+I
+I
+2
+20
+50
+100
+5
+I0
+• (l/see)
+Radiation)
+Figure
+2: Extinction
+boundary
+as a function
+of
+ambient
+oxygen
+and
+forced
+(0),
+buoyant
+(co), and
+mixed
+(1) convective
+stretch.
+equivalent
+stretch
+rate
+is characterized
+by either
+a/= 2U JR
+for a cylinder
+_5],or a/=Ujddj_
+for a jet
+impinging
+on a planar
+surface
+[6]. A generalized
+expression
+for stretch
+rate
+which
+captures
+mixed
+convection
+includes
+both
+buoyant
+and forced
+stretch
+is defined
+[5] as
+a,,_ a = aj(l+
+at,2/af) _.
+In
+the normal
+gravity
+experiments
+to date,
+the buoyant
+stretch
+is varied
+through
+R,
+the radius
+of curvature,
+but the buoyant
+stretch
+could
+also be varied
+through
+g,
+the gravity
+level.
+In this way
+the effect
+of partial
+gravity,
+such
+as those
+found
+on the Moon
+(1/6
+g) or Mars
+(1/3
+g)
+can
+be captured
+in the definition
+of
+flame
+stretch.
+Normal
+Gravity
+Low
+Stretch
+Results
+Recent
+experimental
+results
+[ 1],
+shown
+in Figure
+3, demonstrate
+the
+transition
+from
+a robust
+flame
+at stretch
+rates
+of 10-20
+s"_to a quenched
+flame
+at very
+low
+stretch
+in the21%
+oxygen
+environment
+tested.
+C0
+8
+2
+©
+10-3
+.+_,
+c-
+O
+0)
+2
+tl)
+10-¢
+OD
+ry
+100
+;
+;
+i
+i i iii i
+ii
+I
+I
+I
+I
+iiiV
+:
+0
+preee nt d_ta
+1
+J
+I
+___Li
+IIlll
+l
+l
+I I tlJll
+10_
+10 2
+Stretch
+rote,
+sec-1
+Figure
+3: PMMA
+regression
+rates
+over
+the range
+of flammability
+in air.
+NASA/CP_2001-210826
+410
+
+=== page 3 ===
+Figure
+3 captures
+the surface
+regression
+rates
+for PMMA
+over
+the full
+range
+of
+flammability
+in air,
+from blowoff
+at high
+stretch,
+to quenching
+at low
+stretch,
+observed
+for the first
+time
+in the above-mention
+experiments,
+which
+are represented
+by the data
+circles.
+Previous
+higher
+stretch
+results
+are represented
+by the squares
+and
+triangles.
+The
+solid
+line
+drawn
+through
+the
+central
+portion
+of the data
+(3<a<100
+s1) has a slope
+of
+unity,
+which
+indicates
+regression
+is
+proportional
+to stretch.
+Infinite
+kinetics
+theory
+and
+experiments
+fred
+a square
+root
+relationship
+[6]
+between
+regression
+and
+stretch
+at high
+stretch
+rates,
+but
+kinetics
+become
+important
+at low
+stretch
+rates
+and the dependence
+on flame
+stretch
+becomes
+stronger.
+The
+figure
+coordinates
+assume
+the values
+of stretch
+are equivalent,
+whether
+derived
+from
+forced
+stretch
+[61or from buoyant
+stretch
+r71. The
+excellent
+correlation
+of the regression-rate
+data
+over
+the
+two-order-of-magnitude
+variation
+of stretch
+shows
+the reasonableness
+of this assumption.
+Figure
+4: schematic
+of low
+stretch
+flame(top)
+along
+with
+actual
+flame
+photograph
+(bottom)
+for a
+stretch
+rate
+of 6 s].
+Buoyant
+low-stretch
+flames
+compare
+well
+with
+low-gravity
+low-stretch
+flames.
+A buoyant
+low
+stretch
+flame
+is shown
+in Fig.4.
+Through
+normal
+and microgravity
+testing
+we have
+found
+1)
+flame
+standoff
+distances
+increase
+at low
+stretch,
+2)
+reaction
+zones
+thicken
+at low
+stretch,
+3)
+cooler
+flame
+temperatures
+at low
+stretch,
+4) decreased
+heat
+flux
+back
+to the surface
+at low
+stretch,
+5) decreased
+burning
+rates
+of fuel
+at low
+stretch,
+6)
+increased
+relative
+heat
+loss at low
+stretch,
+and 7)
+quenching
+extinction
+is noted
+at low
+stretch
+rates
+of 1.5-2
+s 1.
+Equivalent
+Low
+Stretch
+Apparatus
+Under
+Development
+A concept
+of the apparatus
+is shown
+schematically
+in Figure
+5.
+The
+concept
+uses
+the low
+stretch
+geometry
+[1] to simulate
+the conditions
+of the extraterrestrial
+environment
+through
+proper
+scaling
+of the sample
+dimensions
+to reduce
+the buoyant
+stretch
+in normal
+gravity.
+If successfully
+tested,
+the apparatus
+will
+be integrated
+into NASA's
+White
+Sands
+Test
+Facility's
+Atmosphere-
+Controlled
+Cone
+Calorimeter
+for evaluation
+as a new
+materials
+screening
+test
+method.
+NASA/CP--2001-210826
+411
+
+=== page 4 ===
+The
+apparatus
+uses
+controlled
+forced-air
+flow
+to augment
+the low
+stretch
+to levels
+which
+simulate
+Lunar
+or
+Martian
+gravity
+levels.
+In addition,
+the
+effect
+of imposed
+radiant
+heat
+flux
+on
+material
+flammability
+can be studied
+with
+the cone
+heater.
+Primary
+variables
+include
+material
+tested,
+imposed
+forced
+stretch
+rate
+(effective
+gravity
+level),
+radiant
+flux
+level,
+and
+oxygen
+concentration.
+Data
+from
+the Apparatus
+will
+include
+ignition
+delay
+time,
+mass
+loss rate,
+heat release
+rate (02
+consumption),
+and
+product
+generation
+rates
+(CO,
+CO2,
+soot,
+THC).
+Ignition
+limits
+and material
+flammability
+limits
+will
+be measured
+for
+selected
+ideal/practical
+materials.
+If
+extinction
+limits
+are determined
+in Earth-
+based
+low
+stretch
+experiments
+as a
+t
+Flame
+Radiant
+Cone
+Heater
+Oxidizer
+Flow
+Figure
+5: Equivalent
+Low
+Stretch
+Apparatus
+function
+of the percent
+of heat
+flux
+conducted
+into the
+solid,
+we can
+identify
+critical
+percent
+heat
+flux values
+for spacecraft.
+It would
+then be possible
+to design
+safe-use
+configurations
+in space
+to
+ensure
+non-flammability
+(ie sufficiently
+thick
+materials
+or sufficiently
+conductive
+substrates).
+In addition
+to the development
+of the apparatus,
+a predictive
+model
+will
+be developed
+to
+predict
+flammability
+limits
+for a given
+material,
+using
+specific
+material
+properties,
+desired
+atmospheric
+composition,
+and extraterrestrial
+gravity
+environments
+as inputs
+to the prediction.
+The
+experimental
+and predicted
+results
+will be compared
+to evaluate
+the test method
+and
+predictive
+capability.
+References
+1) Olson,
+S.L ana
+l "ien, J.S.;Combustion
+andFlame,
+V.
+121,
+pp. 439-452,
+2000.
+2) McGrattan,
+K.B.,
+Kashiwagi,
+T., Bantu,
+H.R.,
+and
+Olson,
+S.L
+;.Combustion
+andFlame,
+Vol.
+106,
+pp.377-391,
+1996.
+3) Halli,
+Y., and
+T'ien,
+J.S.,
+NBS-GCR-86-507,
+Feb.
+1986.
+4) Olson,
+S.L.,
+Comb.
+Science
+and
+Tech.
+V.
+76, pp.233-249,
+1991.
+5) Foutch,
+D.W.,
+and T'ien,
+J.S.,
+AIAA
+Journal,
+Vol.
+25, No.
+7, pp.
+972-976,
+1987.
+6) T'ien,
+J.S.,
+Singhal,
+S.N.,
+Harrold,
+D.P.,
+and Prahl,
+J.M.;
+Combustion
+andFlame,
+Vol.
+33,
+pp.55-68,
+1978.
+7) Ohtani,
+H., Akita,
+K., and Hirano,
+T., Combustion
+andFlame,
+Vol.
+53, pp. 33-40,
+1983.
+NASAJCP--2001-210826
+412

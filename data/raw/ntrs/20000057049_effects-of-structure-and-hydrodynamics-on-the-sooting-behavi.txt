@@ -1,0 +1,2232 @@
+=== page 1 ===
+-r
+EFFECTS
+OF
+STRUCTURE
+AND
+HYDRODYNAMICS
+ON
+THE
+SOOTING
+BEHAVIOR
+OF
+SPHERICAL
+MICROGRAVITY
+DIFFUSION
+FLAMES
+P. B. SUNDERLAND
+NCMR,
+NASA
+Glenn
+Research
+Center,
+Cleveland
+R. L. AXELBAUM
+Washington
+University,
+St. Louis
+D. L. URBAN
+NASA
+Glenn
+Research
+Center,
+Cleveland
+Submitted
+to:
+28 th Symposium
+on Combustion
+Suggested
+Colloquium:
+Soot,
+PAH
+and Air Toxins
+Presentation
+Preference:
+Oral
+Figures:
+Word
+Count:
+Body:
+2735
+1-400,
+2-400,
+3-1200,
+4-200
+Total:
+4935
+Date
+Submitted:
+December
+14, 1999
+Address
+Correspondence:
+Richard
+L. Axelbaum
+Department
+of Mechanical
+Engineering
+Washington
+University
+Campus
+Box
+1185
+One
+Brookings
+Drive
+St. Louis,
+MO
+63130,
+USA
+Tel:
+(314)
+935-7560
+Fax:
+(314)
+935-4014
+rla@mecf.wustl.edu
+
+=== page 2 ===
+EFFECTS
+OF
+STRUCTURE
+AND
+HYDRODYNAMICS
+ON
+THE
+SOOTING
+BEHAVIOR
+OF
+SPHERICAL
+MICROGRAVITY
+DIFFUSION
+FLAMES
+P. B. SUNDERLAND,
+R. L. AXELBAUM,
+and D. L. URBAN
+ABSTRACT
+We
+have
+examined
+the
+sooting
+behavior
+of
+spherical
+microgravity
+diffusion
+flames
+burning
+ethylene
+at
+atmospheric
+pressure
+in
+the
+NASA
+Glenn
+2.2-second
+drop
+tower.
+In
+a novel
+application
+of
+microgravity,
+spherical
+flames
+allowed
+convection
+across
+the
+flame
+to be either
+from
+fuel
+to oxidizer
+or from
+oxidizer
+to fuel.
+Thus,
+microgravity
+flames
+are uniquely
+capable
+of
+allowing
+independent
+variation
+of
+convection
+direction
+across
+the
+flame
+and
+stoichiometric
+mixture
+fraction,
+Zst.
+This
+allowed
+us to determine
+the dominant
+mechanism
+responsible
+for
+the
+phenomenon
+of permanently-blue
+diffusion
+flames
+--
+flames
+that
+remain
+blue
+as
+strain
+rate
+approaches
+zero.
+Stoichiometric
+mixture
+fraction
+was
+varied
+by changing
+inert
+concentrations
+such
+that
+adiabatic
+flame
+temperature
+did
+not
+change.
+At low
+and
+high
+Zst
+nitrogen
+was
+supplied
+with
+the
+oxidizer
+and the fuel,
+respectively.
+For
+the present
+flames,
+structure
+(Zst) was
+found
+to
+have
+a profound
+effect
+on soot
+production.
+Soot-free
+conditions
+were
+observed
+at high
+Z_t (Z_t =
+0.78)
+and
+sooting
+conditions
+were
+observed
+at low
+Z_t (Z_t = 0.064)
+regardless
+of the direction
+of
+convection.
+Convection
+direction
+was
+found
+to have
+a lesser
+impact
+on
+soot
+inception,
+with
+formation
+being
+suppressed
+when
+convection
+at
+the
+flame
+sheet
+was
+directed
+towards
+the
+oxidizer.
+This is a prepdnt or reprint of a paper intended
+for presentation
+at a conference.
+Because changes
+may be made before formal publication,
+this is made available with the
+understanding
+that it will not be cited or reproduced
+without
+the permission
+of the author.
+
+=== page 3 ===
+•
+!
+Introduction
+The unique
+properties
+of spherical
+diffusion
+flames
+have
+attracted
+much
+attention.
+Their
+structure
+has been
+considered
+theoretically
+by Buckmaster
+and
+Ludford
+[1],
+Williams
+[2]
+and
+Mills
+and
+Matalon
+[3].
+Observations
+of
+these
+flames
+typically
+have
+involved
+droplet
+combustion
+in
+microgravity
+[4-6],
+although
+flames
+supported
+by porous
+spheres
+in microgravity
+[7,8]
+and
+in
+normal
+gravity
+[9]
+have
+been
+considered
+as
+well.
+Since
+spherical
+diffusion
+flames
+are
+one-
+dimensional
+and strain-free
+they
+hold
+great
+utility
+for studies
+of soot
+formation.
+Recent
+experimental,
+numerical
+and
+analytical
+work
+has
+shown
+that
+stoichiometric
+mixture
+fraction
+[2] can
+have
+a profound
+effect
+on soot
+formation
+in diffusion
+flames
+[10-16]•
+This
+effect
+appears
+even
+at constant
+adiabatic
+flame
+temperature
+(Tad), as demonstrated
+by Du and
+Axelbaum
+[10,11].
+For
+example,
+a fuel
+mixture
+containing
+1 mole
+of ethylene
+and
+11.28
+moles
+of nitrogen
+burning
+in pure
+oxygen
+(Zst = 0.78)
+has
+the same
+adiabatic
+flame
+temperature
+(2370
+K)
+as that
+of
+pure
+ethylene
+burning
+in air (Z_t = 0.064).
+An important
+finding
+was
+that
+at sufficiently
+high
+Z_t,
+flames
+remain
+blue
+when
+the
+strain
+rate
+approaches
+zero
+in counterflow
+flames,
+or
+as
+flame
+height
+and
+residence
+time
+approach
+infinity
+in coflowing
+flames.
+Lin
+and
+Faeth
+[13]
+coined
+the
+term
+permanently
+blue
+to describe
+such
+flames.
+Two
+theories
+have
+been
+proposed
+to explain
+the appearance
+of permanently-blue
+flames
+at high
+Zst.
+They
+are
+based
+on
+(1)
+hydrodynamics
+[13-16]
+and
+(2)
+flame
+structure
+[10,12].
+Fig.
+1
+illustrates
+the
+hydrodynamic
+effect
+for
+counterflow
+flames.
+When
+fuel
+and
+oxidizer
+are
+chosen
+such
+that
+Zst<
+0.5 (Fig.
+la)
+the flame
+lies
+on the oxidizer
+side
+of the stagnation
+plane
+and thus
+the
+streamlines
+at
+the
+flame
+are
+directed
+towards
+the
+fuel.
+Newly
+formed
+soot
+is convected
+into
+richer
+regions,
+favoring
+soot
+growth
+over
+oxidation.
+On the
+other
+hand,
+when
+Z_t > 0.5
+(Fig.
+lb)
+the
+flame
+is on
+the
+fuel
+side
+and
+convection
+at the
+flame
+is towards
+the
+oxidizer.
+Thus,
+in
+counterflow
+flames,
+hydrodynamics
+drives
+the soot
+towards
+the
+oxidizer,
+thereby
+retarding
+soot
+formation.
+
+=== page 4 ===
+Du andAxelbaum(Ref. 10commentandreply)proposedthatwhile thedirectionof convection
+can impact soot growth and oxidation, it is insteadthe absenceof inception that dictates
+permanently-blueconditions. Growth andoxidation dependon the existenceof sootparticles,
+whereassoot-particleinceptionarisesfrom gas-phasereactions.While particleshaverelatively
+smalldiffusionvelocitiesandfollow streamlines,gaseousspeciesarenotconstrainedin thisway.
+Thusinceptioncannotdependstronglyonflow direction. For example,thereisno abruptchange
+in gas-phasebehaviorwhena flame movesacrossthe stagnationplane[11]. The flame is a
+diffusive-convectivesystemandthisbalanceallowsfor changesin convectivedirectionwithout
+substantialchangesin flame response.Furthermore,sincethe soot-inceptionzone hasa finite
+thickness,it is possibleto producesoot in counterflowflameswhen Zst > 0.5
+even
+though
+convection
+drives
+particles
+into the oxidizer
+[ 10].
+This
+structural
+explanation
+for permanently-blue
+flames
+is illustrated
+in Fig.
+2.
+The
+fuel,
+oxygen
+and
+temperature
+distributions
+in Z space
+are
+depicted
+for
+the
+standard
+ethylene/air
+flame
+(Zst =
+0.064)
+in Fig.
+2a,
+and for
+the
+diluted
+ethylene/oxygen
+flame
+(Zst = 0.78)
+in Fig.
+2b.
+The
+flame
+sheet
+solution
+is
+shown,
+but
+dashed
+lines
+delineate
+the
+high-temperature
+boundaries
+of
+a
+broadened
+reaction
+zone.
+The
+hatched
+(?) region
+identifies
+the relevant
+soot
+zone
+on the fuel
+side
+of the flame
+sheet.
+As described
+in Ref.
+10, flames
+with
+large
+Z_t have
+lower
+fuel
+concentrations
+and
+higher
+oxygen
+concentrations
+in the
+soot
+zone.
+They
+also
+have
+a shift
+in the
+OH
+profile
+towards
+the fuel
+side
+of the flame.
+Since
+the presence
+of 02 (and
+to a lesser
+extent
+OH)
+retards
+precursor
+growth
+[17],
+this
+shift
+can
+dramatically
+reduce
+soot
+inception
+by narrowing
+the
+soot-
+inception
+zone.
+From
+this perspective,
+permanently-blue
+conditions
+are realized
+when
+significant
+oxidizing
+species
+are
+on the
+fuel
+side
+in the
+region
+where
+temperatures
+are above
+the
+threshold
+temperature
+for
+soot
+inception,
+1250
+K at moderate
+pressures
+[18].
+For
+such
+flames,
+in regions
+where
+temperatures
+are high
+enough
+to produce
+soot,
+there
+is sufficient
+oxidizer
+to consume
+the
+
+=== page 5 ===
+•
+I
+soot
+precursors.
+Consumption
+overcomes
+production
+and,
+in this
+respect,
+the
+soot
+formation
+region
+at high
+Zst resembles
+that
+of soot-free
+premixed
+flames.
+Flames
+considered
+in past
+studies,
+which
+involved
+counterflow
+and
+gas-jet
+configurations,
+did
+not
+allow
+independent
+variation
+of flame
+structure
+and convection
+direction.
+It was
+not
+possible
+to assess
+the
+relative
+contributions
+of hydrodynamics
+and
+structure
+because
+both
+structure
+and
+hydrodynamics
+suppress
+soot
+formation
+at
+high
+Zst
+in
+normal-gravity
+diffusion
+flames.
+As
+described
+below,
+spherical
+diffusion
+flames
+allow
+both
+properties
+to be
+varied
+independently.
+This
+attribute
+motivated
+this
+study.
+We
+independently
+varied
+the
+direction
+of convection
+across
+the flame
+sheet
+by interchanging
+the
+injected
+and
+ambient
+gases.
+We
+altered
+structure
+(Zst) by
+exchanging
+inert
+between
+the
+oxidizer
+and
+the
+fuel
+with
+a procedure
+that
+maintains
+constant
+adiabatic
+flame
+temperature
+[ 10].
+Thus
+motivated,
+we
+established
+four
+flames:
+(a) ethylene
+issuing
+into
+air,
+(b)
+diluted,
+ethylene
+issuing
+into
+oxygen,
+(c) air issuing
+into
+ethylene,
+and (d) oxygen
+issuing
+into
+diluted
+ethylene.
+Zst
+is 0.064
+in Flames
+(a) and
+(c), and
+0.78
+in Flames
+(b) and
+(d).
+The
+convection
+direction
+is from
+fuel
+to oxidizer
+in Flames
+(a) and (b)
+and
+from
+oxidizer
+to fuel
+in Flames
+(c) and
+(d).
+Under
+the
+assumption
+of
+equal
+diffusivities
+of
+all species
+and
+heat,
+the
+stoichiometric
+contours
+of
+these
+flames
+have
+identical
+nitrogen
+concentrations
+and adiabatic
+temperatures.
+Experimental
+The
+experiments
+were
+conducted
+in the
+NASA
+Glenn
+2.2-second
+drop
+tower
+using
+a general-
+purpose
+combustion
+rig.
+The
+rig consists
+of a windowed
+pressure
+vessel
+supported
+by
+a fuel-
+delivery
+system,
+an
+ignitor,
+a color
+CCD
+camera,
+a microprocessor
+controller
+and
+lead-acid
+batteries.
+The
+burner
+is
+a 6.4
+mm
+diameter
+porous
+sphere
+consisting
+of
+sintered
+10
+micron
+stainless
+steel
+particles.
+The
+sphere
+was
+supported
+and
+fed
+by
+a 1.6
+mm
+stainless
+steel
+tube
+attached
+with
+epoxy.
+The
+sphere
+was
+positioned
+at the center
+of the
+cylindrical
+chamber,
+whose
+
+=== page 6 ===
+diameter,length and volume were 25 cm, 53 cm and 27 liters, respectively.All testswere
+conductedin quiescentambientgasat 98kPa.
+Thepresenttestsemployedthefollowing gases:ethylene,oxygen,syntheticair (21% oxygenby
+volumein nitrogen)anddilutedethylene(8.14%ethyleneby volumein nitrogen).Puritiesof the
+nitrogenandoxygenwere99.999%while that for ethylenewas99.9%.Nitrogenmixtureswere
+purchased,having been preparedby gravimetric mixing to within 0.02% of the reported
+compositions. Theburnerfeedgaswasstoredat 800 kPain a 75 ml bottleaboardthe rig and
+wasdeliveredvia apressureregulator,a solenoidvalve,a fine-needlevalve,a mass-flowmeter,
+anda secondsolenoidvalve.Burnerflow rateswereestablishedprior to ignition with themass-
+flow meter, which was calibratedfor each gas using a bubble meter. Uncertaintiesin the
+flowrates(atthe95%confidencelevel)areestimatedat5%. Priorto eachtest,two purgesof the
+chamberwereperformedby evacuatingthechamberto 3kPaandfilling with ambientgas.
+Microgravity laminarflamesaresensitiveto hydrodynamicdisturbancesuchasthosecausedby
+ignition prior to entry into microgravity, retracting ignitors and ignition deflagrations.To
+minimizethesedisturbances,theflameswereignitedimmediatelyafter releaseinto microgravity
+usinga spring-loadedhot wire (Nichromewith alengthof 12mm and a diameterof 0.36 mm)
+mountedin tensionnearthe sphere-tubeseam.An ignitor wasenergizedat 28 VDC, wherebyit
+quickly glowed and rupturedandboth endsretractedwith minimal wakes.The serial pair of
+solenoidvalvesfacilitatedsmoothignitionvia optimizationof theinitial gasdischarge.
+Theflameswereimagedthroughthechamberwindow (BK7) usinga color CCD camera.A 16
+mm fixed-iris lens was used,with apertures(f 1.4-6)chosenaccordingto flame luminosity.
+Video signalswere carried via fiber-optic cableto a stationarycolor S-VHS video recorder."
+Digitized imageswere subsequentlyobtainedfrom the tapesusing a framegrabber.Spatial
+resolutionin the video imageswas0.3 ram.Sootformation in diffusion flamescommencesat
+
+=== page 7 ===
+about 1250K [18], at which temperaturesoot emits visible light. Thus, diffusion flames that
+createsoot necessarilyemit yellow luminosity,and experimentshaveshownthat the onsetof
+yellow emissionsis an effective meansof determiningsoot inception limits in hydrocarbon
+diffusion flames[19]. Testingin normalgravityhasconfirmedour video systemto be sensitive
+to thepresenceof eventracequantitiesof sootin flames.
+Resultsand Discussion
+Figure3 showscolor images,capturedjust prior to drop termination,
+of representative
+flames
+for
+the four
+conditions
+considered.
+Each
+flame
+has an ethylene
+consumption
+rate
+of
+1.5 mg/s
+and
+an
+adiabatic
+flame
+temperature
+of 2370
+K.
+At least
+ten
+flames
+at each
+condition
+were
+observed
+in
+order
+to confirm
+repeatability.
+Additionally,
+flame
+size was
+varied
+to ensure
+the
+results
+were
+not
+affei_ted
+by heat
+loss
+to the burner.
+Fig.
+3a shows
+a flame
+of ethylene
+burning
+in air.
+This
+flame
+has
+a yellow
+interior
+surrounded
+by a well-defined
+blue
+sheet.
+Fig.
+3b involves
+diluted
+ethylene
+issuing
+into
+ambient
+oxygen,
+which
+yields
+a bright
+blue
+flame.
+Fig.
+3c
+shows
+a flame
+of
+air
+issuing
+into
+ethylene,
+which
+is yellow
+and brighter
+than
+the
+others.
+Finally,
+Fig.
+3d
+shows
+a
+flame
+of
+oxygen
+issuing
+into
+diluted
+ethylene,
+which
+has
+a dim
+blue
+interior
+surrounded
+by a
+bright
+blue
+sheet.
+Flames
+of Figs.
+3b-d
+had
+little
+color
+variation
+throughout
+the
+2-second
+tests
+while
+those
+of Fig.
+3a displayed
+a slowly
+decreasing
+yellow
+luminosity.
+The
+images
+reveal
+that
+the sootiest
+flame
+is obtained
+for air injecting
+into ethylene
+(Fig.
+3c).
+This
+is expected
+since
+both
+flame
+structure
+(small
+Zst) and convection
+direction
+(towards
+fuel)
+promote
+soot
+formation.
+Conversely,
+one would
+expect
+the least
+sooty
+flame
+to be that
+of Fig.
+3b since
+it
+has a large
+Zst
+and
+convection
+is into
+the oxidizer,
+both
+of which
+impede
+soot
+formation.
+Indeed,
+Fig.
+3b reveals
+a soot-free
+flame.
+The
+effect
+of convection
+direction
+at constant
+Zst is best
+demonstrated
+by comparing
+Figs.
+3a and
+3c.
+These
+flames
+both
+have
+Zst = 0.064
+but
+have
+opposite
+convection
+directions;
+3a is towards
+
+=== page 8 ===
+theoxidizerwhile 3bis towardsthefuel. Thepresenceof diminishedyellow luminosityin Fig.
+3aindicatesthatdirectingconvectiontowardstheoxidizersuppressesootgrowth andenhances
+soot oxidation but does not eliminate soot formation. Figs. 3b and 3d also have opposite
+directionsof convection,this time at Zst = 0.78,
+but
+a comparison
+of
+sooting
+tendency
+is not
+possible
+since
+both
+flames
+are soot-free.
+The effect
+of structure
+is apparent
+when
+comparing
+Figs.
+3c and 3d, where
+convection
+is directed
+towards
+the
+fuel
+for
+both
+flames.
+Structure
+has
+a dramatic
+effect
+on
+soot
+formation
+in these
+flames,
+changing
+a strongly
+luminous
+flame
+to a purely
+blue
+flame
+when
+Zst is increased
+from
+0.064
+to
+0.78.
+A
+pure
+blue
+state
+is
+realized
+in
+Fig.
+3d
+despite
+unfavorable
+hydrodynamics.
+Another,
+though
+less
+dramatic,
+demonstration
+of reduced
+soot
+formation
+at high
+Zst
+appears
+in
+Figs.
+3a and
+3b.
+These
+results
+attest
+to the importance
+of structure
+and the existence
+of soot-free
+diffusion
+flames
+at high
+Zst even
+when
+the flames
+have
+high
+flame
+temperatures
+and
+low
+strain
+rates.
+This
+method
+of
+varying
+convection
+direction
+also
+changes
+flame
+curvature.
+For
+example,
+the
+curvature
+in Figs.
+3a and
+3b is of opposite
+sign
+to that
+of Figs.
+3c and
+3d.
+The
+present
+flames
+indicate
+curvature
+is
+not
+responsible
+for
+soot-free
+conditions
+because
+Figs.
+3b
+and
+3d
+have
+opposite
+curvature
+and neither
+produces
+soot.
+Curvature
+may
+contribute
+to the differences
+in soot
+concentration
+observed
+between
+Figs.
+3a
+and
+c but
+these
+differences
+are
+easily
+explained
+by
+convection
+alone,
+as
+described
+above.
+Finally,
+as
+mentioned
+above
+we
+observed
+little
+or
+no
+variation
+of sooting
+behavior
+for flames
+of different
+diameters
+(thus
+different
+curvatures).
+Unfortunately,
+the
+present
+results
+are
+limited
+by the
+inherent
+unsteadiness
+of
+2.2-second
+tests.
+The
+temporal
+variation
+of luminous
+flame
+diameter
+for the four
+flames
+of Fig.
+3 is shown
+in Fig.
+4.
+Diameters
+were
+determined
+by
+averaging
+the
+longest
+chord
+through
+a
+flame
+and
+its
+perpendicular
+chord.
+Time
+is defined
+to be zero
+upon
+ignition.
+As Fig. 4 shows,
+upon
+ignition
+a
+
+=== page 9 ===
+premixed deflagrationpropagatesoutward quickly and then the flame contracts into non-
+premixedconditions From about200-400ms after ignition until drop termination,the flames
+grow monotonicallybut do not reachsteadydiameters;this transient behavior is especially
+evident wherenitrogen is suppliedin the ambientgas. Microgravity testsin gas-jet flames
+indicate that althoughquasi-steadyflame shapesappearwithin a few seconds[20,21], steady
+sooting behavior requires test times exceeding those of
+ground-basedfacilities [21].
+Furthermore,in the presentbrief tests,thermophoresismay trap within the flames somesoot
+formedduringignition. Longermicrogravitytesttimesarerequired,andarebeingpursued.
+Conclusions
+Four
+configurations
+of
+spherical
+microgravity
+diffusion
+flames
+were
+observed
+in
+the
+NASA
+Glenn
+2.2-second
+drop
+tower.
+The
+conditions
+are uniquely
+suited
+to studying
+permanently-blue
+flames
+since
+they
+allow
+independent
+variation
+of stoichiometric
+mixture
+fraction
+and
+convection
+direction.
+Flames
+with
+Zst = 0.78
+were
+soot-free
+and
+flames
+with
+Zst = 0.064
+appeared
+yellow
+regardless
+of
+convection
+direction.
+For
+the
+flames
+with
+low
+Zst, less
+soot
+was
+evident
+when
+convection
+was
+towards
+the
+oxidizer,
+but
+pure
+blue
+conditions
+were
+not
+realized.
+We
+thus
+surmise
+that
+permanently-blue
+flames
+owe
+their
+existence
+more
+to
+flame
+structure
+(inert
+orientation)
+than
+to convection
+direction.
+An
+important
+ancillary
+result
+of
+this
+work
+is
+the
+demonstration
+of
+a unique
+application
+of
+microgravity
+that
+should
+have
+applications
+beyond
+this study.
+That
+is, the direction
+of convection
+across
+the
+flame
+can
+be
+reversed
+for
+purely
+one-dimensional
+diffusion
+flames.
+This
+is
+not
+possible
+in normal
+gravity.
+Thus,
+microgravity
+affords
+a new
+level
+of control
+and
+a unique
+tool
+for studying
+diffusion
+flames.
+
+=== page 10 ===
+w
+Acknowledgments
+This
+work
+was
+supported
+by
+NASA
+Grants
+NCC3-697
+and
+NAG3-1910
+(RLA)
+and
+by
+the
+National
+Research
+Council
+(PBS).
+The
+assistance
+of
+S.
+A.
+Gokoglu,
+C.
+B.
+Lundquist,
+J.
+E.
+Pierce,
+and H. D. Ross
+is duly
+appreciated.
+REFERENCES
+1.
+Buckmaster,
+J. D. and Ludford,
+G. S. S., Theory
+of Laminar
+Flames,
+Cambridge
+University
+Press,
+Cambridge,
+1982,
+pp. 95-110.
+2.
+Williams,
+F. A.,
+Combustion
+Theory,
+Benjamin/Cummings,
+Menlo
+Park,
+1985,
+pp.
+52 and
+75.
+3.
+Mills,
+K. and Matalon,
+M.,
+Comb.
+Sci.
+Tech.
+129:295-319
+(1997).
+4.
+Avedesian,
+C.
+T.,
+"Emulsion
+Droplet
+Combustion
+in
+Microgravity:
+Water/Heptane
+Emulsions,"
+Proceedings
+of
+the
+4 th International
+Microgravity
+Combustion
+Workshop,
+NASA
+Conference
+Publication
+10194,
+p. 467-472
+(1997).
+5.
+Choi,
+M. Y. and
+Lee,
+K. -0.,
+Twenty-Sixth
+Symposium
+(International)
+on Combustion,
+The
+Combustion
+Institute,
+Pittsburgh,
+PA,
+1996,
+pp.
+i 243-1249.
+6.
+Nayagam,
+V., Haggard,
+J. B. Jr., Colantonio,
+R. O., Marchese,
+A. J., Dryer,
+F. L., Zhang,
+B.
+L., and Williams,
+F. A., AIAA
+J. 36:1369-1378
+(1998).
+7.
+Atreya,
+A.,
+Agrawal,
+S.,
+Shamim,
+T.,
+Pickett,
+K.,
+Sacksteder,
+K.
+R.,
+and
+Baum,
+H.
+R.,
+"Radiant
+Extinction
+of
+Gaseous
+Diffusion
+Flames,"
+Proceedings
+of
+the
+3 rd International
+Microgravity
+Combustion
+Workshop,
+NASA
+Conference
+Publication
+10174,
+p.
+319-325
+(1995).
+8.
+Law,
+C.
+K.,
+Sung,
+C. J.,
+and
+Zhu,
+D.
+L.,
+"Studies
+of
+Flame
+Structure
+in Microgravity,"
+Proceedings
+of
+the
+4 tla
+International
+Microgravity
+Combustion
+Workshop,
+NASA
+Conference
+Publication
+10194,
+pp. 69-74
+(1997).
+9.
+Sung,
+C.
+J.,
+Zhu,
+D.
+L.,
+and
+Law,
+C.
+K.,
+Twenty-Seventh
+Symposium
+(International)
+on
+Combustion,
+The Combustion
+Institute,
+Pittsburgh,
+PA,
+1998,
+pp. 2559-2566.
+10.
+Du,
+J.
+and
+Axelbaum,
+R. L., Combust.
+Flame
+100:367-375
+(1995).
+11.
+Du,
+J., and
+Axelbaum,
+R. L.,
+Twenty-Sixth
+Symposium
+(International)
+on Combustion,
+The
+Combustion
+Institute,
+Pittsburgh,
+PA,
+1996
+pp.
+1137-1142.
+12.
+Chao,
+B. H., Liu,
+S. and Axelbaum,
+R. L., Comb.
+Sci.
+Tech
+138:105-135
+(1998).
+13.
+Lin,
+K. -C.
+and Faeth,
+G. M.,
+J. Prop.
+Power
+12:691-698
+(1996).
+14.
+Lin,
+K. -CI and Faeth,
+G. M.,
+J. Prop.
+Power
+12:10-17
+(1996).
+15.
+Lin,
+K. -C. and Faeth,
+G. M.,
+Combust.
+Flame
+115:468-480
+(1998).
+16.
+Sugiyama,
+G.,
+Twenty-Fifth
+Symposium
+(International)
+on
+Combustion,
+The
+Combustion
+Institute,
+Pittsburgh,
+PA,
+1994,
+pp. 601-608.
+17.
+Markatou,
+P., Wang,
+H., Frenklach,
+M.,
+Comb.
+Flame
+93:467-?
+(1993).
+18.
+Sunderland,
+P. B., K6ylti,
+_.
+13., and Faeth,
+G. M.,
+Combust.
+Flame
+100:310-322
+(1995).
+19.
+Du,
+D. X., Axelbaum,
+R. L., and Law,
+C. K., Twenty-Second
+Symposium
+(International)
+on
+Combustion,
+The
+Combustion
+Institute,
+Pittsburgh,
+PA,
+1988,
+pp. 387-394.
+
+=== page 11 ===
+20.
+Sunderland,
+P.
+B.,
+Mendelson,
+B.
+J.,
+Yuan,
+Z.
+-G.,
+and
+Urban,
+D.
+L.,
+Combust.
+Flame
+116:376-386
+(1999).
+21.
+Urban,
+D. L., Yuan,
+Z. -G,
+Sunderland,
+P. B., Linteris,
+G. T., Voss,
+J. E., Lin,
+K. -C.,
+Dai,
+Z., Sun,
+K.,
+and Faeth,
+G. M., AIAA
+J. 36:1346-1360
+(1998).
+1o
+
+=== page 12 ===
+FIGURE
+CAPTIONS
+FIG.
+1.
+Schematic
+representation
+of counterflow
+flames
+with
+(a) Zst < 0.5
+such
+that
+the flame
+is
+on the oxidizer
+side
+of the stagnation
+plane
+and the flow
+is from
+the
+soot
+inception
+region
+to the
+fuel
+source
+and (b) Zst > 0.5
+such
+that
+the flame
+is on the fuel
+side
+of the stagnation
+plane
+and
+the
+flow
+is from
+the soot
+inception
+region
+to the oxidizer
+source.
+FIG.
+2.
+Representation
+of normalized
+temperature
+(T/Tad)
+and fuel
+and
+oxidizer
+mass
+fractions
+(Yi) versus
+mixture
+fraction
+(Z) for
+diffusion
+flames
+with
+(a) Zst = 0.064
+and
+(b) Z_t = 0.78.
+The
+dashed
+lines
+identify
+a high
+temperature
+zone
+for discussion
+purposes.
+Reproduced
+from
+Du
+and
+Axelbaum
+[ 10].
+FIG.
+3.
+Color
+images
+of representative
+flames
+at the end
+of the
+2.2
+second
+drop:
+(a)
+ethylene
+(1.51
+mg/s)
+issuing
+into
+air,
+Zst
+""
+0.064,
+fl.4;
+(b) diluted
+ethylene
+(19 mg/s)
+issuing
+into oxygen,
+Zst = 0.78,
+fl.4;
+(c)
+air
+(22
+mg/s)
+issuing
+into
+ethylene,
+Zst = 0.064,
+f6;
+(d)
+oxygen
+(5.2
+mg/s)
+issuing
+into
+diluted
+ethylene,
+Zst = 0.78,
+f6. The
+scale
+is revealed
+by the 6.4 mm
+spherical
+burner.
+The
+ethylene
+consumption
+rate
+is 1.51 mg/s
+in all cases.
+FIG.
+4.
+Variation
+of flame
+luminous
+diameter,
+d, with
+time,
+t, for
+the flames
+of Fig.
+3.
+11
+
+=== page 13 ===
+Air
+Soot-
+Inception_
+Zone
+Flame
+C2H41N2
+(a)
+(b)
+]2
+
+=== page 14 ===
+1
+0
+0
+Z
+YC2H4
+1
+1
+0
+0
+Z
+I
+C
+I
+0
+I
+I
+_'_
+I
+I
+_
+I
+IX
+I
+YC2H4
+1
+(a)
+(b)
+13
+
+=== page 15 ===
+I',-
+II
+,,e=,l
+N
+t,0
+II
+tD
+N
+I
+Jez!p!xo
+oi len-I
+LUOJ_ UO!I0aAUO0
+I
+len-I
+oi Jez!P!xO
+LUOJ._UO!IOeAUO0
+
+=== page 16 ===
+40
+30
+E
+E
+"0
+20
+10
+0
+t
+I
+0
+I ill
+•
+|
+II
+II
+I ,,,
+1
+t(s)
+!
+!
+!
+(d)
+(c)
+(b)
+(a)
+I
+2
+15

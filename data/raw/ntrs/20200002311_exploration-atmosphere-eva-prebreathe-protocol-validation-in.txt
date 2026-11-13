@@ -1,0 +1,460 @@
+=== page 1 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+EXPLORATION ATMOSPHERE & EVA 
+PREBREATHE PROTOCOL VALIDATION
+IN THE 20-FOOT CHAMBER
+SOFT GOODS IN 34% O2 8.2 PSIA ATMOSPHERE
+EVELYNE ORNDOFF
+JOSE MARMOLEJO
+NASA / JSC
+20 MAY 2019
+
+=== page 2 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+THE 2020 EXPLORATION ATMOSPHERE & EVA PREBREATHE
+PROTOCOL VALIDATION IS THE FIRST TEST IN >30% OXYGEN
+SINCE THE SKYLAB MEDICAL EXPERIMENTS ALTITUDE TEST.
+48 years later…
+
+=== page 3 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+Approach for the 20-Foot Chamber
+Exploration Atmosphere Test
+• Test Overview
+• Test fidelity
+• Test atmosphere
+• Textiles selection
+• Resources
+• Flammability risk in middle pressure range
+• Verification
+• Back-Up Material
+
+=== page 4 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+TEST OVERVIEW
+• 12-day runs, each with 6 test subjects + 2 Doppler techs
+• Timeline:
+• Day 0:  Open-door familiarization 
+• Day 1:  Subjects complete 3-hour mask prebreathe (P/B), then chamber is taken to 8.2 
+psia and 34% O2.  Subjects remain at this atmosphere for 48 hours.
+• Day 2:  8.2 psia / 34% O2 operations
+• Day 3 (EVA Day):  Subjects don masks (85% O2 for test subjects / 100% O2 for Doppler 
+Techs).  Chamber is taken to 4.3 psia for 6-hour EVA simulation.  After EVA simulation, 
+chamber is brought back to 8.2 psia / 34% O2.
+• Days 4, 6, 8, and 10:  8.2 psia 34% O2 operations.
+• Days 5, 7, 9, and 11:  EVA simulation.  Chamber is returned to sea-level on Day 11.
+
+=== page 5 ===
+Hour
+Day 0
+Day 1
+Day 2
+Day 3
+Day 4
+Day 5
+Day 6
+Day 7
+Day 8
+Day 9
+Day 10
+Day 11
+0000
+0030
+0100
+0130
+0200
+(Sleep)
+0230
+(14.7 psia)
+0300
+0330
+0400
+0430
+0500
+0530
+(Breakfast)
+0600
+0630
+0700
+Pre-breathe
+0730
+(100% O2)
+0800
+0830
+0900
+0930
+Depress/Stab.
+1000
+(8.2 psia)
+Depress/Stab.
+Depress/Stab.
+Depress/Stab.
+Depress/Stab.
+Depress/Stab.
+1030
+1100
+(4.3 psia)
+(4.3 psia)
+(4.3 psia)
+(4.3 psia)
+(4.3 psia)
+1130
+1200
+Subjects Arrive
+Simulated
+Simulated
+Simulated
+Simulated
+Simulated
+1230
+EVA
+EVA
+EVA
+EVA
+EVA
+1300
+1330
+1400
+1430
+(Orientation)
+1500
+1530
+1600
+1630
+Repress/Stab.
+Repress/Stab.
+Repress/Stab.
+Repress/Stab.
+Repress/Stab.
+1700
+Debriefing
+1730
+(8.2 psia)
+(8.2 psia)
+(8.2 psia)
+(8.2 psia)
+(8.2 psia)
+(8.2 psia)
+(8.2 psia)
+(8.2 psia)
+(8.2 psia)
+1800
+(Dinner)
+Post-Test
+1830
+Check Lists
+1900
+1930
+2000
+(Pre-Sleep)
+2030
+(14.7 psia)
+2100
+2130
+2200
+(Sleep)
+2230
+2300
+2330
+2400
+Validation Timeline (Notional)
+15 minutes to 
+depressurize
+15 minutes to 
+repressurize
+85%
+O2
+15 minutes to 
+repressurize
+15 minutes to 
+repressurize
+85%
+O2
+85%
+O2
+85%
+O2
+85%
+O2
+Depressurize to 4.3 psia in 
+15 minutes
+15 minutes to 
+repressurize
+5
+15 minutes to 
+repressurize
+Pre-Test 
+Checklists
+
+=== page 6 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+PREVIOUS HUMAN TESTS IN THE 20-FOOT CHAMBER
+SKYLAB Medical Experiment Altitude Test (SMEAT) (56 Days)
+Atmosphere 70% O2 at 5 psia
+Textiles: Apparel, sleeping bags, pillows, curtains, towels
+Lunar Mars Life Support Test (30/60/90 Days)
+Tests Ambient Atmosphere
+Textiles: Apparel, sleeping bags, pillows, sound barrier, 
+carpet, towels, wipes
+HIGH FIDELITY
+LOW FIDELITY
+
+=== page 7 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+TEST RESEARCH LEVEL/COMPARISON
+
+=== page 8 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+APPROACH TO THE SELECTION OF TEXTILES
+• Flame Retardant in 34% O2
+• Outer layer clothes 
+• Sleep station:  Flame retardant curtains, sleeping bags, pillows, canvas cots.
+• Flame Retardant in 21% O2:
+• Hygiene and household products (e.g., towels, wipes, etc.) with short exposure 
+to enriched oxygen atmosphere can be stowed away in flame retardant bags or 
+passed through chamber ports. 
+
+=== page 9 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+SELECTION OF TEXTILES
+• Review past tests in 20-Foot chamber to extract useful information.
+• Perform market survey of textile fibers and fabrics that do not ignite in 
+34% oxygen atmosphere.
+• Select textiles for clothing, towels, bedding, and space partitioning.
+• Test candidate fabrics: flammability test, abrasion, raveling, lint 
+production, comfort.
+• Evaluate cost and lead time to procure finished soft goods.
+
+=== page 10 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+FABRICS THEN AND NOW
+SMEAT Fabrics
+• Durette 400 (Monsanto Research 
+Corp.) 
+• Polybenzimidazole (Celanese 
+Corp.)
+Exploration Atmosphere Fabric 
+candidates: 
+• modacrylic co-polymers (i.e. 
+PyroTex from PyroTex Industries, 
+Protex M from Kaneka Corp.)
+• PBI blended fabrics (PBI 
+Performance Inc.)
+• P84 polyimide (Evonik Industries)
+Challenges: 
+Availability of fabrics and finished goods
+Cost
+Verification
+
+=== page 11 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+FABRIC DEVELOPMENT
+COST IN 2018 COMPARED
+TO COST IN 1969 BASED
+ON PRODUCER PRICE INDEX
+• NASA Contract NAS9-10397 
+cost $130,000 in 1969; it 
+would cost $374,400 in 
+2018
+• Producer Price Index (PPI) by 
+Commodity for Textile 
+Products and Apparel.  The 
+PPI in 1969 was ~52 and the 
+PPI in 2018 is ~150.  
+• The ratio 150/52 = 2.88 is the 
+factor by which to multiply the 
+cost in the contract that you 
+have.
+•
+Source: 
+https://fred.stlouisfed.org/series/
+WPU03
+
+=== page 12 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+FLAMMABILITY
+RISK IN MIDDLE
+PRESSURE RANGE
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+6.0
+8.0
+10.0
+12.0
+14.0
+16.0
+18.0
+Oxygen Concentration (%)
+Total Pressure (psia)
+Normoxic Environmental 
+Conditions (3.09 psia ppO₂)
+Test Condition
+Standard Atm, sea level
+Physical Effect: weak convective 
+thermal removal from ignitable 
+domain to the ambient 
+atmosphere
+Chemical Effect: so-called 
+“explosion peninsula” as a result 
+of depleting radical 
+consumption due to third-body 
+recombination reaction 
+
+=== page 13 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+FIRST GATE:
+LIMITING OXYGEN
+INDEX TEST
+ASTM D2863; BS 2782:141 & ISO 4589-2
+This is a widely used, but frequently
+misinterpreted test which provides a
+single figure related to ignitability.
+Limiting Oxygen Index (LOI) is the per
+cent concentration of oxygen at which
+a small specimen will only just burn
+downwards in a candle like manner.
+The test is probably the most well-
+known of the standard fire tests.
+The apparatus holds a small specimen
+of material which is clamped vertically
+in a tube in an atmosphere where the
+relative concentration of oxygen and
+nitrogen can be changed. The aim is
+to test the flammability of the sample
+with a small pilot flame to find the
+minimum
+oxygen
+concentration
+required to just sustain combustion of
+the sample.
+JSC has the in-house capability allowing
+for considerable cost savings vs. outsource
+testing to White Sands.
+
+=== page 14 ===
+National Aeronautics and Space Administration
+www.nasa.gov
+SECOND GATE:  OUTGASSING AND TOXICITY?
+While JSC also has the in-house capability
+to perform outgassing and some toxicity
+tests, some tests may be done at WSTF to
+satisfy the JSC Institutional Review Board
+
+=== page 15 ===
+EXCERPTS FROM
+CONCEPT OF OPERATIONS
+15
+BACK-UP MATERIAL: 
+
+=== page 16 ===
+6. 48-Hour Period @ 8.2 psia & 34% O2
+- Main Chamber
+- Hatch:  Open
+- Techs:  Masks Off
+- Subjects:  Masks Off
+- Man-lock
+- Hatch:  Closed 
+- Techs:  N/A
+- Subjects:  N/A
+- Observer-lock
+- Techs:  N/A
+Notes:
+• Subjects and Doppler Techs remain 
+in this environment for 48 hours
+between EVAs.
+• All materials rated for exposure to 36% 
+O2 and operation at 8.2 psia.
+• Exercise, sleep and recreation provisions, 
+including computer workstations, provided.
+• Food, water, and other resources available 
+via Man-Lock and / or Transfer Lock.  Man-
+Lock available for crew extraction.
+• Full Sink / Shower / Toilet services available.
+• 8.2 psia operations include several ‘piggy-
+back research activities.
+• Blood / urine specimens collected during 
+course of evaluation.
+16
+Time:  Day 1 - Day 3
+1000 – 1000 hours
+Test Subject
+Test Subject
+Test Subject
+Test Subject
+Test Subject
+Test Subject
+(8.2 psia)
+(14.7 psia)
+20-Foot Chamber
+Rescue Configuration 3 (i.e., constrained by facility & reduced atmosphere)
+Doppler Tech
+Doppler Tech
+(8.2 psia)
+Exploration Atm. & EVA P/B Protocol Validation (Test Conduct)
+
+=== page 17 ===
+8c. Conduct EVA:  EVA Operations
+- Main Chamber
+- Hatch:  Open
+- Techs:  Mask On (100% O2)
+- Subjects:  Masks On (85% O2)
+- Man-lock
+- Hatch:  Closed 
+- Techs: N/A
+- Subjects:  N/A
+- Observer-lock
+- Techs:  N/A
+Notes:
+• 6-hour simulated EVA (max)
+• Surface EVA simulation
+• Subjects are in 2 groups (A & B).
+• Each group runs through a series of 
+tasks (e.g., exercise) at pre-defined 
+intervals.
+• Doppler Techs help to coordinate the test 
+activities.
+• All materials rated for operation at 4.3 
+psia (or powered OFF / removed from 
+chamber.
+• Facility uses ‘purge’ operations to 
+manage O2 concentrations.
+17
+Time:  Day 3
+1015 - 1615 hours 
+(Time EV:  00:00 –
+06:00 hours)
+Test Subject
+Test Subject
+Test Subject
+Test Subject
+Test Subject
+Test Subject
+20-Foot Chamber
+Rescue Configuration 3 (i.e., constrained by facility & reduced atmosphere)
+(4.3 psia)
+Exploration Atm. & EVA P/B Protocol Validation (Test Conduct)
+(8.2 psia)
+(14.7 psia)
+Rescue Tech
+Rescue Tech
+Doppler Tech
+Doppler Tech

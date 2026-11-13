@@ -1,0 +1,1666 @@
+=== page 1 ===
+NASA Technical Memorandum 101463 
+Fire Safety Applications 
+for Spacecraft 
+Robert Friedman and Sandra L. Olson 
+Lewis Research Center 
+Cleveland, Ohio 
+(NASA-T!l-101463) 
+FIRE SAFETY APPLlCAT I O N S 
+FOB SPACECRAFT 
+(NASA. 
+L e w i s Research 
+Center) 
+29 p 
+CSCL 228 
+N89-244 13 
+Unclas 
+G3/16 
+0217631 
+Prepared for the 
+Symposium on Aircraft Fire Safety 
+sponsored by the AGARD/NATO Propulsion Energetics Panel 
+Sintra, Portugal, May 22-26, 1989 
+
+=== page 2 ===
+F I R E SAFETY APPLICATIONS FOR SPACECRAFT 
+Robert Friedman and Sandra L. Olson 
+N a t i o n a l Aeronautics and Space A d m i n i s t r a t i o n 
+Lewis Research Center 
+C1 eve1 and, Ohio 441 35 
+U . S . A . 
+SUMMARY 
+This paper reviews f i r e s a f e t y for s p a c e c r a f t by first d e s c r i b i n g c u r r e n t 
+p r a c t i c e s , many of which a r e adapted d i r e c t l y from a i r c r a f t . 
+The paper then 
+discusses c u r r e n t analyses and experimental knowledge i n l o w - g r a v i t y combus- 
+t i o n , w i t h i m p l i c a t i o n s f o r f i r e s a f e t y . 
+I n o r b i t i n g s p a c e c r a f t , t h e d e t e c t i o n 
+and suppression o f flames a r e s t r o n g l y a f f e c t e d by t h e l a r g e r e d u c t i o n i n buoy- 
+a n t flows under low g r a v i t y . 
+G e n e r a l l y , combustion i n t e n s i t y i s reduced i n low 
+g r a v i t y . 
+F i n a l l y , t h e paper examines t h e f u t u r e requirements i n f i r e s a f e t y , p a r t i c u - 
+l a r l y t h e needs o f long-duration space s t a t i o n s i n f i r e p r e v e n t i o n , d e t e c t i o n , 
+extinguishment, and atmospheric c o n t r o l . 
+The goal o f s p a c e c r a f t f i r e - s a f e t y 
+i n v e s t i g a t i o n s i s t h e establishment o f t r a d e - o f f s t h a t promote maximum s a f e t y 
+w i t h o u t hampering t h e u s e f u l human and s c i e n t i f i c a c t i v i t i e s i n space. 
+- - 
+m 7 
+w 
+s t r o n g enhancement o f flames by l o w - v e l o c i t y v e n t i l a t i o n flows i n space. 
+There a r e some n o t a b l e exceptions, however, one example b e i n g t h e 
+INTRODUCTION 
+F i r e i s regarded as one of t h e most s e r i o u s t h r e a t s t o space t r a v e l , y e t 
+t h e spread o f f i r e i n space i s n o t w e l l understood. 
+c o n t r o l f i r e s i n space have, t o a l a r g e e x t e n t , been based on techniques bor- 
+rowed from a i r c r a f t p r a c t i c e s . 
+Indeed, f i r e p o t e n t i a l i n ground, launch, and 
+recovery o p e r a t i o n s f o r space i s analogous t o t h a t i n ground s e r v i c i n g , 
+off, and l a n d i n g o p e r a t i o n s for a i r c r a f t . 
+Thus, p r e s e n t spacecraft f i r e 
+s a f e t y has been promoted through s t r i c t c o n t r o l of m a t e r i a l s and atmospheres 
+and t h r o u g h f i r e d e t e c t i o n and suppression methods o p t i m i z e d for r e l i a b i l i t y 
+and mass and energy conservation. 
+Efforts t o p r e v e n t and 
+take- 
+For space missions o f t h e near f u t u r e , f i r e s a f e t y techniques must change 
+The n e x t g e n e r a t i o n of human-crew s p a c e c r a f t w i l l be dominated by per- 
+from simple s t r a t e g i e s borrowed from a i r c r a f t p r a c t i c e s t o s p e c i f i c methods for 
+s p a c e c r a f t , compatible w i t h t h e requirements of complex, m u l t i - m i s s i o n opera- 
+t i o n s . 
+manently o r b i t i n g p l a t f o r m s such as t h e p r o t o t y p e U.S.S.R. 
+M i r or t h e planned 
+U.S. Space S t a t i o n Freedom. 
+The f u t u r e space s t a t i o n s w i l l be c l u s t e r s of l i v - 
+i n g q u a r t e r s , l a b o r a t o r i e s , s a t e l l i t e launch and recovery f a c i l i t i e s , and 
+i n d u s t r i a l p i l o t p l a n t s , accommodating "passengers" who are s c i e n t i s t s and 
+observers, n o t a s t r o n a u t s . 
+F i r e - s a f e t y techniques w i l l s t r i v e f o r s i m p l i c i t y , 
+s t a n d a r d i z a t i o n , p r a c t i c a l i t y , minimal impact on o p e r a t i o n s , and reasonable 
+c o s t s . 
+The s i m i l a r i t y o f these o b j e c t i v e s t o p r e s e n t p o l i c i e s i n t h e passenger- 
+c a r r y i n g a i r p l a n e f l e e t i s inescapable. 
+f i r e s a f e t y a t t h a t time (Ref. 1 ) . 
+posium a r e now i n t e r e s t s common t o s p a c e c r a f t and a i r c r a f t , i n c l u d i n g t h e needs 
+An AGARD symposium h e l d 14 years ago summarized t h e progress i n a v i a t i o n 
+Some o f t h e concerns discussed a t t h e sym- 
+, 
+
+=== page 3 ===
+for b e t t e r understanding of fundamental f i r e - s a f e t y p r i n c i p l e s , improvements 
+i n nonflammable m a t e r i a l s , and t h e r e d u c t i o n o f f i r e - g e n e r a t e d smoke and t o x i c 
+products. 
+These s p e c i f i c concerns f o r s p a c e c r a f t f i r e s a f e t y have been d i s - 
+cussed i n a symposium h e l d i n t h e U n i t e d S t a t e s , aimed a t i n i t i a t i n g s t u d i e s 
+a p p l i c a b l e t o t h e U . S . Space S t a t i o n Freedom (Refs. 2 and 3 ) . 
+This paper i s a r e v i e w and s t a t u s r e p o r t on c u r r e n t understanding and 
+research d i r e c t i o n s i n s p a c e c r a f t f i r e s a f e t y . 
+I n a d d i t i o n to t h e aforemen- 
+t i o n e d s i m i l a r i t i e s to t h e a i r c r a f t environment, t h e paper discusses t h e unique 
+a t t r i b u t e s o f space, t h e most obvious of which i s t h e almost complete absence 
+o f t h e g r a v i t a t i o n a l f o r c e . 
+The behavior o f flames i n " m i c r o g r a v i t y " has a 
+s t r o n g i n f l u e n c e on f i r e i n i t i a t i o n and c o n t r o l . 
+The paper a l s o surveys t h e 
+a p p l i c a t i o n of l o w - g r a v i t y combustion knowledge t o p r o v i d e techniques o f f i r e 
+p r e v e n t i o n , d e t e c t i o n , extinguishment, and atmospheric c o n t r o l i n spacecraft. 
+CURRENT SPACECRAFT FIRE-SAFETY PRACTICES 
+F i r e Prevention i n Space 
+Basic s t r a t e g i e s . - S a f e t y i n human space t r a v e l has always been o f para- 
+mount importance. 
+The e a r l i e s t space missions attempted t o minimize f i r e haz- 
+ards through s t r i n g e n t c o n t r o l of p o t e n t i a l flammables and sources o f i g n i t i o n 
+energy. 
+Since space v e h i c l e s were r e l a t i v e l y simple and t h e i r o p e r a t i n g m i s - 
+sions s h o r t i n d u r a t i o n , t h e s t r a t e g y of s t r i c t p r e c l u s i o n of f i r e - c a u s i n g e l e - 
+ments was thus p r a c t i c a l t o implement. 
+For new generations of space missions, 
+t h i s approach o f "complete e x c l u s i o n " f o r f i r e s a f e t y i s i m p r a c t i c a l . 
+F i r s t , 
+a l a c k o f thorough understanding of f i r e behavior under space c o n d i t i o n s under- 
+more i m p o r t a n t , r e g a r d l e s s o f t h e s t a t e of knowledge, space planners now con- 
+cede t h a t complete e l i m i n a t i o n of f i r e - c a u s i n g elements i s n e i t h e r p r a c t i c a l 
+nor d e s i r a b l e i f a space m i s s i o n i s t o serve a v a r i e t y o f u s e f u l purposes i n 
+terms o f passenger, s c i e n t i f i c , or commercial accommodations (Refs. 3 and 4 ) . 
+becomes p a r t of an optimum balance among s a f e t y , performance, cost, and sched- 
+u l e (Refs. 5 and 6 ) . 
+l 
+I 
+mines t h e confidence t h a t hazards can be completely e l i m i n a t e d . 
+Second and 
+I 
+I 
+Thus, t o t a l e l i m i n a t i o n of r i s k i s impossible, and s p a c e c r a f t f i r e s a f e t y 
+, 
+F i g u r e 1 represents a l o g i c a l approach t o s p a c e c r a f t f i r e safety based on 
+p r a c t i c a l s t r a t e g i e s . 
+The goals of r i s k r e d u c t i o n a r e approached through t h e 
+a c c e p t a b i l i t y c r i t e r i a , which i n c l u d e s a f e t y standards, m a t e r i a l t e s t l i m i t s , 
+o p e r a t i o n a l procedures, and o t h e r f a c t o r s t h a t l i m i t t h e degree of r i s k . 
+The 
+i n f o r m a t i o n c o n t r i b u t i n g t o these a c c e p t a b i l i t y d e c i s i o n s i s p r o v i d e d by t h e 
+i d e n t i f i c a t i o n and assessment o f hazards and t h e f o r m u l a t i o n of t o l e r a n c e stan- 
+dards t o s e t a p o l i c y o f r i s k l i m i t s . 
+I 
+Friedman and Sacksteder (Ref. 6) have f u r t h e r c h a r a c t e r i z e d t h e process of 
+r i s k assessment by d e f i n i n g simple steps of p r e v e n t i o n , response, and recovery, 
+based i n p a r t on t h e analyses o f Peercy and Raasch (Ref. 7 ) . 
+I n b r i e f , preven- 
+t i o n i s t h e o r i g i n a l p h i l o s o p h y of f i r e s a f e t y through t h e s t r i c t e x c l u s i o n o f 
+f i r e - c a u s i n g elements. 
+Where p r e v e n t i o n i s i m p r a c t i c a l , response, t h a t i s , t h e 
+i d e n t i f i c a t i o n of t h e hazard and t h e l i m i t a t i o n o f t h e growth of an i n c i p i e n t 
+f i r e through d e t e c t i o n and suppression techniques i s a l e s s e r r i s k o p t i o n than 
+f u l l - s c a l e f i r e c o n t r o l . 
+Recovery, on t h e o t h e r hand, i s t h e h i g h e s t - r i s k 
+o p t i o n of f i g h t i n g an e s t a b l i s h e d f i r e , l i m i t i n g damage, and r e s t o r i n g t h e 
+o r i g i n a l c o n d i t i o n s . 
+Spacecraft r i s k management, o u t o f n e c e s s i t y , incorpo- 
+r a t e s t h i s e n t i r e range of r i s k assessment i n t o f i r e - s a f e t y programs. 
+2 
+
+=== page 4 ===
+M a t e r i a l f l a m m a b i l i t y and acceptance. - The f i r s t l i n e o f defense i n space- 
+c r a f t f i r e s a f e t y i s i n t h e l i m i t a t i o n of m a t e r i a l s , as f a r as p r a c t i c a l , to 
+those c h a r a c t e r i z e d as nonflammable. 
+For U.S. s p a c e c r a f t , t h e p r i m a r y accept- 
+ance t e s t i s t h e upward f l a m m a b i l i t y t e s t , described i n t h e NASA Handbook 
+NHB 8060.16 (Ref. 8). The apparatus i s sketched i n F i g . 2. 
+The sample mate- 
+r i a l , a sheet or f a b r i c f o r example, i s mounted v e r t i c a l l y and i g n i t e d a t t h e 
+bottom. 
+To pass t h e t e s t , t h e m a t e r i a l e i t h e r r e s i s t s i g n i t i o n or, i f i g n i t e d , 
+must n o t s u s t a i n a flame propagating more than a s t a t e d l i m i t (15 cm a t 
+p r e s e n t ) . 
+Furthermore, t h e i g n i t e d specimen must n o t d r i p s u f f i c i e n t l y t o 
+i g n i t e a sheet of paper mounted below t h e sample. 
+A l t e r n a t i v e acceptance t e s t s 
+a r e d e f i n e d for f l a m m a b i l i t y d e t e r m i n a t i o n o f such m a t e r i a l s as w i r e i n s u l a - 
+t i o n , s e a l a n t s , greases, and l i q u i d s t h a t a r e u n s u i t a b l e for e v a l u a t i o n i n t h e 
+upward f l a m m a b i l i t y t e s t . 
+Cole (Ref. 9) notes t h a t f o r confidence i n t h e r e s u l t s o f these t e s t s , i t 
+i s c r i t i c a l to t e s t m a t e r i a l samples r e p r e s e n t a t i v e of t h e i r end-use c o n f i g u r a - 
+t i o n i n s p a c e c r a f t and t o t e s t them i n t h e same atmosphere as t o be used i n 
+space. 
+Since f i r e behavior i s s u r e l y d i f f e r e n t i n space than i n normal grav- 
+i t y , t h e safety f a c t o r s p r o v i d e d by t h e n o r m a l - g r a v i t y f l a m m a b i l i t y t e s t d a t a 
+a r e u n c e r t a i n . 
+I n a d d i t i o n , one must r e a l i z e t h a t many e s s e n t i a l items t h a t 
+w i l l be used i n s p a c e c r a f t , items i n c l u d i n g some c l o t h i n g , paper, and f i l m s , 
+are i n h e r e n t l y flammable. 
+The acceptance o f these m a t e r i a l s i n t o a space e n v i - 
+ronment assumes t h a t t h e i r p o t e n t i a l hazards a r e reduced through l i m i t a t i o n s 
+of q u a n t i t y and requirements f o r s p e c i a l i z e d spacing, b a r r i e r s , and storage. 
+F i r e D e t e c t i o n P r a c t i c e s i n Spacecraft 
+D e t e c t i o n of f i r e , or i t s p r e c u r s o r overheating, depends on t h e a b i l i t y 
+t o recognize t h e abnormal departure i n environmental c o n d i t i o n s known as a 
+" f i r e s i g n a t u r e " through measurement o f temperature, r a d i a t i o n , smoke-particle, 
+or chemical-specie changes. 
+Knowledge o f l o w - g r a v i t y f i r e behavior leads one 
+t o expect t h a t f i r e i n d i c a t o r s i n space a r e d i f f e r e n t from those i n normal 
+g r a v i t y , b o t h i n t h e n a t u r e of t h e s i g n a t u r e and i n t h e mode of t r a n s p o r t of 
+t h e s i g n a t u r e to t h e d e t e c t o r sensor ( R e f . 3 ) . 
+Nevertheless, p r e s e n t f i r e d e t e c t o r s i n s p a c e c r a f t a r e a d a p t a t i o n s of 
+acceptable models used o n aircraft. 
+Aircraft fire detection techniques, a sub- 
+j e c t w e l l reviewed i n r e c e n t years (Refs. 10 to 12>, i n c o r p o r a t e several modes 
+of d e t e c t i o n , such as temperature sensing i n engine n a c e l l e s and cargo areas, 
+and r a d i a t i o n and smoke-particle d e t e c t o r s i n c a b i n areas. 
+The o r i g i n a l space- 
+c r a f t f i r e d e t e c t o r s were t h e human crew, who c o u l d sense and d e t e c t i n c i p i e n t 
+f i r e s . 
+The c o m p l e x i t y and v a r i e d missions o f p r e s e n t s p a c e c r a f t , however, 
+make remote sensing necessary. 
+F i g u r e 3 shows t h e f i r e - p r o t e c t i o n p r o v i s i o n s i n t h e U.S. S h u t t l e cabin, 
+and t h e i n s e t shows a t y p i c a l d e t e c t o r . 
+Nine i o n i z a t i o n - t y p e smoke d e t e c t o r s 
+a r e i n s t a l l e d i n t h e i n s t r u m e n t bays and crew decks of t h e S h u t t l e (Refs. 9 
+and 13). 
+S i m i l a r f i r e p r o t e c t i o n i s p r o v i d e d i n t h e Spacelab, which i s a Euro- 
+pean Space Agency l a b o r a t o r y chamber i n s t a l l e d i n t h e S h u t t l e payload bay i n 
+s e l e c t e d missions. 
+The S h u t t l e smoke d e t e c t o r i s i d e n t i c a l i n p r i n c i p l e t o 
+conventional a i r c r a f t and commercial i o n i z a t i o n smoke d e t e c t o r s , except for two 
+a d d i t i o n a l f e a t u r e s . 
+The S h u t t l e smoke d e t e c t o r i s p r o v i d e d w i t h a b u i l t - i n 
+fan t o assure a continuous flow o f sampled atmosphere. 
+The smoke d e t e c t o r a l s o 
+has a f i n e screen upstream o f t h e i o n i z a t i o n chamber t o bypass l a r g e r p a r t i c l e s 
+3 
+
+=== page 5 ===
+and assure t h e e n t r y o f o n l y submicrometer-sized p a r t i c l e s i n t o t h e chamber. 
+Thus, the spacecraft smoke d e t e c t o r can monitor a i r q u a l i t y r e g a r d l e s s of loca- 
+t i o n , since i t maintains a continuous forced-convection flow through i t s sens- 
+i n g elements. 
+The sampling screen i s intended t o r e j e c t l a r g e p a r t i c l e s , most 
+l i k e l y d u s t , t o reduce t h e number o f f a l s e alarms caused by these a i r - b o r n e 
+p a r t i c l e s . 
+The present s p a c e c r a f t f i r e d e t e c t o r s r e p r e s e n t t h e b e s t a p p l i c a t i o n o f 
+t h e s t a t e - o f - t h e - a r t 
+d e r i v e d from a i r c r a f t and ground experience. 
+The detec- 
+tors a r e an outgrowth of p r i o r i n v e s t i g a t i o n s of several proposed techniques, 
+i n c l u d i n g u l t r a v i o l e t r a d i a t i o n , cloud chambers, q u a r t z - c r y s t a l impact micro- 
+balances, and gas samplers, f o r smoke and f i r e d e t e c t i o n ( R e f . 6 ) . 
+While t h e 
+m o d i f i e d i o n i z a t i o n smoke d e t e c t o r represents an optimum i n t e r m s of r e l i a b i l - 
+i t y , maintenance, minimum mass and cost f a c t o r s , i t cannot be claimed t o be 
+t h e most e f f e c t i v e f o r l o w - g r a v i t y performance. 
+I n f a c t , several questions 
+for f u t u r e space a p p l i c a t i o n s must be r e s o l v e d , namely, ( 1 ) i s t h e screened 
+p a r t i c l e - s i z e range most r e p r e s e n t a t i v e o f smoke-particle d e n s i t i e s generated 
+i n i n c i p i e n t space f i r e s ? ( 2 ) do t h e placement and i n t e r n a l flow performance 
+of t h e d e t e c t o r s ensure e a r l y d e t e c t i o n and r a p i d response t i m e s ? and ( 3 ) how 
+can t h e s e n s i t i v i t y and performance of t h e d e t e c t o r be checked and c a l i b r a t e d 
+under space c o n d i t i o n s ? 
+F i r e Extinguishment P r a c t i c e s i n Spacecraft 
+g f 
+I n space, techniques f o r fire suppression may d i f f e r from those i n normal- 
+r a v i t y s i t u a t i o n s b o t h because o f t h e unusual c h a r a c t e r i s t i c s o f l o w - g r a v i t y 
+i r e s and because o f t h e l o w - g r a v i t y i n f l u e n c e on extinguishment d e l i v e r y sys- 
+tems. 
+As i s t h e case for f i r e d e t e c t i o n , p r e s e n t s p a c e c r a f t f i r e e x t i n g u i s h e r s 
+a r e adaptations o f those used i n a i r c r a f t c a b i n p r o t e c t i o n and employ mixed- 
+phase e x t i n g u i s h a n t s (foams) or, more commonly, p r e s s u r i z e d gases (Refs. 10 
+and 14). 
+The e a r l y human-crew s p a c e c r a f t had p r o v i s i o n s f o r use o f food- 
+r e c o n s t i t u t i o n water guns f o r emergency f i r e extinguishment ( R e f . 9 ) . 
+The Sky- 
+l a b , t h e 1973-1974 U.S. p r o t o t y p e space s t a t i o n , was equipped w i t h waterlfoam 
+f i r e e x t i n g u i s h e r s . 
+A t p r e s e n t , t h e S h u t t l e f i r e e x t i n g u i s h e r s a r e p r e s s u r i z e d 
+gas c y l i n d e r s , charged w i t h bromotrifluoromethane (Halon 1301) ( F i g . 4 ) . 
+Three 
+f i x e d - p o s i t i o n e x t i n g u i s h e r c y l i n d e r s p r o t e c t t h e i n s t r u m e n t bays, and these 
+may be actuated remotely from t h e c o n t r o l deck. 
+A d d i t i o n a l p o r t a b l e f i r e e x t i n - 
+guishers are a v a i l a b l e f o r f i r e f i g h t i n g i n t h e S h u t t l e c a b i n and a l s o i n 
+Spacelab. 
+These p o r t a b l e u n i t s can be used t o suppress f i r e s o r i g i n a t i n g 
+behind t h e instrument panels by i n s e r t i n g t h e e x t i n g u i s h e r nozzles i n t o p o r t s 
+i n t h e panels. 
+The choice o f Halon 1301 for f i r e p r o t e c t i o n i n t h e S h u t t l e i s based on 
+t h e demonstrated e f f e c t i v e n e s s o f t h i s e x t i n g u i s h a n t ( a small c o n c e n t r a t i o n 
+e x t i n g u i s h e s most f i r e s ) as w e l l as on i t s i n e r t n e s s , a t l e a s t i n small concen- 
+t r a t i o n s . 
+There a r e , however, recognized disadvantages i n t h e use o f Halon 
+1301, even for a i r c r a f t s e r v i c e (Refs. 12 and 14). 
+The p r i n c i p a l problem i s 
+t h a t Halon 1301 e x t i n g u i s h e s by i n h i b i t i n g t h e chain-branching r e a c t i o n s of 
+combustion and, i n the process, generates hydrogen h a l i d e s (HBr and HF). 
+These 
+gases are toxic and c o r r o s i v e , and t h e y can be d i f f i c u l t to remove i n t h e recy- 
+c l i n g environmental c o n t r o l system. 
+Furthermore, Halon 1301 i s r e l a t i v e l y 
+4 
+
+=== page 6 ===
+i n e f f e c t i v e on deep-seated or smoldering f i r e s , which r e q u i r e c o o l i n g or smoth- 
+e r i n g foams for suppression. 
+The occurrence o f smoldering f i r e s may be reason- 
+a b l y probable i n space, where t h e slow d i f f u s i o n o f oxygen i n t o porous media 
+f a v o r s smoldering r a t h e r than f l a m i n g combustion. 
+A number of common e x t i n g u i s h i n g agents have been suggested as a l t e r n a - 
+t i v e s t o Halon 1301 i n f u t u r e s p a c e c r a f t (Refs. 1 and 4 > , b u t each has disad- 
+vantages as w e l l as advantages. 
+A p r i m a r y c o n s i d e r a t i o n i n t h e s e l e c t i o n of an 
+e x t i n g u i s h i n g agent i s the e f f e c t o f t h e p o t e n t i a l contamination o f t h e space- 
+c r a f t atmosphere by t h e agent and i t s r e a c t i o n products. 
+The p r o v i s i o n for 
+Halon 1301 onboard t h e U.S. S h u t t l e i s j u s t i f i e d i n t h a t , for a s h o r t - d u r a t i o n 
+mission, t h e advantages o f t h e Halon overcome i t s disadvantages. 
+A discharge 
+o f t h e e x t i n g u i s h a n t d u r i n g a m i s s i o n would c a l l for an immediate t e r m i n a t i o n 
+and r e t u r n t o e a r t h w i t h i n a f e w hours t o minimize t h e toxic or c o r r o s i v e 
+e f f e c t s (Ref. 13). 
+This o p t i o n i s n o t a v a i l a b l e i n f u t u r e , permanent o r b i t 
+missions, as i n Freedom. 
+COMBUSTION AND F I R E I N SPACE 
+The Low-Gravi t y Environment 
+A t t h e usual a l t i t u d e of a f e w hundred kilometers f o r human-crew o r b i t i n g 
+s p a c e c r a f t , t h e E a r t h g r a v i t a t i o n a l a c c e l e r a t i o n i s l i t t l e d i f f e r e n t from t h a t 
+a t sea l e v e l (9.8 m / s Z > . 
+t h a t o f f r e e f a l l , where t h e r e i s a balance of f o r c e s w i t h a v e r y low n e t 
+a c c e l e r a t i o n f o r c e . 
+Zero a c c e l e r a t i o n , or z e r o g r a v i t y , i s approached o n l y as 
+a l i m i t . 
+p e r t u r b a t i o n s a r e s l i g h t , of t h e o r d e r o f 
+t o 
+times normal E a r t h 
+g r a v i t y . 
+For combustion research, t h i s l o w - g r a v i t y environment i s u s u a l l y 
+c a l l e d m i c r o g r a v i t y . 
+The c o n d i t i o n of t h e s p a c e c r a f t and i t s c o n t e n t s i s 
+I n p r a c t i c e , a c c e l e r a t i o n s due to unbalanced d r a g f o r c e s and o t h e r 
+The l a r g e temperature d i f f e r e n c e s i n flames cause d e n s i t y d i f f e r e n c e s , 
+which produce s t r o n g upward, buoyant flows i n normal g r a v i t y . 
+I n low g r a v i t y , 
+flame propagation i s no longer p r e f e r e n t i a l l y "up," and d i f f u s i o n , S t e f a n and 
+o t h e r t r a n s p o r t mechanisms, whose e f f e c t s are overwhelmed by buoyancy i n normal 
+g r a v i t y , can s t r o n g l y i n f l u e n c e flame propagation. 
+Transport o f h e a t by r a d i a - 
+t i o n may become dominant, causing flame i n h i b i t i o n by c o o l i n g i n some i n s t a n c e s , 
+causing f i r e propagation t o a d j a c e n t surfaces i n o t h e r instances. 
+The t r a n s - 
+p o r t o f oxygen t o a flame zone by d i f f u s i o n alone may be slow and i n e f f i c i e n t 
+i n l o w - g r a v i t y flames, a l t e r i n g t h e chemistry and k i n e t i c s of t h e combustion 
+r e a c t i o n . 
+A l l these f a c t o r s can s t r o n g l y a f f e c t t h e i g n i t i o n , spread, and 
+n a t u r e o f t h e reduced-gravity flame. 
+Thus, f i r e s a f e t y i n o r b i t i n g s p a c e c r a f t r e q u i r e s foremost an understand- 
+i n g of t h e behavior of combustion processes i n low g r a v i t y , based on t h e o r e t i - 
+c a l analyses and v a l i d a t i n g experimental data. 
+B r i e f History o f Low-Gravity Combustion Research 
+The e a r l i e s t l o w - g r a v i t y combustion experiments conducted w i t h s o l i d mate- 
+r i a l s were performed aboard a i r c r a f t f l y i n g over p a r a b o l i c f l i g h t paths to 
+o b t a i n s h o r t p e r i o d s of low g r a v i t y (Ref. 15). 
+rubber compounds, p a r a f f i n s , and paper were burned i n low-pressure, 
+pure-oxygen 
+environments. 
+Burning r a t e s i n low g r a v i t y were observed t o be slow, b u t 
+steady-state c o n d i t i o n s were n o t achieved d u r i n g t h e s h o r t t e s t t i m e . 
+Various polymeric m a t e r i a l s , 
+5 
+
+=== page 7 ===
+Subsequent a i r c r a f t experiments ( R e f . 16) were conducted t o study t h e 
+burning r a t e s o f c o t t o n c l o t h s t r i p s under v a r i o u s oxygen-diluent atmospheres. 
+Burning r a t e s were observed t o increase w i t h i n c r e a s i n g thermal c o n d u c t i v i t y 
+o f the i n e r t d i l u e n t b u t w e r e o v e r a l l much lower i n low g r a v i t y than i n normal 
+g r a v i t y . 
+Momentary s l i g h t a c c e l e r a t i o n s were observed to increase t h e b u r n i n g 
+r a t e s considerably, b u t again t h e e f f e c t c o u l d n o t be q u a n t i f i e d because 
+steady-state was n o t achieved. 
+A s e r i e s o f drop tower experiments were conducted i n the e a r l y 1970's 
+(Refs. 17 to 19) t o examine t h e e f f e c t s o f oxygen c o n c e n t r a t i o n and pressure on 
+t h e b u r n i n g r a t e s o f c e l l u l o s e a c e t a t e . 
+These t e s t r e s u l t s i n d i c a t e d t h a t low- 
+g r a v i t y flame-spread r a t e s are n e a r l y the same, or s l i g h t l y lower, than normal- 
+g r a v i t y spread r a t e s and are a f u n c t i o n o f m a t e r i a l thickness. 
+r a t e o f t h e t h i n n e s t m a t e r i a l s i s comparable to normal-gravity r a t e s , b u t t h e 
+r a t e s o f t h i c k m a t e r i a l s are c o n s i d e r a b l y l e s s than those i n normal g r a v i t y . 
+The flame-spread 
+The o n l y o n - o r b i t combustion experiments t o d a t e were d i r e c t c o n t i n u a t i o n s 
+o f the e a r l y a i r c r a f t t e s t s . 
+Aluminized mylar, nylon, neoprene-coated n y l o n 
+f a b r i c , polyurethane foam, paper, and T e f l o n f a b r i c were s t u d i e d aboard Skylab 
+4 i n 1974 (Ref. 201, i n a 0.04-cubic m e t e r s p h e r i c a l combustion apparatus 
+( F i g . 5 ) . 
+I n a d d i t i o n to t e s t s of t h e b u r n i n g r a t e s of t h e m a t e r i a l s noted, 
+t h e Skylab experiments s t u d i e d t h e spread o f f i r e t o adjacent m a t e r i a l s as w e l l 
+as t h e extinguishment o f t h e burning m a t e r i a l through water sprays or v e n t i n g 
+t o the vacuum of space. Qualitative results from these tests were recorded by 
+a 16-mm color movie camera. 
+Burning r a t e s were observed i n general to be much 
+slower i n low g r a v i t y than i n normal g r a v i t y . 
+F i g u r e 6 shows t h e s p h e r i c a l 
+flame generated by b u r n i n g a polyurethane sample i n low g r a v i t y . 
+F i r e s were 
+observed t o spread from one m a t e r i a l t o another over a gap o f 1.3 cm. 
+I n t h e 
+v e n t i n g t e s t s , i t was noted t h a t a i r flow caused by evacuation o f t h e atmos- 
+phere g r e a t l y i n t e n s i f i e s t h e b u r n i n g r a t e s for a b r i e f p e r i o d o f t i m e b e f o r e 
+causing extinguishment i n t h e near-vacuum. 
+t i o n t h a t , unless t h e evacuation time i s s h o r t , t h e enhanced combustion due t o 
+t h e a i r motion c o u l d do considerable damage b e f o r e e x t i n c t i o n occurred. 
+Water 
+extinguishment was successful i n some cases. 
+However, when t h e water spray was 
+n o t c a r e f u l l y dispersed, t h e water was observed t o s c a t t e r b u r n i n g m a t e r i a l s 
+r a t h e r than e x t i n g u i s h them. 
+I t was concluded from t h i s observa- 
+Based upon these simple l o w - g r a v i t y combustion t e s t s , Kimzey observed 
+t h a t , because l o w - g r a v i t y b u r n i n g r a t e s a r e slower and show no tendency t o 
+increase w i t h time as i s usual i n n o r m a l - g r a v i t y upward burning, n o r m a l - g r a v i t y 
+f l a m m a b i l i t y t e s t s (Ref. 8 ) p r o v i d e adequate, c o n s e r v a t i v e standards for low- 
+g r a v i t y m a t e r i a l acceptance. 
+Recently, t h e s u f f i c i e n c y o f n o r m a l - g r a v i t y t e s t s 
+t o c h a r a c t e r i z e l o w - g r a v i t y f l a m m a b i l i t y has been questioned. 
+O f p a r t i c u l a r 
+concern i s t h e o b s e r v a t i o n from t h e e a r l y t e s t s t h a t , i f some convection i s 
+imposed on t h e b u r n i n g m a t e r i a l i n low g r a v i t y (due t o a c c e l e r a t i o n s , v e n t i n g , 
+or a i r c i r c u l a t i o n ) , t h e b u r n i n g r a t e i n t e n s i f i e s c o n s i d e r a b l y . 
+The U.S. Shut- 
+t l e and Space S t a t i o n Freedom must have a i r c i r c u l a t i o n systems t o p r o v i d e a 
+constant flow o f a i r through t h e cabin; and, as an example, t h e S h u t t l e closed- 
+l o o p a i r c i r c u l a t i o n system p r o v i d e s nominal a i r v e l o c i t i e s between 8 and 
+20 cm/s throughout t h e c r e w c a b i n ( R e f . 21). 
+Thus, as t h e f i r e - d e t e c t i o n sys- 
+t e m s and extinguishment systems a r e being designed f o r Freedom, f u r t h e r knowl- 
+edge o f t h e hazards o f f i r e i n space i s e s s e n t i a l . 
+6 
+
+=== page 8 ===
+I n response to t h i s renewed concern, a comprehensive, c o n t i n u i n g e x p e r i - 
+mental and model development program i s being conducted t o study t h e e f f e c t s of 
+oxygen c o n c e n t r a t i o n , m a t e r i a l thickness, and flow on combustion o f m a t e r i a l s 
+i n low and p a r t i a l - g r a v i t y environments. 
+Figure 7 shows t h e e v o l u t i o n o f 
+experimental hardware t o study s o l i d - m a t e r i a l f l a m m a b i l i t y i n low g r a v i t y . 
+The 
+a i r p l a n e t e s t package was t h e e a r l i e s t apparatus (Ref. 15>, which served as a 
+model for t h e Skylab t e s t s c i t e d here. 
+The drop-tower package i s an apparatus 
+c u r r e n t l y i n use a t t h e U . S . NASA Lewis Research Center to study e f f e c t s of 
+atmospheres, i n e r t a n t s , and v e n t i l a t i o n flow on paper combustion. 
+The S o l i d 
+Surface Combustion Experiment ( R e f . 22) i s a f l i g h t package designed for long- 
+d u r a t i o n t e s t s i n t h e S h u t t l e , scheduled t o f l y a t t h e e a r l i e s t o p p o r t u n i t y , 
+p r o b a b l y i n 1990. 
+Low-Gravity Combustion Parameters o f Concern for F i r e S a f e t y 
+The modeling and experimental r e s u l t s t o date have g i v e n an improved 
+understanding o f what f a c t o r s are i m p o r t a n t i n assessing t h e fire hazard i n a 
+l o w - g r a v i t y environment. 
+To i l l u s t r a t e , t y p i c a l normal and l o w - g r a v i t y flames 
+i n t h i n s o l i d f u e l s a r e drawn s c h e m a t i c a l l y i n F i g . 8. 
+I n general, t h e flames 
+i n low g r a v i t y a r e observed t o be cooler and more d i f f u s e than t h e i r normal- 
+g r a v i t y c o u n t e r p a r t s . 
+The flame i s l a r g e r and e s t a b l i s h e s i t s e l f f u r t h e r from 
+t h e f u e l s u r f a c e than normal-gravity flames. 
+Large soot p a r t i c l e s a r e seen t o 
+escape from t h e flame zone i n low g r a v i t y , and t h e c o l o r of these r a d i a n t par- 
+t i c l e s change as they c o o l , from orange t o d u l l r e d t o b l a c k (Ref. 23). 
+M a t e r i a l p r o p e r t i e s . - M a t e r i a l p r o p e r t i e s p l a y an i m p o r t a n t r o l e i n t h e 
+combustion process i n low g r a v i t y . 
+M a t e r i a l s t h a t m e l t as they burn may b o i l 
+a t t h e i r surface, and t h e p u l s a t i n g flame t h a t r e s u l t s i s due to t h e unsteady 
+r a t e o f v a p o r i z a t i o n from the b o i l i n g f u e l . 
+Nylon samples i n t h e Skylab t e s t s 
+(Ref. 20) and n y l o n Velcro i n drop tower t e s t s (Ref. 24) were observed t o burn 
+i n t h i s manner. 
+The v i s c o s i t y o f t h e s o l i d - f u e l m e l t c o u l d a l s o be a f a c t o r i n 
+t h e hazard o f f i r e spread, because gaseous bubbles b r e a k i n g through t h e l i q u i d 
+s u r f a c e can p r o p e l molten and b u r n i n g chunks o f f u e l i n t o t h e gas phase t o 
+d r i f t away u n t i l they impact on another ( p o s s i b l y flammable) s u r f a c e . 
+The 
+e x p u l s i o n o f b u r n i n g d r o p l e t s o f molten f u e l has been observed i n drop tower 
+t e s t s w i t h n y l o n V e l c r o . 
+i n g t h e flame zone o f t h e b u r n i n g m a t e r i a l , a l o n g w i t h a s k e t c h i n t e r p r e t i n g 
+t h e photograph. 
+p a s t t h e sample, which a l s o increase t h e o v e r a l l b u r n i n g r a t e c o n s i d e r a b l y 
+(Ref. 24). 
+F i g u r e 9 shows a photograph o f b u r n i n g d r o p l e t s leav- 
+D r o p l e t e x p u l s i o n appears to be enhanced by a slow a i r motions 
+Another m a t e r i a l p r o p e r t y which has been found to be i m p o r t a n t i n low 
+g r a v i t y combustion i s t h e m a t e r i a l thickness. 
+I n normal g r a v i t y , t h e flame- 
+spread r a t e v a r i e s i n v e r s e l y w i t h m a t e r i a l t h i c k n e s s throughout t h e flammabil- 
+i t y r e g i o n . 
+I n low g r a v i t y , t h e same r e l a t i o n s h i p h o l d s except near t h e 
+e x t i n c t i o n l i m i t (minimum oxygen c o n c e n t r a t i o n ) where t h e flame-spread r a t e 
+for these flames decreases more s t r o n g l y w i t h i n c r e a s i n g m a t e r i a l t h i c k n e s s 
+(Ref. 2 5 ) . 
+F u r t h e r s t u d i e s are needed, however, t o q u a n t i f y t h e t h i c k n e s s 
+effect i n low g r a v i t y more completely. 
+Atmospheric composition. - I n e r t gases such as n i t r o g e n a l s o have an 
+i m p o r t a n t r o l e i n t h e b u r n i n g process. 
+I t i s known from n o r m a l - g r a v i t y t e s t i n g 
+t h a t , for a c o n s t a n t p a r t i a l pressure o f oxygen, f l a m m a b i l i t y decreases if t h e 
+t o t a l pressure i s increased by adding atmospheric d i l u e n t . 
+This i s because t h e 
+7 
+
+=== page 9 ===
+combustion energy absorbed i n h e a t i n g t h e i n e r t gas reduces t h e flame tempera- 
+t u r e . 
+Therefore, although i t has y e t to be s t u d i e d comprehensively i n low 
+g r a v i t y , i n e r t p r e s s u r i z a t i o n w i t h h i g h heat-capacity gases appears to be an 
+e x c e l l e n t candidate f o r fire p r e v e n t i o n . 
+I n e r t gases a l s o a f f e c t t h e combustion process by a c t i n g as a heat t r a n s - 
+f e r medium from t h e flame t o t h e f u e l . 
+Normal and low-gravity experiments have 
+demonstrated t h a t t h e thermal c o n d u c t i v i t y o f t h e i n e r t gas d i r e c t l y a f f e c t s 
+t h e b u r n i n g r a t e ; t h e h i g h e r the thermal c o n d u c t i v i t y , the f a s t e r t h e m a t e r i a l 
+w i l l burn. 
+Helium, f o r example, t r a n s f e r s heat v e r y r a p i d l y , and so m a t e r i a l s 
+i n a helium-oxygen environment burn more q u i c k l y than the same m a t e r i a l s i n 
+comparable nitrogen-oxygen environments. 
+Thus i t i s d e s i r a b l e f o r f u r t h e r 
+research i n f i r e p r e v e n t i o n , t o consider d i l u e n t s w i t h a h i g h heat c a p a c i t y b u t 
+a low thermal c o n d u c t i v i t y . 
+Oxygen c o n c e n t r a t i o n i n t h e environment has probably been t h e most s t u d i e d 
+parameter i n l o w - g r a v i t y combustion research. 
+The e a r l y t e s t s focused on low- 
+pressure, high-oxygen-concentration 
+atmospheres because these atmospheres cor- 
+responded t o t h e s p a c e c r a f t p r a c t i c e a t t h a t time. 
+U.S. human-crew s p a c e c r a f t 
+s i n c e t h e A p o l l o e r a have been designed f o r a low-oxygen c o n c e n t r a t i o n t o 
+reduce t h e f i r e hazard. 
+The S h u t t l e c u r r e n t l y uses standard sea-level a i r as 
+i t s b a s e l i n e atmosphere, although an e l e v a t e d oxygen atmosphere i s i n t r o d u c e d 
+i n p r e p a r a t i o n f o r e x t r a v e h i c u l a r a c t i v i t i e s . 
+I n c r e a s i n g oxygen c o n c e n t r a t i o n increases t h e b u r n i n g r a t e s of most, if 
+n o t a l l , s o l i d m a t e r i a l s . 
+F i g u r e 10 shows how t h e flame-spread r a t e for paper 
+changes as t h e oxygen c o n c e n t r a t i o n i s increased ( R e f . 25). 
+For flames i n 
+high-oxygen c o n c e n t r a t i o n s f a r from t h e e x t i n c t i o n l i m i t , normal and low- 
+g r a v i t y flame-spread r a t e s are i d e n t i c a l and l i n e a r w i t h oxygen c o n c e n t r a t i o n ; 
+g r a v i t y p l a y s no d i s c e r n i b l e r o l e i n t h e flame-spread process. 
+e x t i n c t i o n l i m i t , however, flame-spread r a t e s decrease r a p i d l y w i t h decreasing 
+oxygen c o n c e n t r a t i o n ; and t h e l o w - g r a v i t y flame-spread r a t e s a r e lower than 
+t h e n o r m a l - g r a v i t y c o u n t e r p a r t r a t e s . 
+Near t h e 
+R a d i a t i o n and e x t i n c t i o n l i m i t s . - The d a t a i l l u s t r a t e d i n F i g . 10 show 
+t h e e x t i n c t i o n l i m i t s i n b o t h normal g r a v i t y and low g r a v i t y . 
+The cause of 
+e x t i n c t i o n i s b e l i e v e d t o be d i f f e r e n t f o r t h e two g r a v i t y s i t u a t i o n s . 
+I n 
+normal g r a v i t y , flame e x t i n c t i o n i s u s u a l l y caused by " b l o w o f f , " or t h e exces- 
+s i v e g r a v i t y - i n d u c e d convective removal o f heat, u s u a l l y due t o buoyant flows. 
+Blowoff occurs, f o r example, when you blow o u t a match. 
+I n low g r a v i t y , how- 
+ever, t h e r e a r e no g r a v i t y - i n d u c e d convection flows, b u t t h e c o o l e r flames a r e 
+more s e n s i t i v e t o heat losses than n o r m a l - g r a v i t y flames. 
+Experimental r e s u l t s 
+suggest t h a t r a d i a t i v e heat loss from t h e b u r n i n g f u e l surface, or quenching 
+( i . e . , r a p i d c o o l i n g ) , i s t h e probable cause o f e x t i n c t i o n i n low g r a v i t y 
+(Ref. 2 3 ) . 
+Convective heat t r a n s f e r i n low g r a v i t y i s g r e a t l y reduced because of t h e 
+e l i m i n a t i o n of buoyancy-induced flows, and conductive heat t r a n s f e r appears t o 
+be reduced because flames are observed t o be f u r t h e r from t h e f u e l surface. 
+Thus t h e r e l a t i v e importance o f r a d i a t i v e heat t r a n s f e r , e i t h e r from t h e s o l i d 
+surface or from t h e flame zone, i s g r e a t e r . 
+R a d i a t i v e heat t r a n s f e r can, as 
+p o s t u l a t e d above, cause flame e x t i n c t i o n , or i t can cause i g n i t i o n of a f u e l 
+surface i n the absence o f convective c o o l i n g . 
+a 
+
+=== page 10 ===
+V e n t i l a t i o n and f o r c e d convection. - I n t h e absence o f buoyant flow, t h e 
+dominant flow imposed upon a b u r n i n g surface i n s p a c e c r a f t would be due to t h e 
+v e n t i l a t i o n system. 
+The e a r l y l o w - g r a v i t y t e s t s i n d i c a t e d t h a t flow enhances 
+combustion, and more r e c e n t q u a n t i t a t i v e t e s t s have supported these e a r l y qual- 
+i t a t i v e r e s u l t s ( R e f s . 
+23, 26, and 27). 
+F i g u r e 1 1 i s a summary o f t h e e f f e c t 
+o f a i r v e l o c i t y on t h e flame-spread 
+r a t e over paper. 
+t i o n s , a t t a i n a b l e o n l y a t low g r a v i t y , the flame-spread r a t e i s low. 
+A s t h e 
+a i r v e l o c i t y i s increased i n a d i r e c t i o n counter to t h e flame spread, f r e s h 
+oxygen i s brought i n t o t h e flame zone by f o r c e d convection; and t h e flame- 
+spread r a t e increases r a p i d l y w i t h a i r v e l o c i t y . 
+On t h e o t h e r hand, a t h i g h 
+a i r v e l o c i t i e s t y p i c a l o f buoyancy-driven n o r m a l - g r a v i t y a i r v e l o c i t i e s , t h e 
+flame-spread r a t e decreases w i t h i n c r e a s i n g a i r v e l o c i t y due t o "blowoff ,I' t h e 
+convective c o o l i n g and d i l u t i o n o f t h e flame zone. 
+f i r e s a f e t y i s i n the range o f i n t e r m e d i a t e v e l o c i t i e s where flame-spread r a t e s 
+can be g r e a t e r than the t y p i c a l n o r m a l - g r a v i t y flame-spread r a t e . 
+While t h e 
+q u a n t i t a t i v e e x t e n t o f t h i s enhanced flame-spread-rate 
+zone i s n o t f u l l y 
+d e f i n e d by experiments, i t appears to l i e w i t h i n t h e range o f t y p i c a l space- 
+c r a f t v e n t i l a t i o n - a i r v e l o c i t i e s . 
+A t near-quiescent condi- 
+The i m p o r t a n t concern f o r 
+F i g u r e 12 describes t h e a i r - v e l o c i t y e f f e c t s as a f l a m m a b i l i t y map for 
+paper, which i n d i c a t e s t h e atmospheric c o n d i t i o n s (oxygen c o n c e n t r a t i o n and 
+flow v e l o c i t y ) over which t h e m a t e r i a l w i l l or w i l l n o t burn. 
+A s i s t h e case 
+for flame-spread r a t e s shown i n F i g . 1 1 , f l a m m a b i l i t y increases (lower oxygen 
+l i m i t s ) a t low a i r v e l o c i t i e s , t y p i c a l o f low g r a v i t y , b u t decreases a t h i g h 
+a i r v e l o c i t i e s , t y p i c a l o f normal g r a v i t y w i t h buoyant flow. 
+Again, t h e maxi- 
+mum f i r e hazard f o r paper appears t o be a t i n t e r m e d i a t e f o r c e d - f l o w v e l o c i t i e s 
+a t t a i n e d i n low g r a v i t y ( i n t h e range of c u r r e n t S h u t t l e v e n t i l a t i o n v e l o c i - 
+t i e s ) . 
+Under these c o n d i t i o n s , t h e m a t e r i a l may burn a t oxygen c o n c e n t r a t i o n s 
+as low as 15 p e r c e n t , which i s below t h e measured downward-spread f l a m m a b i l i t y 
+l i m i t i n normal g r a v i t y w i t h no f o r c e d convection. 
+A p p l i c a t i o n o f Low-Gravity Combustion Knowledge t o F i r e S a f e t y 
+Much has been done s i n c e t h e A p o l l o e r a t o improve t h e s a f e t y of space- 
+The major improvement i n t h e f i r e s a f e t y area has been t o reduce t h e 
+c r a f t . 
+oxygen c o n c e n t r a t i o n from pure oxygen t o t h a t o f sea-level a i r . 
+Although 
+humans can t o l e r a t e even lower oxygen atmospheres, r e d u c i n g t h e oxygen concen- 
+t r a t i o n below t h a t of a i r can adversely a f f e c t t h e m i s s i o n usefulness, i n terms 
+of passengers, s c i e n t i f i c , and commercial accommodation 
+The r e d u c t i o n of oxygen c o n c e n t r a t i o n t o t h a t of a i r was an obvious 
+improvement because t h i s i s t h e normal b a s e l i n e atmosphere; and most, if n o t 
+a l l , m a t e r i a l s a r e more flammable i n h i g h e r oxygen c o n c e n t r a t i o n s . 
+Other 
+f i r e - s a f e t y 
+changes a r e n o t as f e a s i b l e for a d a p t a t i o n . 
+For example, t h e 
+t h i c k e r t h e m a t e r i a l t h e slower i t burns, so i t would seem t o be l o g i c a l t o 
+use p o t e n t i a l l y flammable m a t e r i a l s i n as t h i c k a s e c t i o n as p r a c t i c a l . 
+How- 
+ever, t h i s design concept i s i n c o n s i s t e n t w i t h a common-sense approach of l i m - 
+i t i n g t h e t o t a l q u a n t i t y of flammable m a t e r i a l s . 
+A c t u a l l o w - g r a v i t y t e s t i n g o f a l l m a t e r i a l s t o f l y i n space i s o b v i o u s l y 
+n o t f e a s i b l e a t p r e s e n t . 
+C u r r e n t t e s t methods r e f l e c t o u r understanding of 
+f l a m m a b i l i t y i n normal g r a v i t y , b u t t h e y f a i l t o i n c l u d e some o f t h e unique 
+hazards associated w i t h low g r a v i t y . 
+These concerns i n c l u d e t h e enhanced 
+low-gravi t y b u r n i n g r a t e associated w i t h forced-convection flows, t h e spread 
+9 
+
+=== page 11 ===
+o f f i r e by e x p u l s i o n of h o t p a r t i c l e s from m e l t i n g p l a s t i c s , and t h e flammable, 
+p e r s i s t e n t aerosols created by s p i l l s o f f l u i d s or powders. 
+I n a d d i t i o n , some 
+assessment of t h e p o t e n t i a l for smoldering must be devised. Smoldering s o l i d s 
+may burn undetected for hours or days, and even i f f l a m i n g combustion never 
+occurs, t h e b u i l d up o f toxic products i n t h e atmosphere i s a s e r i o u s danger t o 
+t h e environmental-control and l i f e - s u p p o r t system. 
+Furthermore, i n v e s t i g a t i o n of t h e i n f l u e n c e o f l o w - g r a v i t y combustion 
+processes on f i r e d e t e c t i o n and f i r e extinguishment i s needed f o r i n t e l l i g e n t 
+p r o t e c t i o n o f t h e long-term h a b i t a t i o n environments i n space. 
+P o t e n t i a l 
+designs for fire d e t e c t o r s and f i r e e x t i n g u i s h e r s need t o be t e s t e d i n r e a l 
+l o w - g r a v i t y f i r e s i t u a t i o n s . 
+A p p l i c a t i o n o f l o w - g r a v i t y combustion knowledge 
+can a l s o i n f l u e n c e o p e r a t i o n a l procedures to determine what improvements can 
+be made t o reduce t h e f i r e hazard w h i l e m i n i m i z i n g t h e inconvenience o f s a f e t y 
+r e g u l a t i o n s on t h e day-to-day a c t i v i t i e s o f the c r e w . 
+F I R E SAFETY FOR FUTURE SPACECRAFT 
+The U.S. Space S t a t i o n Freedom 
+Freedom, a permanent v e h i c l e i n low e a r t h o r b i t , i s a space s t a t i o n t o be 
+placed i n o p e r a t i o n i n t h e n e x t decade. 
+Freedom i s conceived as a c l u s t e r o f 
+elements devoted t o s a t e l l i t e s e r v i c i n g , s c i e n t i f i c and commercial space a c t i v - 
+i t i e s , and long-duration human h a b i t a t i o n . 
+The c e n t e r of Freedom i s t h e group- 
+i n g o f modules w i t h i n t e r c o n n e c t i n g nodes and a i r l o c k s ( F i g . 13). 
+The main 
+components are t h e h a b i t a t i o n module f o r a crew o f perhaps e i g h t persons, t h e 
+supply module, and t h r e e l a b o r a t o r y (and workshop) modules, w i t h p r o j e c t s and 
+personnel from several NATO n a t i o n s and Japan, as w e l l as t h e U.S. 
+The permanent i n s t a l l a t i o n and long-duration missions o f Freedom w i l l 
+increase t h e p r o b a b i l i t y o f t h e occurrence o f a f i r e . 
+p l y f l i g h t s cannot be immediately a v a i l a b l e , perhaps t a k i n g 30 days or l o n g e r 
+t o arrange, s a f e t y p l a n n i n g must assume t h a t a l l f i r e c o n t r o l s and recovery 
+s u p p l i e s a r e contained w i t h i n Freedom. 
+I n t h i s r e s p e c t , t h e i n t e r c o n n e c t i n g , 
+" l a d d e r " arrangement o f t h e modules ( F i g . 13) assures a t l e a s t two paths of 
+egress from each module, a haven f o r t h e crew i n any node, and a means of c l o s - 
+i n g off a damaged module w i t h o u t b l o c k i n g access t o any o t h e r module or node. 
+Since rescue and resup- 
+A s s t a t e d e a r l i e r , t h e goal o f f i r e s a f e t y i n Freedom i s t h e m i n i m i z a t i o n 
+o f r i s k , r a t h e r than z e r o r i s k . 
+That i s , small t o l e r a b l e t h r e a t s a r e balanced 
+a g a i n s t t h e c o n s t r a i n t s o f p r a c t i c a l i t y , o p e r a t i o n s , and economics (Refs. 5 
+and 6 ) . 
+A space s t a t i o n must accommodate l i v i n g and r e c r e a t i o n a l a c t i v i t i e s , 
+as w e l l as s c i e n t i f i c and i n d u s t r i a l o p e r a t i o n s , a l l of which r e q u i r e t h e pos- 
+s i b l e i n t r o d u c t i o n of flammable m a t e r i a l s , h e a t i n g and e n e r g e t i c o p e r a t i o n s 
+w i t h no s a t i s f a c t o r y s u b s t i t u t e s . 
+The challenge t o s p a c e c r a f t f i r e - s a f e t y 
+designs and techniques i s obvious. 
+Submarine and A i r c r a f t Analogies 
+Spacecraft f i r e - s a f e t y p r a c t i c e s have been modeled on, and w i l l continue 
+t o d e r i v e from, techniques and experiences e s t a b l i s h e d f o r t h e enclosed com- 
+partments of a i r c r a f t and submarines ( R e f . 28). 
+The submarine operates i n a 
+h o s t i l e e x t e r n a l environment, s u p p l i e s i t s own r e c y c l e d atmosphere, and depends 
+10 
+
+=== page 12 ===
+on s e l f - c o n t a i n e d f i r e d e t e c t i o n and suppression s y s t e m s . 
+The s p a c e c r a f t , how- 
+ever, has obvious d i f f e r e n c e s because of i t s l o w - g r a v i t y exposure and t h e 
+i n a b i l i t y t o e x t r a c t oxygen from t h e surrounding atmosphere. 
+(Submarines can 
+generate oxygen from s e a . w a t e r . ) 
+I n a d d i t i o n , submarines may s u r f a c e for per- 
+sonnel evacuation i f a f i r e becomes wide spread. 
+One s e t of submarine f i r e - p r o t e c t i o n i n v e s t i g a t i o n s of i n t e r e s t f o r poten- 
+t i a l s p a c e c r a f t a p p l i c a t i o n i s t h a t of f i r e - s a f e atmospheres. 
+The small-scale 
+combustion s t u d i e s promoting low-oxygen atmospheres for f i r e p r e v e n t i o n have 
+a l r e a d y been discussed i n a previous s e c t i o n . 
+Gann e t a l . (Ref. 29) described 
+simulation-chamber t e s t s o f n i t r o g e n f l o o d i n g f o r submarine f i r e f i g h t i n g , 
+where e x c e s s n i t r o g e n lowers t h e oxygen c o n t e n t w h i l e r e t a i n i n g t h e oxygen par- 
+t i a l pressure a t t o l e r a b l e l e v e l s for humans. 
+An a l t e r n a t i v e approach, more 
+s u i t a b l e f o r s p a c e c r a f t a p p l i c a t i o n s , i s t o m a i n t a i n a c o n s t a n t t o t a l pressure 
+w i t h a reduced oxygen p a r t i a l - p r e s s u r e l e v e l based on minimum l e v e l s from high- 
+a l t i t u d e human experience. 
+Allowable l i m i t s for low-oxygen atmospheres have 
+been discussed by Horrigan ( R e f . 30>, and t h e f i r e - p r o t e c t i o n aspects have been 
+presented i n a s p a c e c r a f t atmosphere s e l e c t i o n forum summarized i n R e f . 1 . 
+Another a l t e r n a t i v e method i n v o l v e s t h e s u b s t i t u t i o n o f a h i g h molar-heat- 
+c a p a c i t y i n e r t gas, such as CF4 or SF6, for n i t r o g e n i n t h e atmosphere 
+(Ref. 31). 
+The d i l u e n t w i l l suppress combustion by l o w e r i n g t h e flame tempera- 
+t u r e . 
+Nevertheless, the use o f f i r e - s a f e atmospheres on s p a c e c r a f t must a w a i t 
+t h e d e f i n i t i o n and implementation o f l o n g - d u r a t i o n t e s t i n g o f human responses 
+and e f f i c i e n c y i n t h e r e s p e c t i v e atmospheres. 
+I n any event, t h e r e a r e formida- 
+b l e s t r u c t u r a l and o p e r a t i o n a l d i f f i c u l t i e s t o t h e general a d o p t i o n o f atmo- 
+spheres o t h e r than " a i r " i n f u t u r e s p a c e c r a f t . 
+O f g r e a t e r i n t e r e s t , however, i s t h e use o f i n e r t i n g atmospheres i n spe- 
+c i f i c , u n i n h a b i t e d volumes, such as i n e l e c t r i c a l power c a b i n e t s . 
+A p r o m i s i n g 
+source o f an i n e r t i n g atmosphere, a l r e a d y under i n v e s t i g a t i o n f o r m i l i t a r y - 
+a i r c r a f t f u e l - t a n k i n e r t i n g , i s onboard i n e r t - g a s generation. 
+This technique 
+i n v o l v e s t h e removal of some o f t h e atmospheric oxygen by molecular-sieve or 
+permeable-membrane separators (Refs. 32 and 33). 
+I n s p a c e c r a f t p r a c t i c e , an 
+i n e r t gas r e t a i n i n g 6 p e r c e n t or g r e a t e r oxygen c o n c e n t r a t i o n may be e f f e c - 
+t i v e l y f i r e - s a f e . 
+I n c o n t r a s t t o t h e once-through a i r c r a f t i n e r t i n g system, 
+t h e gases from t h e s p a c e c r a f t i n e r t i n g system would be r e c y c l e d , and b o t h t h e 
+i n e r t gas and t h e separated oxygen would be recovered and combined t o regener- 
+a t e p a r t of t h e b r e a t h i n g atmosphere. 
+Research and Technology Trends 
+F i r e p r e v e n t i o n . - Adequate screening o f m a t e r i a l s for onboard use has 
+been a long-time concern for b o t h a i r c r a f t and s p a c e c r a f t , and t h i s concern 
+has spurred t h e development of new p l a s t i c and composite m a t e r i a l s w i t h low- 
+f l a m m a b i l i t y c h a r a c t e r i s t i c s . 
+The p r i n c i p a l acceptance t e s t for NASA space- 
+c r a f t m a t e r i a l s , t h e upward propagation t e s t ( F i g . 2 > , has a l r e a d y been 
+described i n t h i s paper. 
+for s o l i d m a t e r i a l s , t h e n o r m a l - g r a v i t y t e s t may o f f e r an adequate margin of 
+s a f e t y for s p a c e c r a f t acceptance. 
+There may be exceptions t o t h i s s u p p o s i t i o n , 
+however. 
+For example, t h e l o w - g r a v i t y t e s t s on V e l c r o specimens, a l r e a d y c i t e d 
+(Ref. 24), showed t h a t t h e random e x p u l s i o n o f h o t par i c l e s from b u r n i n g p l a s - 
+t i c s may c r e a t e an a d d i t i o n a l i g n i t i o n hazard i n space 
+I t has a l s o been noted 
+t h a t l o w - g r a v i t y combustion may be g r e a t l y enhanced by even low l e v e l s of ven- 
+t i l a t i o n a i r flows. 
+A t p r e s e n t , however, t h e c o r r e l a t on of small-scale t e s t 
+I n low g r a v i t y , s i n c e f l a m m a b i l i t y i s o f t e n reduced 
+1 1 
+
+=== page 13 ===
+r e s u l t s t o t h e v e n t i l a t i o n - f l o w environment o f t h e Space S t a t i o n Freedom, f o r 
+example, i s unknown. 
+Thus, i t i s important t o c o n t i n u e research on l o w - g r a v i t y 
+combustion w i t h the major o b j e c t i v e of p r o v i d i n g understanding o f processes t o 
+e s t a b l i s h s a f e t y l e v e l s for long-duration space s t a t i o n needs. 
+I n a d d i t i o n , 
+f i r e - r i s k analyses for space must assume t h a t , even if s a t i s f a c t o r y assessments 
+o f l o w - g r a v i t y f l a m m a b i l i t y a r e d e f i n e d , some flammable m a t e r i a l s w i l l s t i l l 
+have t o be t o l e r a t e d onboard Freedom because many u s e f u l human and s c i e n t i f i c 
+a c t i v i t i e s r e q u i r e hazardous m a t e r i a l s and procedures. 
+F i r e - s a f e t y s t r a t e g i e s 
+w i l l approach f i r e p r e v e n t i o n through compartmental i n e r t i n g , f i r e - s a f e stor- 
+age, c o n f i g u r a t i o n c o n t r o l s , and m a t e r i a l q u a n t i t y and s e p a r a t i o n minimums. 
+A s the second l i n e of defense, p r o v i s i o n s f o r f i r e d e t e c t i o n and e x t i n g u i s h - 
+ment, which assume t h e p r o b a b i l i t y o f an i n c i p i e n t f i r e , become of g r e a t 
+importance. 
+F i r e d e t e c t i o n . - Spacecraft s p e c i a l i s t s are aware t h a t p r e s e n t f i r e - 
+d e t e c t i o n techniques, w h i l e adequate for t h e s h o r t - d u r a t i o n S h u t t l e missions, 
+r e q u i r e c o n s i d e r a b l y more knowledge and development for space-station a p p l i c a - 
+t i o n s . 
+Obviously, one requirement i s more i n f o r m a t i o n on expected f i r e signa- 
+t u r e s under low g r a v i t y . 
+A s noted e a r l i e r i n t h i s paper, s t u d i e s show t h a t 
+l o w - g r a v i t y flames are g e n e r a l l y c o o l e r , s o o t i e r , and slower p r o p a g a t i n g than 
+t h e i r normal-gravity c o u n t e r p a r t s , and these c h a r a c t e r i s t i c s a f f e c t t h e tech- 
+niques o f d e t e c t i o n . 
+I t appears t h a t smoldering combustion' may be p o s s i b l e i n 
+space, because the slow t r a n s p o r t o f oxygen i n t o porous media (foams, waste 
+c o n t a i n e r s ) can promote t h i s r a t h e r than f l a m i n g combustion. 
+Smoldering com- 
+b u s t i o n generates l a r g e smoke p a r t i c l e s , and d e t e c t o r s would have t o be tuned 
+t o recognize these p a r t i c l e s as fire s i g n a t u r e s . 
+F i n a l l y , t h e t r a n s p o r t o f 
+various f i r e s i g n a t u r e s i s a l s o changed i n low g r a v i t y . 
+Since i t i s i m p r a c t i - 
+c a l t o instrument space modules completely, a l i m i t e d number of f i r e d e t e c t o r s 
+must be j u d i c i o u s l y placed t o i n t e r c e p t t h e most probable pathways o f f i r e - 
+s i g n a t u r e agents. 
+Placement o f f i r e d e t e c t o r s planned f o r Space S t a t i o n Freedom can take 
+advantage o f v e n t i l a t i o n d u c t i n g f o r e f f i c i e n t m o n i t o r i n g o f t h e atmosphere 
+and p o t e n t i a l f i r e r a d i a t i o n . 
+The type and design o f sensors a r e s t i l l under 
+d i s c u s s i o n , and i t i s l i k e l y t h a t f i r e p r o t e c t i o n i n Freedom w i l l i n c o r p o r a t e 
+sensors o f several g e n e r i c types. 
+Thus, t h e complete f i r e - d e t e c t o r 
+system 
+would i n c l u d e smoke, chemical, r a d i a t i o n , and overheat sensors, whose coverage 
+could be augmented by extensions, such as r o t a t i n g mirrors, f i b e r s o p t i c s , or 
+sampling tubes. 
+Adequate s e n s i t i v i t y o f f i r e d e t e c t o r s i s a problem common t o ground and 
+a i r c r a f t systems. 
+F i r e d e t e c t o r s must respond to minimum f i r e - s i g n a t u r e t h r e - 
+sholds yet r e j e c t extraneous s i g n a l s t h a t cause f a l s e alarms. 
+An e x t e n s i v e 
+survey o f commercial experience c i t e s a 14 to 1 r a t i o of f a l s e alarms from 
+smoking, cooking, d u s t , and so on, t o r e a l alarms i n smoke d e t e c t o r s (Ref. 34). 
+Thus, promising approaches f o r h i g h - s e n s i t i v i t y d e t e c t o r systems l e s s prone t o 
+f a l s e alarms may i n c o r p o r a t e m u l t i p l e sensors w i t h d e c i s i o n l o g i c t o d e f i n e t h e 
+alarm c o n d i t i o n s w i t h a d j u s t a b l e s e n s i t i v i t i e s ( R e f s . 6 and 12). 
+F i r e extinguishment. - A p a r a l l e l concern for s p a c e c r a f t f i r e e x t i n g u i s h - 
+ment a r i s e s from t h e evidence t h a t t h e Halon 1301 f i r e e x t i n g u i s h e r , w h i l e 
+adequate f o r t h e s h o r t - d u r a t i o n S h u t t l e missions, r e q u i r e s c o n s i d e r a b l e improve- 
+ment or replacement f o r space-station a p p l i c a t i o n s . 
+I n l o n g - d u r a t i o n space- 
+c r a f t , the environmental 
+problems w i t h t h e use of Halons a r e of g r e a t concern. 
+12 
+
+=== page 14 ===
+An i d e a l , s u b s t i t u t e l o w - g r a v i t y e x t i n g u i s h a n t should be e f f e c t i v e (minimum 
+q u a n t i t y r e q u i r e d ) for a l l a n t i c i p a t e d f i r e scenarios, convenient for d e l i v e r y 
+t o the f i r e , and r e a d i l y removable, i n b o t h i t s o r i g i n a l and r e a c t e d s t a t e s , 
+from t h e atmosphere. 
+Several types o f e x t i n g u i s h i n g systems are being considered f o r f u t u r e 
+s p a c e c r a f t . 
+For example, deionized water and foam systems have been proposed 
+for f u r t h e r study i n r e c e n t r e v i e w papers ( R e f s . 1 and 4 ) . 
+Water i s e f f i c i e n t 
+as an e x t i n g u i s h a n t , creates no undesirable r e a c t i o n products, and i s r e a d i l y 
+removable from t h e atmosphere. 
+The e f f e c t i v e c o n t r o l and dispersement of water 
+sprays i n low g r a v i t y are f o r m i d a b l e technology problems, however. 
+A more 
+p r a c t i c a l approach employs gaseous e x t i n g u i s h e r s , and carbon d i o x i d e i s f a v o r e d 
+i n t h e i n i t i a l p l a n f o r Space S t a t i o n Freedom. 
+The s t r o n g advantage o f carbon 
+d i o x i d e i s t h a t i t i s r e a d i l y removable by any s p a c e c r a f t environmental c o n t r o l 
+system. 
+Carbon d i o x i d e i s recognized, however, as a r e l a t i v e l y i n e f f i c i e n t 
+e x t i n g u i s h a n t , and the l a r g e c o n c e n t r a t i o n r e q u i r e d for e f f e c t i v e f i r e suppres- 
+s i o n may be hazardous t o t h e c r e w as an asphyxiant (Refs. 32 and 35). 
+The same 
+arguments may support or d i s q u a l i f y n i t r o g e n as a f i r e e x t i n g u i s h a n t , a l t h o u g h 
+n i t r o g e n i s an i d e a l d i l u e n t for i n e r t i n g o f u n i n h a b i t e d compartments, a tech- 
+nique a l r e a d y discussed. 
+Venting t o t h e vacuum of space i s an u l t i m a t e f i r e - e x t i n g u i s h i n g method 
+a v a i l a b l e t o s p a c e c r a f t . 
+v e n t i n g a f t e r t h e escape of t h e crew and s e a l i n g o f t h e f i r e - s t r i c k e n compart- 
+ment. 
+pressure i s low enough to suppress combustion, which makes l a t e r r e c o n s t i t u - 
+t i o n of t h e atmosphere l e s s demanding. 
+Kimzey (Ref. 15>, c i t e d i n a previous s e c t i o n , showed t h a t t h e a i r motion 
+induced by v e n t i n g can t e m p o r a r i l y increase flame spread and may cause addi- 
+t i o n a l f i r e damage b e f o r e t h e f i r e i s e x t i n g u i s h e d . 
+A d i f f i c u l t f i r e can be completely c o n t r o l l e d by 
+Venting need o n l y proceed to a p o i n t where t h e r e t a i n e d oxygen p a r t i a l 
+The small-scale Skylab experiments of 
+Human f a c t o r s . - The completely closed c y c l e and l i m i t e d r e s u p p l y c a p a b i l - 
+i t i e s i n s p a c e c r a f t atmospheres cause t h e t h r e a t of contamination t o be g r e a t l y 
+f e a r e d , even more so than i n t h e closed-environment c o u n t e r p a r t s o f submarines 
+and a i r c r a f t . 
+For Space S t a t i o n Freedom, e v a l u a t i o n and s e l e c t i o n of f i r e - 
+c o n t r o l systems w i l l depend s t r o n g l y on i n t e r n a l environmental impacts. 
+I n 
+summary, i t i s i m p o r t a n t to emphasize t h a t t h e g r e a t e s t danger from f i r e , i t s 
+precursors (overheating, p y r o l y s i s , and smoldering) and i t s extinguishment, 
+l i e s i n t h e t o x i c i t y o f t h e products and n o t i n t h e thermal e f f e c t s or s t r u c - 
+t u r a l damage. 
+Human responses, i n c l u d i n g s a f e t y enforcement, f i r e d r i l l s , 
+escape modes, and rescue may be modeled t o a g r e a t e x t e n t on p r a c t i c e s estab- 
+l i s h e d for a i r c r a f t . 
+I m p o r t a n t d e c i s i o n s i n f u t u r e s p a c e c r a f t p l a n n i n g w i l l 
+be on t h e r e l a t i v e r e l i a n c e on manual versus automated responses. 
+As space- 
+c r a f t and t h e i r missions become more complex, t h e r e i s a g r e a t e r need t o i n v e s t 
+i n automatic systems for p r o t e c t i o n of unattended compartments and t o i n s u r e 
+r a p i d and p r e d i c t a b l e responses t o emergencies. 
+Nevertheless, s t r o n g arguments 
+can be advanced t o r e t a i n many human-detection o p t i o n s . 
+S t a t i o n Freedom i s increased i f users a r e c o n f i d e n t t h a t i r r e p l a c e a b l e p r o j e c t s 
+a r e p r o t e c t e d n o t o n l y from f i r e e f f e c t s b u t a l s o from damage through i n a d v e r t - 
+e n t shutdown or f a l s e - a l a r m e x t i n g u i s h a n t r e l e a s e . 
+The v a l u e of Space 
+13 
+
+=== page 15 ===
+F i r e - S a f e t y Research i n Space 
+A s discussed e a r l i e r , a n a l y t i c a l modeling and s i m u l a t i o n - f a c i l i t y e x p e r i - 
+ments are necessary and v a l u a b l e for small-scale s t u d i e s o f m i c r o g r a v i t y com- 
+b u s t i o n p e r t i n e n t to f i r e - s a f e t y understanding. 
+What i s l a c k i n g , of course, 
+i s the c a p a b i l i t y to conduct l o w - g r a v i t y , long-duration t e s t s on, f o r example, 
+m a t e r i a l f l a m m a b i l i t y , smoldering, f i r e - s i g n a t u r e i d e n t i f i c a t i o n , d e t e c t o r 
+response and c a l i b r a t i o n , e x t i n g u i s h a n t d e l i v e r y and e f f e c t i i i e n e s s , and human 
+response modes. 
+The U . S . S h u t t l e i n c o r p o r a t e s t h e b e s t a v a i l a b l e technology 
+i n i t s f i r e d e t e c t i o n and suppression systems. 
+These systems cannot be v e r i - 
+f i e d i n t r u e space c o n d i t i o n s , b u t t h i s l a c k i s compensated by t h e extremely 
+low p r o b a b i l i t y of a f i r e d u r i n g a s h o r t - d u r a t i o n mission and t h e a b i l i t y t o 
+t e r m i n a t e a m i s s i o n and r e t u r n t o e a r t h promptly. 
+The permanent h a b i t a t i o n 
+and long-duration m i s s i o n o f t h e Space S t a t i o n Freedom, however, p r e s e n t more 
+serious problems for t h e development of f i r e - p r o t e c t i o n systems, r e q u i r i n g 
+some degree o f in-space t e s t i n g and v e r i f y i n g . 
+A s a p r a c t i c a l m a t t e r , development and demonstration of f i r e p r e v e n t i o n , 
+d e t e c t i o n , and suppression p o l i c i e s and techniques for Freedom w i l l need a com- 
+promise t o s i m p l i f y v a l i d a t i o n s through e f f e c t i v e use o f a n a l y t i c a l knowledge 
+and small-scale s i m u l a t i o n t e s t i n g . 
+There are hopes t h a t some t i m e l y t e s t s and 
+demonstrations can be conducted i n f u t u r e S h u t t l e missions up to t h e t i m e of 
+t h e c o n s t r u c t i o n and assembly o f Freedom i n o r b i t . 
+The Space S t a t i o n Freedom i t s e l f i s t h e i d e a l f a c i l i t y for l o n g - d u r a t i o n 
+f i r e - s a f e t y t e s t i n g f o r space. 
+The space-station l a b o r a t o r y modules a r e 
+equipped w i t h power, u t i l i t i e s , and standardized r a c k s f o r mounting experiments 
+t o e x p l o i t t h e m i c r o g r a v i t y environment i n t h e modules. 
+One d e f i n i t i o n concept 
+for i n s t a l l a t i o n i n a Freedom l a b o r a t o r y module, shown i n F i g . 14, c o n s i s t s o f 
+a combustion chamber t o be mounted i n one r a c k w i t h associated d a t a and power 
+systems i n an a d j o i n i n g r a c k ( R e f . 3 6 ) . 
+Such a f a c i l i t y , which i s one of 
+several under a c t i v e design c o n s i d e r a t i o n by NASA, can accommodate m u l t i p l e 
+experiment f u n c t i o n s , i n c l u d i n g i n v e s t i g a t i o n s of i g n i t i o n , flame spread, flam- 
+m a b i l i t y , combustion products, and flame suppression. 
+CONCLUDING REMARKS 
+This paper i s a r e v i e w o f t h e knowledge, techniques, and f u t u r e t r e n d s i n 
+s p a c e c r a f t f i r e s a f e t y . I t i s c l e a r t h a t a i r c r a f t f i r e - s a f e t y s t r a t e g i e s and 
+hardware serve as i m p o r t a n t models for corresponding measures i n space. 
+The 
+overwhelming d i f f e r e n c e i n space i s t h e n e g l i g i b l e g r a v i t a t i o n body f o r c e , a 
+s i t u a t i o n t h a t p r o f o u n d l y i n f l u e n c e s f i r e s , t h e i r d e t e c t i o n , and t h e i r c o n t r o l . 
+Another o p e r a t i o n a l d i f f e r e n c e a f f e c t i n g f i r e s a f e t y i s t h a t s p a c e c r a f t of t h e 
+f u t u r e must be completely s e l f - c o n t a i n e d : 
+t h e atmospheric, f i r e - f i g h t i n g , 
+and 
+rescue resources are a l l maintained by t h e s p a c e c r a f t l o g i s t i c s u p p l i e s . 
+For t h e p r e s e n t , t h e f i r e s a f e t y p r o v i s i o n s i n t h e U.S. S h u t t l e appear 
+adequate for they are based on s e l e c t e d a p p l i c a t i o n s of proven techniques i n 
+ground and a i r c r a f t f i r e s a f e t y . 
+What i s l a c k i n g for continued s a f e t y i n 
+f u t u r e long-duration missions i s a b e t t e r understanding of l o w - g r a v i t y combus- 
+t i o n and i t s a p p l i c a t i o n t o s p a c e c r a f t f i r e s a f e t y . 
+Analyses and small-scale 
+experiments i n d i c a t e t h a t t h e l a c k of n a t u r a l convection (absence of g r a v i t y - 
+d r i v e n buoyancy) may g e n e r a l l y i n h i b i t combustion, producing c o o l e r , l e s s e f f i - 
+c i e n t flames. 
+Special circumstances, i n c o n t r a s t , may increase f i r e dangers 
+14 
+
+=== page 16 ===
+i n space. 
+The most 
+combustion by low f 
+of fire i n low urav 
+i m p o r t a n t i s t h e demonstrated enhancement of l o w - g r a v i t y 
+ow r a t e s o f v e n t i l a t i o n . 
+t y compared t o normal g r a v i t y , i t i s c l e a r t h a t t h e unique 
+Regardless o f t h e r e l a t i v e danger 
+c h a r a c t e r i s t i c s - o f f i r e s i n space r e q u i r e i n n o v a t i v e techniques i n f i r e preven- 
+t i o n , d e t e c t i o n , and extinguishment. 
+Design and research a r e underway f o r t h e U.S. Space S t a t i o n Freedom, a 
+multipurpose space community, t o be permanently placed i n a low-earth o r b i t . 
+For Freedom, i t i s necessary t o devise reasonable m a t e r i a l f l a m m a b i l i t y accept- 
+ance p o l i c i e s , c o n s i s t e n t w i t h p r e s e n t knowledge of space behavior. 
+F i r e 
+d e t e c t i o n f o r t h i s s p a c e c r a f t must recognize t h e p o t e n t i a l f i r e s i g n a t u r e s i n 
+low g r a v i t y and devise s y s t e m s o f adequate s e n s i t i v i t y y e t p e r c e p t i v e enough 
+t o r e j e c t f a l s e alarms, w i t h added p r o v i s i o n for i n - f l i g h t checks and c a l i b r a - 
+t i o n s . 
+F i r e extinguishment f o r Freedom must be e f f i c i e n t , s u i t a b l e f o r opera- 
+t i o n i n low g r a v i t y and, above a l l , uncontaminating and removable from t h e 
+closed atmospheric system. 
+consider the p r o b a b i l i t y o f f i r e s o c c u r r i n g i n space and t h e i r spread and haz- 
+ards i n low g r a v i t y . 
+Crew t r a i n i n g and escape modes must be devised t o 
+F i n a l l y , s p a c e c r a f t f i r e s a f e t y can no longer r e l y on s t r i c t r u l e s , 
+devised for short-term missions. 
+F i r e s a f e t y for f u t u r e s p a c e c r a f t , l i k e Free- 
+dom, must be f l e x i b l e and r e a l i s t i c , s i m i l a r t o p o l i c i e s i n p l a c e f o r a i r c r a f t . 
+The goal o f s p a c e c r a f t fire s a f e t y w i l l be a compromise to achieve t h e lowest 
+p r a c t i c a l r i s k l e v e l c o n s i s t e n t w i t h t h e promotion of u s e f u l f u n c t i o n s of h a b i - 
+t a t i o n , science, and commercial o p e r a t i o n s i n t h e s p a c e c r a f t . 
+REFERENCES 
+1 . A i r c r a f t F i r e S a f e t y . 
+AGARD CP-166, 
+1975. 
+2 . Margle, J.M., 
+ed.: 
+Spacecraft F i r e S a f e t y . 
+NASA CP-2476, 
+1987. 
+3. Friedman, R.; and Sacksteder, K.R.: 
+Science and Technology Issues i n 
+Spacecraft F i r e S a f e t y . 
+A I A A Paper 87-0467, Jan. 1987 (NASA TM-88933). 
+4. De Meis, R . : 
+S a f e t y i n t h e Space S t a t i o n . 
+Aerospace America, v o l . 24, 
+no. 5, May 1983, pp. 26-29. 
+5. Rodney, G . A . : 
+S a f e t y Considerations i n t h e Design o f Manned S p a c e f l i g h t 
+Hardware. 
+I A F Paper 87-569, 
+I n t e r n a t i o n a l A s t r o n a u t i c a l Federation, 1982. 
+6. Friedman, R . ; and Sacksteder, K.R.: 
+F i r e Behavior and Risk A n a l y s i s i n 
+Spacecraft. 
+NASA TM-100944, 
+1988. 
+7 . Peercy, R.L. Jr.; and Raasch, R.F.: 
+Threat-Strategy Technique: 
+A System 
+Safety Tool for Advanced Design. 
+J. Spacecraft Rockets, v o l . 23, no. 2, 
+Mar.-Apr. 
+1986, pp. 200-206. 
+8. Flammabi 1 i t y , Odor, and O f f g a s s i n g Requirements and Test Procedures for 
+M a t e r i a l s i n Environments t h a t Support Combustion. 
+NASA TM-84066, 
+1981 
+(NASA NHB-8060.1B). 
+9. Cole, M.B. : 
+Space S t a t i o n I n t e r n a l Environmental and S a f e t y Concerns. 
+Spacecraft F i r e S a f e t y . 
+J.M. Margle, ed., NASA CP-2476, 
+1987, pp. 73-87. 
+15 
+
+=== page 17 ===
+10. B o t t e r i , B . P . : 
+A i r c r a f t F i r e P r o t e c t i o n Technology. 
+A i r c r a f t F i r e S a f e t y . 
+AGARD CP-166, 
+1975, pp. 18-1 to 18-15. 
+1 1 . Waldman, J . J . : 
+A i r c r a f t F i r e and Overheat D e t e c t i o n and Extinguishment. 
+SAE Paper 800622, S o c i e t y o f Automotive Engineers, Apr. 1980. 
+12. Mniszewski, K . R . ; Waterman, T . E . ; 
+Campbell, J.A.; 
+and Salzberg, F . : 
+" F i r e 
+Management/Suppression System/Concepts R e l a t i n g t o A i r c r a f t Cabin F i r e 
+Safety," FAA-CT-82-1234, 
+Federal A v i a t i o n A d m i n i s t r a t i o n , 1983 ( A v a i l . 
+N T I S , AD-A1 371 55). 
+13. K u b i c k i , D.J.: 
+F i r e P r o t e c t i o n and Rescue Planning for t h e NASA Space 
+S h u t t l e . 
+F i r e Journal, v o l . 75, no. 4, J u l y 1981, pp. 34-40, 
+127-128. 
+14. Kuchta, J.M.; 
+and C l o d f e l t e r , R . G . : 
+A i r c r a f t Mishap F i r e P a t t e r n I n v e s t i - 
+g a t i o n s . 
+AFWAL-TR 85-2057, U.S. A i r Force Wright A e r o n a u t i c a l Laborato- 
+r i e s , 1985 ( A v a i l . N T I S , AD-A161094). 
+15. Kimzey, J.H.; Downs, W.R.; 
+Eldred, C . H . ; 
+and N o r r i s , C.W.: 
+F l a m m a b i l i t y 
+i n Zero-Gravity Environment. 
+NASA TR R-246, 
+1966. 
+16. Neustein, R . A . ; Mader, P.P.; Colombo, G.V.; 
+and Richardson, D.E.: The 
+E f f e c t o f Atmosphere S e l e c t i o n and G r a v i t y on Burning Rate and I g n i t i o n 
+Temperature. 
+McDonnell Douglas A s t r o n a u t i c s Co. 
+Report DAC-62431. 
+(NASA 
+CR-106652), 
+Oct. 1968. 
+17. Andracchio, C . R . ; 
+and A y d e l o t t , J.C.: Comparison o f Flame Spreading Over 
+T h i n F l a t Surfaces i n Normal G r a v i t y and Weightlessness i n an Oxygen Envi- 
+ronment. 
+NASA TM X-1992, 
+1970. 
+18. Andracchio, C.R.; 
+and Cochran, T . H . : 
+Burning o f S o l i d s i n Oxygen R i c h 
+Environments i n Normal and Reduced G r a v i t y . 
+NASA TM X-3055, 
+1974. 
+19. Andracchio, C.R.; 
+and Cochran, T . H . : 
+G r a v i t y E f f e c t s on Flame Spreading 
+Over S o l i d Surfaces. 
+NASA TN D-8228, 
+1976. 
+20. Kimzey, J.H.: 
+Skylab Experiment M479 Zero G r a v i t y F l a m m a b i l i t y . 
+Proceed- 
+i n g s o f t h e T h i r d Space Processing Symposium on Skylab R e s u l t s , Vol. 1 , 
+NASA TM X-70252, 
+1974, pp. 115-130. 
+21. Sauers, D . G . : 
+The Effects of Forced A i r Flow and Oxygen C o n c e n t r a t i o n on 
+F l a m m a b i l i t y , Smoke D e n s i t y , and P y r o l y t i c T o x i c i t y . 
+J. F i r e F l a m m a b i l i t y , 
+v o l . 7, Apr. 1976, pp. 181-199. 
+22. Vento, D . ; Zavesky, R.; 
+Sacksteder, K . ; and A l t e n k i r c h , R . : 
+The S o l i d Sur- 
+f a c e Combustion Space S h u t t l e Experiment - Hardware D e s c r i p t i o n and Ground- 
+Based Test R e s u l t s . 
+A I A A Paper 89-0503, Jan. 1989. 
+23. Olson, S.L.; F e r k u l , P . V . ; 
+and T ' i e n , J.S: 
+Near-Limit Flame Spread Over a 
+T h i n S o l i d Fuel i n M i c r o g r a v i t y , t o appear i n Twenty-Second Symposium 
+( I n t e r n a t i o n a l ) on Combustion, The Combustion I n s t i t u t e , P i t t s b u r g h , PA, 
+1 989 (NASA TM-10087 1 ) . 
+24. Olson, S.L.; and Sotos, R.G.: 
+Combustion of V e l c r o i n Low G r a v i t y . 
+NASA 
+TM-88970, 
+1987. 
+16 
+
+=== page 18 ===
+25. Olson, S.L.: 
+The E f f e c t of M i c r o g r a v i t y on Flame Spread Over a T h i n F u e l . 
+NASA TM-100195, 
+1987. 
+26. Foutch, D.W.: 
+S i z e and Shape of S o l i d Fuel D i f f u s i o n Flames i n Very Low 
+Speed Flows. 
+NASA CR-179576, 
+1987. 
+27. F e r k u l , P.V.: 
+An Experimental Study o f Opposed Flow D i f f u s i o n Flame 
+E x t i n c t i o n Over a T h i n Fuel i n M i c r o g r a v i t y . 
+NASA CR-182185, 
+1988. 
+28. R o s s i e r , R.N.: 
+Nuclear Powered Submarines and t h e Space S t a t i o n : 
+A Com- 
+p a r i s o n of ECLSS Requirements. 
+Aerospace Environmental Systems, SAE P-177, 
+S o c i e t y of Automotive Engineers, Warrendale, PA, 1986, pp. 321-329. 
+29. Gann, R.G.; 
+Stone, J.P.; Tatem, P . A . ; 
+W i l l i a m s , F.W.; 
+and C a r h a r t , H.W.: 
+Suppression of F i r e s i n Confined Spaces by N i t r o g e n P r e s s u r i z a t i o n , I11 
+E x t i n c t i o n L i m i t s for L i q u i d Pool F i r e s . 
+Combust. S c i . and Technol., 
+v o l . 18, nos. 5-6, 
+1978, pp. 155-163. 
+30. H o r r i g a n , D.J.: 
+Atmosphere. 
+The P h y s i o l o g i c a l B a s i s f o r S p a c e c r a f t Envi- 
+ronmental L i m i t s , NASA RP-1045, 
+J.M. Waligora, ed., 1979, pp. 1-15. 
+31. Huggett, C.: 
+H a b i t a b l e Atmospheres Which Do Not Support Combustion. 
+Com- 
+b u s t . Flame, v o l . 20, no. 1 , Feb. 1973, pp. 140-142. 
+32. Desmarais, L.A.; 
+T o l l e , F . F . ; 
+and A l l e n , T.D.: 
+E v a l u a t i o n of Advanced A i r - 
+33. Anderson, C.L.: 
+Advanced A i r S e p a r a t i o n Module Performance E v a l u a t i o n . 
+p l a n e F i r e E x t i n g u i s h a n t s . 
+A I A A Paper 83-1141, 
+June 1983. 
+AFWAL-TR-88-2031, 
+U.S. A i r Force W r i g h t A e r o n a u t i c a l Labs, W r i g h t P a t t e r - 
+son A i r Force Base, OH, J u l y 1988. 
+D e t e c t o r s i n H e a l t h Care F a c i l i t i e s . 
+NBSIR 80-2130, 
+U.S. N a t i o n a l Bureau 
+of Standards, Oct. 1980. 
+34. Bukowski, R.W.; 
+and I s t v a n , S.M.: 
+A Survey of F i e l d Experience w i t h Smoke 
+35. Gibbons, H.L.: 
+Carbon D i o x i d e Hazards i n General A v i a t i o n . 
+A v i a t i o n 
+Space Environ. Med., v o l . 48, Mar. 1977, pp. 261-263. 
+36. Youngblood, W . W . ; 
+and S e i s e r , K.M.: 
+Experiments t o Ensure Space S t a t i o n 
+F i r e S a f e t y - A Challenge. 
+A I A A Paper 88-0540, 
+Jan. 1988. 
+17 
+
+=== page 19 ===
+I 
+PROBABILITY 
+. 
+SCENAR I OS 
+I 
+DENT I F I CAT ION 
+OF HAZARDS 
+POTENTIAL 
++ 
+ACCEPTABILITY 
+DEGREE 
+OF RISK 
+TOLERANCE 
+\ 
+TECHNICAL. 
+CONSTRAINTS 
+FIGURE 1. - REPRESENTATION OF SPACECRAFT SAFETY PROCEDURES. 
+5 CM. TYPICAL- 
+r TEST 
+1 
+CHAMBER 
+/ 
+SCALE 7 
+TY P I 
+CAL 
+SPECIMEN - 
+L I M I T I NG 
+FLAME- 
+SPREAD 
+HE I GHT 
+t 
+PAPER , 
+SHEET 
+/ 
+BELOW 
+SPECIMEN - 
+I 
+I 
+\ 
+\\ 
+/ 
+E 
+‘-IGNITER 
+I 
+FIGURE 2. - STANDARD UPWARD BURNING TEST METHOD FOR SPACECRAFT 
+MATERIALS. 
+18 
+
+=== page 20 ===
+INTEGRAL SAMPLING FAN 7 
+ION I ZATION-TYPE 
+SMOKE DETECTOR 
+/ 
+TYPICAL OF 9 
+LOCAT IONS 
+,--FIRE SUPPRESSION 
+/ 
+CONTROL PANEL 
+, FLIGHT 
+DECK 
+FIGURE 3. - FIRE DETECTION IN THE U.S. SHUTTLE ORBITER 
+CABIN. 
+19 
+
+=== page 21 ===
+PIERCED- 
+DIAPHRAGM 
+rPRESSURE SWITCH 
+, 
+/‘ 
+ACTUATOR 7 
+\ 
+FIXED-POSITION HALON 
+1301 FIRE EXTINGUISHER 
+FILL PORT--’ 
+r F I R E SUPPRESSION 
+/ 
+/ 
+CONTROL PANEL 
+/ 
+TYPICAL OF 3 
+LOCAT IONS \ 
+TABLE FIRE EXTIN- 
+GUISHERS NOT SHOWN 
+FIGURE 4. - HALON 1301 FIRE EXTINGUISHERS I N THE U.S 
+SHUTTLE ORBITER CABIN. 
+1 
+20 
+
+=== page 22 ===
+ELECTRICAL 
+CONNECTOR 
+FOR IGNITION 7 
+VIEW OF 
+FIGURE 6 
+WORK CHAMBER, 
+‘SPECIMEN 
+(5 CM 
+43-CM DIAMETER 
+TYPICAL LENGTH) 
+FIGURE 5 . - LOW-GRAVITY FLAMMABILITY APPARATUS FLOWN I N THE 
+1974 SKYLAB MISSION. 
+21 
+
+=== page 23 ===
+ORIGINAL PAGE 
+BLACK AND WHITE PHOTOGRAPH 
+-- 
+FIGURE 6. - SPHERICAL FLAME SURROUNDING POLYURETHANE FOAM SPEC- 
+IMEN AT LOW GRAVITY, 65%-OXYGEN ATMOSPHERE, I N THE 1974 SKY- 
+LAB EXPERIMENT. 
+22 
+
+=== page 24 ===
+L 
+-1 
+0 
+v, 
+-1 
+> 
+-1 
+t; 
+c( 
+f 
+-1 
+L L 
+I E 
+I 
+23 
+
+=== page 25 ===
+ORIGINAL PAGE 
+LACK AND WHITE PHOTOGRAP 
+FLAME WIDTH OF 
+SAME ORDER AS 
+FLAME LENGTH 
+t 
+DIRECTION OF 
+BUOYANT FLOWS 
+LONG 
+PYROLYSIS 
+ZONE 
+ORANGE 
+FLAME 
+7 
+LARGE 
+-I 
+/ 
+FLAME 
+-1 
+I
+I
+/
+ 
+t
+4
+ 
+FLAME 
+/’ 
+STANDOFF 
+4 /SHORT 
+PYROLYSIS 
+ZONE 
+3- 
+I
+I
+ 
+/-SMALL 
+/ 
+I 1 
+STANDOFF 
+I
+I
+ 
+NARROW FLAME 
+BUOYANT FLOW 
+FLICKER I 
+NG, 
+BRIGHT 
+YELLOW , 
+/ 
+FLAME -’ 
+DIRECTION OF 
+FLAME SPREAD 
+LOW-GRAVITY FLAME 
+1 
+NORMAL-GRAVITY FLAME 
+FIGURE 8. - COMPARISON OF TYPICAL NORMAL- AND LOW-GRAVITY FLAMES ON THIN SOLID SURFACES 
+(PAPER. PLASTIC. 
+E . G . ) . 
+(FLAME 
+BEHIND 
+PHOTOGRAPH 
+BURNING 
+DROPLETS 3 
+SPREAD I NG 
+SPEC I 
+MEN 1 7 
+I 
+\ 
+LN’ 
+(INVISIBLE I N 
+PHOTOGRAPH 1 
+I 
+INTERPRETATION 
+FIGURE 9. - EXPULSION OF BURNING DROPLETS FROM BURNING NYLON VELCRO SPECIMEN I N DROP- 
+TOWER LOW-GRAV I 
+TY TEST. 
+
+=== page 26 ===
+10 
+8 
+6
+1
+ 
+O 
+NORMAL-GRAVITY 
+LOW-GRAVITY DATA 
+DATA 
+o
+/
+ 
+4 
+EX1 I NCT I ON 
+I\ 
+i 
+'\ 
+\ 
+\ 
+BLOWOFF EX1 I NCT I ON 
+.2 
+10 
+20 
+40 
+60 
+80 
+100 
+OXYGEN CONCENTRATION, MOLE X 
+FIGURE 10. - COMPARISON OF FLAME-SPREAD 
+RATES FOR NORMAL AND LOW-GRAVITY COM- 
+BUSTION OF THIN-PAPER SPECIMENS I N 
+DROP-TOWER TESTS. 
+25 
+
+=== page 27 ===
+NORMAL-GRAVITY 
+EXTINCTION 
+W 
+I- e 
+CL 
+e 
+W 
+az 
+n 
+n 
+J E 
+L 
+HIGH-VELOCITY 
+VENTILATION 
+I 
+VENTILATION 
+I I 
+I 
+(LOW GRAVITY) 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+- I 
+*I 
+I 
+30 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+*I 
+I 
+t ' 
+I 
+I 
+I 
+25 
+n 
+w 
+-I 
+0 
+I: ; 
+20 
+a, 
+I 
+u) 
+n 
+15 
+k 
+E 
+L 
+W 
+a 
+> 
+10 
+0 
+AIR VELOCITY 
+FIGURE 11. - EFFECT OF VENTILATION AIR FLOW ON FLAME-SPREAD RATE FOR 
+THIN-PAPER SPECIMENS. 
+LOW- 
+/-ENHANCED 
+FLAMMABILITY 
+GRAVITY 
+/ 
+WITH VENTILATION 
+I 
+QUIESCENT 
+NORMAL GRAVITY 
+BUOYANT FLOW, 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+AIR VELOCITY (RELATIVE 1 
+FIGURE 12. - FLAMMABILITY-LIMIT COMPARISON FROM DROP-TOWER LOW- 
+GRAVITY DOWNWARD BURN I 
+NG TH I 
+N-PAPER TESTS. 
+26 
+
+=== page 28 ===
+LABORATORY MODULE (TYPICAL OF 3) -, 
+AIR LOCK (TYPICAL) 
+(TYPICAL 1 
+TUNNEL 
+(TYPICAL 1 - 
+NODE (TYPICAL) -' 
+HABITATION/OPERATIONS NODULE 
+FIGURE 13. - PROPOSED "LADDER" CONFIGURATION OF U.S. SPACE STATION FREEDOM 
+MODULES. 
+SINGLE 
+DOUBLE 
+RACK. 
+RACK, 
+52 CM 
+105 CM 
+WIDE 
+WIDE 
+CAMERA 
+INSTRUMENTS - 
+DATA SYSTEM, 
+CONTROLLERS -- 
+HEAT 
+EXCHANGE, 
+GAS 
+PUMP I 
+NG 
+SYSTEM - - 
+,- 
+COMBUST I ON CHAMBER, 
+1 NOM I NAL D I MENS I 
+ONS 
+x 160 CM HIGH 
+\ 
+60 CM DIAMETER 
+FRONT VIEW 
+SIDE VIEW 
+FIGURE 14. - PROPOSED MULTIEXPERIMENT COMBUSTION CHAMBER FOR FIRE-SAFETY EXPERIMENTS I N SPACE STATION 
+FREEDOM EXPERIMENT RACKS. 
+27 
+
+=== page 29 ===
+NASA 
+National Aeronautics and 
+Report Documentation Page 
+Space Admlnlstration 
+1. Report No. 
+I 2. Government Accession No. 
+I 3. Recipient's Catalog No. 
+NASA TM-101463 
+4. Title and Subtitle 
+Fire Safety Applications for Spacecraft 
+5. Report Date 
+7. Author@) 
+Robert Friedman and Sandra L. Olson 
+10. Work Unit No. 
+6. Performing Organization Code 
+8. Performing Organization Report No. 
+E-45 1 1 
+323-53-62 
+9. Performing Organization Name and Address 
+11. Contract or Grant No. 
+National Aeronautics and Space Administration 
+12. Sponsoring Agency Name and Address 
+Lewis Research Center 
+Cleveland, Ohio 44135-3191 
+Technical Memorandum 
+113. Type of Report and Period Covered 
+19. Security Classif. (of this report) 
+Unclassified 
+20. Security Classif. (of this page) 
+I 21. NO of2pgages 
+22. Price' 
+Unclassified 
+1 
+A03 
+National Aeronautics and Space Administration 
+Washington, D.C. 20546-0001 
+14. Sponsoring Agency Code 
+5. Supplementary Notes 
+Prepared for the Symposium on Aircraft Fire Safety sponsored by the AGARD/NATO Propulsion Energetics 
+Panel, Sintra, Portugal, May 22-26, 1989. 
+6. Abstract 
+This paper reviews fire safety for spacecraft by first describing current practices, many of which are adapted 
+directly from aircraft. The paper then discusses current analyses and experimental knowledge in low-gravity 
+combustion, with implications for fire safety. In orbiting spacecraft, the detection and suppression of flames are 
+strongly affected by the large reduction in buoyant flows under low gravity. Generally, combustion intensity is 
+reduced in low gravity. There are some notable exceptions, however, one example being the strong enhancement 
+of flames by low-velocity ventilation flows in space. Finally, the paper examines the future requirements in fire 
+safety, particularly the needs of long-duration space stations in fire prevention, detection, extinguishment, and 
+atmospheric control. The goal of spacecraft fire-safety investigations is the establishment of trade-offs that 
+promote maximum safety without hampering the useful human and scientific activities in space. 
+17. Key Words (Suggested by Author@)) 
+Fire safety; Fire detection; Fire extinguishers; 
+Spacecraft fire safety; Microgravity combustion; 
+Space Station Freedom 
+18. Distribution Statement 
+Unclassified - Unlimited 
+Subject Category 16 
+'For sale by the National Technical Information Service, Springfield, Virginia 221 61 
+NASA FORM 1626 OCT 86 
