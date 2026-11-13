@@ -12,7 +12,7 @@ NASA's fire data stops at orbit. FlameSense shows where it ends, predicts only w
 
 4
 00:00:21,000 --> 00:00:26,000
-Built on NASA's ISS combustion data: [VERIFY: dataset names].
+Built on NASA's ISS combustion data: BASS, BASS-II and Saffire.
 
 5
 00:00:26,000 --> 00:00:29,000

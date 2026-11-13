@@ -7,9 +7,9 @@ out, and which experiments NASA should run next.**
 NASA Space Apps Challenge 2026, Rajshahi: *Flame in Freefall: AI-Powered Fire Safety Insights
 from Microgravity Combustion Data.*
 
-- Live app: https://flamesense.ehsanur.com (fallback https://flamesense.pages.dev) [VERIFY after deploy]
+- Live app: https://flamesense.ehsanur.com (fallback https://flamesense.pages.dev)
 - 60-second judge tour: https://flamesense.ehsanur.com/?tour=1
-- Videos: [VIDEO2_URL] (240 s) and [VIDEO3_URL] (30 s)
+- Video (2:38): https://www.youtube.com/watch?v=JSZ1s7FMdMQ
 
 FlameSense is a research and education tool. It is not a certified fire-safety system and must
 not be used for operational safety decisions. Not affiliated with or endorsed by NASA. Uses NASA
@@ -179,8 +179,7 @@ Pages that aren't ready (missing or invalid data) are hidden automatically by
 
 ## Team
 
-Team FlameSense, Rajshahi. Ehsanur: code, data and science checks; two team members:
-registrations, videos, slides and usability testing. [VERIFY names per the under-18 rule.]
+Team FlameSense, Rajshahi (3 members). Team lead: code, data pipeline, models and science checks. Researcher: NASA sources, data review and the 240-second video. Designer: UI review, slides and usability checks.
 
 ## License
 

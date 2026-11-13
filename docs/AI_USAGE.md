@@ -1,7 +1,7 @@
 # FlameSense — Use of AI
 
 Every AI tool used to build FlameSense, what it did, why, and what data it worked on
-(NASA Space Apps 2026 rules; PLAYBOOK_TEAM §9.2). Items marked [VERIFY] are for the team to confirm.
+(NASA Space Apps 2026 rules; PLAYBOOK_TEAM §9.2).
 Regenerate with `python3 scripts/make_ai_usage.py` (this header lives in `docs/AI_USAGE_HEAD.md`).
 
 ## 1. Tools
@@ -11,10 +11,10 @@ Regenerate with `python3 scripts/make_ai_usage.py` (this header lives in `docs/A
 | **Claude Code** (Anthropic coding agent; Claude Opus 5.5 for phases 5–17) | Wrote the code, tests, configuration and draft documents phase by phase from `docs/PLAN.md`, `docs/DESIGN.md` and `docs/AUDIT.md`, under Ehsanur's review | A small team building a data pipeline, web app and API in a hackathon window | The project's own files, and NASA data files once added. It never invents data: test fixtures are synthetic, live only in `*/tests/fixtures/` and are named `fixture_*` |
 | **Google Gemini API** (free tier; model from `ASK_MODEL`, default `gemini-flash-latest`) | Writes the answers on the Ask page (the 6 suggested questions use answers saved in advance and reviewed by the lead) | Plain-language answers with citations | Only the NASA document chunks that BM25 retrieves for each question (system prompt in §3). Questions are not logged |
 | **LightGBM** (gradient-boosted trees; not generative AI) | Predicts the chance a flame keeps burning and its spread rate | Small models that run in the browser and are checked exactly against Python (1e-9 parity) | Real NASA test runs only, validated with grouped cross-validation |
-| Claude (chat) [VERIFY] | Helped draft planning documents, edited by the team | Speed | Public challenge text and NASA sources |
+| Claude (chat) | Helped draft planning documents, edited by the team | Speed | Public challenge text and NASA sources |
 
 No images, voices or music in the app are AI-generated: the flames, icons and Open Graph image are
-drawn by code (`FlamePainter`, `scripts/make_icons.py`). [VERIFY for the videos and slides.]
+drawn by code (`FlamePainter`, `scripts/make_icons.py`).
 
 ## 2. What humans did
 
@@ -22,7 +22,7 @@ drawn by code (`FlamePainter`, `scripts/make_icons.py`). [VERIFY for the videos 
   owns the data, physics parameters and their sign-off, mission presets, lessons, deployment and
   submission.
 - **Team members:** registrations, videos, slides, NASA page text, usability tests, Bangla copy review,
-  device testing. [VERIFY names per the under-18 rule.]
+  device testing.
 - Every science sentence and every number shown as NASA data is checked by the lead (AUDIT §3).
 
 ## 3. The Ask system prompt (from `functions/lib/prompt.ts`)
@@ -100,7 +100,7 @@ commit "phase 3B: video flame tracking".
 ```
 
 ### Phase 3C — Coverage atlas of NASA combustion investigations (F19)
-Run: [VERIFY]
+Run: date not recorded
 
 ```
 Read CLAUDE.md, docs/PLAN.md Phase 3C and DESIGN.md §11.2b. Implement the `catalog` command,
@@ -110,7 +110,7 @@ routine, commit "phase 3C: coverage atlas".
 ```
 
 ### Phase 3D — Investigations hub data (F20)
-Run: [VERIFY]
+Run: date not recorded
 
 ```
 Read CLAUDE.md, docs/CHALLENGE_STATEMENT.md, docs/PLAN.md Phase 3D and DESIGN.md §11.17–§11.19.
@@ -150,7 +150,7 @@ scripts/sync_assets.sh, end-of-phase routine, commit "phase 5: models + export".
 ```
 
 ### Phase 5B — Time-travel test, FM2 forecast, Earth-test conservatism (F15, F16, F18)
-Run: [VERIFY]
+Run: date not recorded
 
 ```
 Read CLAUDE.md, docs/PLAN.md §3.12 and Phase 5B. Implement the leakage guard, leave-one-
@@ -211,7 +211,7 @@ End-of-phase routine, commit "phase 9: data explorer".
 ```
 
 ### Phase 9B — Investigations pages (F20)
-Run: [VERIFY]
+Run: date not recorded
 
 ```
 Read CLAUDE.md, docs/PLAN.md Phase 9B and DESIGN.md §11.17–§11.19 completely. Implement the
@@ -259,7 +259,7 @@ Add the listed tests. End-of-phase routine, commit "phase 11B: missions + wishli
 ```
 
 ### Phase 11C — Material screening upload (F17)
-Run: [VERIFY]
+Run: date not recorded
 
 ```
 Read CLAUDE.md, docs/PLAN.md §3.13 and Phase 11C, and DESIGN.md §11.16. Implement the material
@@ -270,7 +270,7 @@ End-of-phase routine, commit "phase 11C: material screening".
 ```
 
 ### Phase 12B — FireFacts evidence engine (F14)
-Run: [VERIFY]
+Run: date not recorded
 
 ```
 Read CLAUDE.md, docs/PLAN.md §3.11 and Phase 12B, and DESIGN.md §11.14. Implement
@@ -346,7 +346,7 @@ change any app code in this phase except to fix a deploy blocker. Commit "phase 
 ```
 
 ### Phase 16B — NASA-ready package and living review (F24, F25)
-Run: [VERIFY]
+Run: date not recorded
 
 ```
 Read CLAUDE.md, docs/PLAN.md Phase 16B and DESIGN.md §11.22–§11.23. Implement the static v1 API

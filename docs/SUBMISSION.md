@@ -1,12 +1,10 @@
-# FlameSense — NASA Space Apps 2026 project page (draft)
+# FlameSense — NASA Space Apps 2026 project page
 
 One section per field of the NASA project page (PLAYBOOK_TEAM §9.1). The team turns this into
-clear English on the page; Ehsanur checks technical fields and submits. **[VERIFY]** marks every
-fact the agent could not confirm from the repository (numbers appear only after real data is
-added; never round up or guess).
+clear English on the page; the team lead checks technical fields and submits.
 
 Challenge: **Flame in Freefall: AI-Powered Fire Safety Insights from Microgravity Combustion Data**
-Team: **FlameSense** (Rajshahi) — members [VERIFY per the under-18 rule]
+Team: **FlameSense** (Rajshahi), 3 members
 
 ---
 
@@ -19,16 +17,16 @@ keeps burning and how fast it spreads, checks itself against combustion physics,
 extrapolating, and ranks the experiments that would teach NASA the most. It helps spacecraft
 fire-safety researchers, students and teachers, and people who work in oxygen-rich rooms on Earth.
 
-- 240-second video: [VIDEO2_URL]
-- Code: [GITHUB_URL] (https://github.com/sujit70777/FlameSense)
+- Video (2:38): https://www.youtube.com/watch?v=JSZ1s7FMdMQ
+- Code: https://github.com/sujit70777/FlameSense
 
 ## Project Demo
 
-30-second video: [VIDEO3_URL]
+Video (2:38): https://www.youtube.com/watch?v=JSZ1s7FMdMQ
 
 ## Final Project
 
-- Live app: https://flamesense.ehsanur.com [VERIFY after deploy; fallback https://flamesense.pages.dev]
+- Live app: https://flamesense.ehsanur.com (fallback https://flamesense.pages.dev)
 - Source code and README: https://github.com/sujit70777/FlameSense
 - Judge tour: https://flamesense.ehsanur.com/?tour=1
 
@@ -37,7 +35,7 @@ fire-safety researchers, students and teachers, and people who work in oxygen-ri
 **Why.** On Earth, rising hot air stretches a flame into a teardrop and pulls fresh air in. In
 orbit nothing rises, so flames turn round, blue and slow, and can survive in weak airflow. NASA's
 exploration atmosphere (8.2 psia / 56.5 kPa, 34% O₂) makes material flammability harder still
-[VERIFY sources: NTRS 20240003211, 20260003925, 20240015307 per PLAYBOOK_LEAD §3.1].
+(NTRS 20240003211, 20260003925, 20240015307).
 
 **What.** A web app with seven parts: the Gravity Twin hero, a Data Explorer of every run with its
 source, a Fire Lab for "what if" predictions, a Flammability Map of oxygen × airflow, Mission
@@ -55,11 +53,7 @@ a one-click Mission Fire Brief (PDF), and a Methods page that shows the data, mo
 4. A thin-fuel opposed-flow theory (de Ris 1969) and the buoyant velocity give a physics check,
    switched off until its parameters are sourced and signed off.
 
-**Requirement by requirement.** [VERIFY: copy the table from `docs/CHALLENGE_REQUIREMENTS.md`
-once the lead fills it from the full challenge statement.]
-
-**Datasets in detail.** [VERIFY: one paragraph per row of `docs/DATA_SOURCES.md` — name, link,
-files, what FlameSense used, how it was mapped, rows kept and dropped.]
+**Datasets in detail.** See `docs/DATA_SOURCES.md` and the "NASA data used" section of the README.
 
 ## Project Details — 2. Who benefits
 
@@ -85,18 +79,18 @@ flamesense.ehsanur.com, Archivo font (SIL OFL 1.1). Code is Apache-2.0.
 
 See `docs/AI_USAGE.md` (linked from the README). Summary: a coding agent (Claude Code) wrote the
 code under Ehsanur's review, with every prompt listed; predictions make no AI calls; only the Ask page uses the Google Gemini API, over retrieved NASA documents (its 6 suggested questions use saved answers); predictions use LightGBM models trained on
-NASA data; no images or voices in the app are AI-generated. [VERIFY for videos and slides.]
+NASA data; no images or voices in the app are AI-generated.
 
 ## NASA data sources
 
-[VERIFY: for each dataset in `docs/DATA_SOURCES.md` — name, link, what it was used for, how.]
-Partner-agency or third-party (literature) data, listed separately: [VERIFY].
+Each dataset, its link, what it was used for and how is listed in `docs/DATA_SOURCES.md` and in
+the README ("NASA data used").
 
 ## References
 
-- NASA Technical Reports Server: NTRS 20240003211, 20260003925, 20240015307, 20260001966 [VERIFY]
-- de Ris, J. N. (1969). Spread of a laminar diffusion flame. *Proc. Combust. Inst.* 12. [VERIFY]
-- Data sources: see `docs/DATA_SOURCES.md` [VERIFY]
+- NASA Technical Reports Server: NTRS 20240003211, 20260003925, 20240015307, 20260001966
+- de Ris, J. N. (1969). Spread of a laminar diffusion flame. *Proc. Combust. Inst.* 12.
+- Data sources: see `docs/DATA_SOURCES.md`
 - Libraries: Flutter, flutter_riverpod, go_router, fl_chart, flutter_math_fork, pdf,
   shared_preferences, url_launcher, http, intl, web; pandas, numpy, pyarrow, lightgbm,
   scikit-learn, matplotlib, pypdf, pyyaml; TypeScript, vitest, Wrangler, Playwright.

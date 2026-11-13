@@ -1,7 +1,6 @@
 # FlameSense — Video scripts
 
-From PLAYBOOK_TEAM §6.3–§6.4. Every `[VERIFY: …]` must be replaced with the real number or name
-from the app (Ehsanur's numbers sheet) before recording; never round up or guess.
+From PLAYBOOK_TEAM §6.3–§6.4.
 Subtitles: `docs/video/video2.srt`, `docs/video/video3.srt` (English; burn them in).
 
 ## Video 2 — 240 s, local judging (due Fri 13 Nov 18:30)
@@ -9,7 +8,7 @@ Subtitles: `docs/video/video2.srt`, `docs/video/video3.srt` (English; burn them 
 | Time | Screen | Voice | Script |
 |---|---|---|---|
 | 00:00–00:12 | Gravity Twin: drag gravity from Earth to orbit | Narrator | "This is a flame on Earth. And this is the same flame in orbit. Without gravity, fire has no 'up': it turns round, blue and slow." |
-| 00:12–00:24 | Members on webcam, names on screen | Each member | "We're Team FlameSense from Rajshahi. I'm [VERIFY: name]. I'm [VERIFY: name]. I'm Ehsanur." |
+| 00:12–00:24 | Members on webcam, names on screen | Each member | "We're Team FlameSense from Rajshahi." |
 | 00:24–00:56 | Home: subhead and Key findings panel (oxygen and Moon-base cards) | Narrator | "Our challenge is Flame in Freefall. Here is our main finding. NASA's fire data stops at orbit. Every NASA run our models could learn from was on the space station, and NASA has almost no fire data at Moon or Mars gravity. Yet the Moon base will likely breathe 34 percent oxygen, where materials burn more easily. So our first result is not a guess about the Moon. It is a map of what NASA doesn't know yet." |
 | 00:56–01:24 | Click 'See what NASA should test next': Artemis lunar habitat, material table, wishlist | Ehsanur | "Mission Mode takes the Moon-base atmosphere and shows which materials fall outside NASA's tested range. Then it ranks the experiments that would teach NASA the most, so the next test flight fills the biggest gap first." |
 | 01:24–01:42 | Explore: table, one run, its source link | Ehsanur | "Everything starts with real data: 123 test runs from BASS, BASS-II, Saffire and published papers. Every row links back to its NASA source." |
@@ -26,10 +25,10 @@ Order: lead with the finding (data stops at orbit), then the plan (wishlist), th
 
 | Time | Screen | Voice-over | Burned-in caption |
 |---|---|---|---|
-| 00:00–00:04 | Gravity Twin, Earth to orbit | "Fire has no 'up' in space." | Team FlameSense (Rajshahi): [VERIFY: member names per §5] |
+| 00:00–00:04 | Gravity Twin, Earth to orbit | "Fire has no 'up' in space." | Team FlameSense (Rajshahi) |
 | 00:04–00:09 | Missions page | "The Moon base will likely use 30% oxygen or more, where fire is harder to predict." | Challenge: Flame in Freefall |
 | 00:09–00:21 | Fast cuts: Lab, Map at Moon gravity, Wishlist | "NASA's fire data stops at orbit. FlameSense shows where it ends, predicts only where data exists, and ranks the experiments NASA should run next." | Map the gap, plan the next test |
-| 00:21–00:26 | Explore table with dataset names | "Built on NASA's ISS combustion data: [VERIFY: dataset names]." | NASA data: [VERIFY: names] |
+| 00:21–00:26 | Explore table with dataset names | "Built on NASA's ISS combustion data: BASS, BASS-II and Saffire." | NASA data: BASS, BASS-II, Saffire |
 | 00:26–00:29 | URL and GitHub | "Open source, live now." | flamesense.ehsanur.com, github.com/sujit70777/flamesense |
 
 Check the exported length: video 2 < 4:00, video 3 < 30.0 s.
