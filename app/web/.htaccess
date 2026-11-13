@@ -1,0 +1,45 @@
+DirectorySlash Off
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  # App route /data clashes with the data/ folder (corpus file): serve the SPA.
+  RewriteRule ^data/?$ index.html [L]
+  RewriteCond %{REQUEST_URI} !^/api(?:/|$) [NC]
+  RewriteCond %{HTTP:Accept-Encoding} gzip [NC]
+  RewriteCond %{REQUEST_FILENAME}.gz -f
+  RewriteRule ^(.+\.(wasm|json|ttf|otf|js))$ $1.gz [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType application/wasm .wasm
+  AddEncoding gzip .gz
+  <FilesMatch "\.wasm\.gz$">
+    ForceType application/wasm
+  </FilesMatch>
+  <FilesMatch "\.json\.gz$">
+    ForceType application/json
+  </FilesMatch>
+  <FilesMatch "\.ttf\.gz$">
+    ForceType font/ttf
+  </FilesMatch>
+  <FilesMatch "\.js\.gz$">
+    ForceType application/javascript
+  </FilesMatch>
+  <FilesMatch "\.otf\.gz$">
+    ForceType font/otf
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "^(index\.html|flutter_bootstrap\.js|main\.dart\.js.*|flutter_service_worker\.js)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(wasm|json|ttf|otf|js)\.gz$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+    Header append Vary Accept-Encoding
+  </FilesMatch>
+</IfModule>

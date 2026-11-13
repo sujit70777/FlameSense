@@ -1,0 +1,106 @@
+{
+ "build_time_utc": "2026-11-11T10:35:07Z",
+ "git_sha": "b2b9d3d",
+ "n_runs": 160,
+ "rows_ingested": 160,
+ "rows_dropped": 0,
+ "dropped_rows": [],
+ "n_experiments": 2,
+ "n_fuels": 2,
+ "experiments": [
+  "FIXTURE_A",
+  "FIXTURE_B"
+ ],
+ "source_type": {
+  "nasa_psi": 0,
+  "nasa_report": 0,
+  "partner_agency": 0,
+  "third_party": 160
+ },
+ "gravity_class": {
+  "microgravity": 76,
+  "partial": 0,
+  "earth": 84
+ },
+ "experiment": {
+  "FIXTURE_A": 75,
+  "FIXTURE_B": 85
+ },
+ "model_use": {
+  "sustain": 160,
+  "spread": 160,
+  "sustain_only": 0,
+  "spread_only": 0,
+  "both": 160,
+  "neither": 0
+ },
+ "sources": [
+  {
+   "source_type": "third_party",
+   "authorship": "unlabelled",
+   "citation": "FIXTURE: synthetic test row, not NASA data",
+   "url": null,
+   "experiments": [
+    "FIXTURE_A",
+    "FIXTURE_B"
+   ],
+   "n_runs": 160,
+   "n_dropped_duplicates": 0
+  }
+ ],
+ "home": {
+  "maxO2MicrogravitySolidsPct": 40,
+  "mapLowCells": 2886,
+  "mapTotalCells": 3072,
+  "materialsOutsideMoonBase": 2,
+  "materialsTotal": 2,
+  "moonBase": {
+   "missionId": "artemis_lunar",
+   "o2_mole_fraction": 0.34,
+   "pressure_kpa": 56.5,
+   "gravity_g": 0.1654,
+   "outsideInputs": [
+    "o2_mole_fraction"
+   ]
+  },
+  "topGaps": [
+   {
+    "id": "partial_gravity",
+    "score": 0.9,
+    "link": "/map",
+    "params": {
+     "nPartial": 0,
+     "nTotal": 160,
+     "nNasa": 0,
+     "nThirdParty": 0
+    },
+    "rank": 1
+   },
+   {
+    "id": "earth_baseline",
+    "score": 0.332,
+    "link": "/explore",
+    "params": {
+     "nEarth": 84,
+     "nTotal": 160
+    },
+    "rank": 2
+   },
+   {
+    "id": "high_o2_solids",
+    "score": 0.329,
+    "link": "/map",
+    "params": {
+     "limitPct": 23,
+     "nHigh": 51,
+     "nSolid": 76,
+     "nHighWentOut": 1,
+     "pressureMinKpa": 50.0,
+     "pressureMaxKpa": 101.3
+    },
+    "rank": 3
+   }
+  ]
+ },
+ "data_version": "8c80068f7d23"
+}

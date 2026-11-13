@@ -1,0 +1,244 @@
+{
+ "askQ1_en": {
+  "q_en": "How is a candle flame in microgravity different from one on Earth?",
+  "answer": {
+   "answer": "In microgravity a candle flame forms a spherical, nearly diffusion‑controlled shape rather than the elongated, buoyancy‑driven teardrop seen on Earth [S1]. The flame burns much more slowly, can remain visible for over 45 minutes, and persists at lower ambient oxygen mole fractions than its terrestrial counterpart [S2]. As the oxygen is depleted, the microgravity flame often exhibits spontaneous oscillations that grow in magnitude until extinction, a behavior not typical in normal gravity where buoyancy‑induced flow dominates [S6].",
+   "citations": [
+    {
+     "n": 1,
+     "chunk_id": "D3#002",
+     "title": "A Researcher's Guide to International Space Station Combustion Science (PDF)",
+     "url": "https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf?emrc=c9b273",
+     "page": 2,
+     "snippet": "credit: NASA, ACME project, Flame Design experiment) b. C andle flames: burning in earth gravity (left) in comparison to one burning in 0-g (right). (Image credit: NASA, Candle Flames experiment) c. A"
+    },
+    {
+     "n": 2,
+     "chunk_id": "D3#062",
+     "title": "A Researcher's Guide to International Space Station Combustion Science (PDF)",
+     "url": "https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf?emrc=c9b273",
+     "page": 30,
+     "snippet": "not exist; diffusive transport alone could not sustain a flame. T wo spaceflight experiments demonstrated conclusively the fallacy of such arguments. The first involved the behavior of a simple candle"
+    },
+    {
+     "n": 6,
+     "chunk_id": "D3#070",
+     "title": "A Researcher's Guide to International Space Station Combustion Science (PDF)",
+     "url": "https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf?emrc=c9b273",
+     "page": 33,
+     "snippet": "33 Flame Stability In normal gravity, flames that approach their flammability limit are frequently “blown off” by the large buoyancy-induced flow. These same near-limit flames in microgravity exhibit "
+    }
+   ],
+   "grounded": true,
+   "model": "openai/gpt-oss-120b",
+   "cached": true
+  }
+ },
+ "askQ2_en": {
+  "q_en": "Can a material burn in space but not on Earth?",
+  "answer": {
+   "answer": "Yes, experiments have shown that some materials that do not ignite or sustain flame in the standard 1‑g upward‑burn test can ignite and spread flame in microgravity or partial‑gravity conditions, especially when low‑speed airflow is present.[S2][S3] This enhanced flammability in microgravity arises because flame spread can occur both with concurrent and opposed flows, unlike on Earth where downward spread is not achievable, leading to different ignition limits.[S2]",
+   "citations": [
+    {
+     "n": 2,
+     "chunk_id": "D13#005",
+     "title": "Fire on the Moon: Solid Fuel Combustion Experiments",
+     "url": "https://ntrs.nasa.gov/citations/20210020516",
+     "page": 6,
+     "snippet": "Page 6 NASA relies on a 1-g test for screening material flammability for flight. If a material passes this test, then it is considered safe for spaceflight. This test has been a practical means to ass"
+    },
+    {
+     "n": 3,
+     "chunk_id": "D11#002",
+     "title": "Material Flammability at Lunar and Martian Gravity",
+     "url": "https://ntrs.nasa.gov/citations/20260001966",
+     "page": 2,
+     "snippet": "Page 1 NASA relies on a 1-g test for screening material flammability for flight. • Material ignited near bottom and flame spreads upward. • If a material passes this test, then it is considered safe f"
+    }
+   ],
+   "grounded": true,
+   "model": "openai/gpt-oss-120b",
+   "cached": true
+  }
+ },
+ "askQ3_en": {
+  "q_en": "What did NASA's Saffire experiments test?",
+  "answer": {
+   "answer": "NASA’s Saffire experiments were a series of material‑flammability tests designed to study how large‑scale fires develop in low‑gravity and to determine low‑g flammability limits compared with standard 1‑g tests. Saffire‑I, ‑II and ‑III used full‑size material samples (e.g., fabrics, silicone) to quantify fire growth rates and to see whether the NASA‑STD‑6001 flammability limits measured on Earth hold in microgravity [S1][S6]. Saffire‑II specifically focused on comparing upward flame‑spread limits from the 1‑g NASA‑STD‑6001 Test 1 with results obtained in long‑duration low‑g conditions [S2][S3].",
+   "citations": [
+    {
+     "n": 1,
+     "chunk_id": "D22#002",
+     "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+     "url": "https://ntrs.nasa.gov/citations/20170000230",
+     "page": 1,
+     "snippet": "Experiments (Saffire-I, -II, and -III) are material flammability tests at leng th scales that are realistic for a spacecraft fire in low-gravity. The specific objectives of these three experiments are"
+    },
+    {
+     "n": 2,
+     "chunk_id": "D19#010",
+     "title": "The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status",
+     "url": "https://ntrs.nasa.gov/citations/20170001636",
+     "page": 3,
+     "snippet": "Cygnus unberths from ISS. Drop tower testing has demonstrated the MOC flammability limits of a material can be different in low-g than in normal gravity [3-5]. Therefore, the objective of the Saffire-"
+    },
+    {
+     "n": 3,
+     "chunk_id": "D28#005",
+     "title": "Buoyant Effects on the Flammability of Silicone Samples Planned for the Spacecraft Fire Experiment (Saffire)",
+     "url": "https://ntrs.nasa.gov/citations/20150022421",
+     "page": 2,
+     "snippet": "that are 5-cm wide by 30 -cm long. Figure 1 sh ows a schematic of the flight payload for Saffire II and Figure 2 shows details of the samples. The Saffire-II samples were chosen to match the size spec"
+    },
+    {
+     "n": 6,
+     "chunk_id": "D22#001",
+     "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+     "url": "https://ntrs.nasa.gov/citations/20170000230",
+     "page": 1,
+     "snippet": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire) Gary A. Ruff1 and David L. Urban.2 NASA John H. Glenn Research Center, Cleveland, OH 44135 Since 2012, a series of Spacecr"
+    }
+   ],
+   "grounded": true,
+   "model": "openai/gpt-oss-120b",
+   "cached": true
+  }
+ },
+ "askQ4_en": {
+  "q_en": "How does airflow affect flame spread in microgravity?",
+  "answer": {
+   "answer": "In microgravity, low‑speed airflow causes flames to spread upstream, i.e., into the oncoming flow, opposite to the downstream spread seen in normal gravity [S3][S1]. Experiments on the ISS using the BASS wind tunnel showed that as the imposed airflow speed increases (up to 40 cm/s), flame appearance, growth and spread rates change, with low‑speed flows enhancing upstream spread while higher speeds can alter flame shape and potentially suppress spread [S2][S6]. Radiative heat loss also influences flammability, but the primary effect of airflow is to direct the flame’s propagation direction and rate in the low‑convective environment of space [S1].",
+   "citations": [
+    {
+     "n": 1,
+     "chunk_id": "D3#034",
+     "title": "A Researcher's Guide to International Space Station Combustion Science (PDF)",
+     "url": "https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf?emrc=c9b273",
+     "page": 18,
+     "snippet": "in microgravity, based on quiescent test results, may not be valid for most spacecraft environments where ventilation flow strongly enhances flames. In the low-flow conditions of microgravity or parti"
+    },
+    {
+     "n": 2,
+     "chunk_id": "D17#003",
+     "title": "Combustion of Solids in Microgravity: Results from the BASS-II Experiment",
+     "url": "https://ntrs.nasa.gov/citations/20160000593",
+     "page": 3,
+     "snippet": "Approach ― Microgravity combustion tests were performed aboard the International Space Station. Active crew support for real-time “lab partner” operations. ― The wind tunnel was installed in the Micro"
+    },
+    {
+     "n": 3,
+     "chunk_id": "D3#066",
+     "title": "A Researcher's Guide to International Space Station Combustion Science (PDF)",
+     "url": "https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf?emrc=c9b273",
+     "page": 31,
+     "snippet": "flame spread direction at low-flow velocities in the microgravity environment of spaceflight when a thin fuel is ignited at the middle of the sample. Completely contrary to normal-gravity behavior, th"
+    },
+    {
+     "n": 6,
+     "chunk_id": "D31#002",
+     "title": "Thickness and Fuel Preheating Effects on Material Flammability in Microgravity from the BASS Experiment",
+     "url": "https://ntrs.nasa.gov/citations/20140011099",
+     "page": 2,
+     "snippet": "Approach: ♦ Microgravity combustion tests were performed aboard the International Space Station using the BASS (Burning and Suppression of Solids) hardware. ♦ The wind tunnel was installed in the Micr"
+    }
+   ],
+   "grounded": true,
+   "model": "openai/gpt-oss-120b",
+   "cached": true
+  }
+ },
+ "askQ5_en": {
+  "q_en": "Is a material more flammable on the Moon than on Earth?",
+  "answer": {
+   "answer": "Yes. Microgravity research has shown that normal Earth gravity is not always the most flammable condition; some materials that do not burn in 1‑g will ignite and spread in 0‑g or partial gravity such as Lunar‑g, indicating enhanced flammability on the Moon [S4][S5][S2].",
+   "citations": [
+    {
+     "n": 2,
+     "chunk_id": "D11#010",
+     "title": "Material Flammability at Lunar and Martian Gravity",
+     "url": "https://ntrs.nasa.gov/citations/20260001966",
+     "page": 12,
+     "snippet": "FM2 Summary Page 11 o Normal gravity may not be the most flammable condition. o Drop towers and aircraft are limited by duration and/or Coriolis force effects. o FM2: First-ever observations and measu"
+    },
+    {
+     "n": 4,
+     "chunk_id": "D13#005",
+     "title": "Fire on the Moon: Solid Fuel Combustion Experiments",
+     "url": "https://ntrs.nasa.gov/citations/20210020516",
+     "page": 6,
+     "snippet": "Page 6 NASA relies on a 1-g test for screening material flammability for flight. If a material passes this test, then it is considered safe for spaceflight. This test has been a practical means to ass"
+    },
+    {
+     "n": 5,
+     "chunk_id": "D11#002",
+     "title": "Material Flammability at Lunar and Martian Gravity",
+     "url": "https://ntrs.nasa.gov/citations/20260001966",
+     "page": 2,
+     "snippet": "Page 1 NASA relies on a 1-g test for screening material flammability for flight. • Material ignited near bottom and flame spreads upward. • If a material passes this test, then it is considered safe f"
+    }
+   ],
+   "grounded": true,
+   "model": "openai/gpt-oss-120b",
+   "cached": true
+  }
+ },
+ "askQ6_en": {
+  "q_en": "How is spacecraft material flammability tested?",
+  "answer": {
+   "answer": "Spacecraft material flammability is evaluated using upward‑burning tests that mimic the worst‑case geometry on Earth, but are also adapted to microgravity conditions to find the minimum oxygen concentration and flow velocity where a material will ignite in space [S1]. Test 1 of NASA STD‑6001 focuses on a normoxic atmosphere control band, defining a Normoxic Upward Limiting Pressure (NULP) and then adding a safety factor (μNULP) to set safe operating pressures; samples are limited to about 3 mm thickness to separate ignition limits from true flammability limits [S2][S3][S4]. Larger‑scale experiments on ISS‑resupply vehicles (e.g., Cygnus) allow unconstrained fire studies in a pressurized environment, providing data for model validation [S5]. Additional low‑stretch apparatuses simulate lunar or martian gravity by imposing forced airflow, measuring ignition delay, mass loss, heat release, and extinction limits under varied oxygen and radiant flux conditions [S6].",
+   "citations": [
+    {
+     "n": 1,
+     "chunk_id": "D18#028",
+     "title": "Burning and Suppression of Solids–II  (BASS-II) Summary Report",
+     "url": "https://ntrs.nasa.gov/citations/20210011385",
+     "page": 11,
+     "snippet": "using an upward burning test in normal gravity, which is considered to be the worst-case geometry for flammability of the material on Earth. However, it may not be conservative for flammability in spa"
+    },
+    {
+     "n": 2,
+     "chunk_id": "D55#031",
+     "title": "Applying Flammability Limit Probabilities and the Normoxic Upward Limiting Pressure Concept to NASA STD-6001 Test 1",
+     "url": "https://ntrs.nasa.gov/citations/20150004099",
+     "page": 10,
+     "snippet": "the proximity of the limi t. This is shown to optimize the probability of achieving the desired low average burn rate in the fewest number of tests. To further reduce the number of Test 1 tests requir"
+    },
+    {
+     "n": 3,
+     "chunk_id": "D55#002",
+     "title": "Applying Flammability Limit Probabilities and the Normoxic Upward Limiting Pressure Concept to NASA STD-6001 Test 1",
+     "url": "https://ntrs.nasa.gov/citations/20150004099",
+     "page": 1,
+     "snippet": "time of the normalized Poisson process) of the materials burn, or, rounding, where approximately 1/3 of the samples fail the test (and burn). Re cognizing that spacecraft atmospheres will not bound th"
+    },
+    {
+     "n": 4,
+     "chunk_id": "D55#026",
+     "title": "Applying Flammability Limit Probabilities and the Normoxic Upward Limiting Pressure Concept to NASA STD-6001 Test 1",
+     "url": "https://ntrs.nasa.gov/citations/20150004099",
+     "page": 9,
+     "snippet": "Figur es 7-8 is for flammability to be worst at the lower total pressures for fixed partial pressure of O 2, which corresponds to the highest % O 2. So it makes sense to start at the lowest expected t"
+    },
+    {
+     "n": 5,
+     "chunk_id": "D63#022",
+     "title": "Large Scale Experiments on Spacecraft Fire Safety",
+     "url": "https://ntrs.nasa.gov/citations/20130001713",
+     "page": 5,
+     "snippet": "and tested for an adiabatic case (Fig. 6). In the next phases radiative and convective heat losses to the vehicle boundaries will be considered. Fig. 6: Fluent model calculation of velocity magnitude "
+    },
+    {
+     "n": 6,
+     "chunk_id": "D59#1355",
+     "title": "Sixth International Microgravity Combustion Workshop",
+     "url": "https://ntrs.nasa.gov/citations/20010073993",
+     "page": 428,
+     "snippet": "Figure 5: Equivalent Low Stretch Apparatus The apparatus uses controlled forced-air flow to augment the low stretch to levels which simulate Lunar or Martian gravity levels. In addition, the effect of"
+    }
+   ],
+   "grounded": true,
+   "model": "openai/gpt-oss-120b",
+   "cached": true
+  }
+ }
+}

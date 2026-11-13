@@ -1,0 +1,207 @@
+{
+ "build_time_utc": "2026-11-13T03:46:08Z",
+ "git_sha": "4453ed6",
+ "n_runs": 123,
+ "rows_ingested": 127,
+ "rows_dropped": 4,
+ "dropped_rows": [
+  {
+   "run_id": "bassii_t71:GMT216-T26",
+   "kept_run_id": "bassii_t71:GMT216-T25",
+   "source_id": "manual",
+   "reason": "exact duplicate on DUP_KEY_COLUMNS (PLAN.md Phase 3 step 1b)"
+  },
+  {
+   "run_id": "bassii_t71:GMT216-T28b",
+   "kept_run_id": "bassii_t71:GMT216-T28a",
+   "source_id": "manual",
+   "reason": "exact duplicate on DUP_KEY_COLUMNS (PLAN.md Phase 3 step 1b)"
+  },
+  {
+   "run_id": "bassii_t71:GMT216-T29",
+   "kept_run_id": "bassii_t71:GMT216-T27",
+   "source_id": "manual",
+   "reason": "exact duplicate on DUP_KEY_COLUMNS (PLAN.md Phase 3 step 1b)"
+  },
+  {
+   "run_id": "third_party_sharma2024:T1-4",
+   "kept_run_id": "third_party_sharma2024:T1-1",
+   "source_id": "manual",
+   "reason": "exact duplicate on DUP_KEY_COLUMNS (PLAN.md Phase 3 step 1b)"
+  }
+ ],
+ "n_experiments": 10,
+ "n_fuels": 14,
+ "experiments": [
+  "BASS",
+  "BASS hardware, confined opposed flow (Sharma 2024) (third-party, NASA co-authored)",
+  "BASS-II",
+  "Saffire-I",
+  "Saffire-II",
+  "Saffire-III",
+  "Saffire-IV",
+  "Saffire-V",
+  "Saffire-VI",
+  "Takahashi 2026 (aircraft partial-g) (third-party, independent of NASA)"
+ ],
+ "source_type": {
+  "nasa_psi": 0,
+  "nasa_report": 92,
+  "partner_agency": 0,
+  "third_party": 31
+ },
+ "gravity_class": {
+  "microgravity": 97,
+  "partial": 26,
+  "earth": 0
+ },
+ "experiment": {
+  "BASS": 4,
+  "BASS hardware, confined opposed flow (Sharma 2024) (third-party, NASA co-authored)": 5,
+  "BASS-II": 67,
+  "Saffire-I": 2,
+  "Saffire-II": 9,
+  "Saffire-III": 2,
+  "Saffire-IV": 2,
+  "Saffire-V": 3,
+  "Saffire-VI": 3,
+  "Takahashi 2026 (aircraft partial-g) (third-party, independent of NASA)": 26
+ },
+ "model_use": {
+  "sustain": 42,
+  "spread": 45,
+  "sustain_only": 36,
+  "spread_only": 39,
+  "both": 6,
+  "neither": 42
+ },
+ "sources": [
+  {
+   "source_type": "nasa_report",
+   "authorship": "nasa",
+   "citation": "NASA/TM-20210011385, Burning and Suppression of Solids-II (BASS-II) Summary Report (NTRS 20210011385).",
+   "url": "https://ntrs.nasa.gov/citations/20210011385",
+   "experiments": [
+    "BASS",
+    "BASS-II"
+   ],
+   "n_runs": 71,
+   "n_dropped_duplicates": 3
+  },
+  {
+   "source_type": "third_party",
+   "authorship": "independent",
+   "citation": "Takahashi S., Hanamoto K., Kurauchi Y., Namura H., Kobayashi Y. (2026). Downward flame spread of thermally thin solid materials in partial-gravity environments: evaluation of flammability in space habitats. Proceedings of the Combustion Institute 42, 106097. CC BY 4.0.",
+   "url": "https://doi.org/10.1016/j.proci.2026.106097",
+   "experiments": [
+    "Takahashi 2026 (aircraft partial-g) (third-party, independent of NASA)"
+   ],
+   "n_runs": 26,
+   "n_dropped_duplicates": 0
+  },
+  {
+   "source_type": "nasa_report",
+   "authorship": "nasa",
+   "citation": "Saffire: A Novel Approach to Study of Spacecraft Fire Safety Using Un-Manned Spacecraft, NTRS 20180005168, Table 1 pp.30-31.",
+   "url": "https://ntrs.nasa.gov/citations/20180005168",
+   "experiments": [
+    "Saffire-I",
+    "Saffire-II",
+    "Saffire-III"
+   ],
+   "n_runs": 13,
+   "n_dropped_duplicates": 0
+  },
+  {
+   "source_type": "third_party",
+   "authorship": "nasa_coauthored",
+   "citation": "Sharma A., Li Y., Liao Y.-T. T., Ferkul P. V., Johnston M. C., Bunnell C. (2024). Effects of Confinement on Opposed-Flow Flame Spread over Cellulose and Polymeric Solids in Microgravity. Microgravity Science and Technology 36:20, Table 1 p.5. CC BY 4.0.",
+   "url": "https://doi.org/10.1007/s12217-024-10106-y",
+   "experiments": [
+    "BASS hardware, confined opposed flow (Sharma 2024) (third-party, NASA co-authored)"
+   ],
+   "n_runs": 5,
+   "n_dropped_duplicates": 1
+  },
+  {
+   "source_type": "nasa_report",
+   "authorship": "nasa",
+   "citation": "Urban D. et al., Fire Safety Implications of Preliminary Results from Saffire IV and V Experiments on Large Scale Spacecraft Fires, ICES-2021-266 (NTRS 20210011521).",
+   "url": "https://ntrs.nasa.gov/citations/20210011521",
+   "experiments": [
+    "Saffire-IV",
+    "Saffire-V"
+   ],
+   "n_runs": 5,
+   "n_dropped_duplicates": 0
+  },
+  {
+   "source_type": "nasa_report",
+   "authorship": "nasa",
+   "citation": "Preliminary Results from the Saffire VI Experiment, ICES-2024-365 (NTRS 20240002981).",
+   "url": "https://ntrs.nasa.gov/citations/20240002981",
+   "experiments": [
+    "Saffire-VI"
+   ],
+   "n_runs": 3,
+   "n_dropped_duplicates": 0
+  }
+ ],
+ "home": {
+  "maxO2MicrogravitySolidsPct": 31,
+  "mapLowCells": 2876,
+  "mapTotalCells": 3072,
+  "materialsOutsideMoonBase": 14,
+  "materialsTotal": 14,
+  "moonBase": {
+   "missionId": "artemis_lunar",
+   "o2_mole_fraction": 0.34,
+   "pressure_kpa": 56.5,
+   "gravity_g": 0.1654,
+   "outsideInputs": [
+    "o2_mole_fraction",
+    "pressure_kpa",
+    "gravity_g"
+   ]
+  },
+  "topGaps": [
+   {
+    "id": "high_o2_solids",
+    "score": 0.938,
+    "link": "/map",
+    "params": {
+     "limitPct": 23,
+     "nHigh": 6,
+     "nSolid": 97,
+     "nHighWentOut": 0,
+     "pressureMinKpa": 54.1,
+     "pressureMaxKpa": 72.6
+    },
+    "rank": 1
+   },
+   {
+    "id": "partial_gravity",
+    "score": 0.71,
+    "link": "/map",
+    "params": {
+     "nPartial": 26,
+     "nTotal": 123,
+     "nNasa": 0,
+     "nThirdParty": 26
+    },
+    "rank": 2
+   },
+   {
+    "id": "earth_baseline",
+    "score": 0.7,
+    "link": "/explore",
+    "params": {
+     "nEarth": 0,
+     "nTotal": 123
+    },
+    "rank": 3
+   }
+  ]
+ },
+ "data_version": "c1345d640b33"
+}

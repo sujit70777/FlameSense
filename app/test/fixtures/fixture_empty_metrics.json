@@ -1,0 +1,30 @@
+{
+ "sustain": {
+  "available": false,
+  "reason": "Only 0 usable row(s); at least 40 are required.",
+  "n_rows": 0,
+  "n_groups": 0,
+  "cv": null,
+  "roc_auc": null,
+  "brier": null,
+  "accuracy_at_0_5": null,
+  "baseline_brier": null,
+  "physics_baseline": null,
+  "calibration_bins": [],
+  "warnings": []
+ },
+ "spread": {
+  "available": false,
+  "reason": "Only 0 usable row(s); at least 40 are required.",
+  "n_rows": 0,
+  "n_groups": 0,
+  "warnings": [],
+  "cv": null,
+  "mae_mm_s": null,
+  "median_ape": null,
+  "r2_log": null,
+  "interval_80_coverage": null,
+  "baseline_mae_mm_s": null,
+  "physics_mae_mm_s": null
+ }
+}

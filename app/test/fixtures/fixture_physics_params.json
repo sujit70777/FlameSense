@@ -1,0 +1,36 @@
+{
+ "version": "1",
+ "signed_off_by_lead": true,
+ "signed_off_on": "FIXTURE",
+ "gas": {
+  "lambda_w_mk": 0.04,
+  "alpha_m2_s": 2.2e-05,
+  "t_inf_k": 300.0,
+  "source": "FIXTURE: not real values"
+ },
+ "fuels": {
+  "fixture-thin": {
+   "fuel_class": "thin_solid",
+   "rho_kg_m3": 1000.0,
+   "c_j_kgk": 2000.0,
+   "t_v_k": 500.0,
+   "half_thickness_m": 0.0005,
+   "source": "FIXTURE: not real values"
+  }
+ },
+ "flame_temp_vs_o2": {
+  "o2": [
+   0.21,
+   0.3
+  ],
+  "t_f_k": [
+   1000.0,
+   1500.0
+  ],
+  "source": "FIXTURE: not real values"
+ },
+ "buoyant_velocity": {
+  "enabled": true,
+  "source": "FIXTURE: not real values"
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "lessons": [
+    {
+      "id": "fixture_lesson_1",
+      "status": "approved",
+      "reviewed_by": "FIXTURE reviewer",
+      "title_en": "FIXTURE lesson title",
+      "space_finding_en": "FIXTURE space finding.",
+      "sources": [
+        {
+          "label": "FIXTURE source",
+          "url": "https://example.test/lesson"
+        }
+      ],
+      "earth_meaning_en": "FIXTURE Earth meaning.",
+      "what_to_do_en": "FIXTURE what to do."
+    }
+  ]
+}

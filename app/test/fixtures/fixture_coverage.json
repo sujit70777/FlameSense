@@ -1,0 +1,17 @@
+{
+ "version": "1",
+ "generated": "2026-11-02",
+ "source": "FIXTURE: synthetic, tests only",
+ "o2_bands_pct": ["<18", "18-24", "24-30", "30-36", ">36"],
+ "pressure_bands_kpa": ["<70", "70-110", ">110"],
+ "totals": {"investigations": 2, "rows": 9, "rows_in_matrix": 8},
+ "investigations": [
+  {"psi_id": "PSI-F1", "acronym": "FIXA", "title": "FIXTURE droplet study", "doi": "10.0000/fixture-a", "platform": "International Space Station (ISS)", "years": "2010-2012", "n_rows": 6, "used_in_models": true, "why_not_used": ""},
+  {"psi_id": "PSI-F2", "acronym": "FIXB", "title": "FIXTURE solid study", "doi": "", "platform": "Cygnus Spacecraft", "years": "2016", "n_rows": 3, "used_in_models": false, "why_not_used": "no row-level outcome or rate column"}
+ ],
+ "matrix": [
+  {"gravity_class": "microgravity", "o2_band": "18-24", "pressure_band": "70-110", "n_runs": 5, "investigations": ["PSI-F1"]},
+  {"gravity_class": "microgravity", "o2_band": "<18", "pressure_band": "70-110", "n_runs": 2, "investigations": ["PSI-F2"]},
+  {"gravity_class": "microgravity", "o2_band": ">36", "pressure_band": ">110", "n_runs": 1, "investigations": ["PSI-F1"]}
+ ]
+}
