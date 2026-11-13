@@ -1,0 +1,10 @@
+{
+  "name": "flamesense-functions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloudflare Pages Functions. Tooling lives in ../functions-dev (Pages compiles every file under functions/, so node_modules and tests must stay outside).",
+  "scripts": {
+    "test": "npm --prefix ../functions-dev test",
+    "typecheck": "npm --prefix ../functions-dev run typecheck"
+  }
+}
