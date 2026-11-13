@@ -1,0 +1,12 @@
+pandas
+numpy
+pyarrow
+lightgbm
+scikit-learn
+matplotlib
+pypdf
+pyyaml
+ruff
+pytest
+pytest-cov
+fonttools

@@ -1,0 +1,4 @@
+sources:
+  - id: manual
+    adapter: manual_csv
+    files: ["data/manual/*.csv"]

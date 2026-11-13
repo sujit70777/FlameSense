@@ -1,0 +1,57 @@
+{
+ "sustain": {
+  "available": true,
+  "reason": null,
+  "n_rows": 42,
+  "n_groups": 4,
+  "cv": "GroupKFold(4)",
+  "roc_auc": 0.8240740740740742,
+  "brier": 0.18917970628941802,
+  "accuracy_at_0_5": 0.6904761904761905,
+  "baseline_brier": 0.35092406162826073,
+  "physics_baseline": null,
+  "calibration_bins": [
+   [
+    0.39398220321634236,
+    0.23529411764705882,
+    17
+   ],
+   [
+    0.4579438569416487,
+    0.7,
+    10
+   ],
+   [
+    0.574053505641483,
+    0.75,
+    4
+   ],
+   [
+    0.9478950410028069,
+    0.9090909090909091,
+    11
+   ]
+  ],
+  "warnings": [
+   "Feature 'fuel_thickness_mm' dropped: 50% missing in task rows.",
+   "Feature 'areal_density_kg_m2' dropped: 100% missing in task rows."
+  ]
+ },
+ "spread": {
+  "available": true,
+  "reason": null,
+  "n_rows": 45,
+  "n_groups": 2,
+  "warnings": [
+   "Feature 'areal_density_kg_m2' dropped: 100% missing in task rows.",
+   "Few independent test series; metrics may be optimistic."
+  ],
+  "cv": "KFold(5)",
+  "mae_mm_s": 0.1622478219304241,
+  "median_ape": 0.26474405845732535,
+  "r2_log": 0.779367652714445,
+  "interval_80_coverage": 0.5111111111111111,
+  "baseline_mae_mm_s": 0.2604222222222222,
+  "physics_mae_mm_s": null
+ }
+}

@@ -1,0 +1,5 @@
+Test,Fuel,Ambient pressure; mmHg,O initial ambient composition; mole fraction,Droplet initial diameter; mm,Burning rate; mm,Test end
+1,Heptane,760,0.21,2.0,0.60,Extinction
+2,Heptane,760,0.15,2.1,0.50,Extinction
+3,Heptane,380,0.30,2.2,0.70,Completion
+4,Methanol,0,0.21,2.0,0.40,Extinction
